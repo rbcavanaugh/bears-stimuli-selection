@@ -1,0 +1,16 @@
+isPicturable: put a 1 for picturable nouns. put a 0 for nouns that are not picturable. Picturable
+nouns are nouns that are easily shown only with a picture. For example, tree is a picturable noun. Resilience is not a picturable noun. Put a 2 if unsure. Do not leave blank. Most proper names are not picturable (“Will”… which one?). Some aren’t picturable (e.g., “Waldo”). We probably don’t want to use those, but for now, mark them as 2 for unsure. 
+
+notNoun: put a 1 if the word is not a noun. Otherwise put a 0. 
+
+checkThisWord: put a 1 if something odd has happened and we need to check where
+this word came from. This could be because its not actually a word, or perhaps it
+looks like a combination of 2 words and there was no space betweeen them (This excludes
+compound words).. Or perhaps when the word was converted to a lemma, something weird happened.
+Otherwise put 0. 
+
+duplicateOf: if there is another version of this same word already in this stimulus spreadsheet, 
+copy that word and paste it in this box. Otherwise leave blank. 
+
+synonymOf: if there is a clear synonym of this word in this stimulus spreadsheet, copy
+that word and paste it in this box. Otherwise leave blank.
