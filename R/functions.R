@@ -118,3 +118,48 @@ getNouns <- function(transcript_by_stim, pos = "NOUN"){
 }
 
 
+getTimestamp<- function(dat){
+  dat %>%
+    # create two new columns
+    # detect the arrow, or the row before the arrow row
+    mutate(arrow = ifelse(str_detect(pattern = "-->", string = WEBVTT), 1, 0),
+           before_arrow = lead(arrow),
+           start = ifelse(str_detect(pattern = "#start", string = tolower(WEBVTT)), 1, 0),
+           before_start = lead(start),
+           end = ifelse(str_detect(pattern = "#end", string = tolower(WEBVTT)), 1, 0),
+           before_end = lead(end)) %>% 
+    # only keep rows with arrow and before_arrow == 0
+    filter(str_detect(string = tolower(WEBVTT), pattern = paste(c("#start", "#end", "-->"),collapse = '|'))) %>% 
+    filter(start == 1 | end == 1 | before_start == 1 | before_end == 1) %>%
+    # get rid of quotation marks?
+    mutate(text = str_remove_all(string = WEBVTT, pattern = '"'))  %>% 
+    select(text, start, end) %>% 
+    mutate(timestamp = ifelse(str_detect(text, "-->"), text, NA)) %>% 
+    fill(timestamp) %>%
+    filter(str_detect(string = tolower(text), pattern = paste(c("#start", "#end"),collapse = '|'))) %>% 
+    separate(timestamp, sep = " --> ", into = c("utt_start_time", "utt_end_time")) %>% 
+    mutate(tag = case_when(
+      start == 1 ~ str_extract(string = text,
+                               pattern = "(?<=^|\\s)#[^\\s]+"),
+      end == 1   ~ str_extract(string = text,
+                               pattern = "(?<=^|\\s)#[^\\s]+"))
+    ) %>%
+    # separate the tag into #start/#end and the stimuli name
+    separate(tag, into = c("start_end", "stimuli"), sep = "_", extra = "merge") %>%
+    # remove the # from before #start or #end
+    mutate(start_end = str_remove(start_end, "#")) %>% 
+    mutate(count = row_number(), .by = stimuli) %>%
+    mutate(occurrence = case_when(
+      count <= 2 ~ 1,
+      count <= 4 ~ 2,
+      count <= 6 ~ 3,
+      TRUE ~ 4
+    )) %>%
+    select(stimuli, start_end, utt_start_time, utt_end_time, occurrence) %>% 
+    mutate(timestamp = ifelse(start_end == "START", utt_start_time, utt_end_time)) %>%
+    select(stimuli, start_end, timestamp, occurrence) %>% 
+    mutate(timestamp = strptime(timestamp, "%H:%M:%OS")) %>%
+    pivot_wider(names_from = start_end, values_from = timestamp) %>%
+    mutate(duration = END-START)
+}
+

@@ -1,0 +1,802 @@
+"participant","file","session","stimuli","occurrence","start","end","duration"
+"Participant1","Participant1_Session1_Corrected.vtt","Session1","wanderer",1,2023-07-09 00:02:56.93,2023-07-09 00:13:29.98,633.049999952316
+"Participant1","Participant1_Session1_Corrected.vtt","Session1","arrival-2",1,2023-07-09 00:15:25,2023-07-09 00:20:00.977,275.976999998093
+"Participant1","Participant1_Session1_Corrected.vtt","Session1","quest",1,2023-07-09 00:19:57.22,2023-07-09 00:36:45.67,1008.45000004768
+"Participant1","Participant1_Session1_Corrected.vtt","Session1","quest",2,2023-07-09 00:37:27.88,2023-07-09 00:48:53.1,685.219999790192
+"Participant1","Participant1_Session1_Corrected.vtt","Session1","return",1,2023-07-09 00:51:16.17,2023-07-09 01:01:39.62,623.449999809265
+"Participant1","Participant1_Session1_Corrected.vtt","Session1","return",2,2023-07-09 01:02:23.78,2023-07-09 01:14:06.32,702.539999961853
+"Participant1","Participant1_Session1_Corrected.vtt","Session1","escape_from_the_zoo",1,2023-07-09 01:15:47.77,2023-07-09 01:19:53.03,245.259999990463
+"Participant1","Participant1_Session1_Corrected.vtt","Session1","unfriendly_giants",1,2023-07-09 01:21:08.11,2023-07-09 01:24:46.69,218.580000162125
+"Participant1","Participant1_Session1_Corrected.vtt","Session1","wild_west",1,2023-07-09 01:25:48.64,2023-07-09 01:29:58.715,250.074999809265
+"Participant1","Participant1_Session2_Corrected.vtt","Session2","flowerman",1,2023-07-09 00:03:59.98,2023-07-09 00:35:38.32,1898.33999991417
+"Participant1","Participant1_Session2_Corrected.vtt","Session2","arrival-4",1,2023-07-09 00:37:14.59,2023-07-09 01:04:37.526,1642.93600010872
+"Participant1","Participant1_Session2_Corrected.vtt","Session2","arrival-3",1,2023-07-09 01:05:38.67,2023-07-09 01:12:36.434,417.763999938965
+"Participant1","Participant1_Session2_Corrected.vtt","Session2","arrival-1",1,2023-07-09 01:13:52.7,2023-07-09 01:20:28.55,395.849999904633
+"Participant1","Participant1_Session2_Corrected.vtt","Session2","exhibit-12",1,2023-07-09 01:21:38.85,2023-07-09 01:24:29.361,170.511000156403
+"Participant1","Participant1_Session2_Corrected.vtt","Session2","by_the_lake",1,2023-07-09 01:25:32.55,2023-07-09 01:29:13.73,221.180000066757
+"Participant1","Participant1_Session2_Corrected.vtt","Session2","make_a_splash",1,2023-07-09 01:30:05.33,2023-07-09 01:32:53.876,168.546000003815
+"Participant1","Participant1_Session2_Corrected.vtt","Session2","being_a_pirate",1,2023-07-09 01:34:05.39,2023-07-09 01:38:42.453,277.06299996376
+"Participant1","Participant1_Session2_Corrected.vtt","Session2","ancient_rome",1,2023-07-09 01:38:39.07,2023-07-09 01:43:02.98,263.910000085831
+"Participant1","Participant1_Session2_Corrected.vtt","Session2","journey",1,2023-07-09 01:43:50.48,2023-07-09 02:05:47.71,1317.23000001907
+"Participant1","Participant1_Session3_Corrected .vtt","Session3","dinosaurs_spacemen_and_ghouls",1,2023-07-09 00:03:33.46,2023-07-09 00:10:14.77,401.30999994278
+"Participant1","Participant1_Session3_Corrected .vtt","Session3","picture_this",1,2023-07-09 00:11:19.95,2023-07-09 00:15:31.469,251.519000053406
+"Participant1","Participant1_Session3_Corrected .vtt","Session3","waldo-1",1,2023-07-09 00:16:37.236,2023-07-09 00:19:47.364,190.128000020981
+"Participant1","Participant1_Session3_Corrected .vtt","Session3","deep_sea_diver",1,2023-07-09 00:20:51.38,NA,NA
+"Participant1","Participant1_Session3_Corrected .vtt","Session3","deep_sea_divers",1,NA,2023-07-09 00:26:10.97,NA
+"Participant1","Participant1_Session3_Corrected .vtt","Session3","airport",1,2023-07-09 00:26:57.46,2023-07-09 00:31:47.61,290.149999856949
+"Participant1","Participant1_Session3_Corrected .vtt","Session3","birthday_party_fun",1,NA,2023-07-09 00:37:09.79,NA
+"Participant1","Participant1_Session3_Corrected .vtt","Session3","campsite",1,2023-07-09 00:38:59.75,2023-07-09 00:43:58.28,298.52999997139
+"Participant1","Participant1_Session3_Corrected .vtt","Session3",NA,1,NA,NA,NA
+"Participant1","Participant1_Session3_Corrected .vtt","Session3","arrival-6",1,NA,2023-07-09 00:56:12.918,NA
+"Participant1","Participant1_Session3_Corrected .vtt","Session3","arrival-5",1,2023-07-09 00:57:27.65,2023-07-09 01:07:24.68,597.02999997139
+"Participant10","Participant10_Session2_Corrected.vtt","Session2","deep_sea_diver",1,2023-07-09 00:00:54.95,NA,NA
+"Participant10","Participant10_Session2_Corrected.vtt","Session2","deep_sea_divers",1,NA,2023-07-09 00:05:50.99,NA
+"Participant10","Participant10_Session2_Corrected.vtt","Session2","exhibit-12",1,2023-07-09 00:06:30.91,2023-07-09 00:11:32.012,301.101999998093
+"Participant10","Participant10_Session2_Corrected.vtt","Session2","wild_west",1,2023-07-09 00:12:06.36,2023-07-09 00:16:49.08,282.72000002861
+"Participant10","Participant10_Session2_Corrected.vtt","Session2","quest",1,2023-07-09 00:18:33.96,2023-07-09 00:34:13.84,939.879999876022
+"Participant10","Participant10_Session2_Corrected.vtt","Session2","arrival-1",1,2023-07-09 00:34:55.66,2023-07-09 00:38:17.963,202.302999973297
+"Participant10","Participant10_Session2_Corrected.vtt","Session2","picture_this",1,2023-07-09 00:39:28.47,2023-07-09 00:46:05.036,396.565999984741
+"Participant10","Participant10_Session2_Corrected.vtt","Session2","wanderer",1,2023-07-09 00:47:07.37,2023-07-09 01:15:17.934,1690.5640001297
+"Participant10","Participant10_Session2_Corrected.vtt","Session2","birthday_party_fun",1,2023-07-09 01:16:04.51,2023-07-09 01:19:46.61,222.099999904633
+"Participant10","Participant10_Session2_Corrected.vtt","Session2","journey",1,2023-07-09 01:20:17.81,2023-07-09 01:27:24.664,426.854000091553
+"Participant10","Participant10_Session2_Corrected.vtt","Session2","arrival-2",1,2023-07-09 01:27:49.81,2023-07-09 01:29:44.47,114.660000085831
+"Participant10","Participant10_Session2_Corrected.vtt","Session2","arrival-3",1,2023-07-09 01:30:02.76,2023-07-09 01:32:18.228,135.46799993515
+"Participant10","Participant10_Session2_Corrected.vtt","Session2","campsite",1,2023-07-09 01:32:44.46,2023-07-09 01:38:18.53,334.069999933243
+"Participant10","Participant10_Session2_Corrected.vtt","Session2","airport",1,2023-07-09 01:38:50.39,2023-07-09 01:42:53.773,243.382999897003
+"Participant11","Participant11_Session1_Corrected .vtt","Session1","wanderer",1,2023-07-09 00:01:02.28,2023-07-09 00:43:23.071,2540.79100012779
+"Participant11","Participant11_Session1_Corrected .vtt","Session1","airport",1,2023-07-09 00:44:30.06,2023-07-09 00:54:29.24,599.180000066757
+"Participant11","Participant11_Session1_Corrected .vtt","Session1","waldo-1",1,2023-07-09 00:55:21.98,2023-07-09 01:04:54.396,572.415999889374
+"Participant11","Participant11_Session1_Corrected .vtt","Session1","picture_this",1,2023-07-09 01:05:39.87,2023-07-09 01:09:55.096,255.226000070572
+"Participant11","Participant11_Session1_Corrected .vtt","Session1","flowerman",1,2023-07-09 01:10:43.93,2023-07-09 01:24:29.465,825.534999847412
+"Participant11","Participant11_Session2_Corrected.vtt","Session2","dinosaurs_spacemen_and_ghouls",1,2023-07-09 00:01:00.85,2023-07-09 00:04:50.387,229.537000179291
+"Participant11","Participant11_Session2_Corrected.vtt","Session2","arrival-6",1,2023-07-09 00:05:28.05,2023-07-09 00:23:25.224,1077.1740000248
+"Participant11","Participant11_Session2_Corrected.vtt","Session2","quest",1,2023-07-09 00:23:22.06,2023-07-09 00:45:19.232,1317.17200016975
+"Participant11","Participant11_Session2_Corrected.vtt","Session2","arrival-1",1,2023-07-09 00:46:02.49,2023-07-09 00:55:54.704,592.213999986649
+"Participant11","Participant11_Session2_Corrected.vtt","Session2","wild_west",1,2023-07-09 00:56:48.01,2023-07-09 01:01:41.009,292.999000072479
+"Participant11","Participant11_Session2_Corrected.vtt","Session2","arrival-2",1,2023-07-09 01:02:20.53,2023-07-09 01:08:15.642,355.111999988556
+"Participant11","Participant11_Session2_Corrected.vtt","Session2","being_a_pirate",1,2023-07-09 01:08:47.05,2023-07-09 01:13:22.191,275.141000032425
+"Participant11","Participant11_Session2_Corrected.vtt","Session2","exhibit-12",1,2023-07-09 01:14:33.91,2023-07-09 01:17:20.72,166.80999994278
+"Participant11","Participant11_Session2_Corrected.vtt","Session2","unfriendly_giants",1,2023-07-09 01:18:12.288,2023-07-09 01:21:57.058,224.769999980927
+"Participant11","Participant11_Session2_Corrected.vtt","Session2","birthday_party_fun",1,2023-07-09 01:22:44.92,2023-07-09 01:26:28.93,224.009999990463
+"Participant11","Participant11_Session2_Corrected.vtt","Session2","ancient_rome",1,2023-07-09 01:26:56.37,2023-07-09 01:30:21.601,205.231000185013
+"Participant11","Participant11_Session2_Corrected.vtt","Session2","escape_from_the_zoo",1,2023-07-09 01:31:11.139,2023-07-09 01:31:15.531,4.39199995994568
+"Participant11","Participant11_Session2_Corrected.vtt","Session2","by_the_lake",1,2023-07-09 01:34:54.48,2023-07-09 01:37:13.213,138.733000040054
+"Participant11","Participant11_Session2_Corrected.vtt","Session2","deep_sea_divers",1,2023-07-09 01:37:42.93,2023-07-09 01:40:15.46,152.52999997139
+"Participant11","Participant11_Session3_Corrected.vtt","Session3","journey",1,2023-07-09 00:00:29.87,2023-07-09 00:31:36.732,1866.86200022697
+"Participant11","Participant11_Session3_Corrected.vtt","Session3","arrival-4",1,2023-07-09 00:32:54.78,2023-07-09 01:02:01.785,1747.00500011444
+"Participant11","Participant11_Session3_Corrected.vtt","Session3","return",1,2023-07-09 01:03:02.21,2023-07-09 01:19:34.512,992.302000045776
+"Participant11","Participant11_Session3_Corrected.vtt","Session3","make_a_splash",1,2023-07-09 01:20:27.49,2023-07-09 01:24:13.65,226.160000085831
+"Participant11","Participant11_Session3_Corrected.vtt","Session3","campsite",1,2023-07-09 01:24:36.77,2023-07-09 01:29:45.357,308.587000131607
+"Participant11","Participant11_Session3_Corrected.vtt","Session3","arrival-5",1,2023-07-09 01:30:14.64,2023-07-09 01:37:38.667,444.026999950409
+"Participant11","Participant11_Session3_Corrected.vtt","Session3","arrival-3",1,2023-07-09 01:38:06.12,2023-07-09 01:42:13.607,247.487000226974
+"Participant12","Participant12_Session1_Corrected.vtt","Session1","quest",1,2023-07-09 00:01:26.86,2023-07-09 00:01:32.69,5.83000016212463
+"Participant12","Participant12_Session1_Corrected.vtt","Session1","wild_west",1,2023-07-09 00:14:45.5,2023-07-09 00:14:48.41,2.91000008583069
+"Participant12","Participant12_Session1_Corrected.vtt","Session1","arrival_1",1,2023-07-09 00:18:38.74,2023-07-09 00:18:42.182,3.44199991226196
+"Participant12","Participant12_Session1_Corrected.vtt","Session1","by_the_lake",1,2023-07-09 00:24:08.41,2023-07-09 00:24:12.001,3.59099984169006
+"Participant12","Participant12_Session1_Corrected.vtt","Session1","waldo_1",1,2023-07-09 00:27:53.77,2023-07-09 00:31:17.89,204.120000123978
+"Participant12","Participant12_Session1_Corrected.vtt","Session1","arrival_2",1,2023-07-09 00:32:04.89,2023-07-09 00:34:52.53,167.639999866486
+"Participant12","Participant12_Session1_Corrected.vtt","Session1","journey",1,2023-07-09 00:35:55.78,2023-07-09 00:35:59.773,3.99300003051758
+"Participant12","Participant12_Session1_Corrected.vtt","Session1","birthday_party_fun",1,2023-07-09 00:48:48.82,2023-07-09 00:48:52.883,4.06299996376038
+"Participant12","Participant12_Session1_Corrected.vtt","Session1","arrival_5",1,2023-07-09 00:52:23.37,2023-07-09 00:52:24.62,1.25
+"Participant12","Participant12_Session1_Corrected.vtt","Session1","campsite",1,2023-07-09 00:58:48.22,2023-07-09 01:02:31.99,223.769999980927
+"Participant12","Participant12_Session1_Corrected.vtt","Session1","picture_this",1,2023-07-09 01:03:13.45,2023-07-09 01:03:14.37,0.919999837875366
+"Participant12","Participant12_Session1_Corrected.vtt","Session1","exhibit_12",1,2023-07-09 01:07:15.09,2023-07-09 01:07:19.472,4.38199996948242
+"Participant12","Participant12_Session1_Corrected.vtt","Session1","arrival_3",1,2023-07-09 01:11:16.48,2023-07-09 01:14:13.48,177
+"Participant12","Participant12_Session1_Corrected.vtt","Session1","airport",1,2023-07-09 01:14:53.14,2023-07-09 01:14:58.447,5.30699992179871
+"Participant12","Participant12_Session1_Corrected.vtt","Session1","dinasours_spacemen_and_ghouls",1,2023-07-09 01:19:19.08,2023-07-09 01:19:21.58,2.5
+"Participant12","Participant12_Session1_Corrected.vtt","Session1","being_a_pirate",1,2023-07-09 01:23:58.03,2023-07-09 01:24:02.415,4.38499999046326
+"Participant12","Participant12_Session2_Corrected.vtt","Session2","return",1,2023-07-09 00:00:42.99,2023-07-09 00:15:37.83,894.839999914169
+"Participant12","Participant12_Session2_Corrected.vtt","Session2","make_a_splash",1,2023-07-09 00:15:37.134,2023-07-09 00:21:59.63,382.496000051498
+"Participant12","Participant12_Session2_Corrected.vtt","Session2","escape_from_the_zoo",1,2023-07-09 00:22:37.68,2023-07-09 00:22:38.99,1.30999994277954
+"Participant12","Participant12_Session2_Corrected.vtt","Session2","deep_sea_divers",1,NA,2023-07-09 00:22:38.99,NA
+"Participant12","Participant12_Session2_Corrected.vtt","Session2","ancient_rome",1,2023-07-09 00:31:55.88,2023-07-09 00:35:08.52,192.639999866486
+"Participant12","Participant12_Session2_Corrected.vtt","Session2","flowerman",1,2023-07-09 00:35:51.17,2023-07-09 00:35:55.93,4.75999999046326
+"Participant12","Participant12_Session2_Corrected.vtt","Session2","arrival_6",1,2023-07-09 00:51:29.6,2023-07-09 00:51:31.16,1.56000018119812
+"Participant12","Participant12_Session2_Corrected.vtt","Session2","arrival_4",1,2023-07-09 01:00:07.47,2023-07-09 01:10:27.17,619.700000047684
+"Participant12","Participant12_Session2_Corrected.vtt","Session2","wanderer",1,2023-07-09 01:11:24.39,2023-07-09 01:36:30,1505.6099998951
+"Participant12","Participant12_Session2_Corrected.vtt","Session2","unfriendly_giants",1,2023-07-09 01:37:13.49,2023-07-09 01:37:16.17,2.6800000667572
+"Participant13","Participant13_Session1_Corrected.vtt","Session1","journey",1,2023-07-09 00:02:09.88,2023-07-09 00:02:16.569,6.68899989128113
+"Participant13","Participant13_Session1_Corrected.vtt","Session1","arrival_2",1,2023-07-09 00:24:57.17,2023-07-09 00:28:35.16,217.990000009537
+"Participant13","Participant13_Session1_Corrected.vtt","Session1","dinasours_spacemen_and_ghouls",1,2023-07-09 00:29:34.2,2023-07-09 00:29:39.156,4.95599985122681
+"Participant13","Participant13_Session1_Corrected.vtt","Session1","wanderer",1,2023-07-09 00:32:46.14,2023-07-09 00:58:22.03,1535.88999986649
+"Participant13","Participant13_Session1_Corrected.vtt","Session1","being_a_pirate",1,2023-07-09 00:58:49.71,2023-07-09 00:58:55.622,5.91199994087219
+"Participant13","Participant13_Session1_Corrected.vtt","Session1","exhibit_12",1,2023-07-09 01:03:00.13,2023-07-09 01:03:04.182,4.05199980735779
+"Participant13","Participant13_Session1_Corrected.vtt","Session1","wild_west",1,2023-07-09 01:03:00.13,2023-07-09 01:11:58.36,538.229999780655
+"Participant13","Participant13_Session2_Corrected.vtt","Session2","ancient_rome",1,2023-07-09 00:01:01.37,2023-07-09 00:01:07.57,6.20000004768372
+"Participant13","Participant13_Session2_Corrected.vtt","Session2","waldo_1",1,2023-07-09 00:05:23.12,2023-07-09 00:05:26.13,3.01000022888184
+"Participant13","Participant13_Session2_Corrected.vtt","Session2","flowerman",1,2023-07-09 00:11:24.42,2023-07-09 00:11:27.664,3.24399995803833
+"Participant13","Participant13_Session2_Corrected.vtt","Session2","deep_sea_divers",1,2023-07-09 00:32:00.285,2023-07-09 00:36:39.649,279.363999843597
+"Participant13","Participant13_Session2_Corrected.vtt","Session2","campsite",1,2023-07-09 00:37:45.46,2023-07-09 00:43:15.12,329.659999847412
+"Participant13","Participant13_Session2_Corrected.vtt","Session2","arrival_6",1,2023-07-09 00:44:52.85,2023-07-09 00:44:53.17,0.320000171661377
+"Participant13","Participant13_Session2_Corrected.vtt","Session2","picture_this",1,2023-07-09 00:57:14.15,2023-07-09 01:00:36.57,202.419999837875
+"Participant13","Participant13_Session2_Corrected.vtt","Session2","arrival_5",1,2023-07-09 01:01:29.13,2023-07-09 01:01:33.076,3.94599986076355
+"Participant13","Participant13_Session3_Corrected.vtt","Session3","arrival-1",1,2023-07-09 00:00:23.89,2023-07-09 00:00:27.445,3.55499982833862
+"Participant13","Participant13_Session3_Corrected.vtt","Session3","arrival-4",1,2023-07-09 00:05:16.53,NA,NA
+"Participant13","Participant13_Session3_Corrected.vtt","Session3","arrival_1",1,NA,2023-07-09 00:05:22.957,NA
+"Participant13","Participant13_Session3_Corrected.vtt","Session3","make_a_splash",1,2023-07-09 00:23:56.99,2023-07-09 00:24:01.352,4.36199998855591
+"Participant13","Participant13_Session3_Corrected.vtt","Session3","return",1,2023-07-09 00:29:25.07,2023-07-09 00:29:28.791,3.72099995613098
+"Participant13","Participant13_Session3_Corrected.vtt","Session3","unfriendly_giants",1,2023-07-09 00:45:41.2,2023-07-09 00:45:44.397,3.19700002670288
+"Participant13","Participant13_Session3_Corrected.vtt","Session3","escape_from_the_zoo",1,2023-07-09 00:49:20.75,2023-07-09 00:52:31.41,190.660000085831
+"Participant13","Participant13_Session3_Corrected.vtt","Session3","airport",1,2023-07-09 00:52:45.53,2023-07-09 00:52:50.382,4.85199999809265
+"Participant13","Participant13_Session3_Corrected.vtt","Session3","birthday_party_fun",1,2023-07-09 00:55:31.02,2023-07-09 00:58:12.729,161.709000110626
+"Participant13","Participant13_Session3_Corrected.vtt","Session3","quest",1,2023-07-09 00:58:33.17,2023-07-09 01:12:47.46,854.289999961853
+"Participant13","Participant13_Session3_Corrected.vtt","Session3","by_the_lake",1,2023-07-09 01:13:04.46,2023-07-09 01:15:21.449,136.988999843597
+"Participant13","Participant13_Session3_Corrected.vtt","Session3","arrival_3",1,2023-07-09 01:15:40.2,2023-07-09 01:15:45.729,5.52900004386902
+"Participant14","Participant14_Session1_Corrected.vtt","Session1","arrival_4",1,2023-07-09 00:01:09.36,2023-07-09 00:35:38.83,2069.47000002861
+"Participant14","Participant14_Session1_Corrected.vtt","Session1","being_a_pirate",1,2023-07-09 00:35:37.053,2023-07-09 00:35:38.83,1.77699995040894
+"Participant14","Participant14_Session1_Corrected.vtt","Session1","arrival_3",1,2023-07-09 00:41:06.481,2023-07-09 00:49:15.96,489.479000091553
+"Participant14","Participant14_Session1_Corrected.vtt","Session1","campsite",1,2023-07-09 00:50:08.17,2023-07-09 00:54:08.98,240.80999994278
+"Participant14","Participant14_Session1_Corrected.vtt","Session1","waldo_1",1,2023-07-09 00:54:06.763,2023-07-09 00:58:50.784,284.020999908447
+"Participant14","Participant14_Session1_Corrected.vtt","Session1","wild_west",1,2023-07-09 00:59:16.92,2023-07-09 01:02:44.25,207.329999923706
+"Participant14","Participant14_Session1_Corrected.vtt","Session1","flowerman",1,2023-07-09 01:02:43.496,2023-07-09 01:15:47.72,784.223999977112
+"Participant14","Participant14_Session1_Corrected.vtt","Session1","arrival_6",1,2023-07-09 01:16:21.89,2023-07-09 01:16:25.93,4.03999996185303
+"Participant14","Participant14_Session2_Corrected.vtt","Session2","escape_from_the_zoo",1,2023-07-09 00:00:30.86,2023-07-09 00:03:36.24,185.380000114441
+"Participant14","Participant14_Session2_Corrected.vtt","Session2","make_a_splash",1,2023-07-09 00:04:24.96,2023-07-09 00:07:39.14,194.180000066757
+"Participant14","Participant14_Session2_Corrected.vtt","Session2","unfriendly_giants",1,2023-07-09 00:08:42.94,2023-07-09 00:08:46.793,3.8529999256134
+"Participant14","Participant14_Session2_Corrected.vtt","Session2","airport",1,2023-07-09 00:13:14.68,2023-07-09 00:13:19.257,4.57699990272522
+"Participant14","Participant14_Session2_Corrected.vtt","Session2","return",1,2023-07-09 00:18:00.63,2023-07-09 00:18:05.578,4.94799995422363
+"Participant14","Participant14_Session2_Corrected.vtt","Session2","birthday_party_fun",1,2023-07-09 00:53:14.47,2023-07-09 00:53:18.84,4.36999988555908
+"Participant14","Participant14_Session2_Corrected.vtt","Session2","wanderer",1,2023-07-09 00:59:28.42,2023-07-09 01:57:53.84,3505.41999983788
+"Participant14","Participant14_Session3_Corrected.vtt","Session3","deep_sea_divers",1,2023-07-09 00:00:32.533,2023-07-09 00:00:37.957,5.42400002479553
+"Participant14","Participant14_Session3_Corrected.vtt","Session3","ancient_rome",1,2023-07-09 00:04:46.56,2023-07-09 00:04:52.44,5.88000011444092
+"Participant14","Participant14_Session3_Corrected.vtt","Session3","arrival_5",1,2023-07-09 00:04:46.56,2023-07-09 00:04:52.44,5.88000011444092
+"Participant14","Participant14_Session3_Corrected.vtt","Session3","picture_this",1,2023-07-09 00:25:04.01,2023-07-09 00:25:08.79,4.77999997138977
+"Participant14","Participant14_Session3_Corrected.vtt","Session3","by_the_lake",1,2023-07-09 00:28:54.55,2023-07-09 00:28:59.38,4.83000016212463
+"Participant14","Participant14_Session3_Corrected.vtt","Session3","quest",1,2023-07-09 00:33:39.77,2023-07-09 00:55:55.309,1335.53900003433
+"Participant14","Participant14_Session3_Corrected.vtt","Session3","arrival_1",1,2023-07-09 00:55:53.306,2023-07-09 01:08:13.59,740.283999919891
+"Participant14","Participant14_Session3_Corrected.vtt","Session3","journey",1,2023-07-09 01:08:54.58,2023-07-09 01:25:10.349,975.769000053406
+"Participant14","Participant14_Session3_Corrected.vtt","Session3","exhibit_12",1,2023-07-09 01:26:16.92,2023-07-09 01:30:25.4,248.480000019073
+"Participant14","Participant14_Session3_Corrected.vtt","Session3","dinasours_spacemen_and_ghouls",1,2023-07-09 01:30:53.28,2023-07-09 01:30:56.492,3.21200013160706
+"Participant14","Participant14_Session3_Corrected.vtt","Session3","arrival_2",1,2023-07-09 01:30:53.28,2023-07-09 01:41:25.8,632.519999980927
+"Participant15","Participant15_Session1_Corrected .vtt","Session1","journey",1,2023-07-09 00:00:48.29,2023-07-09 00:13:32.395,764.105000019073
+"Participant15","Participant15_Session1_Corrected .vtt","Session1","arrival-5",1,2023-07-09 00:14:08.11,2023-07-09 00:23:27.215,559.105000019073
+"Participant15","Participant15_Session1_Corrected .vtt","Session1","flowerman",1,2023-07-09 00:23:45.87,2023-07-09 00:40:14.397,988.527000188827
+"Participant15","Participant15_Session1_Corrected .vtt","Session1","arrival-1",1,2023-07-09 00:41:11.34,2023-07-09 00:45:45.317,273.976999998093
+"Participant15","Participant15_Session1_Corrected .vtt","Session1","campsite",1,2023-07-09 00:46:41.29,2023-07-09 00:49:01.593,140.302999973297
+"Participant15","Participant15_Session1_Corrected .vtt","Session1","return",1,2023-07-09 00:49:59.71,2023-07-09 01:04:26.85,867.139999866486
+"Participant15","Participant15_Session1_Corrected .vtt","Session1","picture_this",1,2023-07-09 01:04:47.21,2023-07-09 01:08:32.716,225.506000041962
+"Participant15","Participant15_Session1_Corrected .vtt","Session1","deep_sea_divers",1,2023-07-09 01:10:00.057,2023-07-09 01:13:27.62,207.56299996376
+"Participant15","Participant15_Session1_Corrected .vtt","Session1","wild_west",1,2023-07-09 01:13:48.27,2023-07-09 01:17:00.504,192.233999967575
+"Participant15","Participant15_Session2_Corrected .vtt","Session2","airport",1,2023-07-09 00:00:43.79,2023-07-09 00:03:44.537,180.746999979019
+"Participant15","Participant15_Session2_Corrected .vtt","Session2","escape_from_the_zoo",1,2023-07-09 00:04:00.83,2023-07-09 00:06:12.875,132.045000076294
+"Participant15","Participant15_Session2_Corrected .vtt","Session2","ancient_rome",1,2023-07-09 00:06:39.8,2023-07-09 00:09:30.121,170.321000099182
+"Participant15","Participant15_Session2_Corrected .vtt","Session2","arrival-4",1,2023-07-09 00:10:11.87,2023-07-09 00:22:05.58,713.710000038147
+"Participant15","Participant15_Session2_Corrected .vtt","Session2","arrival-2",1,2023-07-09 00:22:36.13,2023-07-09 00:25:43.79,187.659999847412
+"Participant15","Participant15_Session2_Corrected .vtt","Session2","waldo-1",1,2023-07-09 00:26:03.49,2023-07-09 00:28:14.24,130.75
+"Participant15","Participant15_Session2_Corrected .vtt","Session2","wanderer",1,2023-07-09 00:28:58.55,2023-07-09 00:57:27.97,1709.42000007629
+"Participant15","Participant15_Session2_Corrected .vtt","Session2","by_the_lake",1,2023-07-09 00:57:52.37,2023-07-09 01:01:05.346,192.976000070572
+"Participant15","Participant15_Session2_Corrected .vtt","Session2","unfriendly_giants",1,2023-07-09 01:01:28.36,2023-07-09 01:04:41.657,193.297000169754
+"Participant15","Participant15_Session2_Corrected .vtt","Session2","quest",1,2023-07-09 01:05:11.65,2023-07-09 01:15:15.23,603.579999923706
+"Participant15","Participant15_Session2_Corrected .vtt","Session2","dinosaurs_spacemen_and_ghouls",1,2023-07-09 01:15:49.63,2023-07-09 01:19:51.163,241.532999992371
+"Participant15","Participant15_Session2_Corrected .vtt","Session2","make_a_splash",1,2023-07-09 01:20:10.81,2023-07-09 01:22:05.643,114.832999944687
+"Participant15","Participant15_Session2_Corrected .vtt","Session2","arrival-3",1,2023-07-09 01:22:28.15,2023-07-09 01:25:56.49,208.339999914169
+"Participant15","Participant15_Session2_Corrected .vtt","Session2","exhibit-12",1,2023-07-09 01:26:05,2023-07-09 01:27:38.752,93.7520000934601
+"Participant15","Participant15_Session2_Corrected .vtt","Session2","being_a_pirate",1,2023-07-09 01:28:04.68,2023-07-09 01:30:21.41,136.730000019073
+"Participant15","Participant15_Session2_Corrected .vtt","Session2","birthday_party_fun",1,2023-07-09 01:30:36.39,2023-07-09 01:32:54.422,138.031999826431
+"Participant15","Participant15_Session3_Corrected .vtt","Session3","arrival-6",1,2023-07-09 00:00:19.1,2023-07-09 00:08:46.13,507.030000209808
+"Participant16","Participant16_Session1_Corrected.vtt","Session1","airport",1,2023-07-09 00:01:20.58,2023-07-09 00:01:24.956,4.37600016593933
+"Participant16","Participant16_Session1_Corrected.vtt","Session1","wanderer",1,2023-07-09 00:07:57.98,2023-07-09 01:13:38.93,3940.95000004768
+"Participant16","Participant16_Session1_Corrected.vtt","Session1","quest",1,2023-07-09 01:14:28.52,2023-07-09 01:40:25.55,1557.02999997139
+"Participant16","Participant16_Session1_Corrected.vtt","Session1","by_the_lake",1,2023-07-09 01:40:55.92,2023-07-09 01:43:19.62,143.699999809265
+"Participant16","Participant16_Session1_Corrected.vtt","Session1","birthday_party_fun",1,2023-07-09 01:43:41.19,2023-07-09 01:46:11.41,150.22000002861
+"Participant16","Participant16_Session2_Corrected.vtt","Session2","journey",1,2023-07-09 00:00:46.99,2023-07-09 00:00:52.128,5.13800001144409
+"Participant16","Participant16_Session2_Corrected.vtt","Session2","waldo_1",1,2023-07-09 00:13:33.7,2023-07-09 00:13:37.37,3.66999983787537
+"Participant16","Participant16_Session2_Corrected.vtt","Session2","picture_this",1,2023-07-09 00:17:49.4,2023-07-09 00:21:01.209,191.809000015259
+"Participant16","Participant16_Session2_Corrected.vtt","Session2","ancient_rome",1,2023-07-09 00:21:16.24,2023-07-09 00:23:32.46,136.22000002861
+"Participant16","Participant16_Session2_Corrected.vtt","Session2","exhibit_12",1,2023-07-09 00:24:06.27,2023-07-09 00:26:13.56,127.289999961853
+"Participant16","Participant16_Session2_Corrected.vtt","Session2","escape_from_the_zoo",1,2023-07-09 00:26:40.52,2023-07-09 00:26:45.832,5.31200003623962
+"Participant16","Participant16_Session2_Corrected.vtt","Session2","being_a_pirate",1,2023-07-09 00:29:56.65,2023-07-09 00:33:08.91,192.259999990463
+"Participant16","Participant16_Session2_Corrected.vtt","Session2","unfriendly_giants",1,2023-07-09 00:33:56.61,2023-07-09 00:36:09.53,132.920000076294
+"Participant16","Participant16_Session2_Corrected.vtt","Session2","campsite",1,2023-07-09 00:36:52.29,2023-07-09 00:36:56.593,4.30299997329712
+"Participant16","Participant16_Session2_Corrected.vtt","Session2","wild_west",1,2023-07-09 00:39:46.02,2023-07-09 00:42:03.52,137.5
+"Participant16","Participant16_Session2_Corrected.vtt","Session2","arrival_6",1,2023-07-09 00:42:56.76,2023-07-09 00:51:55.86,539.099999904633
+"Participant16","Participant16_Session2_Corrected.vtt","Session2","return",1,2023-07-09 00:52:12.4,2023-07-09 01:05:45.97,813.569999933243
+"Participant16","Participant16_Session2_Corrected.vtt","Session2","dinasours_spacemen_and_ghouls",1,2023-07-09 01:06:41.29,2023-07-09 01:06:44.988,3.69799995422363
+"Participant16","Participant16_Session2_Corrected.vtt","Session2","make_a_splash",1,2023-07-09 01:09:31.14,2023-07-09 01:09:35.506,4.3659999370575
+"Participant16","Participant16_Session2_Corrected.vtt","Session2","arrival_5",1,2023-07-09 01:11:38.25,2023-07-09 01:11:43.652,5.40199995040894
+"Participant16","Participant16_Session2_Corrected.vtt","Session2","flowerman",1,2023-07-09 01:18:03.69,2023-07-09 01:28:35.21,631.519999980927
+"Participant16","Participant16_Session3_Corrected.vtt","Session3","deep_sea_divers",1,2023-07-09 00:00:26.34,2023-07-09 00:00:30.91,4.57000017166138
+"Participant16","Participant16_Session3_Corrected.vtt","Session3","arrival_4",1,2023-07-09 00:02:52.42,2023-07-09 00:10:13.56,441.139999866486
+"Participant16","Participant16_Session3_Corrected.vtt","Session3","arrival_2",1,2023-07-09 00:10:32.95,2023-07-09 00:10:37.556,4.60599994659424
+"Participant16","Participant16_Session3_Corrected.vtt","Session3","arrival_3",1,2023-07-09 00:13:02.72,2023-07-09 00:15:39.85,157.129999876022
+"Participant16","Participant16_Session3_Corrected.vtt","Session3","arrival_1",1,2023-07-09 00:15:52.52,2023-07-09 00:15:55.538,3.01800012588501
+"Participant17","Participant17_Session1_Corrected .vtt","Session1","escape_from_the_zoo",1,2023-07-09 00:01:13.849,2023-07-09 00:06:56.421,342.572000026703
+"Participant17","Participant17_Session1_Corrected .vtt","Session1","being_a_pirate",1,2023-07-09 00:07:21.5,2023-07-09 00:11:20.236,238.736000061035
+"Participant17","Participant17_Session1_Corrected .vtt","Session1","flowerman",1,2023-07-09 00:13:35.28,2023-07-09 00:20:14.164,398.884000062943
+"Participant17","Participant17_Session1_Corrected .vtt","Session1","arrival-1",1,2023-07-09 00:21:24.14,2023-07-09 00:24:07.613,163.472999811172
+"Participant17","Participant17_Session1_Corrected .vtt","Session1","airport",1,2023-07-09 00:24:04.01,2023-07-09 00:28:56.326,292.315999984741
+"Participant17","Participant17_Session1_Corrected .vtt","Session1","birthday_party_fun",1,2023-07-09 00:29:27.89,2023-07-09 00:32:52.6,204.709999799728
+"Participant17","Participant17_Session1_Corrected .vtt","Session1","wanderer",1,2023-07-09 00:34:18.79,2023-07-09 00:53:21.41,1142.62000012398
+"Participant17","Participant17_Session1_Corrected .vtt","Session1","dinosaurs_spacemen_and_ghouls",1,2023-07-09 00:54:20.79,2023-07-09 00:57:07.86,167.069999933243
+"Participant17","Participant17_Session1_Corrected .vtt","Session1","waldo-1",1,2023-07-09 00:58:00.09,2023-07-09 01:02:19.035,258.945000171661
+"Participant17","Participant17_Session1_Corrected .vtt","Session1","arrival-4",1,2023-07-09 01:03:44.93,2023-07-09 01:09:35.27,350.339999914169
+"Participant17","Participant17_Session1_Corrected .vtt","Session1","return",1,2023-07-09 01:10:21.42,2023-07-09 01:17:24.363,422.942999839783
+"Participant17","Participant17_Session1_Corrected .vtt","Session1","arrival-3",1,2023-07-09 01:18:03.28,2023-07-09 01:19:52.355,109.075000047684
+"Participant17","Participant17_Session1_Corrected .vtt","Session1","arrival-5",1,2023-07-09 01:20:32.52,2023-07-09 01:23:00.329,147.809000015259
+"Participant17","Participant17_Session1_Corrected .vtt","Session1","exhibit-12",1,2023-07-09 01:24:06.96,2023-07-09 01:27:11.413,184.453000068665
+"Participant17","Participant17_Session2_Corrected .vtt","Session2","picture_this",1,NA,2023-07-09 00:02:53.512,NA
+"Participant17","Participant17_Session2_Corrected .vtt","Session2","ancient_rome",1,2023-07-09 00:02:49.73,2023-07-09 00:06:55.513,245.782999992371
+"Participant17","Participant17_Session2_Corrected .vtt","Session2","campsite",1,2023-07-09 00:07:55.11,2023-07-09 00:10:46.715,171.605000019073
+"Participant17","Participant17_Session2_Corrected .vtt","Session2","wild_west",1,2023-07-09 00:11:34.39,2023-07-09 00:14:48.245,193.854999780655
+"Participant17","Participant17_Session2_Corrected .vtt","Session2","make_a_splash",1,2023-07-09 00:15:38.41,2023-07-09 00:18:19.026,160.615999937057
+"Participant17","Participant17_Session2_Corrected .vtt","Session2","arrival-2",1,2023-07-09 00:19:32.96,2023-07-09 00:21:07.315,94.3550000190735
+"Participant17","Participant17_Session2_Corrected .vtt","Session2","journey",1,2023-07-09 00:22:16.67,2023-07-09 00:30:43.251,506.580999851227
+"Participant17","Participant17_Session2_Corrected .vtt","Session2","arrival-6",1,2023-07-09 00:31:30.47,2023-07-09 00:35:35.538,245.068000078201
+"Participant17","Participant17_Session2_Corrected .vtt","Session2","quest",1,2023-07-09 00:36:39.42,2023-07-09 00:44:15.173,455.753000020981
+"Participant17","Participant17_Session2_Corrected .vtt","Session2","deep_sea_divers",1,2023-07-09 00:45:22.31,2023-07-09 00:47:55.788,153.478000164032
+"Participant17","Participant17_Session2_Corrected .vtt","Session2","by_the_lake",1,2023-07-09 00:48:43.17,2023-07-09 00:50:59.588,136.417999982834
+"Participant17","Participant17_Session2_Corrected .vtt","Session2","unfriendly_giants",1,2023-07-09 00:51:48.52,2023-07-09 00:54:25.851,157.331000089645
+"Participant18","Participant18_Session1_Corrected.vtt","Session1","ancient_rome",1,NA,NA,NA
+"Participant18","Participant18_Session1_Corrected.vtt","Session1","return",1,2023-07-09 00:07:57.973,2023-07-09 00:08:01.99,4.01699995994568
+"Participant18","Participant18_Session1_Corrected.vtt","Session1","escape_from_the_zoo",1,2023-07-09 00:35:45.513,2023-07-09 00:35:48.642,3.12899994850159
+"Participant18","Participant18_Session1_Corrected.vtt","Session1","make_a_splash",1,2023-07-09 00:39:53.47,2023-07-09 00:39:57.743,4.27300000190735
+"Participant18","Participant18_Session1_Corrected.vtt","Session1","waldo_1",1,2023-07-09 00:43:14.186,2023-07-09 00:45:14.39,120.203999996185
+"Participant18","Participant18_Session1_Corrected.vtt","Session1","by_the_lake",1,2023-07-09 00:46:11.39,2023-07-09 00:46:14.942,3.55199980735779
+"Participant18","Participant18_Session1_Corrected.vtt","Session1","wild_west",1,2023-07-09 00:49:00.12,2023-07-09 00:49:04.244,4.12400007247925
+"Participant18","Participant18_Session1_Corrected.vtt","Session1","picture_this",1,2023-07-09 00:52:09.44,2023-07-09 00:52:12.16,2.72000002861023
+"Participant18","Participant18_Session1_Corrected.vtt","Session1","arrival_2",1,2023-07-09 00:55:29.676,2023-07-09 01:00:36.84,307.163999795914
+"Participant18","Participant18_Session1_Corrected.vtt","Session1","arrival_6",1,2023-07-09 01:01:33.01,2023-07-09 01:01:37.113,4.1029999256134
+"Participant18","Participant18_Session1_Corrected.vtt","Session1","unfriendly_giants",1,2023-07-09 01:14:07.12,2023-07-09 01:14:11.22,4.10000014305115
+"Participant18","Participant18_Session1_Corrected.vtt","Session1","exhibit_12",1,2023-07-09 01:18:16.02,2023-07-09 01:18:20.761,4.7409999370575
+"Participant18","Participant18_Session1_Corrected.vtt","Session1","deep_sea_divers",1,2023-07-09 01:21:41.6,2023-07-09 01:23:42.24,120.640000104904
+"Participant18","Participant18_Session2_Corrected.vtt","Session2","flowerman",1,2023-07-09 00:00:49.35,2023-07-09 00:00:54.219,4.86900019645691
+"Participant18","Participant18_Session2_Corrected.vtt","Session2","journey",1,2023-07-09 00:17:30.5,2023-07-09 00:17:34.476,3.9760000705719
+"Participant18","Participant18_Session2_Corrected.vtt","Session2","airport",1,2023-07-09 00:38:52.86,2023-07-09 00:38:55.07,2.21000003814697
+"Participant18","Participant18_Session2_Corrected.vtt","Session2","birthday_party_fun",1,2023-07-09 00:43:14.75,2023-07-09 00:43:19.811,5.06100010871887
+"Participant18","Participant18_Session2_Corrected.vtt","Session2","dinasours_spacemen_and_ghouls",1,2023-07-09 00:46:49.98,2023-07-09 00:46:53.279,3.29900002479553
+"Participant18","Participant18_Session2_Corrected.vtt","Session2","arrival_1",1,2023-07-09 00:51:53.6,2023-07-09 00:51:57.5,3.90000009536743
+"Participant18","Participant18_Session2_Corrected.vtt","Session2","arrival_4",1,2023-07-09 00:59:27.4,2023-07-09 00:59:31.865,4.46499991416931
+"Participant18","Participant18_Session2_Corrected.vtt","Session2","being_a_pirate",1,2023-07-09 01:16:12.72,2023-07-09 01:19:12.43,179.710000038147
+"Participant18","Participant18_Session2_Corrected.vtt","Session2","quest",1,2023-07-09 01:20:12.08,2023-07-09 01:36:47.94,995.860000133514
+"Participant18","Participant18_Session2_Corrected.vtt","Session2","wanderer",1,2023-07-09 01:38:39.99,2023-07-09 02:03:09.8,1469.80999994278
+"Participant18","Participant18_Session2_Corrected.vtt","Session2","arrival_3",1,2023-07-09 02:03:56.48,2023-07-09 02:07:34.44,217.960000038147
+"Participant18","Participant18_Session2_Corrected.vtt","Session2","campsite",1,2023-07-09 02:08:25.26,2023-07-09 02:08:29.115,3.85500001907349
+"Participant18","Participant18_Session2_Corrected.vtt","Session2","arrival_5",1,2023-07-09 02:12:08.05,2023-07-09 02:12:11.533,3.48300004005432
+"Participant19","Participant19_Session1_Corrected .vtt","Session1","journey",1,2023-07-09 00:00:55.06,2023-07-09 00:11:16.547,621.486999988556
+"Participant19","Participant19_Session1_Corrected .vtt","Session1","exhibit-12",1,2023-07-09 00:11:55.86,2023-07-09 00:14:35.352,159.492000102997
+"Participant19","Participant19_Session1_Corrected .vtt","Session1","flowerman",1,2023-07-09 00:15:20.3,2023-07-09 00:26:21.921,661.621000051498
+"Participant19","Participant19_Session1_Corrected .vtt","Session1","campsite",1,2023-07-09 00:26:55.44,2023-07-09 00:30:16.108,200.667999982834
+"Participant19","Participant19_Session1_Corrected .vtt","Session1","make_a_splash",1,2023-07-09 00:30:45.26,2023-07-09 00:34:40.727,235.467000007629
+"Participant19","Participant19_Session1_Corrected .vtt","Session1","ancient_rome",1,2023-07-09 00:35:13.5,2023-07-09 00:38:20.02,186.519999980927
+"Participant19","Participant19_Session1_Corrected .vtt","Session1","return",1,2023-07-09 00:38:43.76,2023-07-09 00:48:17.369,573.608999967575
+"Participant19","Participant19_Session1_Corrected .vtt","Session1",NA,1,NA,NA,NA
+"Participant19","Participant19_Session1_Corrected .vtt","Session1","being_a_pirate",1,NA,2023-07-09 00:53:21.204,NA
+"Participant19","Participant19_Session1_Corrected .vtt","Session1","unfriendly_giants",1,2023-07-09 00:53:53.73,2023-07-09 00:58:08.31,254.579999923706
+"Participant19","Participant19_Session1_Corrected .vtt","Session1","picture_this",1,2023-07-09 00:58:42.27,2023-07-09 01:02:02.818,200.548000097275
+"Participant19","Participant19_Session1_Corrected .vtt","Session1","wild_west",1,2023-07-09 01:02:47.58,2023-07-09 01:06:24.62,217.039999961853
+"Participant19","Participant19_Session1_Corrected .vtt","Session1","arrival-2",1,2023-07-09 01:07:37.81,2023-07-09 01:10:27.184,169.374000072479
+"Participant19","Participant19_Session1_Corrected .vtt","Session1","waldo-1",1,2023-07-09 01:11:14.69,2023-07-09 01:15:15.29,240.599999904633
+"Participant19","Participant19_Session2_Corrected.vtt","Session2","airport",1,2023-07-09 00:00:30.57,2023-07-09 00:05:29.942,299.371999979019
+"Participant19","Participant19_Session2_Corrected.vtt","Session2","wanderer",1,2023-07-09 00:05:58.6,2023-07-09 00:23:54.434,1075.83400011063
+"Participant19","Participant19_Session2_Corrected.vtt","Session2","by_the_lake",1,2023-07-09 00:24:29.07,2023-07-09 00:28:08.196,219.126000165939
+"Participant19","Participant19_Session2_Corrected.vtt","Session2","arrival-4",1,2023-07-09 00:28:31.33,2023-07-09 00:37:40.319,548.989000082016
+"Participant19","Participant19_Session2_Corrected.vtt","Session2","arrival-5",1,2023-07-09 00:37:52.36,2023-07-09 00:41:08.126,195.766000032425
+"Participant19","Participant19_Session2_Corrected.vtt","Session2","deep_sea_divers",1,2023-07-09 00:41:28.73,2023-07-09 00:46:11.637,282.90700006485
+"Participant19","Participant19_Session2_Corrected.vtt","Session2","arrival-3",1,2023-07-09 00:46:39.3,2023-07-09 00:49:02.648,143.348000049591
+"Participant19","Participant19_Session2_Corrected.vtt","Session2","arrival-6",1,2023-07-09 00:49:34.91,2023-07-09 00:54:36.136,301.225999832153
+"Participant19","Participant19_Session2_Corrected.vtt","Session2","quest",1,2023-07-09 00:55:33.48,2023-07-09 01:05:13.72,580.240000009537
+"Participant19","Participant19_Session2_Corrected.vtt","Session2","dinosaurs_spacemen_and_ghouls",1,2023-07-09 01:05:25.57,2023-07-09 01:10:35.575,310.005000114441
+"Participant19","Participant19_Session2_Corrected.vtt","Session2","birthday_party_fun",1,2023-07-09 01:10:48.2,2023-07-09 01:14:58.38,250.180000066757
+"Participant19","Participant19_Session2_Corrected.vtt","Session2","escape_from_the_zoo",1,2023-07-09 01:15:12.97,2023-07-09 01:19:50.352,277.381999969482
+"Participant19","Participant19_Session2_Corrected.vtt","Session2","arrival-1",1,2023-07-09 01:20:03.82,2023-07-09 01:23:59.524,235.703999996185
+"Participant2","Participant2_Session1_Corrected.vtt","Session1","birthday_party_fun",1,2023-07-09 00:01:58.21,2023-07-09 00:02:01.891,3.68099999427795
+"Participant2","Participant2_Session1_Corrected.vtt","Session1","picture_this",1,2023-07-09 00:07:25.06,2023-07-09 00:07:27.77,2.71000003814697
+"Participant2","Participant2_Session1_Corrected.vtt","Session1","by_the_lake",1,2023-07-09 00:13:42.97,2023-07-09 00:17:20.58,217.609999895096
+"Participant2","Participant2_Session1_Corrected.vtt","Session1","arrival_4",1,2023-07-09 00:21:05.21,2023-07-09 00:38:44.44,1059.23000001907
+"Participant2","Participant2_Session1_Corrected.vtt","Session1","being_a_pirate",1,2023-07-09 00:39:56.06,2023-07-09 00:45:03.42,307.360000133514
+"Participant2","Participant2_Session1_Corrected.vtt","Session1","arrival_2",1,2023-07-09 00:46:01.8,2023-07-09 00:46:04.38,2.58000016212463
+"Participant2","Participant2_Session1_Corrected.vtt","Session1","arrival_3",1,2023-07-09 00:51:25.93,2023-07-09 00:56:31.42,305.490000009537
+"Participant2","Participant2_Session1_Corrected.vtt","Session1","ancient_rome",1,2023-07-09 00:57:56.22,2023-07-09 01:02:07.38,251.160000085831
+"Participant2","Participant2_Session1_Corrected.vtt","Session1","arrival_1",1,2023-07-09 01:03:27.85,2023-07-09 01:09:59.26,391.410000085831
+"Participant2","Participant2_Session1_Corrected.vtt","Session1","journey",1,2023-07-09 01:11:17.78,2023-07-09 01:32:53.139,1295.35899996758
+"Participant2","Participant2_Session2_Corrected.vtt","Session2","return",1,2023-07-09 00:01:17.33,2023-07-09 00:28:27.01,1629.68000006676
+"Participant2","Participant2_Session2_Corrected.vtt","Session2","make_a_splash",1,2023-07-09 00:29:08.75,2023-07-09 00:34:36.77,328.019999980927
+"Participant2","Participant2_Session2_Corrected.vtt","Session2","flowerman",1,2023-07-09 00:35:41.74,2023-07-09 01:11:52.479,2170.73900008202
+"Participant2","Participant2_Session2_Corrected.vtt","Session2","quest",1,2023-07-09 01:12:55.88,2023-07-09 01:39:59.25,1623.36999988556
+"Participant2","Participant2_Session2_Corrected.vtt","Session2","exhibit_12",1,2023-07-09 01:40:40.57,2023-07-09 01:46:05.42,324.850000143051
+"Participant2","Participant2_Session2_Corrected.vtt","Session2","dinasours_spacemen_and_ghouls",1,2023-07-09 01:46:41.57,2023-07-09 01:46:46.5,4.9300000667572
+"Participant2","Participant2_Session2_Corrected.vtt","Session2","arrival_6",1,2023-07-09 01:53:16.99,2023-07-09 01:53:21.66,4.67000007629395
+"Participant2","Participant2_Session3_Corrected.vtt","Session3","wild_west",1,2023-07-09 00:00:35.06,2023-07-09 00:05:24.49,289.430000066757
+"Participant2","Participant2_Session3_Corrected.vtt","Session3","escape_from_the_zoo",1,2023-07-09 00:06:15.41,2023-07-09 00:06:16.7,1.28999996185303
+"Participant2","Participant2_Session3_Corrected.vtt","Session3","wanderer",1,2023-07-09 00:12:06.17,2023-07-09 00:12:10.893,4.72299981117249
+"Participant2","Participant2_Session3_Corrected.vtt","Session3","waldo_1",1,2023-07-09 01:08:50.98,2023-07-09 01:08:53.04,2.05999994277954
+"Participant2","Participant2_Session3_Corrected.vtt","Session3","campsite",1,2023-07-09 01:14:46.57,2023-07-09 01:14:51.86,5.28999996185303
+"Participant2","Participant2_Session3_Corrected.vtt","Session3","unfriendly_giants",1,2023-07-09 01:20:37,2023-07-09 01:25:15.02,278.019999980927
+"Participant2","Participant2_Session3_Corrected.vtt","Session3","deep_sea_divers",1,2023-07-09 01:25:49.32,2023-07-09 01:30:20.17,270.850000143051
+"Participant2","Participant2_Session3_Corrected.vtt","Session3","arrival_5",1,2023-07-09 01:31:04.63,2023-07-09 01:31:07.22,2.58999991416931
+"Participant2","Participant2_Session3_Corrected.vtt","Session3","airport",1,2023-07-09 01:42:18.03,2023-07-09 01:42:19.44,1.41000008583069
+"Participant20","Participant20_Session1_Corrected.vtt","Session1","airport",1,2023-07-09 00:00:40.68,2023-07-09 00:04:54.284,253.603999853134
+"Participant20","Participant20_Session1_Corrected.vtt","Session1","birthday_party_fun",1,2023-07-09 00:06:07.41,2023-07-09 00:09:16.18,188.769999980927
+"Participant20","Participant20_Session1_Corrected.vtt","Session1","unfriendly_giants",1,2023-07-09 00:09:48.41,2023-07-09 00:13:54.384,245.973999977112
+"Participant20","Participant20_Session1_Corrected.vtt","Session1","waldo-1",1,2023-07-09 00:14:43.08,2023-07-09 00:19:13.216,270.136000156403
+"Participant20","Participant20_Session1_Corrected.vtt","Session1","journey",1,2023-07-09 00:21:55.59,2023-07-09 01:03:47.742,2512.15200018883
+"Participant20","Participant20_Session1_Corrected.vtt","Session1","dinosaurs_spacemen_and_ghouls",1,2023-07-09 01:05:18.74,2023-07-09 01:11:30.491,371.750999927521
+"Participant20","Participant20_Session1_Corrected.vtt","Session1","arrival-4",1,2023-07-09 01:12:58.49,2023-07-09 01:26:58.646,840.15599989891
+"Participant20","Participant20_Session2_Corrected .vtt","Session2","exhibit-12",1,2023-07-09 00:00:32.45,2023-07-09 00:05:08.444,275.993999958038
+"Participant20","Participant20_Session2_Corrected .vtt","Session2","campsite",1,2023-07-09 00:05:43.93,2023-07-09 00:10:32.696,288.766000032425
+"Participant20","Participant20_Session2_Corrected .vtt","Session2","flowerman",1,2023-07-09 00:11:18.84,2023-07-09 00:31:43.447,1224.60700011253
+"Participant20","Participant20_Session2_Corrected .vtt","Session2","arrival-6",1,2023-07-09 00:32:29.51,2023-07-09 00:47:52.391,922.881000041962
+"Participant20","Participant20_Session2_Corrected .vtt","Session2","picture_this",1,2023-07-09 00:48:32.39,2023-07-09 00:52:12.18,219.789999961853
+"Participant20","Participant20_Session2_Corrected .vtt","Session2","deep_sea_diver",1,2023-07-09 00:52:34.71,NA,NA
+"Participant20","Participant20_Session2_Corrected .vtt","Session2","deep_sea_divers",1,NA,2023-07-09 00:57:10.76,NA
+"Participant20","Participant20_Session2_Corrected .vtt","Session2","by_the_lake",1,2023-07-09 00:57:30.61,NA,NA
+"Participant20","Participant20_Session2_Corrected .vtt","Session2","quest",1,2023-07-09 01:02:25.2,2023-07-09 01:24:05.505,1300.30500006676
+"Participant20","Participant20_Session3_corrected .vtt","Session3","make_a_splash",1,2023-07-09 00:00:27.88,2023-07-09 00:03:34.887,187.006999969482
+"Participant20","Participant20_Session3_corrected .vtt","Session3","being_a_pirate",1,2023-07-09 00:04:17.31,2023-07-09 00:06:55.515,158.205000162125
+"Participant20","Participant20_Session3_corrected .vtt","Session3","ancient_rome",1,2023-07-09 00:07:20.697,2023-07-09 00:11:00.714,220.016999959946
+"Participant20","Participant20_Session3_corrected .vtt","Session3","arrival-2",1,2023-07-09 00:11:32.3,2023-07-09 00:16:44.858,312.558000087738
+"Participant20","Participant20_Session3_corrected .vtt","Session3","wanderer",1,2023-07-09 00:17:31.96,2023-07-09 01:01:52.795,2660.83500003815
+"Participant20","Participant20_Session3_corrected .vtt","Session3","arrival-1",1,2023-07-09 01:02:22.96,2023-07-09 01:07:27.01,304.049999952316
+"Participant20","Participant20_Session3_corrected .vtt","Session3","arrival-5",1,2023-07-09 01:07:52.04,2023-07-09 01:14:14.842,382.802000045776
+"Participant20","Participant20_Session3_corrected .vtt","Session3","arrival-3",1,2023-07-09 01:14:35.82,2023-07-09 01:18:07.36,211.539999961853
+"Participant20","Participant20_Session3_corrected .vtt","Session3","escape_from_the_zoo",1,2023-07-09 01:18:33.42,2023-07-09 01:23:14.989,281.569000005722
+"Participant20","Participant20_Session3_corrected .vtt","Session3","return",1,2023-07-09 01:23:50.75,2023-07-09 01:43:12.064,1161.31399989128
+"Participant20","Participant20_Session3_corrected .vtt","Session3","wild_west",1,2023-07-09 01:43:46.69,2023-07-09 01:48:50.03,303.339999914169
+"Participant21","Participant21_Session1_Corrected.vtt","Session1","unfriendly_giant",1,2023-07-09 00:00:50.8,NA,NA
+"Participant21","Participant21_Session1_Corrected.vtt","Session1","unfriendly_giants",1,NA,2023-07-09 00:04:54.303,NA
+"Participant21","Participant21_Session1_Corrected.vtt","Session1","being_a_pirate",1,2023-07-09 00:05:50.8,2023-07-09 00:09:52.038,241.238000154495
+"Participant21","Participant21_Session1_Corrected.vtt","Session1","airport",1,2023-07-09 00:10:25.88,2023-07-09 00:13:43.86,197.979999780655
+"Participant21","Participant21_Session1_Corrected.vtt","Session1","picture_this",1,2023-07-09 00:14:28.98,2023-07-09 00:19:06.068,277.088000059128
+"Participant21","Participant21_Session1_Corrected.vtt","Session1","arrival-1",1,2023-07-09 00:20:01.22,2023-07-09 00:41:05.995,1264.77499985695
+"Participant21","Participant21_Session1_Corrected.vtt","Session1","arrival-2",1,2023-07-09 00:42:15.84,2023-07-09 00:46:30.17,254.330000162125
+"Participant21","Participant21_Session1_Corrected.vtt","Session1","wild_west",1,2023-07-09 00:46:55.73,2023-07-09 00:49:16.53,140.799999952316
+"Participant21","Participant21_Session1_Corrected.vtt","Session1","journey",1,2023-07-09 00:50:32.05,2023-07-09 01:02:40.33,728.27999997139
+"Participant21","Participant21_Session2_Corrected .vtt","Session2","escape_from_the_zoo",1,2023-07-09 00:00:27.05,2023-07-09 00:04:12.05,225
+"Participant21","Participant21_Session2_Corrected .vtt","Session2","dinosaurs_spacemen_and_ghouls",1,2023-07-09 00:04:32.8,2023-07-09 00:07:49.774,196.973999977112
+"Participant21","Participant21_Session2_Corrected .vtt","Session2","make_a_splash",1,2023-07-09 00:08:19.59,2023-07-09 00:11:24.383,184.792999982834
+"Participant21","Participant21_Session2_Corrected .vtt","Session2","flowerman",1,2023-07-09 00:12:01.36,2023-07-09 00:25:15.313,793.953000068665
+"Participant21","Participant21_Session2_Corrected .vtt","Session2","by_the_lake",1,2023-07-09 00:25:47.44,2023-07-09 00:28:22.599,155.158999919891
+"Participant21","Participant21_Session2_Corrected .vtt","Session2","return",1,2023-07-09 00:28:45.89,2023-07-09 00:47:21.832,1115.94199991226
+"Participant21","Participant21_Session2_Corrected .vtt","Session2","exhibit-12",1,2023-07-09 00:47:17.17,2023-07-09 00:51:34.291,257.12099981308
+"Participant21","Participant21_Session2_Corrected .vtt","Session2","arrival-4",1,2023-07-09 00:51:55.11,2023-07-09 01:07:09.932,914.822000026703
+"Participant21","Participant21_Session2_Corrected .vtt","Session2","campsite",1,2023-07-09 01:07:39.04,2023-07-09 01:10:18.327,159.286999940872
+"Participant21","Participant21_Session2_Corrected .vtt","Session2","birthday_party_fun",1,2023-07-09 01:10:44.68,2023-07-09 01:13:08.126,143.445999860764
+"Participant21","Participant21_Session2_Corrected .vtt","Session2","ancient_rome",1,2023-07-09 01:13:30.11,2023-07-09 01:16:17.83,167.72000002861
+"Participant21","Participant21_Session2_Corrected .vtt","Session2","arrival-6",1,2023-07-09 01:16:38.75,2023-07-09 01:25:14.267,515.516999959946
+"Participant21","Participant21_Session2_Corrected .vtt","Session2","waldo-1",1,2023-07-09 01:25:38.61,2023-07-09 01:28:38.981,180.371000051498
+"Participant21","Participant21_Session2_Corrected .vtt","Session2","quest",1,2023-07-09 01:28:36.69,2023-07-09 01:46:59.302,1102.61199998856
+"Participant21","Participant21_Session3_Corrected .vtt","Session3","wanderer",1,2023-07-09 00:01:05.09,2023-07-09 00:49:01.307,2876.21700000763
+"Participant21","Participant21_Session3_Corrected .vtt","Session3","arrival-3",1,2023-07-09 00:49:39.81,2023-07-09 00:53:45.41,245.600000143051
+"Participant21","Participant21_Session3_Corrected .vtt","Session3","arrival-5",1,2023-07-09 00:54:16.99,2023-07-09 01:03:05.434,528.444000005722
+"Participant21","Participant21_Session3_Corrected .vtt","Session3","deep_sea_divers",1,2023-07-09 01:03:42.15,2023-07-09 01:07:49.855,247.704999923706
+"Participant22","Participant22_Session1_Corrected.vtt","Session1","picture_this",1,2023-07-09 00:00:43.53,2023-07-09 00:04:03.43,199.900000095367
+"Participant22","Participant22_Session1_Corrected.vtt","Session1","arrival-2",1,2023-07-09 00:05:13.52,2023-07-09 00:10:37.22,323.700000047684
+"Participant22","Participant22_Session1_Corrected.vtt","Session1","wild_west",1,2023-07-09 00:11:04.99,2023-07-09 00:15:22.39,257.400000095367
+"Participant22","Participant22_Session1_Corrected.vtt","Session1","arrival-3",1,2023-07-09 00:15:48.21,2023-07-09 00:23:29.89,461.680000066757
+"Participant22","Participant22_Session1_Corrected.vtt","Session1","by_the_lake",1,2023-07-09 00:23:58.48,2023-07-09 00:27:51.648,233.167999982834
+"Participant22","Participant22_Session1_Corrected.vtt","Session1","journey",1,2023-07-09 00:28:49.85,2023-07-09 00:46:04.327,1034.47699999809
+"Participant22","Participant22_Session1_Corrected.vtt","Session1","dinosaurs_spacemen_and_ghouls",1,2023-07-09 00:46:19.45,2023-07-09 00:48:50.068,150.618000030518
+"Participant22","Participant22_Session1_Corrected.vtt","Session1","birthday_party_fun",1,2023-07-09 00:49:12.51,2023-07-09 00:51:21.73,129.22000002861
+"Participant22","Participant22_Session1_Corrected.vtt","Session1","return",1,2023-07-09 00:51:45.25,2023-07-09 01:05:25.7,820.450000047684
+"Participant22","Participant22_Session2_Corrected.vtt","Session2","Arrival_4",1,2023-07-09 00:00:33.63,NA,NA
+"Participant22","Participant22_Session2_Corrected.vtt","Session2","arrival_4",1,NA,2023-07-09 00:15:19.1,NA
+"Participant22","Participant22_Session2_Corrected.vtt","Session2","make_a_splash",1,2023-07-09 00:15:52.82,2023-07-09 00:15:56.268,3.44799995422363
+"Participant22","Participant22_Session2_Corrected.vtt","Session2","ARRIVAL_5",1,2023-07-09 00:21:08.48,NA,NA
+"Participant22","Participant22_Session2_Corrected.vtt","Session2","Arrival_5",1,NA,NA,NA
+"Participant22","Participant22_Session2_Corrected.vtt","Session2","Exhibit_12",1,2023-07-09 00:28:59.44,NA,NA
+"Participant22","Participant22_Session2_Corrected.vtt","Session2","exhibit_12",1,NA,2023-07-09 00:34:09.25,NA
+"Participant22","Participant22_Session2_Corrected.vtt","Session2","Arrival_1",1,2023-07-09 00:34:32.85,2023-07-09 00:34:37.76,4.91000008583069
+"Participant22","Participant22_Session2_Corrected.vtt","Session2","flowerman",1,2023-07-09 00:42:16.089,NA,NA
+"Participant22","Participant22_Session2_Corrected.vtt","Session2","Flowerman",1,NA,2023-07-09 01:02:37.94,NA
+"Participant22","Participant22_Session2_Corrected.vtt","Session2","unfriendly_giants",1,2023-07-09 01:03:04.88,2023-07-09 01:03:06.87,1.98999977111816
+"Participant22","Participant22_Session2_Corrected.vtt","Session2","escape_from_the_zoo",1,2023-07-09 01:08:42.15,2023-07-09 01:13:14.28,272.129999876022
+"Participant22","Participant22_Session2_Corrected.vtt","Session2","arrival_6",1,2023-07-09 01:13:35.44,2023-07-09 01:13:39.031,3.59099984169006
+"Participant22","Participant22_Session3_Corrected.vtt","Session3","wanderer",1,2023-07-09 00:00:32.53,2023-07-09 00:24:35.83,1443.29999995232
+"Participant22","Participant22_Session3_Corrected.vtt","Session3","being_a_pirate",1,2023-07-09 00:25:06.75,2023-07-09 00:28:22.35,195.599999904633
+"Participant22","Participant22_Session3_Corrected.vtt","Session3","ancient_rome",1,2023-07-09 00:28:41.56,2023-07-09 00:28:43.79,2.23000001907349
+"Participant22","Participant22_Session3_Corrected.vtt","Session3","campsite",1,2023-07-09 00:32:15.26,2023-07-09 00:32:19.22,3.96000003814697
+"Participant22","Participant22_Session3_Corrected.vtt","Session3","airport",1,2023-07-09 00:36:19.99,2023-07-09 00:36:21.77,1.77999997138977
+"Participant22","Participant22_Session3_Corrected.vtt","Session3","Quest",1,2023-07-09 00:40:12.23,NA,NA
+"Participant22","Participant22_Session3_Corrected.vtt","Session3","quest",1,NA,2023-07-09 00:50:56.35,NA
+"Participant22","Participant22_Session3_Corrected.vtt","Session3","Waldo_1",1,2023-07-09 00:51:20.8,NA,NA
+"Participant22","Participant22_Session3_Corrected.vtt","Session3","waldo_1",1,NA,2023-07-09 00:51:24.841,NA
+"Participant22","Participant22_Session3_Corrected.vtt","Session3","deep_sea_divers",1,2023-07-09 00:55:37.49,2023-07-09 00:55:39.14,1.65000009536743
+"Participant23","Participant23_Session1_Corrected.vtt","Session1","unfriendly_giants",1,2023-07-09 00:00:35.51,2023-07-09 00:02:55.636,140.125999927521
+"Participant23","Participant23_Session1_Corrected.vtt","Session1","arrival-3",1,2023-07-09 00:04:00.87,2023-07-09 00:15:12.914,672.044000148773
+"Participant23","Participant23_Session1_Corrected.vtt","Session1","by_the_lake",1,2023-07-09 00:15:06.71,2023-07-09 00:19:18.985,252.274999856949
+"Participant23","Participant23_Session1_Corrected.vtt","Session1","flowerman",1,2023-07-09 00:19:43.91,2023-07-09 00:54:37.805,2093.89499998093
+"Participant23","Participant23_Session1_Corrected.vtt","Session1","deep_sea_divers",1,2023-07-09 00:55:01.96,2023-07-09 00:59:38.767,276.806999921799
+"Participant23","Participant23_Session1_Corrected.vtt","Session1","picture_this",1,2023-07-09 00:59:55.11,2023-07-09 01:03:57.835,242.725000143051
+"Participant23","Participant23_Session1_Corrected.vtt","Session1","arrival-1",1,2023-07-09 01:04:27.42,2023-07-09 01:13:11.605,524.18499994278
+"Participant23","Participant23_Session2_Corrected .vtt","Session2","birthday_party_fun",1,2023-07-09 00:00:24.91,2023-07-09 00:04:49.283,264.37299990654
+"Participant23","Participant23_Session2_Corrected .vtt","Session2","ancient_rome",1,2023-07-09 00:05:11.46,2023-07-09 00:10:13.472,302.011999845505
+"Participant23","Participant23_Session2_Corrected .vtt","Session2","arrival-6",1,2023-07-09 00:10:42.46,2023-07-09 00:29:16.523,1114.06299996376
+"Participant23","Participant23_Session2_Corrected .vtt","Session2","waldo-1",1,2023-07-09 00:29:33.4,2023-07-09 00:33:51.321,257.921000003815
+"Participant23","Participant23_Session2_Corrected .vtt","Session2","quest",1,2023-07-09 00:34:40.49,2023-07-09 00:55:59.55,1279.05999994278
+"Participant23","Participant23_Session2_Corrected .vtt","Session2","dinosaurs_spacemen_and_ghouls",1,2023-07-09 00:56:24.45,2023-07-09 01:02:30.504,366.053999900818
+"Participant23","Participant23_Session3_Corrected.vtt","Session3","being_a_pirate",1,2023-07-09 00:00:21.27,2023-07-09 00:05:13.081,291.811000108719
+"Participant23","Participant23_Session3_Corrected.vtt","Session3","wild_west",1,2023-07-09 00:05:33.71,2023-07-09 00:10:28.17,294.460000038147
+"Participant23","Participant23_Session3_Corrected.vtt","Session3","wanderer",1,2023-07-09 00:10:59.53,2023-07-09 00:54:27.33,2607.79999995232
+"Participant23","Participant23_Session3_Corrected.vtt","Session3","make_a_splash",1,2023-07-09 00:55:04.85,2023-07-09 00:58:23.811,198.961000204086
+"Participant23","Participant23_Session3_Corrected.vtt","Session3","return",1,2023-07-09 00:58:55.77,2023-07-09 01:14:08.568,912.798000097275
+"Participant23","Participant23_Session3_Corrected.vtt","Session3","escape_from_the_zoo",1,2023-07-09 01:14:25.52,2023-07-09 01:20:13.593,348.072999954224
+"Participant23","Participant23_Session3_Corrected.vtt","Session3","airport",1,2023-07-09 01:20:34.1,2023-07-09 01:25:33.066,298.966000080109
+"Participant23","Participant23_Session3_Corrected.vtt","Session3","exhibit-12",1,2023-07-09 01:26:19.23,2023-07-09 01:31:37.218,317.987999916077
+"Participant23","Participant23_Session3_Corrected.vtt","Session3","journey",1,2023-07-09 01:31:56.19,2023-07-09 01:41:23.764,567.573999881744
+"Participant23","Participant23_Session4_Corrected.vtt","Session4","campsite",1,2023-07-09 00:00:24.26,2023-07-09 00:04:31.15,246.890000104904
+"Participant23","Participant23_Session4_Corrected.vtt","Session4","arrival-4",1,2023-07-09 00:04:56.93,2023-07-09 00:21:01.692,964.761999845505
+"Participant23","Participant23_Session4_Corrected.vtt","Session4","arrival-5",1,2023-07-09 00:21:19.37,2023-07-09 00:27:06.82,347.450000047684
+"Participant23","Participant23_Session4_Corrected.vtt","Session4","arrival-2",1,2023-07-09 00:27:23.57,2023-07-09 00:29:54.815,151.245000123978
+"Participant24","Participant24_Session1_Corrected.vtt","Session1","journey",1,2023-07-09 00:02:15.53,2023-07-09 00:15:47.78,812.25
+"Participant24","Participant24_Session1_Corrected.vtt","Session1","by_the_lake",1,2023-07-09 00:19:45.98,2023-07-09 00:23:12.589,206.608999967575
+"Participant24","Participant24_Session1_Corrected.vtt","Session1","arrival-3",1,2023-07-09 00:25:28.84,2023-07-09 00:28:17.21,168.370000123978
+"Participant24","Participant24_Session1_Corrected.vtt","Session1","waldo-1",1,2023-07-09 00:30:00.18,2023-07-09 00:32:52.77,172.589999914169
+"Participant24","Participant24_Session1_Corrected.vtt","Session1","arrival-5",1,2023-07-09 00:34:19.73,2023-07-09 00:39:48.29,328.55999994278
+"Participant25","Participant25_Session1_Corrected.vtt","Session1","ancient_rome",1,2023-07-09 00:01:03.59,2023-07-09 00:05:57.262,293.672000169754
+"Participant25","Participant25_Session1_Corrected.vtt","Session1","airport",1,2023-07-09 00:07:03.19,2023-07-09 00:11:42.834,279.644000053406
+"Participant25","Participant25_Session1_Corrected.vtt","Session1","picture_this",1,2023-07-09 00:12:53.77,2023-07-09 00:16:56.429,242.658999919891
+"Participant25","Participant25_Session1_Corrected.vtt","Session1","wild_west",1,2023-07-09 00:18:36.088,2023-07-09 00:23:03.8,267.711999893188
+"Participant25","Participant25_Session1_Corrected.vtt","Session1","wanderer",1,2023-07-09 00:25:05.29,2023-07-09 00:53:25.95,1700.66000008583
+"Participant25","Participant25_Session1_Corrected.vtt","Session1","birthday_party_fun",1,2023-07-09 00:54:18.2,2023-07-09 00:57:50.43,212.230000019073
+"Participant25","Participant25_Session1_Corrected.vtt","Session1","arrival-1",1,2023-07-09 00:58:53.1,2023-07-09 01:03:05.403,252.303000211716
+"Participant25","Participant25_Session1_Corrected.vtt","Session1","deep_sea_divers",1,2023-07-09 01:03:02.66,2023-07-09 01:07:14.513,251.852999925613
+"Participant25","Participant25_Session1_Corrected.vtt","Session1","journey",1,2023-07-09 01:08:02.95,2023-07-09 01:13:43.252,340.302000045776
+"Participant25","Participant25_Session1_Corrected.vtt","Session1","being_a_pirate",1,2023-07-09 01:14:27.81,2023-07-09 01:16:45.11,137.299999952316
+"Participant25","Participant25_Session1_Corrected.vtt","Session1","campsite",1,2023-07-09 01:17:42.66,2023-07-09 01:20:40.61,177.949999809265
+"Participant25","Participant25_Session1_Corrected.vtt","Session1","make_a_splash",1,2023-07-09 01:21:37.1,2023-07-09 01:24:16.75,159.650000095367
+"Participant25","Participant25_Session2_Corrected .vtt","Session2","arrival-5",1,2023-07-09 00:00:48.39,2023-07-09 00:09:13.381,504.990999937057
+"Participant25","Participant25_Session2_Corrected .vtt","Session2","waldo-1",1,2023-07-09 00:10:08.78,2023-07-09 00:15:08.837,300.056999921799
+"Participant25","Participant25_Session2_Corrected .vtt","Session2","arrival-2",1,2023-07-09 00:16:02.3,2023-07-09 00:19:47.31,225.009999990463
+"Participant25","Participant25_Session2_Corrected .vtt","Session2","flowerman",1,2023-07-09 00:20:37.42,2023-07-09 00:33:34.97,777.549999952316
+"Participant25","Participant25_Session2_Corrected .vtt","Session2","unfriendly_giants",1,2023-07-09 00:34:24.02,2023-07-09 00:38:16.19,232.170000076294
+"Participant25","Participant25_Session2_Corrected .vtt","Session2","quest",1,2023-07-09 00:39:09.34,2023-07-09 00:50:19.68,670.340000152588
+"Participant25","Participant25_Session2_Corrected .vtt","Session2","arrival-3",1,2023-07-09 00:51:02.43,2023-07-09 00:54:23.17,200.740000009537
+"Participant25","Participant25_Session2_Corrected .vtt","Session2","exhibit-12",1,2023-07-09 00:57:30.95,2023-07-09 01:02:06.561,275.611000061035
+"Participant25","Participant25_Session2_Corrected .vtt","Session2","return",1,2023-07-09 01:03:00.89,2023-07-09 01:11:47.517,526.626999855042
+"Participant25","Participant25_Session2_Corrected .vtt","Session2","escape_from_the_zoo",1,2023-07-09 01:12:38.14,2023-07-09 01:16:59.815,261.674999952316
+"Participant25","Participant25_Session2_Corrected .vtt","Session2","by_the_lake",1,2023-07-09 01:17:44.72,2023-07-09 01:21:10.564,205.843999862671
+"Participant25","Participant25_Session2_Corrected .vtt","Session2","dinosaurs_spacemen_and_ghouls",1,2023-07-09 01:22:03.35,2023-07-09 01:25:36.687,213.337000131607
+"Participant25","Participant25_Session2_Corrected .vtt","Session2","arrival-6",1,2023-07-09 01:26:31.35,2023-07-09 01:32:27.548,356.198000192642
+"Participant25","Participant25_Session2_Corrected .vtt","Session2","arrival-4",1,2023-07-09 01:33:13.88,2023-07-09 01:42:11.905,538.024999856949
+"Participant27","Participant27_Session1_Corrected.vtt","Session1","picture_this",1,2023-07-09 00:00:53.53,2023-07-09 00:00:59.516,5.98600006103516
+"Participant27","Participant27_Session1_Corrected.vtt","Session1","arrival_2",1,2023-07-09 00:08:39.025,2023-07-09 00:08:41.54,2.5149998664856
+"Participant27","Participant27_Session1_Corrected.vtt","Session1","quest",1,2023-07-09 00:19:51.838,2023-07-09 00:19:58.127,6.28900003433228
+"Participant27","Participant27_Session1_Corrected.vtt","Session1","exhibit_12",1,2023-07-09 00:50:38.84,2023-07-09 00:50:48.973,10.1330001354218
+"Participant27","Participant27_Session1_Corrected.vtt","Session1","arrival_3",1,2023-07-09 00:56:26.56,NA,NA
+"Participant27","Participant27_Session1_Corrected.vtt","Session1",NA,1,NA,NA,NA
+"Participant27","Participant27_Session1_Corrected.vtt","Session1","campsite",1,2023-07-09 01:01:33.9,2023-07-09 01:05:22.59,228.689999818802
+"Participant27","Participant27_Session1_Corrected.vtt","Session1","arrival_1",1,2023-07-09 01:05:43.24,2023-07-09 01:09:35.54,232.299999952316
+"Participant27","Participant27_Session2_Corrected.vtt","Session2","arrival_4",1,NA,NA,NA
+"Participant27","Participant27_Session2_Corrected.vtt","Session2","escape_from_the_zoo",1,2023-07-09 00:16:11.49,2023-07-09 00:22:13.19,361.700000047684
+"Participant27","Participant27_Session2_Corrected.vtt","Session2","return",1,2023-07-09 00:22:28.88,2023-07-09 00:42:42.569,1213.68899989128
+"Participant27","Participant27_Session2_Corrected.vtt","Session2","arrival_5",1,2023-07-09 00:42:55.74,2023-07-09 00:50:51.719,475.979000091553
+"Participant27","Participant27_Session2_Corrected.vtt","Session2","birthday_party_fun",1,2023-07-09 00:51:17.9,2023-07-09 00:57:14.819,356.918999910355
+"Participant27","Participant27_Session2_Corrected.vtt","Session2","by_the_lake",1,2023-07-09 00:57:27.73,2023-07-09 00:57:31.544,3.81399989128113
+"Participant27","Participant27_Session2_Corrected.vtt","Session2","unfriendly_giants",1,2023-07-09 01:02:58.33,2023-07-09 01:03:01.781,3.45099997520447
+"Participant27","Participant27_Session2_Corrected.vtt","Session2","airport",1,2023-07-09 01:08:08.68,2023-07-09 01:12:22.27,253.589999914169
+"Participant27","Participant27_Session2_Corrected.vtt","Session2","ancient_rome",1,2023-07-09 01:12:37.98,2023-07-09 01:17:16.27,278.289999961853
+"Participant27","Participant27_Session2_Corrected.vtt","Session2","flowerman",1,2023-07-09 01:17:38.33,2023-07-09 01:34:23.96,1005.63000011444
+"Participant27","Participant27_Session2_Corrected.vtt","Session2","waldo_1",1,2023-07-09 01:34:40.05,2023-07-09 01:34:44.141,4.09100008010864
+"Participant27","Participant27_Session3_Corrected.vtt","Session3","dinasours_spacemen_and_ghouls",1,2023-07-09 00:00:29.11,2023-07-09 00:00:34.33,5.22000002861023
+"Participant27","Participant27_Session3_Corrected.vtt","Session3","wanderer",1,2023-07-09 00:06:53.23,2023-07-09 01:13:12.51,3979.27999997139
+"Participant27","Participant27_Session3_Corrected.vtt","Session3","deep_sea_divers",1,2023-07-09 01:13:37.55,2023-07-09 01:18:11.19,273.640000104904
+"Participant27","Participant27_Session3_Corrected.vtt","Session3","journey",1,2023-07-09 01:18:26.8,2023-07-09 01:32:55.06,868.259999990463
+"Participant27","Participant27_Session3_Corrected.vtt","Session3","being_a_pirate",1,2023-07-09 01:33:03.58,2023-07-09 01:37:34.91,271.330000162125
+"Participant27","Participant27_Session3_Corrected.vtt","Session3","wild_west",1,2023-07-09 01:37:46.59,2023-07-09 01:42:31.82,285.230000019073
+"Participant27","Participant27_Session3_Corrected.vtt","Session3","arrival_6",1,2023-07-09 01:42:47.45,2023-07-09 01:42:48.61,1.15999984741211
+"Participant27","Participant27_Session3_Corrected.vtt","Session3","make_a_splash",1,2023-07-09 01:53:26.7,2023-07-09 01:57:12.65,225.950000047684
+"Participant28","Participant28_Session1_Corrected.vtt","Session1","journey",1,NA,NA,NA
+"Participant28","Participant28_Session1_Corrected.vtt","Session1","birthday_party_fun",1,2023-07-09 00:09:21.34,2023-07-09 00:09:25.66,4.32000017166138
+"Participant28","Participant28_Session1_Corrected.vtt","Session1","deep_sea_divers",1,2023-07-09 00:12:04.12,2023-07-09 00:15:02.03,177.910000085831
+"Participant28","Participant28_Session1_Corrected.vtt","Session1","quest",1,2023-07-09 00:15:22.92,2023-07-09 00:15:26.51,3.58999991416931
+"Participant28","Participant28_Session1_Corrected.vtt","Session1","return",1,2023-07-09 00:32:45.5,2023-07-09 00:32:47.53,2.02999997138977
+"Participant28","Participant28_Session1_Corrected.vtt","Session1","exhibit_12",1,2023-07-09 00:55:28.78,2023-07-09 00:58:20.7,171.920000076294
+"Participant28","Participant28_Session1_Corrected.vtt","Session1","arrival_2",1,2023-07-09 00:58:38.74,2023-07-09 01:03:41.64,302.900000095367
+"Participant28","Participant28_Session1_Corrected.vtt","Session1","arrival_5",1,2023-07-09 01:03:55.78,2023-07-09 01:03:59.87,4.08999991416931
+"Participant28","Participant28_Session2_Corrected.vtt","Session2","wild_west",1,2023-07-09 00:00:42.84,2023-07-09 00:03:34,171.160000085831
+"Participant28","Participant28_Session2_Corrected.vtt","Session2","being_a_pirate",1,2023-07-09 00:04:02.48,2023-07-09 00:04:04.64,2.16000008583069
+"Participant28","Participant28_Session2_Corrected.vtt","Session2","arrival_1",1,2023-07-09 00:06:49.9,2023-07-09 00:06:52.67,2.76999998092651
+"Participant28","Participant28_Session2_Corrected.vtt","Session2","by_the_lake",1,2023-07-09 00:12:50.94,2023-07-09 00:15:18.03,147.089999914169
+"Participant28","Participant28_Session2_Corrected.vtt","Session2","ancient_rome",1,2023-07-09 00:15:28.17,2023-07-09 00:15:29.02,0.849999904632568
+"Participant28","Participant28_Session2_Corrected.vtt","Session2","campsite",1,2023-07-09 00:17:52.93,2023-07-09 00:17:54.45,1.51999998092651
+"Participant28","Participant28_Session2_Corrected.vtt","Session2","wanderer",1,2023-07-09 00:19:47.6,2023-07-09 00:47:53.71,1686.11000013351
+"Participant28","Participant28_Session2_Corrected.vtt","Session2","escape_from_the_zoo",1,2023-07-09 00:48:06.43,2023-07-09 00:48:08.48,2.04999995231628
+"Participant28","Participant28_Session2_Corrected.vtt","Session2","arrival_3",1,2023-07-09 00:50:22.37,2023-07-09 00:50:23.84,1.47000002861023
+"Participant28","Participant28_Session2_Corrected.vtt","Session2","picture_this",1,2023-07-09 00:56:16.13,2023-07-09 01:00:46.33,270.199999809265
+"Participant28","Participant28_Session2_Corrected.vtt","Session2","unfriendly_giants",1,2023-07-09 01:01:00.06,2023-07-09 01:01:02.07,2.00999999046326
+"Participant28","Participant28_Session2_Corrected.vtt","Session2","arrival_6",1,2023-07-09 01:03:58.59,2023-07-09 01:14:00.52,601.930000066757
+"Participant28","Participant28_Session2_Corrected.vtt","Session2","make_a_splash",1,2023-07-09 01:14:30.69,2023-07-09 01:14:33.54,2.84999990463257
+"Participant28","Participant28_Session2_Corrected.vtt","Session2","flowerman",1,2023-07-09 01:17:21.67,2023-07-09 01:33:19.3,957.629999876022
+"Participant28","Participant28_Session2_Corrected.vtt","Session2","airport",1,2023-07-09 01:33:28.14,2023-07-09 01:35:55.13,146.990000009537
+"Participant28","Participant28_Session3_Corrected.vtt","Session3","arrival_5",1,2023-07-09 00:00:27.56,2023-07-09 00:00:30.41,2.85000014305115
+"Participant28","Participant28_Session3_Corrected.vtt","Session3","dinasours_spacemen_and_ghouls",1,2023-07-09 00:18:07.86,2023-07-09 00:18:08.95,1.09000015258789
+"Participant28","Participant28_Session3_Corrected.vtt","Session3","waldo_1",1,2023-07-09 00:21:31.04,2023-07-09 00:24:46.79,195.75
+"Participant29","Participant29_Session1_Corrected.vtt","Session1","arrival-4",1,2023-07-09 00:00:47.42,2023-07-09 00:14:07.323,799.90299987793
+"Participant29","Participant29_Session1_Corrected.vtt","Session1","escape_from_the_zoo",1,2023-07-09 00:15:01.46,2023-07-09 00:17:32.709,151.249000072479
+"Participant29","Participant29_Session1_Corrected.vtt","Session1","unfriendly_giants",1,2023-07-09 00:17:57.62,2023-07-09 00:20:43.72,166.100000143051
+"Participant29","Participant29_Session1_Corrected.vtt","Session1","wild_west",1,2023-07-09 00:21:18.13,2023-07-09 00:24:28.835,190.704999923706
+"Participant29","Participant29_Session1_Corrected.vtt","Session1","being_a_pirate",1,2023-07-09 00:24:52.16,2023-07-09 00:27:24.393,152.232999801636
+"Participant29","Participant29_Session1_Corrected.vtt","Session1","by_the_lake",1,2023-07-09 00:27:43.32,2023-07-09 00:30:19.916,156.595999956131
+"Participant29","Participant29_Session1_Corrected.vtt","Session1","quest",1,2023-07-09 00:30:53.74,2023-07-09 00:45:52.35,898.609999895096
+"Participant29","Participant29_Session1_Corrected.vtt","Session1","make_a_splash",1,2023-07-09 00:46:03.56,2023-07-09 00:48:31.191,147.631000041962
+"Participant29","Participant29_Session1_Corrected.vtt","Session1","arrival-3",1,2023-07-09 00:48:53.39,2023-07-09 00:52:42.153,228.763000011444
+"Participant29","Participant29_Session1_Corrected.vtt","Session1","arrival-2",1,2023-07-09 00:53:03.79,2023-07-09 00:55:32.643,148.852999925613
+"Participant29","Participant29_Session1_Corrected.vtt","Session1","arival-5",1,2023-07-09 00:56:14.46,NA,NA
+"Participant29","Participant29_Session1_Corrected.vtt","Session1","arrival-5",1,NA,2023-07-09 01:01:52.626,NA
+"Participant29","Participant29_Session1_Corrected.vtt","Session1","ancient_rome",1,2023-07-09 01:02:33.28,2023-07-09 01:05:45.839,192.559000015259
+"Participant29","Participant29_Session1_Corrected.vtt","Session1","return",1,2023-07-09 01:06:13.61,2023-07-09 01:21:45.676,932.06600022316
+"Participant29","Participant29_Session2_Corrected .vtt","Session2","flowerman",1,2023-07-09 00:00:23.07,2023-07-09 00:13:55.067,811.996999979019
+"Participant29","Participant29_Session2_Corrected .vtt","Session2","deep_sea_divers",1,2023-07-09 00:14:34.3,2023-07-09 00:17:35.918,181.618000030518
+"Participant29","Participant29_Session2_Corrected .vtt","Session2","airport",1,2023-07-09 00:17:32.29,2023-07-09 00:20:53.36,201.069999933243
+"Participant29","Participant29_Session2_Corrected .vtt","Session2","campsite",1,2023-07-09 00:21:15.53,2023-07-09 00:24:36.864,201.334000110626
+"Participant29","Participant29_Session2_Corrected .vtt","Session2","wanderer",1,2023-07-09 00:25:21.7,2023-07-09 00:45:41.756,1220.05599999428
+"Participant29","Participant29_Session2_Corrected .vtt","Session2","dinosaurs_spacemen_and_ghouls",1,2023-07-09 00:46:24.2,2023-07-09 00:49:41.337,197.136999845505
+"Participant29","Participant29_Session2_Corrected .vtt","Session2","exhibit-12",1,2023-07-09 00:50:16.21,2023-07-09 00:52:53.32,157.109999895096
+"Participant29","Participant29_Session2_Corrected .vtt","Session2","waldo-1",1,2023-07-09 00:53:12.44,2023-07-09 00:57:51.421,278.980999946594
+"Participant29","Participant29_Session2_Corrected .vtt","Session2","picture_this",1,2023-07-09 00:58:14.26,2023-07-09 01:02:43.273,269.013000011444
+"Participant29","Participant29_Session2_Corrected .vtt","Session2","arrival-1",1,2023-07-09 01:03:01.14,2023-07-09 01:06:49.574,228.43399977684
+"Participant29","Participant29_Session2_Corrected .vtt","Session2","birthday_party_fun",1,2023-07-09 01:07:02.27,2023-07-09 01:09:42.779,160.509000062943
+"Participant29","Participant29_Session2_Corrected .vtt","Session2","arrival-6",1,2023-07-09 01:09:58.61,2023-07-09 01:17:45.68,467.070000171661
+"Participant29","Participant29_Session2_Corrected .vtt","Session2","journey",1,2023-07-09 01:18:04.37,2023-07-09 01:27:11.316,546.946000099182
+"Participant30","Participant30_Session1_Corrected .vtt","Session1","ancient_rome",1,2023-07-09 00:02:06.28,2023-07-09 00:04:23.23,136.950000047684
+"Participant30","Participant30_Session1_Corrected .vtt","Session1","by_the_lake",1,2023-07-09 00:05:17.328,2023-07-09 00:07:14.946,117.618000030518
+"Participant30","Participant30_Session1_Corrected .vtt","Session1","arrival-6",1,2023-07-09 00:09:29.58,2023-07-09 00:27:12.203,1062.62300014496
+"Participant30","Participant30_Session1_Corrected .vtt","Session1","picture_this",1,2023-07-09 00:32:49.22,2023-07-09 00:34:19.537,90.316999912262
+"Participant30","Participant30_Session1_Corrected .vtt","Session1","wanderer",1,2023-07-09 00:34:15.41,2023-07-09 01:01:25.5,1630.08999991417
+"Participant30","Participant30_Session2_Corrected.vtt","Session2","wanderer",1,2023-07-09 00:00:18.16,2023-07-09 00:28:02.77,1664.6099998951
+"Participant30","Participant30_Session2_Corrected.vtt","Session2","unfriendly_giants",1,2023-07-09 00:29:44.15,2023-07-09 00:33:07.551,203.401000022888
+"Participant30","Participant30_Session2_Corrected.vtt","Session2","waldo-1",1,2023-07-09 00:34:24.23,2023-07-09 00:37:08.83,164.599999904633
+"Participant30","Participant30_Session2_Corrected.vtt","Session2","make_a_splash",1,2023-07-09 00:37:55.51,2023-07-09 00:40:06.561,131.051000118256
+"Participant30","Participant30_Session2_Corrected.vtt","Session2","dinosaurs_spacemen_and_ghouls",1,2023-07-09 00:40:58.08,2023-07-09 00:44:07.4,189.320000171661
+"Participant30","Participant30_Session2_Corrected.vtt","Session2","quest",1,2023-07-09 00:45:26.3,2023-07-09 01:09:44.541,1458.24099993706
+"Participant30","Participant30_Session2_Corrected.vtt","Session2","arrival-1",1,2023-07-09 01:15:02.51,2023-07-09 01:23:58.517,536.006999969482
+"Participant30","Participant30_Session2_Corrected.vtt","Session2","arrival-2",1,2023-07-09 01:24:57.11,2023-07-09 01:29:49.268,292.157999992371
+"Participant30","Participant30_Session2_Corrected.vtt","Session2","return",1,2023-07-09 01:30:43.34,2023-07-09 01:50:58.54,1215.20000004768
+"Participant30","Participant30_Session2_Corrected.vtt","Session2","deep_sea_divers",1,2023-07-09 01:51:56.04,2023-07-09 01:54:19.773,143.733000040054
+"Participant30","Participant30_Session2_Corrected.vtt","Session2","escape_from_the_zoo",1,2023-07-09 01:55:10.42,2023-07-09 01:57:35.144,144.723999977112
+"Participant30","Participant30_Session2_Corrected.vtt","Session2","campsite",1,2023-07-09 01:58:19.55,2023-07-09 02:00:49.498,149.947999954224
+"Participant30","Participant30_Session3_Corrected.vtt","Session3","journey",1,2023-07-09 00:00:29.89,2023-07-09 00:27:07.054,1597.16399979591
+"Participant30","Participant30_Session3_Corrected.vtt","Session3","arrival-4",1,2023-07-09 00:27:04.52,2023-07-09 00:58:51.028,1906.50800013542
+"Participant30","Participant30_Session3_Corrected.vtt","Session3","picture_this",1,2023-07-09 01:03:41.717,2023-07-09 01:07:01.079,199.361999988556
+"Participant30","Participant30_Session3_Corrected.vtt","Session3","arrival-3",1,2023-07-09 01:07:34.92,2023-07-09 01:14:47.889,432.968999862671
+"Participant30","Participant30_Session3_Corrected.vtt","Session3","birthday_party_fun",1,2023-07-09 01:15:31.99,2023-07-09 01:17:57.68,145.69000005722
+"Participant30","Participant30_Session3_Corrected.vtt","Session3","airport",1,2023-07-09 01:18:29.75,2023-07-09 01:20:49.23,139.480000019073
+"Participant30","Participant30_Session3_Corrected.vtt","Session3","flowerman",1,2023-07-09 01:21:39.42,2023-07-09 01:41:16.29,1176.86999988556
+"Participant30","Participant30_Session3_Corrected.vtt","Session3","being_a_pirate",1,2023-07-09 01:42:33.95,2023-07-09 01:44:57.079,143.128999948502
+"Participant30","Participant30_Session3_Corrected.vtt","Session3","arrival-5",1,2023-07-09 01:45:47.27,2023-07-09 01:57:07.386,680.115999937057
+"Participant30","Participant30_Session3_Corrected.vtt","Session3","wild_west",1,2023-07-09 01:57:54.99,2023-07-09 02:01:11.33,196.339999914169
+"Participant31","Participant31_Session1_Corrected.vtt","Session1","journey",1,2023-07-09 00:02:13.54,2023-07-09 00:14:27.51,733.97000002861
+"Participant31","Participant31_Session1_Corrected.vtt","Session1","flowerman",1,2023-07-09 00:15:21.98,2023-07-09 00:21:57.72,395.740000009537
+"Participant31","Participant31_Session1_Corrected.vtt","Session1","deep_sea_divers",1,2023-07-09 00:24:04.3,2023-07-09 00:24:06.01,1.71000003814697
+"Participant31","Participant31_Session1_Corrected.vtt","Session1","ancient_rome",1,2023-07-09 00:28:25.33,2023-07-09 00:28:26.33,1
+"Participant31","Participant31_Session1_Corrected.vtt","Session1","dinasours_spacemen_and_ghouls",1,2023-07-09 00:31:00.92,2023-07-09 00:31:03.12,2.19999980926514
+"Participant31","Participant31_Session1_Corrected.vtt","Session1","arrival_1",1,2023-07-09 00:33:47.95,2023-07-09 00:33:53.762,5.81200003623962
+"Participant31","Participant31_Session1_Corrected.vtt","Session1","return",1,2023-07-09 00:39:11.96,2023-07-09 00:51:52.83,760.869999885559
+"Participant31","Participant31_Session1_Corrected.vtt","Session1","birthday_party_fun",1,2023-07-09 00:52:53.21,2023-07-09 00:52:54.69,1.48000001907349
+"Participant31","Participant31_Session1_Corrected.vtt","Session1","escape_from_the_zoo",1,2023-07-09 00:55:21.13,2023-07-09 00:55:22.41,1.27999997138977
+"Participant31","Participant31_Session1_Corrected.vtt","Session1","campsite",1,2023-07-09 00:57:29.73,2023-07-09 00:57:31.92,2.19000005722046
+"Participant31","Participant31_Session1_Corrected.vtt","Session1","quest",1,2023-07-09 01:00:03.97,2023-07-09 01:12:43.06,759.089999914169
+"Participant31","Participant31_Session1_Corrected.vtt","Session1","exhibit_12",1,2023-07-09 01:13:36.01,2023-07-09 01:13:36.85,0.839999914169312
+"Participant31","Participant31_Session1_Corrected.vtt","Session1","arrival_2",1,2023-07-09 01:16:08.72,2023-07-09 01:16:11.77,3.04999995231628
+"Participant31","Participant31_Session1_Corrected.vtt","Session1","unfriendly_giants",1,2023-07-09 01:23:16.01,2023-07-09 01:23:18.09,2.07999992370605
+"Participant31","Participant31_Session2_Corrected.vtt","Session2","arrival_3",1,2023-07-09 00:01:35.17,2023-07-09 00:06:01.26,266.089999914169
+"Participant31","Participant31_Session2_Corrected.vtt","Session2","by_the_lake",1,2023-07-09 00:07:11.53,2023-07-09 00:07:13.15,1.62000012397766
+"Participant31","Participant31_Session2_Corrected.vtt","Session2","wild_west",1,2023-07-09 00:09:31.42,2023-07-09 00:10:51.27,79.8499999046326
+"Participant31","Participant31_Session2_Corrected.vtt","Session2","wanderer",1,2023-07-09 00:12:18.73,2023-07-09 00:50:07.2,2268.47000002861
+"Participant31","Participant31_Session2_Corrected.vtt","Session2","picture_this",1,2023-07-09 00:51:47.98,2023-07-09 00:54:08.52,140.539999961853
+"Participant31","Participant31_Session2_Corrected.vtt","Session2","airport",1,2023-07-09 00:54:43.24,2023-07-09 00:54:44.5,1.25999999046326
+"Participant31","Participant31_Session2_Corrected.vtt","Session2","arrival_6",1,2023-07-09 00:57:54.93,2023-07-09 00:58:00.34,5.40999984741211
+"Participant31","Participant31_Session2_Corrected.vtt","Session2","waldo_1",1,2023-07-09 01:04:49.12,2023-07-09 01:06:45.51,116.390000104904
+"Participant31","Participant31_Session2_Corrected.vtt","Session2","being_a_pirate",1,2023-07-09 01:07:35.72,2023-07-09 01:07:38.59,2.86999988555908
+"Participant31","Participant31_Session2_Corrected.vtt","Session2","make_a_splash",1,2023-07-09 01:09:49.43,2023-07-09 01:09:53.948,4.51799988746643
+"Participant31","Participant31_Session2_Corrected.vtt","Session2","arrival_4",1,2023-07-09 01:12:11.63,2023-07-09 01:12:14.7,3.0699999332428
+"Participant31","Participant31_Session2_Corrected.vtt","Session2","arrival_5",1,2023-07-09 01:22:56,2023-07-09 01:23:00.07,4.0699999332428
+"Participant32","Participant32_Session1_Corrected.vtt","Session1","dinasours_spacemen_and_ghouls",1,2023-07-09 00:02:09.3,2023-07-09 00:02:14.666,5.3659999370575
+"Participant32","Participant32_Session1_Corrected.vtt","Session1","arrival_6I'm",1,2023-07-09 00:10:14.76,NA,NA
+"Participant32","Participant32_Session1_Corrected.vtt","Session1","arrival_6",1,NA,2023-07-09 00:24:26.26,NA
+"Participant32","Participant32_Session1_Corrected.vtt","Session1","arrival_5",1,2023-07-09 00:25:15.86,NA,NA
+"Participant32","Participant32_Session1_Corrected.vtt","Session1","arrival_4",1,2023-07-09 00:41:16.55,2023-07-09 00:25:18.85,-957.700000047684
+"Participant32","Participant32_Session1_Corrected.vtt","Session1","wild_west",1,2023-07-09 00:35:20.92,2023-07-09 00:40:25.32,304.399999856949
+"Participant32","Participant32_Session1_Corrected.vtt","Session1","arrival_4",2,NA,2023-07-09 00:41:19.408,NA
+"Participant32","Participant32_Session1_Corrected.vtt","Session1","exhibit_12",1,2023-07-09 01:01:42,2023-07-09 01:05:32.05,230.049999952316
+"Participant32","Participant32_Session1_Corrected.vtt","Session1","arrival_3",1,2023-07-09 01:06:29,2023-07-09 01:11:45.42,316.420000076294
+"Participant32","Participant32_Session1_Corrected.vtt","Session1","airport",1,2023-07-09 01:12:29.54,2023-07-09 01:12:33.705,4.16499996185303
+"Participant32","Participant32_Session1_Corrected.vtt","Session1","picture_this",1,2023-07-09 01:17:59.94,2023-07-09 01:18:01.76,1.8199999332428
+"Participant32","Participant32_Session1_Corrected.vtt","Session1","being_a_pirate",1,2023-07-09 01:24:01.17,2023-07-09 01:24:05.717,4.54699993133545
+"Participant32","Participant32_Session2_Corrected.vtt","Session2","waldo_1",1,2023-07-09 00:00:30.71,2023-07-09 00:03:23.12,172.409999847412
+"Participant32","Participant32_Session2_Corrected.vtt","Session2","arrival_1",1,2023-07-09 00:07:36.06,2023-07-09 00:07:39.39,3.33000016212463
+"Participant32","Participant32_Session2_Corrected.vtt","Session2","campsite",1,2023-07-09 00:23:48.31,2023-07-09 00:29:14.97,326.660000085831
+"Participant32","Participant32_Session2_Corrected.vtt","Session2","birthday_party_fun",1,2023-07-09 00:29:53.92,2023-07-09 00:29:57.39,3.47000002861023
+"Participant32","Participant32_Session2_Corrected.vtt","Session2","flowerman",1,NA,2023-07-09 01:03:03.95,NA
+"Participant32","Participant32_Session2_Corrected.vtt","Session2","deep_sea_divers",1,2023-07-09 01:04:12.15,2023-07-09 01:04:15.76,3.60999989509583
+"Participant32","Participant32_Session2_Corrected.vtt","Session2","make_a_splash",1,2023-07-09 01:08:33.97,2023-07-09 01:08:35.81,1.83999991416931
+"Participant32","Participant32_Session2_Corrected.vtt","Session2","wanderer",1,2023-07-09 01:13:53.29,2023-07-09 02:22:24.06,4110.76999998093
+"Participant32","Participant32_Session3_Corrected.vtt","Session3","escape_from_the_zoo",1,2023-07-09 00:00:28.96,2023-07-09 00:05:03.67,274.710000038147
+"Participant32","Participant32_Session3_Corrected.vtt","Session3","quest",1,2023-07-09 00:05:48.42,2023-07-09 00:05:53.339,4.91899991035461
+"Participant32","Participant32_Session3_Corrected.vtt","Session3","unfriendly_giants",1,2023-07-09 00:54:55.53,2023-07-09 00:54:58.268,2.73799991607666
+"Participant32","Participant32_Session3_Corrected.vtt","Session3","arrival_2",1,2023-07-09 01:02:38.93,2023-07-09 01:13:46.269,667.338999986649
+"Participant32","Participant32_Session3_Corrected.vtt","Session3","Return",1,2023-07-09 01:14:51.89,2023-07-09 01:50:40.12,2148.22999978065
+"Participant32","Participant32_Session3_Corrected.vtt","Session3","Ancient_Rome",1,2023-07-09 01:50:38.851,2023-07-09 01:54:36.12,237.268999814987
+"Participant32","Participant32_Session3_Corrected.vtt","Session3","by_the_lake",1,2023-07-09 01:55:15.83,2023-07-09 01:55:16.15,0.320000171661377
+"Participant32","Participant32_Session3_Corrected.vtt","Session3","Journey",1,2023-07-09 02:00:31.05,NA,NA
+"Participant32","Participant32_Session3_Corrected.vtt","Session3","journey",1,NA,2023-07-09 02:26:06.09,NA
+"Participant33","Participant33_Session1_Corrected.vtt","Session1","by_the_lake",1,2023-07-09 00:01:15.85,NA,NA
+"Participant33","Participant33_Session1_Corrected.vtt","Session1","waldo-1",1,2023-07-09 00:01:15.85,2023-07-09 00:07:34.86,379.009999990463
+"Participant33","Participant33_Session1_Corrected.vtt","Session1","airport",1,2023-07-09 00:08:16.45,2023-07-09 00:10:15.85,119.399999856949
+"Participant33","Participant33_Session1_Corrected.vtt","Session1","picture_this",1,2023-07-09 00:11:09.11,2023-07-09 00:12:48.753,99.643000125885
+"Participant33","Participant33_Session1_Corrected.vtt","Session1","exhibit-12",1,2023-07-09 00:13:36.79,2023-07-09 00:15:45.533,128.743000030518
+"Participant33","Participant33_Session1_Corrected.vtt","Session1","wild_west",1,2023-07-09 00:16:31.9,2023-07-09 00:18:40.313,128.412999868393
+"Participant33","Participant33_Session1_Corrected.vtt","Session1","arrival-4",1,2023-07-09 00:20:35.31,2023-07-09 00:30:16.633,581.322999954224
+"Participant33","Participant33_Session1_Corrected.vtt","Session1","escape_from_the_zoo",1,2023-07-09 00:31:28.35,2023-07-09 00:33:29.09,120.740000009537
+"Participant33","Participant33_Session1_Corrected.vtt","Session1","floweman",1,2023-07-09 00:33:27.65,NA,NA
+"Participant33","Participant33_Session1_Corrected.vtt","Session1","flowerman",1,NA,2023-07-09 00:49:04.231,NA
+"Participant33","Participant33_Session1_Corrected.vtt","Session1","birthday_party_fun",1,2023-07-09 00:50:09.31,2023-07-09 00:52:25.94,136.630000114441
+"Participant33","Participant33_Session1_Corrected.vtt","Session1","make_a_splash",1,2023-07-09 00:53:07.97,2023-07-09 00:54:34.698,86.7279999256134
+"Participant33","Participant33_Session1_Corrected.vtt","Session1","deep_sea_divers",1,2023-07-09 00:55:30.31,2023-07-09 00:57:13.811,103.501000165939
+"Participant33","Participant33_Session1_Corrected.vtt","Session1","arrival-3",1,2023-07-09 00:58:11.34,2023-07-09 01:01:19.212,187.871999979019
+"Participant33","Participant33_Session1_Corrected.vtt","Session1","wanderer",1,2023-07-09 01:02:21.56,2023-07-09 01:29:37.951,1636.39100003242
+"Participant34","Participant34_Session1_Corrected.vtt","Session1","unfriendly_giants",1,2023-07-09 00:01:02.05,2023-07-09 00:04:34.654,212.604000091553
+"Participant34","Participant34_Session1_Corrected.vtt","Session1","arrival-1",1,2023-07-09 00:04:31.66,2023-07-09 00:13:38.968,547.307999849319
+"Participant34","Participant34_Session1_Corrected.vtt","Session1","journey",1,2023-07-09 00:14:04.39,2023-07-09 00:28:57.894,893.503999948502
+"Participant34","Participant34_Session1_Corrected.vtt","Session1","arrival-6",1,2023-07-09 00:29:25.51,2023-07-09 00:42:03.084,757.574000120163
+"Participant34","Participant34_Session1_Corrected.vtt","Session1","wanderer",1,2023-07-09 00:42:55.99,2023-07-09 01:11:55.137,1739.14700007439
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","escape_from_the_zo",1,NA,NA,NA
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","escape_from_the_zoo",1,NA,2023-07-09 00:03:35.765,NA
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","exhibit-12",1,2023-07-09 00:04:17.44,2023-07-09 00:07:02.2,164.759999990463
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","waldo-1",1,2023-07-09 00:07:14.11,2023-07-09 00:10:34.251,200.141000032425
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","arrival-3",1,2023-07-09 00:11:32.38,2023-07-09 00:15:51.829,259.448999881744
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","wild_west",1,2023-07-09 00:16:42.56,2023-07-09 00:19:54.33,191.769999980927
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","arrival-5",1,2023-07-09 00:20:15.83,2023-07-09 00:29:23.539,547.709000110626
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","make_a_splash",1,2023-07-09 00:29:45.95,2023-07-09 00:31:42.199,116.248999834061
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","campsite",1,2023-07-09 00:32:10.06,2023-07-09 00:34:02.5,112.44000005722
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","ancient_rome",1,2023-07-09 00:34:38.24,2023-07-09 00:36:41.967,123.726999998093
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","picture_this",1,2023-07-09 00:36:55.06,2023-07-09 00:39:23.504,148.444000005722
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","quest",1,2023-07-09 00:39:46.51,2023-07-09 00:58:16.951,1110.44099998474
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","return",1,2023-07-09 00:58:35.03,2023-07-09 01:11:11.81,756.77999997139
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","airport",1,2023-07-09 01:11:32.32,2023-07-09 01:14:29.301,176.981000185013
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","deep_sea_divers",1,2023-07-09 01:14:53.9,2023-07-09 01:17:18.38,144.480000019073
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","by_the_lake",1,2023-07-09 01:17:30.11,2023-07-09 01:19:47.16,137.050000190735
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","birthdayParty_funOK,",1,2023-07-09 01:20:18.83,NA,NA
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","birthday_party_fun",1,NA,2023-07-09 01:22:08.343,NA
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","dinosaurs_spacemen_and_ghouls",1,2023-07-09 01:22:38.23,2023-07-09 01:24:43.97,125.740000009537
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","being_a_pirate",1,2023-07-09 01:25:01.14,2023-07-09 01:27:16.47,135.329999923706
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","arrival-4",1,2023-07-09 01:28:34.32,2023-07-09 01:46:29.626,1075.30599999428
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","arrival-2",1,2023-07-09 01:47:23.97,2023-07-09 01:51:00.671,216.700999975204
+"Participant34","Participant34_Session2_Corrected.vtt","Session2","flowerman",1,2023-07-09 01:51:57.38,2023-07-09 02:03:13.656,676.27599978447
+"Participant5","Participant5_Session1_Corrected.vtt","Session1","quest",1,2023-07-09 00:01:45.67,2023-07-09 00:20:53.16,1147.49000000954
+"Participant5","Participant5_Session1_Corrected.vtt","Session1","picture_this",1,2023-07-09 00:21:56.52,2023-07-09 00:26:21.06,264.539999961853
+"Participant5","Participant5_Session1_Corrected.vtt","Session1","journey",1,2023-07-09 00:27:23.58,2023-07-09 00:43:55.01,991.430000066757
+"Participant5","Participant5_Session1_Corrected.vtt","Session1","arrival-6",1,2023-07-09 00:43:52.71,2023-07-09 01:02:58.61,1145.89999985695
+"Participant5","Participant5_Session1_Corrected.vtt","Session1","wild_west",1,2023-07-09 01:03:39.34,2023-07-09 01:08:24.936,285.59600019455
+"Participant5","Participant5_Session1_Corrected.vtt","Session1","arrival-5",1,2023-07-09 01:09:33.873,2023-07-09 01:21:04.823,690.950000047684
+"Participant5","Participant5_Session1_Corrected.vtt","Session1","deep_sea_divers",1,2023-07-09 01:21:45.96,2023-07-09 01:26:35.632,289.671999931335
+"Participant5","Participant5_Session2_Corrected.vtt","Session2","unfriendly_giants",1,2023-07-09 00:00:46.71,2023-07-09 00:04:23.393,216.682999849319
+"Participant5","Participant5_Session2_Corrected.vtt","Session2","birthday_party_fun",1,2023-07-09 00:05:05.78,2023-07-09 00:07:44.28,158.5
+"Participant5","Participant5_Session2_Corrected.vtt","Session2","arrival-2",1,2023-07-09 00:11:40.55,2023-07-09 00:16:12.491,271.940999984741
+"Participant5","Participant5_Session2_Corrected.vtt","Session2","by_the_lake",1,2023-07-09 00:37:28.036,2023-07-09 00:41:26.14,238.104000091553
+"Participant5","Participant5_Session2_Corrected.vtt","Session2","return",1,2023-07-09 00:41:52.76,2023-07-09 01:01:51.79,1199.02999997139
+"Participant5","Participant5_Session2_Corrected.vtt","Session2","ancient_rome",1,2023-07-09 01:02:31.52,2023-07-09 01:05:49.287,197.766999959946
+"Participant5","Participant5_Session2_Corrected.vtt","Session2","flowerman",1,2023-07-09 01:06:44.79,2023-07-09 01:24:41.12,1076.32999992371
+"Participant5","Participant5_Session2_Corrected.vtt","Session2","airport",1,2023-07-09 01:25:15.24,2023-07-09 01:29:05.38,230.140000104904
+"Participant5","Participant5_Session2_Corrected.vtt","Session2","escape_from_the_zoo",1,2023-07-09 01:29:22.2,NA,NA
+"Participant5","Participant5_Session2_Corrected.vtt","Session2","escape_from_the_zoom",1,NA,2023-07-09 01:31:59.897,NA
+"Participant5","Participant5_Session3_Corrected .vtt","Session3","waldo-1",1,2023-07-09 00:00:57.17,2023-07-09 00:05:11.324,254.15399980545
+"Participant5","Participant5_Session3_Corrected .vtt","Session3","arrival-1",1,2023-07-09 00:05:57.85,2023-07-09 00:11:32.114,334.264000177383
+"Participant5","Participant5_Session3_Corrected .vtt","Session3","arrival-3",1,2023-07-09 00:12:03.04,2023-07-09 00:16:51.71,288.670000076294
+"Participant5","Participant5_Session3_Corrected .vtt","Session3","being_a_pirate",1,2023-07-09 00:17:48.06,2023-07-09 00:21:12.059,203.999000072479
+"Participant5","Participant5_Session3_Corrected .vtt","Session3","arrival-4",1,2023-07-09 00:21:40.12,2023-07-09 00:41:58.896,1218.77600002289
+"Participant5","Participant5_Session3_Corrected .vtt","Session3","male_a_splash",1,2023-07-09 00:43:17.15,NA,NA
+"Participant5","Participant5_Session3_Corrected .vtt","Session3","make_a_splash",1,NA,2023-07-09 00:46:43.666,NA
+"Participant5","Participant5_Session3_Corrected .vtt","Session3",NA,1,NA,NA,NA
+"Participant5","Participant5_Session3_Corrected .vtt","Session3","wanderer",1,NA,2023-07-09 01:30:40.068,NA
+"Participant5","Participant5_Session3_Corrected .vtt","Session3","dinosaurs_spacemen_and_ghouls",1,2023-07-09 01:32:34.4,2023-07-09 01:39:36.62,422.219999790192
+"Participant5","Participant5_Session3_Corrected .vtt","Session3","campsite",1,2023-07-09 01:39:52.14,2023-07-09 01:43:39.645,227.504999876022
+"Participant5","Participant5_Session3_Corrected .vtt","Session3","exhibit_12",1,2023-07-09 01:44:09.19,2023-07-09 01:47:56.29,227.099999904633
+"Participant6","Participant6_Session1_Corrected.vtt","Session1","deep_sea_divers",1,2023-07-09 00:01:00.28,2023-07-09 00:01:02.47,2.19000005722046
+"Participant6","Participant6_Session1_Corrected.vtt","Session1","waldo-1",1,2023-07-09 00:06:26.97,2023-07-09 00:10:25.7,238.730000019073
+"Participant6","Participant6_Session1_Corrected.vtt","Session1","arrival-4",1,2023-07-09 00:11:19.35,2023-07-09 00:41:15.62,1796.26999998093
+"Participant6","Participant6_Session1_Corrected.vtt","Session1","arrival-2",1,2023-07-09 00:41:55.92,2023-07-09 00:41:59.7,3.77999997138977
+"Participant6","Participant6_Session1_Corrected.vtt","Session1","flowerman",1,2023-07-09 00:50:07.32,2023-07-09 00:50:11.554,4.23399996757507
+"Participant6","Participant6_Session2_Corrected.vtt","Session2","quest",1,2023-07-09 00:00:42.01,2023-07-09 00:34:40.17,2038.16000008583
+"Participant6","Participant6_Session2_Corrected.vtt","Session2","journey",1,2023-07-09 00:35:03.33,2023-07-09 00:35:08.568,5.23800015449524
+"Participant6","Participant6_Session2_Corrected.vtt","Session2","arrival_1",1,2023-07-09 00:55:31.92,NA,NA
+"Participant6","Participant6_Session2_Corrected.vtt","Session2","dinasours_spacemen_and_ghouls",1,NA,2023-07-09 01:11:45.77,NA
+"Participant6","Participant6_Session2_Corrected.vtt","Session2","wild_west",1,2023-07-09 01:11:43.722,2023-07-09 01:16:46.3,302.578000068665
+"Participant6","Participant6_Session2_Corrected.vtt","Session2","unfriendly_giants",1,2023-07-09 01:17:11.84,2023-07-09 01:17:15.697,3.85700011253357
+"Participant6","Participant6_Session2_Corrected.vtt","Session2","airport",1,2023-07-09 01:21:19.83,2023-07-09 01:21:22.55,2.72000002861023
+"Participant6","Participant6_Session2_Corrected.vtt","Session2","ancient_rome",1,2023-07-09 01:25:46.81,2023-07-09 01:25:52.473,5.66300010681152
+"Participant6","Participant6_Session2_Corrected.vtt","Session2","campsite",1,2023-07-09 01:29:53.28,2023-07-09 01:34:18.557,265.276999950409
+"Participant6","Participant6_Session2_Corrected.vtt","Session2","birthday_party_fun",1,2023-07-09 01:34:32.56,2023-07-09 01:34:35.967,3.40700006484985
+"Participant6","Participant6_Session3_Corrected.vtt","Session3","arrival_3",1,2023-07-09 00:00:36.61,2023-07-09 00:00:42.716,6.10600018501282
+"Participant6","Participant6_Session3_Corrected.vtt","Session3","arrival_6",1,2023-07-09 00:16:46.4,2023-07-09 00:16:51.806,5.40599989891052
+"Participant6","Participant6_Session3_Corrected.vtt","Session3","arrival_5",1,2023-07-09 00:41:39.54,2023-07-09 00:41:44.633,5.09299993515015
+"Participant6","Participant6_Session3_Corrected.vtt","Session3","exhibit_12",1,2023-07-09 00:59:47.74,2023-07-09 00:59:49.891,2.15100002288818
+"Participant6","Participant6_Session3_Corrected.vtt","Session3","by_the_lake",1,2023-07-09 00:59:47.74,2023-07-09 01:07:55.16,487.420000076294
+"Participant6","Participant6_Session3_Corrected.vtt","Session3","return",1,2023-07-09 01:08:14.24,2023-07-09 01:33:50.93,1536.69000005722
+"Participant6","Participant6_Session3_Corrected.vtt","Session3","picture_this",1,2023-07-09 01:34:08.31,2023-07-09 01:37:19.58,191.269999980927
+"Participant6","Participant6_Session3_Corrected.vtt","Session3","make_a_splash",1,2023-07-09 01:37:18.383,2023-07-09 01:37:19.58,1.19700002670288
+"Participant6","Participant6_Session4_Corrected.vtt","Session4","escape_from_the_zoo",1,2023-07-09 00:00:23.48,2023-07-09 00:00:28.457,4.97699999809265
+"Participant6","Participant6_Session4_Corrected.vtt","Session4","being_a_pirate",1,2023-07-09 00:05:51.17,2023-07-09 00:05:56.197,5.02699995040894
+"Participant6","Participant6_Session4_Corrected.vtt","Session4","wanderer",1,2023-07-09 00:09:56.35,2023-07-09 01:03:10.67,3194.32000017166
+"Participant7","Participant7_Session1_Corrected.vtt","Session1","unfriendly_giants",1,2023-07-09 00:00:54.28,2023-07-09 00:00:58.747,4.46700000762939
+"Participant7","Participant7_Session1_Corrected.vtt","Session1","being_a_pirate",1,2023-07-09 00:06:46.01,2023-07-09 00:06:50.245,4.23499989509583
+"Participant7","Participant7_Session1_Corrected.vtt","Session1","arrival_6",1,2023-07-09 00:11:22.07,2023-07-09 00:19:56.44,514.370000123978
+"Participant7","Participant7_Session1_Corrected.vtt","Session1","journey",1,2023-07-09 00:20:29.56,2023-07-09 00:39:15.08,1125.51999998093
+"Participant7","Participant7_Session1_Corrected.vtt","Session1","flowerman",1,2023-07-09 00:39:13.627,2023-07-09 00:51:31.199,737.571999788284
+"Participant7","Participant7_Session1_Corrected.vtt","Session1","birthday_party_fun",1,2023-07-09 00:51:51.1,2023-07-09 00:51:54.76,3.66000008583069
+"Participant7","Participant7_Session1_Corrected.vtt","Session1","campsite",1,2023-07-09 00:56:27.88,2023-07-09 01:00:49.12,261.239999771118
+"Participant7","Participant7_Session1_Corrected.vtt","Session1","make_a_splash",1,2023-07-09 01:00:59.31,2023-07-09 01:04:12.02,192.710000038147
+"Participant7","Participant7_Session1_Corrected.vtt","Session1","arrival_4",1,2023-07-09 01:05:51.946,2023-07-09 01:19:32.259,820.31299996376
+"Participant7","Participant7_Session2_Corrected.vtt","Session2","wanderer",1,2023-07-09 00:22:37.36,2023-07-09 00:50:48.93,1691.57000017166
+"Participant7","Participant7_Session2_Corrected.vtt","Session2","ancient_rome",1,2023-07-09 00:51:31.33,2023-07-09 00:51:36.529,5.19900012016296
+"Participant7","Participant7_Session2_Corrected.vtt","Session2","arrival_1",1,2023-07-09 00:51:31.33,2023-07-09 00:51:36.529,5.19900012016296
+"Participant7","Participant7_Session2_Corrected.vtt","Session2","arrival_5",1,2023-07-09 01:01:36.961,2023-07-09 01:01:41.434,4.47300004959106
+"Participant7","Participant7_Session2_Corrected.vtt","Session2","airport",1,2023-07-09 01:09:37.26,2023-07-09 01:13:34.06,236.799999952316
+"Participant7","Participant7_Session2_Corrected.vtt","Session2","return",1,2023-07-09 01:13:52.97,2023-07-09 01:13:57.867,4.8970000743866
+"Participant7","Participant7_Session2_Corrected.vtt","Session2","escape_from_the_zoo",1,2023-07-09 01:29:25.767,2023-07-09 01:29:30.435,4.66799998283386
+"Participant7","Participant7_Session2_Corrected.vtt","Session2","wild_west",1,2023-07-09 01:32:36.06,2023-07-09 01:36:24.75,228.69000005722
+"Participant7","Participant7_Session2_Corrected.vtt","Session2","deep_sea_divers",1,2023-07-09 01:36:32.45,2023-07-09 01:38:55.86,143.409999847412
+"Participant7","Participant7_Session3_Corrected.vtt","Session3","picture_this",1,2023-07-09 00:00:29.16,2023-07-09 00:03:17.309,168.148999929428
+"Participant7","Participant7_Session3_Corrected.vtt","Session3","dinasours_spacemen_and_ghouls",1,2023-07-09 00:03:30.999,2023-07-09 00:03:35.63,4.63100004196167
+"Participant7","Participant7_Session3_Corrected.vtt","Session3","quest",1,2023-07-09 00:07:23.96,2023-07-09 00:07:28.495,4.53499984741211
+"Participant7","Participant7_Session3_Corrected.vtt","Session3","waldo_1",1,2023-07-09 00:24:55.98,2023-07-09 00:27:53.72,177.740000009537
+"Participant7","Participant7_Session3_Corrected.vtt","Session3","by_the_lake",1,2023-07-09 00:28:08.13,2023-07-09 00:28:12.071,3.94099998474121
+"Participant7","Participant7_Session3_Corrected.vtt","Session3","exhibit_12",1,2023-07-09 00:31:38.17,2023-07-09 00:31:40.96,2.78999996185303
+"Participant7","Participant7_Session3_Corrected.vtt","Session3","arrival_2",1,2023-07-09 00:34:57.4,2023-07-09 00:38:13.9,196.5
+"Participant8","Participant8_Session1_Corrected.vtt","Session1","birthday_party_fun",1,2023-07-09 00:02:05.66,2023-07-09 00:04:40.25,154.589999914169
+"Participant8","Participant8_Session1_Corrected.vtt","Session1","arrival-6",1,2023-07-09 00:06:24,2023-07-09 00:12:23.085,359.085000038147
+"Participant8","Participant8_Session1_Corrected.vtt","Session1","make_a_splash",1,2023-07-09 00:12:49.85,2023-07-09 00:15:37.864,168.014000177383
+"Participant8","Participant8_Session1_Corrected.vtt","Session1","return",1,2023-07-09 00:15:59.53,2023-07-09 00:27:06.991,667.460999965668
+"Participant8","Participant8_Session1_Corrected.vtt","Session1","ancient_rome",1,2023-07-09 00:32:13.52,2023-07-09 00:34:53.505,159.985000133514
+"Participant8","Participant8_Session1_Corrected.vtt","Session1","unfriendly_giants",1,2023-07-09 00:35:15.36,2023-07-09 00:37:47.9,152.540000200272
+"Participant8","Participant8_Session1_Corrected.vtt","Session1","escape_from_the_zoo",1,2023-07-09 00:38:14.23,2023-07-09 00:40:36.24,142.009999990463
+"Participant8","Participant8_Session1_Corrected.vtt","Session1","being_a_pirate",1,2023-07-09 00:40:48.92,2023-07-09 00:42:40.911,111.990999937057
+"Participant8","Participant8_Session1_Corrected.vtt","Session1","deep_sea_divers",1,2023-07-09 00:43:04.49,2023-07-09 00:44:53.015,108.525000095367
+"Participant8","Participant8_Session1_Corrected.vtt","Session1","wild_west",1,2023-07-09 00:45:14.18,2023-07-09 00:48:25.45,191.269999980927
+"Participant8","Participant8_Session1_Corrected.vtt","Session1","arrival-4",1,2023-07-09 00:49:30.6,2023-07-09 00:56:15.639,405.039000034332
+"Participant8","Participant8_Session2_Corrected.vtt","Session2","arrival-3",1,2023-07-09 00:01:07.92,2023-07-09 00:04:08.246,180.325999975204
+"Participant8","Participant8_Session2_Corrected.vtt","Session2","exhibit_12",1,2023-07-09 00:04:47.77,2023-07-09 00:07:25.62,157.849999904633
+"Participant8","Participant8_Session2_Corrected.vtt","Session2","airport",1,2023-07-09 00:07:41.06,2023-07-09 00:10:26.301,165.241000175476
+"Participant8","Participant8_Session2_Corrected.vtt","Session2","flowerman",1,2023-07-09 00:10:20.42,2023-07-09 00:24:12.99,832.569999933243
+"Participant8","Participant8_Session2_Corrected.vtt","Session2","wanderer",1,2023-07-09 00:24:53.52,2023-07-09 00:44:39.1,1185.57999992371
+"Participant8","Participant8_Session2_Corrected.vtt","Session2","arrival-1",1,2023-07-09 00:44:37.93,2023-07-09 00:48:27.909,229.978999853134
+"Participant8","Participant8_Session2_Corrected.vtt","Session2",NA,1,NA,NA,NA
+"Participant8","Participant8_Session2_Corrected.vtt","Session2","journey",1,NA,2023-07-09 00:58:45.72,NA
+"Participant8","Participant8_Session2_Corrected.vtt","Session2","by_the_lake",1,2023-07-09 00:58:43.56,2023-07-09 01:01:28.918,165.358000040054
+"Participant8","Participant8_Session2_Corrected.vtt","Session2","campsite",1,2023-07-09 01:03:37.17,2023-07-09 01:07:02,204.829999923706
+"Participant8","Participant8_Session2_Corrected.vtt","Session2","arrival-2",1,2023-07-09 01:07:15.67,2023-07-09 01:09:32.72,137.049999952316
+"Participant8","Participant8_Session2_Corrected.vtt","Session2","dinosaurs_spacemen_and_ghouls",1,2023-07-09 01:09:51.17,2023-07-09 01:12:26.17,155
+"Participant8","Participant8_Session2_Corrected.vtt","Session2","picture_this",1,2023-07-09 01:12:39.99,2023-07-09 01:14:40.52,120.52999997139
+"Participant8","Participant8_Session2_Corrected.vtt","Session2","waldo-1",1,2023-07-09 01:15:05.24,2023-07-09 01:17:45.9,160.660000085831
+"Participant8","Participant8_Session2_Corrected.vtt","Session2","quest",1,2023-07-09 01:18:04.95,2023-07-09 01:27:21.96,557.009999990463
+"Participant9","Participant9_Session1_Corrected.vtt","Session1","by_the_lake",1,2023-07-09 00:00:49.06,2023-07-09 00:00:53.676,4.61600017547607
+"Participant9","Participant9_Session1_Corrected.vtt","Session1","journey",1,2023-07-09 00:06:06.23,2023-07-09 00:18:58.24,772.009999990463
+"Participant9","Participant9_Session1_Corrected.vtt","Session1","arrival_2",1,2023-07-09 00:19:19.88,2023-07-09 00:19:24.781,4.9009997844696
+"Participant9","Participant9_Session1_Corrected.vtt","Session1","dinasours_spacemen_and_ghouls",1,2023-07-09 00:24:25.3,2023-07-09 00:30:07.14,341.840000152588
+"Participant9","Participant9_Session1_Corrected.vtt","Session1","birthday_party_fum",1,2023-07-09 00:30:39.36,NA,NA
+"Participant9","Participant9_Session1_Corrected.vtt","Session1","birthday_party_fun",1,NA,2023-07-09 00:30:42.09,NA
+"Participant9","Participant9_Session1_Corrected.vtt","Session1","picture_this",1,2023-07-09 00:34:40.14,NA,NA
+"Participant9","Participant9_Session1_Corrected.vtt","Session1","picture_pictures",1,NA,2023-07-09 00:34:43.12,NA
+"Participant9","Participant9_Session1_Corrected.vtt","Session1","arrival_1",1,2023-07-09 00:39:30.76,2023-07-09 00:43:35.08,244.319999933243
+"Participant9","Participant9_Session1_Corrected.vtt","Session1","wild_west",1,2023-07-09 00:44:03.98,2023-07-09 00:44:09.382,5.40199995040894
+"Participant9","Participant9_Session1_Corrected.vtt","Session1","campsite",1,2023-07-09 00:50:08.08,2023-07-09 00:50:10.23,2.15000009536743
+"Participant9","Participant9_Session1_Corrected.vtt","Session1","escape_from_the_zoo",1,2023-07-09 00:55:35.79,2023-07-09 00:59:12.66,216.870000123978
+"Participant9","Participant9_Session1_Corrected.vtt","Session1","deep_sea_divers",1,2023-07-09 00:59:27.27,2023-07-09 00:59:31.615,4.34500002861023
+"Participant9","Participant9_Session1_Corrected.vtt","Session1","wanderer",1,2023-07-09 01:04:46,2023-07-09 01:21:21.639,995.638999938965
+"Participant9","Participant9_Session2_Corrected.vtt","Session2","exhibit_12",1,2023-07-09 00:00:34.58,2023-07-09 00:04:57.26,262.680000066757
+"Participant9","Participant9_Session2_Corrected.vtt","Session2","waldo_1",1,2023-07-09 00:05:14.11,2023-07-09 00:09:07.07,232.960000038147
+"Participant9","Participant9_Session2_Corrected.vtt","Session2","arrival_4",1,2023-07-09 00:09:31.54,2023-07-09 00:09:35.627,4.08700013160706
+"Participant9","Participant9_Session2_Corrected.vtt","Session2","flowerman",1,2023-07-09 00:21:45.24,2023-07-09 00:30:12.23,506.990000009537
+"Participant9","Participant9_Session2_Corrected.vtt","Session2","quest",1,2023-07-09 00:30:36.59,2023-07-09 00:30:42.56,5.97000002861023
+"Participant9","Participant9_Session2_Corrected.vtt","Session2","unfriendly_giants",1,2023-07-09 00:42:39.54,2023-07-09 00:42:42.75,3.21000003814697
+"Participant9","Participant9_Session2_Corrected.vtt","Session2","airport",1,2023-07-09 00:47:25.18,2023-07-09 00:52:15.73,290.549999952316
+"Participant9","Participant9_Session2_Corrected.vtt","Session2","arrival_6",1,2023-07-09 00:52:37.23,2023-07-09 00:52:43.786,6.55599999427795
+"Participant9","Participant9_Session2_Corrected.vtt","Session2","arrival_3",1,2023-07-09 00:59:24.67,2023-07-09 01:01:12.2,107.52999997139
+"Participant9","Participant9_Session2_Corrected.vtt","Session2","ancient_rome",1,2023-07-09 01:01:30.52,2023-07-09 01:05:11.23,220.710000038147
+"Participant9","Participant9_Session2_Corrected.vtt","Session2","arrival_5",1,2023-07-09 01:05:24.82,2023-07-09 01:09:45.97,261.150000095367
+"Participant9","Participant9_Session2_Corrected.vtt","Session2","return",1,2023-07-09 01:10:01.47,2023-07-09 01:20:20.07,618.599999904633
+"Participant9","Participant9_Session2_Corrected.vtt","Session2","being_a_pirate",1,2023-07-09 01:22:57.98,2023-07-09 01:23:00.95,2.97000002861023
+"Participant9","Participant9_Session2_Corrected.vtt","Session2","make_a_splash",1,2023-07-09 01:28:21.67,2023-07-09 01:28:24.91,3.24000000953674
+"Participtant10","Participtant10_Session1_Corrected.vtt","Session1","arrival-6",1,2023-07-09 00:01:37.97,2023-07-09 00:10:32.347,534.376999855042
+"Participtant10","Participtant10_Session1_Corrected.vtt","Session1","make_a_splash",1,2023-07-09 00:13:13.12,2023-07-09 00:17:09.72,236.600000143051
+"Participtant10","Participtant10_Session1_Corrected.vtt","Session1","waldo-1",1,2023-07-09 00:17:47.82,2023-07-09 00:21:11.977,204.15700006485
+"Participtant10","Participtant10_Session1_Corrected.vtt","Session1","dinosaurs_spacemen_and_ghouls",1,2023-07-09 00:22:01.89,2023-07-09 00:25:55.599,233.708999872208
+"Participtant10","Participtant10_Session1_Corrected.vtt","Session1","by_the_lake",1,2023-07-09 00:26:39.53,2023-07-09 00:29:54.177,194.647000074387
+"Participtant10","Participtant10_Session1_Corrected.vtt","Session1","escape_from_the_zoo",1,2023-07-09 00:30:51.31,2023-07-09 00:34:54.644,243.334000110626
+"Participtant10","Participtant10_Session1_Corrected.vtt","Session1","being_a_pirate",1,2023-07-09 00:35:50.71,2023-07-09 00:40:42.93,292.22000002861
+"Participtant10","Participtant10_Session1_Corrected.vtt","Session1","flowerman",1,2023-07-09 00:41:55.45,2023-07-09 00:52:02.797,607.346999883652
+"Participtant10","Participtant10_Session1_Corrected.vtt","Session1","arrival-5",1,2023-07-09 00:53:25.56,2023-07-09 01:00:14.09,408.52999997139
+"Participtant10","Participtant10_Session1_Corrected.vtt","Session1","arrival-4",1,2023-07-09 01:01:13.59,2023-07-09 01:13:37.56,743.97000002861
+"Participtant10","Participtant10_Session1_Corrected.vtt","Session1","ancient_rome",1,2023-07-09 01:14:37.14,2023-07-09 01:20:11.523,334.382999897003
+"Participtant10","Participtant10_Session1_Corrected.vtt","Session1","unfriendly_giants",1,2023-07-09 01:21:06.28,2023-07-09 01:25:37.139,270.858999967575
+"Participtant10","Participtant10_Session1_Corrected.vtt","Session1","return",1,2023-07-09 01:27:09.56,2023-07-09 01:39:28.99,739.430000066757
