@@ -35,7 +35,7 @@ here()
 
 ```{r}
 dat = read.delim(
-  here("data", "Participant1_Session2_Corrected.vtt"),
+  here("VTT", "Participant1_Session1_Corrected.vtt"),
   sep = "\t")
 ```
 
