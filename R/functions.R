@@ -83,7 +83,7 @@ cleanVTT <- function(dat){
       words = textclean::replace_contraction(words),
       words = textclean::replace_number(words),
       words = str_replace_all(words, "'", " "),
-      words = str_replace_all(words, '[[:punct:] ]+', ""))
+      words = str_replace_all(words, '[[:punct:]]+', ""))
   
   # 5. 
   
@@ -122,6 +122,7 @@ getTimestamp<- function(dat){
   dat %>%
     # create two new columns
     # detect the arrow, or the row before the arrow row
+    filter(str_detect(string = tolower(WEBVTT), pattern = paste(c("#start", "#end", "-->"),collapse = '|'))) %>% 
     mutate(arrow = ifelse(str_detect(pattern = "-->", string = WEBVTT), 1, 0),
            before_arrow = lead(arrow),
            start = ifelse(str_detect(pattern = "#start", string = tolower(WEBVTT)), 1, 0),
@@ -129,10 +130,9 @@ getTimestamp<- function(dat){
            end = ifelse(str_detect(pattern = "#end", string = tolower(WEBVTT)), 1, 0),
            before_end = lead(end)) %>% 
     # only keep rows with arrow and before_arrow == 0
-    filter(str_detect(string = tolower(WEBVTT), pattern = paste(c("#start", "#end", "-->"),collapse = '|'))) %>% 
     filter(start == 1 | end == 1 | before_start == 1 | before_end == 1) %>%
     # get rid of quotation marks?
-    mutate(text = str_remove_all(string = WEBVTT, pattern = '"'))  %>% 
+    mutate(text = tolower(str_remove_all(string = WEBVTT, pattern = '"')))  %>% 
     select(text, start, end) %>% 
     mutate(timestamp = ifelse(str_detect(text, "-->"), text, NA)) %>% 
     fill(timestamp) %>%
@@ -156,10 +156,10 @@ getTimestamp<- function(dat){
       TRUE ~ 4
     )) %>%
     select(stimuli, start_end, utt_start_time, utt_end_time, occurrence) %>% 
-    mutate(timestamp = ifelse(start_end == "START", utt_start_time, utt_end_time)) %>%
+    mutate(timestamp = ifelse(start_end == "start", utt_start_time, utt_end_time)) %>%
     select(stimuli, start_end, timestamp, occurrence) %>% 
     mutate(timestamp = strptime(timestamp, "%H:%M:%OS")) %>%
     pivot_wider(names_from = start_end, values_from = timestamp) %>%
-    mutate(duration = END-START)
+    mutate(duration = end-start)
 }
 

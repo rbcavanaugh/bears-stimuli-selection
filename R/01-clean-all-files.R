@@ -48,8 +48,8 @@ library(glue)
 here()
 
 # these two lines of code find all of the files in the data folder ending in vtt
-filepaths = list.files(here("VTT"), full.names = TRUE, pattern = "vtt")
-files = list.files(here("VTT"), full.names = FALSE, pattern = "vtt")
+filepaths = list.files(here("VTT_updated"), full.names = TRUE, pattern = "vtt")
+files = list.files(here("VTT_updated"), full.names = FALSE, pattern = "vtt")
 
 # Note 3: To retrieve parts of speech other than nouns, replace "NOUN" in the
 # code below in the getNouns() function with one of the following:
@@ -108,9 +108,9 @@ nounCounts = allNouns |>
   mutate(percent = (n/numParticipants)*100)
 
 # save the result
-# write.csv(nounCounts, file = here("output", paste0(Sys.Date(), "_nounCounts.csv")), row.names = FALSE)
+ write.csv(nounCounts, file = here("output", paste0(Sys.Date(), "_nounCounts.csv")), row.names = FALSE)
 
-nounCountsbyThreshold = 
+#nounCountsbyThreshold = 
   nounCounts |> 
   mutate(
     "threshold: 33%" = ifelse(percent >= 33.33, 1, 0),
@@ -125,8 +125,8 @@ nounCountsbyThreshold =
   group_by(stimuli, threshold) |> 
   summarize(passed_threshold = sum(passed), .groups = "drop")
 
-# write.csv(nounCountsbyThreshold,
-#           file = here("output", paste0(Sys.Date(), "_nounCountsThreshold.csv")), row.names = FALSE)
+ # write.csv(nounCountsbyThreshold,
+ #           file = here("output", paste0(Sys.Date(), "_nounCountsThreshold.csv")), row.names = FALSE)
 
 
 # split up into a file per stimuli (the nounCounts object) and save as excel files
@@ -151,7 +151,7 @@ for(i in stimuli){
   tmp = nounsOut |> filter(stimuli == i)
   filename = paste0(i, ".csv")
   # uncomment the next line to resave files. 
-   write.csv(tmp, file = here("check-nouns", filename), row.names = FALSE)
+   write.csv(tmp, file = here("check-nouns", "7-17-23", filename), row.names = FALSE)
 }
 
 # 

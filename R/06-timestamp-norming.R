@@ -38,7 +38,6 @@ library(tidyverse)
 library(tidytext)
 library(textstem)
 library(textclean)
-library(udpipe)
 library(here)
 library(glue)
 
@@ -48,8 +47,8 @@ library(glue)
 here()
 
 # these two lines of code find all of the files in the data folder ending in vtt
-filepaths = list.files(here("VTT"), full.names = TRUE, pattern = "vtt")
-files = list.files(here("VTT"), full.names = FALSE, pattern = "vtt")
+filepaths = list.files(here("VTT_updated"), full.names = TRUE, pattern = "vtt")
+files = list.files(here("VTT_updated"), full.names = FALSE, pattern = "vtt")
 
 # This loads the two key functions that clean up the VTT files
 source(here("R", "functions.R"))
@@ -74,13 +73,17 @@ for(i in seq_along(files)){
   timestamp$file = files[i]
   
   # append the result to the list
-  tsList[[i]] = timestamp %>% select(participant, file, session, stimuli, occurrence, start = START, end = END, duration)
+  tsList[[i]] = timestamp %>% select(participant, file, session, stimuli, occurrence, start, end, duration)
 }
 
 # add all the cleaned files together
 stim = bind_rows(tsList) 
 
-write.csv(stim, paste0("output/", Sys.Date(), "_timestamp.csv"), row.names = FALSE)
-write.csv(stim %>% filter(is.na(duration)), paste0("output/", Sys.Date(), "_timestamp-errors.csv"), row.names = FALSE)
+# write.csv(stim, paste0("output/", Sys.Date(), "_timestamp.csv"), row.names = FALSE)
+# write.csv(stim %>% filter(is.na(duration)), paste0("output/", Sys.Date(), "_timestamp-errors.csv"), row.names = FALSE)
 
+test = stim %>% filter(is.na(duration)) %>% drop_na(stimuli)
+
+# this should print to zero if they are all ok!
+nrow(test)
 

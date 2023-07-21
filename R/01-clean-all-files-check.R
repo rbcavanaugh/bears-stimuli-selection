@@ -48,8 +48,8 @@ library(glue)
 here()
 
 # these two lines of code find all of the files in the data folder ending in vtt
-filepaths = list.files(here("VTT"), full.names = TRUE, pattern = "vtt")
-files = list.files(here("VTT"), full.names = FALSE, pattern = "vtt")
+filepaths = list.files(here("VTT_updated"), full.names = TRUE, pattern = "vtt")
+files = list.files(here("VTT_updated"), full.names = FALSE, pattern = "vtt")
 
 # Note 3: To retrieve parts of speech other than nouns, replace "NOUN" in the
 # code below in the getNouns() function with one of the following:
