@@ -30,13 +30,13 @@ df_c = df |>
 write.csv(df_c, row.names = FALSE, file = "data/AoA-phonemes-freq_joined_2023-08-02.csv")
 
 nrow(
-  df_c |> filter(!is.na(Age_Of_Acquisition) & !is.na(LgSUBTLCD))
+  df_c |> filter(!is.na(Age_Of_Acquisition) & !is.na(LgSUBTLCD) & !is.na(NPhon))
 )
 
 # 559
 
 nrow(
-  df_c |> filter(!is.na(Age_Of_Acquisition2) & !is.na(LgSUBTLCD2))
+  df_c |> filter(!is.na(Age_Of_Acquisition2) & !is.na(LgSUBTLCD2) & !is.na(NPhon))
 )
 
 # 588

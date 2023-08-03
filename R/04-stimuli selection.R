@@ -35,7 +35,10 @@ fuzz_join |>
   distinct(lemma)  |> nrow()
 
 # dataframe holding AoA, phonemes, lexical freq necessary to calculate item difficulty
-item_params = read.csv("data/item_parameters.csv")
+#item_params = read.csv("data/item_parameters.csv")
+# updated to new merged sheet with a few more items...
+item_params = read.csv("data/AoA-phonemes-freq_joined_2023-08-02.csv") |> 
+  select(Word, LgSUBTLCD = LgSUBTLCD2, Age_Of_Acquisition = Age_Of_Acquisition2, NPhon)
 
 # join together and calculate item difficulty
 diff = naming |> 
