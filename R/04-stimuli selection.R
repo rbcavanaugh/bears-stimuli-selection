@@ -17,15 +17,22 @@ naming <- read_csv("data/naming-battery-items.csv") |>
 
 # this is a joined df where I hand chekced the fuzzy join in 01-new-approach
 # between discourse and naming
-fuzz_join = read.csv("data/join_checked.csv") |> 
-  mutate(found = ifelse(is.na(lemma_dis) | drop == 1, 0, 1)) |> 
+
+fuzz_join = read.csv("data/found_in_discourse_exact.csv")  |> select(-X) |> 
+  mutate(lemma_dis = lemma)
+fuzz_join_fuzz = read.csv("data/found_in_discourse_fuzzy.csv") |> filter(match == 1) |> 
+  select(-X, -match, -dist) |> 
+  rename(lemma = lemma_naming)
+
+fuzz_join_all = bind_rows(fuzz_join, fuzz_join_fuzz)
+
+fuzz_join = fuzz_join_all |> 
   filter(percent >= 30, agreement >= 70) |> 
-  select(source, lemma_naming, stimuli, percent, lemma_dis, found)
+  select(source, lemma, stimuli, percent, lemma_dis)
 
 # total number of unique found words between naming and discourse
 fuzz_join |> 
-  filter(found == 1) |> 
-  distinct(lemma_naming)  |> nrow()
+  distinct(lemma)  |> nrow()
 
 # dataframe holding AoA, phonemes, lexical freq necessary to calculate item difficulty
 item_params = read.csv("data/item_parameters.csv")
@@ -33,7 +40,7 @@ item_params = read.csv("data/item_parameters.csv")
 # join together and calculate item difficulty
 diff = naming |> 
   full_join(item_params, by = c("lemma" = "Word")) |> 
-  left_join(fuzz_join, by = join_by(lemma == lemma_naming, source)) |> 
+  left_join(fuzz_join, by = join_by(lemma, source)) |> 
   mutate(difficulty = -1.22 + 0.15*NPhon -0.36*LgSUBTLCD + 0.21*Age_Of_Acquisition)
 
 # best agreement from naming with a difficulty score. should go up in

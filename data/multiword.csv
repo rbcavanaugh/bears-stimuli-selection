@@ -1,4 +1,183 @@
 "modal_with_spaces","stimuli","total_found","percent_found"
+"polar bear","escape_from_the_zoo",27,0.84375
+"palm tree","journey",26,0.8125
+"palm tree","quest",24,0.75
+"paper airplane","wanderer",22,0.6875
+"palm tree","picture_this",21,0.65625
+"fishing pole","wanderer",19,0.59375
+"hot dog","escape_from_the_zoo",19,0.59375
+"palm tree","being_a_pirate",18,0.5625
+"lawn mower","flowerman",17,0.53125
+"fire hydrant","journey",12,0.375
+"ice cream cone","escape_from_the_zoo",12,0.375
+"chess board","unfriendly_giants",11,0.34375
+"fire hydrant","flowerman",11,0.34375
+"jet ski","by_the_lake",11,0.34375
+"fishing rod","wanderer",10,0.3125
+"pirate flag","being_a_pirate",10,0.3125
+"traffic light","journey",9,0.28125
+"palm tree","make_a_splash",8,0.25
+"ice cream cone","dinosaurs_spacemen_and_ghouls",7,0.21875
+"coffee maker","arrival_6",6,0.1875
+"picnic table","by_the_lake",6,0.1875
+"wooden spoon","arrival_1",6,0.1875
+"cash register","dinosaurs_spacemen_and_ghouls",5,0.15625
+"chess piece","unfriendly_giants",5,0.15625
+"coat rack","journey",5,0.15625
+"music stand","arrival_3",5,0.15625
+"picture frame","picture_this",5,0.15625
+"shower head","wanderer",5,0.15625
+"soccer ball","by_the_lake",5,0.15625
+"trash can","quest",5,0.15625
+"weather vane","journey",5,0.15625
+"cherry picker","wanderer",4,0.125
+"coat rack","return",4,0.125
+"fishing pole","deep_sea_divers",4,0.125
+"fishing rod","deep_sea_divers",4,0.125
+"fountain pen","arrival_6",4,0.125
+"garbage can","flowerman",4,0.125
+"ice skate","deep_sea_divers",4,0.125
+"kiddie pool","birthday_party_fun",4,0.125
+"lamp post","quest",4,0.125
+"picture frame","arrival_6",4,0.125
+"playing card","airport",4,0.125
+"trash can","by_the_lake",4,0.125
+"trash can","flowerman",4,0.125
+"tree trunk","journey",4,0.125
+"cooking pot","arrival_1",3,0.09375
+"eye patch","being_a_pirate",3,0.09375
+"fishing pole","campsite",3,0.09375
+"jet ski","wanderer",3,0.09375
+"lamp post","journey",3,0.09375
+"picture frame","arrival_1",3,0.09375
+"picture frame","arrival_5",3,0.09375
+"steering wheel","wanderer",3,0.09375
+"sweet potato","arrival_4",3,0.09375
+"trojan horse","return",3,0.09375
+"water fountain","waldo_1",3,0.09375
+"water heater","return",3,0.09375
+"alarm clock","arrival_1",2,0.0625
+"chefs hat","arrival_5",2,0.0625
+"chest of drawers","journey",2,0.0625
+"christmas tree","wanderer",2,0.0625
+"clothes pin","arrival_6",2,0.0625
+"coat hook","arrival_6",2,0.0625
+"coat rack","arrival_6",2,0.0625
+"coffee pot","arrival_1",2,0.0625
+"coffee pot","arrival_6",2,0.0625
+"eye patch","flowerman",2,0.0625
+"garbage can","quest",2,0.0625
+"guitar case","return",2,0.0625
+"hole punch","arrival_4",2,0.0625
+"hot dog","flowerman",2,0.0625
+"ice bucket","arrival_2",2,0.0625
+"killer whale","wanderer",2,0.0625
+"lamp post","flowerman",2,0.0625
+"life jacket","make_a_splash",2,0.0625
+"paint brush","arrival_5",2,0.0625
+"palm tree","exhibit_12",2,0.0625
+"palm tree","wanderer",2,0.0625
+"picture frame","journey",2,0.0625
+"pine tree","arrival_6",2,0.0625
+"praying mantis","arrival_6",2,0.0625
+"railroad tracks","wild_west",2,0.0625
+"soccer ball","exhibit_12",2,0.0625
+"steering wheel","journey",2,0.0625
+"traffic light","return",2,0.0625
+"trash can","journey",2,0.0625
+"trash can","return",2,0.0625
+"tree trunk","wanderer",2,0.0625
+"video camera","dinosaurs_spacemen_and_ghouls",2,0.0625
+"water fountain","flowerman",2,0.0625
+"water fountain","quest",2,0.0625
+"water heater","journey",2,0.0625
+"wine glass","arrival_5",2,0.0625
+"air pump","wanderer",1,0.03125
+"angel statue","quest",1,0.03125
+"barbed wire","escape_from_the_zoo",1,0.03125
+"basketball hoop","return",1,0.03125
+"beer bottle","wanderer",1,0.03125
+"beer mug","picture_this",1,0.03125
+"beluga whale","wanderer",1,0.03125
+"birds nest","being_a_pirate",1,0.03125
+"bowling ball","exhibit_12",1,0.03125
+"bowling ball","return",1,0.03125
+"boxing glove","unfriendly_giants",1,0.03125
+"butcher knife","arrival_5",1,0.03125
+"can opener","arrival_6",1,0.03125
+"candy cane","wanderer",1,0.03125
+"cash register","arrival_3",1,0.03125
+"castle tower","quest",1,0.03125
+"chefs hat","being_a_pirate",1,0.03125
+"christmas lights","journey",1,0.03125
+"christmas lights","return",1,0.03125
+"christmas tree","arrival_2",1,0.03125
+"christmas tree","journey",1,0.03125
+"coffee machine","arrival_6",1,0.03125
+"coffee mug","arrival_6",1,0.03125
+"coffee pot","arrival_4",1,0.03125
+"cruise ship","arrival_1",1,0.03125
+"cruise ship","dinosaurs_spacemen_and_ghouls",1,0.03125
+"cruise ship","wanderer",1,0.03125
+"door handle","journey",1,0.03125
+"dream catcher","arrival_6",1,0.03125
+"fire extinguisher","arrival_5",1,0.03125
+"fire hydrant","airport",1,0.03125
+"fire hydrant","arrival_5",1,0.03125
+"fire hydrant","make_a_splash",1,0.03125
+"fish skeleton","arrival_4",1,0.03125
+"fishing rod","exhibit_12",1,0.03125
+"garbage can","picture_this",1,0.03125
+"golf club","campsite",1,0.03125
+"hand vacuum","return",1,0.03125
+"hot dog","arrival_3",1,0.03125
+"hot dog","arrival_5",1,0.03125
+"hot dog","birthday_party_fun",1,0.03125
+"ice bucket","arrival_5",1,0.03125
+"jump rope","journey",1,0.03125
+"lamp post","wanderer",1,0.03125
+"life jacket","by_the_lake",1,0.03125
+"life jacket","wanderer",1,0.03125
+"machine gun","deep_sea_divers",1,0.03125
+"magnifying glass","flowerman",1,0.03125
+"measuring cup","arrival_5",1,0.03125
+"music sheet","arrival_3",1,0.03125
+"name tag","being_a_pirate",1,0.03125
+"office chair","journey",1,0.03125
+"paint brush","dinosaurs_spacemen_and_ghouls",1,0.03125
+"paper airplane","airport",1,0.03125
+"paper airplane","arrival_2",1,0.03125
+"parking meter","arrival_4",1,0.03125
+"phone booth","arrival_4",1,0.03125
+"phone booth","return",1,0.03125
+"picnic table","flowerman",1,0.03125
+"picture frame","exhibit_12",1,0.03125
+"picture frame","return",1,0.03125
+"pine tree","by_the_lake",1,0.03125
+"pirate flag","wanderer",1,0.03125
+"playing card","picture_this",1,0.03125
+"puzzle piece","exhibit_12",1,0.03125
+"roller coaster","wanderer",1,0.03125
+"sewing machine","arrival_5",1,0.03125
+"shopping cart","flowerman",1,0.03125
+"ski poles","exhibit_12",1,0.03125
+"spice rack","journey",1,0.03125
+"spider web","journey",1,0.03125
+"spinning top","exhibit_12",1,0.03125
+"tail lights","wanderer",1,0.03125
+"teddy bear","birthday_party_fun",1,0.03125
+"teddy bear","picture_this",1,0.03125
+"toy truck","by_the_lake",1,0.03125
+"trash can","dinosaurs_spacemen_and_ghouls",1,0.03125
+"trash can","escape_from_the_zoo",1,0.03125
+"tree trunk","quest",1,0.03125
+"trojan horse","ancient_rome",1,0.03125
+"trojan horse","unfriendly_giants",1,0.03125
+"water fountain","make_a_splash",1,0.03125
+"water fountain","picture_this",1,0.03125
+"witch hat","picture_this",1,0.03125
+"wooden spoon","dinosaurs_spacemen_and_ghouls",1,0.03125
+"world map","journey",1,0.03125
 "50 bill","airport",0,0
 "50 bill","ancient_rome",0,0
 "50 bill","arrival_1",0,0
@@ -179,11 +358,9 @@
 "air pump","return",0,0
 "air pump","unfriendly_giants",0,0
 "air pump","waldo_1",0,0
-"air pump","wanderer",1,0.03125
 "air pump","wild_west",0,0
 "alarm clock","airport",0,0
 "alarm clock","ancient_rome",0,0
-"alarm clock","arrival_1",1,0.03125
 "alarm clock","arrival_2",0,0
 "alarm clock","arrival_3",0,0
 "alarm clock","arrival_4",0,0
@@ -279,7 +456,6 @@
 "angel statue","journey",0,0
 "angel statue","make_a_splash",0,0
 "angel statue","picture_this",0,0
-"angel statue","quest",1,0.03125
 "angel statue","return",0,0
 "angel statue","unfriendly_giants",0,0
 "angel statue","waldo_1",0,0
@@ -507,7 +683,6 @@
 "barbed wire","campsite",0,0
 "barbed wire","deep_sea_divers",0,0
 "barbed wire","dinosaurs_spacemen_and_ghouls",0,0
-"barbed wire","escape_from_the_zoo",1,0.03125
 "barbed wire","exhibit_12",0,0
 "barbed wire","flowerman",0,0
 "barbed wire","journey",0,0
@@ -618,7 +793,6 @@
 "basketball hoop","make_a_splash",0,0
 "basketball hoop","picture_this",0,0
 "basketball hoop","quest",0,0
-"basketball hoop","return",1,0.03125
 "basketball hoop","unfriendly_giants",0,0
 "basketball hoop","waldo_1",0,0
 "basketball hoop","wanderer",0,0
@@ -673,7 +847,6 @@
 "beer bottle","return",0,0
 "beer bottle","unfriendly_giants",0,0
 "beer bottle","waldo_1",0,0
-"beer bottle","wanderer",1,0.03125
 "beer bottle","wild_west",0,0
 "beer mug","airport",0,0
 "beer mug","ancient_rome",0,0
@@ -694,7 +867,6 @@
 "beer mug","flowerman",0,0
 "beer mug","journey",0,0
 "beer mug","make_a_splash",0,0
-"beer mug","picture_this",1,0.03125
 "beer mug","quest",0,0
 "beer mug","return",0,0
 "beer mug","unfriendly_giants",0,0
@@ -725,7 +897,6 @@
 "beluga whale","return",0,0
 "beluga whale","unfriendly_giants",0,0
 "beluga whale","waldo_1",0,0
-"beluga whale","wanderer",1,0.03125
 "beluga whale","wild_west",0,0
 "bike rack","airport",0,0
 "bike rack","ancient_rome",0,0
@@ -839,7 +1010,6 @@
 "birds nest","arrival_4",0,0
 "birds nest","arrival_5",0,0
 "birds nest","arrival_6",0,0
-"birds nest","being_a_pirate",0,0
 "birds nest","birthday_party_fun",0,0
 "birds nest","by_the_lake",0,0
 "birds nest","campsite",0,0
@@ -1132,13 +1302,11 @@
 "bowling ball","deep_sea_divers",0,0
 "bowling ball","dinosaurs_spacemen_and_ghouls",0,0
 "bowling ball","escape_from_the_zoo",0,0
-"bowling ball","exhibit_12",1,0.03125
 "bowling ball","flowerman",0,0
 "bowling ball","journey",0,0
 "bowling ball","make_a_splash",0,0
 "bowling ball","picture_this",0,0
 "bowling ball","quest",0,0
-"bowling ball","return",1,0.03125
 "bowling ball","unfriendly_giants",0,0
 "bowling ball","waldo_1",0,0
 "bowling ball","wanderer",0,0
@@ -1191,7 +1359,6 @@
 "boxing glove","picture_this",0,0
 "boxing glove","quest",0,0
 "boxing glove","return",0,0
-"boxing glove","unfriendly_giants",1,0.03125
 "boxing glove","waldo_1",0,0
 "boxing glove","wanderer",0,0
 "boxing glove","wild_west",0,0
@@ -1409,7 +1576,6 @@
 "butcher knife","arrival_2",0,0
 "butcher knife","arrival_3",0,0
 "butcher knife","arrival_4",0,0
-"butcher knife","arrival_5",1,0.03125
 "butcher knife","arrival_6",0,0
 "butcher knife","being_a_pirate",0,0
 "butcher knife","birthday_party_fun",0,0
@@ -1540,7 +1706,6 @@
 "can opener","arrival_3",0,0
 "can opener","arrival_4",0,0
 "can opener","arrival_5",0,0
-"can opener","arrival_6",1,0.03125
 "can opener","being_a_pirate",0,0
 "can opener","birthday_party_fun",0,0
 "can opener","by_the_lake",0,0
@@ -1635,7 +1800,6 @@
 "candy cane","return",0,0
 "candy cane","unfriendly_giants",0,0
 "candy cane","waldo_1",0,0
-"candy cane","wanderer",1,0.03125
 "candy cane","wild_west",0,0
 "candy dispenser","airport",0,0
 "candy dispenser","ancient_rome",0,0
@@ -1797,7 +1961,6 @@
 "cash register","ancient_rome",0,0
 "cash register","arrival_1",0,0
 "cash register","arrival_2",0,0
-"cash register","arrival_3",1,0.03125
 "cash register","arrival_4",0,0
 "cash register","arrival_5",0,0
 "cash register","arrival_6",0,0
@@ -1806,7 +1969,6 @@
 "cash register","by_the_lake",0,0
 "cash register","campsite",0,0
 "cash register","deep_sea_divers",0,0
-"cash register","dinosaurs_spacemen_and_ghouls",4,0.125
 "cash register","escape_from_the_zoo",0,0
 "cash register","exhibit_12",0,0
 "cash register","flowerman",0,0
@@ -1865,7 +2027,6 @@
 "castle tower","journey",0,0
 "castle tower","make_a_splash",0,0
 "castle tower","picture_this",0,0
-"castle tower","quest",1,0.03125
 "castle tower","return",0,0
 "castle tower","unfriendly_giants",0,0
 "castle tower","waldo_1",0,0
@@ -1981,9 +2142,7 @@
 "chefs hat","arrival_2",0,0
 "chefs hat","arrival_3",0,0
 "chefs hat","arrival_4",0,0
-"chefs hat","arrival_5",5,0.15625
 "chefs hat","arrival_6",0,0
-"chefs hat","being_a_pirate",1,0.03125
 "chefs hat","birthday_party_fun",0,0
 "chefs hat","by_the_lake",0,0
 "chefs hat","campsite",0,0
@@ -1991,7 +2150,7 @@
 "chefs hat","dinosaurs_spacemen_and_ghouls",0,0
 "chefs hat","escape_from_the_zoo",0,0
 "chefs hat","exhibit_12",0,0
-"chefs hat","flowerman",1,0.03125
+"chefs hat","flowerman",0,0
 "chefs hat","journey",0,0
 "chefs hat","make_a_splash",0,0
 "chefs hat","picture_this",0,0
@@ -2025,7 +2184,6 @@
 "cherry picker","return",0,0
 "cherry picker","unfriendly_giants",0,0
 "cherry picker","waldo_1",0,0
-"cherry picker","wanderer",4,0.125
 "cherry picker","wild_west",0,0
 "chess board","airport",0,0
 "chess board","ancient_rome",0,0
@@ -2049,7 +2207,6 @@
 "chess board","picture_this",0,0
 "chess board","quest",0,0
 "chess board","return",0,0
-"chess board","unfriendly_giants",10,0.3125
 "chess board","waldo_1",0,0
 "chess board","wanderer",0,0
 "chess board","wild_west",0,0
@@ -2075,7 +2232,6 @@
 "chess piece","picture_this",0,0
 "chess piece","quest",0,0
 "chess piece","return",0,0
-"chess piece","unfriendly_giants",5,0.15625
 "chess piece","waldo_1",0,0
 "chess piece","wanderer",0,0
 "chess piece","wild_west",0,0
@@ -2096,7 +2252,6 @@
 "chest of drawers","escape_from_the_zoo",0,0
 "chest of drawers","exhibit_12",0,0
 "chest of drawers","flowerman",0,0
-"chest of drawers","journey",2,0.0625
 "chest of drawers","make_a_splash",0,0
 "chest of drawers","picture_this",0,0
 "chest of drawers","quest",0,0
@@ -2174,11 +2329,9 @@
 "christmas lights","escape_from_the_zoo",0,0
 "christmas lights","exhibit_12",0,0
 "christmas lights","flowerman",0,0
-"christmas lights","journey",1,0.03125
 "christmas lights","make_a_splash",0,0
 "christmas lights","picture_this",0,0
 "christmas lights","quest",0,0
-"christmas lights","return",1,0.03125
 "christmas lights","unfriendly_giants",0,0
 "christmas lights","waldo_1",0,0
 "christmas lights","wanderer",0,0
@@ -2186,7 +2339,6 @@
 "christmas tree","airport",0,0
 "christmas tree","ancient_rome",0,0
 "christmas tree","arrival_1",0,0
-"christmas tree","arrival_2",1,0.03125
 "christmas tree","arrival_3",0,0
 "christmas tree","arrival_4",0,0
 "christmas tree","arrival_5",0,0
@@ -2200,14 +2352,12 @@
 "christmas tree","escape_from_the_zoo",0,0
 "christmas tree","exhibit_12",0,0
 "christmas tree","flowerman",0,0
-"christmas tree","journey",1,0.03125
 "christmas tree","make_a_splash",0,0
 "christmas tree","picture_this",0,0
 "christmas tree","quest",0,0
 "christmas tree","return",0,0
 "christmas tree","unfriendly_giants",0,0
 "christmas tree","waldo_1",0,0
-"christmas tree","wanderer",2,0.0625
 "christmas tree","wild_west",0,0
 "church tower","airport",0,0
 "church tower","ancient_rome",0,0
@@ -2268,7 +2418,6 @@
 "clothes pin","arrival_3",0,0
 "clothes pin","arrival_4",0,0
 "clothes pin","arrival_5",0,0
-"clothes pin","arrival_6",2,0.0625
 "clothes pin","being_a_pirate",0,0
 "clothes pin","birthday_party_fun",0,0
 "clothes pin","by_the_lake",0,0
@@ -2294,7 +2443,6 @@
 "coat hook","arrival_3",0,0
 "coat hook","arrival_4",0,0
 "coat hook","arrival_5",0,0
-"coat hook","arrival_6",2,0.0625
 "coat hook","being_a_pirate",0,0
 "coat hook","birthday_party_fun",0,0
 "coat hook","by_the_lake",0,0
@@ -2320,7 +2468,6 @@
 "coat rack","arrival_3",0,0
 "coat rack","arrival_4",0,0
 "coat rack","arrival_5",0,0
-"coat rack","arrival_6",2,0.0625
 "coat rack","being_a_pirate",0,0
 "coat rack","birthday_party_fun",0,0
 "coat rack","by_the_lake",0,0
@@ -2330,11 +2477,9 @@
 "coat rack","escape_from_the_zoo",0,0
 "coat rack","exhibit_12",0,0
 "coat rack","flowerman",0,0
-"coat rack","journey",4,0.125
 "coat rack","make_a_splash",0,0
 "coat rack","picture_this",0,0
 "coat rack","quest",0,0
-"coat rack","return",4,0.125
 "coat rack","unfriendly_giants",0,0
 "coat rack","waldo_1",0,0
 "coat rack","wanderer",0,0
@@ -2372,7 +2517,6 @@
 "coffee machine","arrival_3",0,0
 "coffee machine","arrival_4",0,0
 "coffee machine","arrival_5",0,0
-"coffee machine","arrival_6",1,0.03125
 "coffee machine","being_a_pirate",0,0
 "coffee machine","birthday_party_fun",0,0
 "coffee machine","by_the_lake",0,0
@@ -2398,7 +2542,6 @@
 "coffee maker","arrival_3",0,0
 "coffee maker","arrival_4",0,0
 "coffee maker","arrival_5",0,0
-"coffee maker","arrival_6",5,0.15625
 "coffee maker","being_a_pirate",0,0
 "coffee maker","birthday_party_fun",0,0
 "coffee maker","by_the_lake",0,0
@@ -2424,7 +2567,6 @@
 "coffee mug","arrival_3",0,0
 "coffee mug","arrival_4",0,0
 "coffee mug","arrival_5",0,0
-"coffee mug","arrival_6",1,0.03125
 "coffee mug","being_a_pirate",0,0
 "coffee mug","birthday_party_fun",0,0
 "coffee mug","by_the_lake",0,0
@@ -2445,12 +2587,9 @@
 "coffee mug","wild_west",0,0
 "coffee pot","airport",0,0
 "coffee pot","ancient_rome",0,0
-"coffee pot","arrival_1",1,0.03125
 "coffee pot","arrival_2",0,0
 "coffee pot","arrival_3",0,0
-"coffee pot","arrival_4",1,0.03125
 "coffee pot","arrival_5",0,0
-"coffee pot","arrival_6",2,0.0625
 "coffee pot","being_a_pirate",0,0
 "coffee pot","birthday_party_fun",0,0
 "coffee pot","by_the_lake",0,0
@@ -2549,7 +2688,6 @@
 "cookie cutter","wild_west",0,0
 "cooking pot","airport",0,0
 "cooking pot","ancient_rome",0,0
-"cooking pot","arrival_1",2,0.0625
 "cooking pot","arrival_2",0,0
 "cooking pot","arrival_3",0,0
 "cooking pot","arrival_4",0,0
@@ -2625,6 +2763,29 @@
 "cotton pad","waldo_1",0,0
 "cotton pad","wanderer",0,0
 "cotton pad","wild_west",0,0
+"cruise ship","airport",0,0
+"cruise ship","ancient_rome",0,0
+"cruise ship","arrival_2",0,0
+"cruise ship","arrival_3",0,0
+"cruise ship","arrival_4",0,0
+"cruise ship","arrival_5",0,0
+"cruise ship","arrival_6",0,0
+"cruise ship","being_a_pirate",0,0
+"cruise ship","birthday_party_fun",0,0
+"cruise ship","by_the_lake",0,0
+"cruise ship","campsite",0,0
+"cruise ship","deep_sea_divers",0,0
+"cruise ship","escape_from_the_zoo",0,0
+"cruise ship","exhibit_12",0,0
+"cruise ship","flowerman",0,0
+"cruise ship","journey",0,0
+"cruise ship","make_a_splash",0,0
+"cruise ship","picture_this",0,0
+"cruise ship","quest",0,0
+"cruise ship","return",0,0
+"cruise ship","unfriendly_giants",0,0
+"cruise ship","waldo_1",0,0
+"cruise ship","wild_west",0,0
 "crème brulee","airport",0,0
 "crème brulee","ancient_rome",0,0
 "crème brulee","arrival_1",0,0
@@ -2677,32 +2838,6 @@
 "crème caramel","waldo_1",0,0
 "crème caramel","wanderer",0,0
 "crème caramel","wild_west",0,0
-"cruise ship","airport",0,0
-"cruise ship","ancient_rome",0,0
-"cruise ship","arrival_1",1,0.03125
-"cruise ship","arrival_2",0,0
-"cruise ship","arrival_3",0,0
-"cruise ship","arrival_4",0,0
-"cruise ship","arrival_5",0,0
-"cruise ship","arrival_6",0,0
-"cruise ship","being_a_pirate",0,0
-"cruise ship","birthday_party_fun",0,0
-"cruise ship","by_the_lake",0,0
-"cruise ship","campsite",0,0
-"cruise ship","deep_sea_divers",0,0
-"cruise ship","dinosaurs_spacemen_and_ghouls",1,0.03125
-"cruise ship","escape_from_the_zoo",0,0
-"cruise ship","exhibit_12",0,0
-"cruise ship","flowerman",0,0
-"cruise ship","journey",0,0
-"cruise ship","make_a_splash",0,0
-"cruise ship","picture_this",0,0
-"cruise ship","quest",0,0
-"cruise ship","return",0,0
-"cruise ship","unfriendly_giants",0,0
-"cruise ship","waldo_1",0,0
-"cruise ship","wanderer",1,0.03125
-"cruise ship","wild_west",0,0
 "curling iron","airport",0,0
 "curling iron","ancient_rome",0,0
 "curling iron","arrival_1",0,0
@@ -3084,7 +3219,6 @@
 "door handle","escape_from_the_zoo",0,0
 "door handle","exhibit_12",0,0
 "door handle","flowerman",0,0
-"door handle","journey",1,0.03125
 "door handle","make_a_splash",0,0
 "door handle","picture_this",0,0
 "door handle","quest",0,0
@@ -3126,7 +3260,6 @@
 "dream catcher","arrival_3",0,0
 "dream catcher","arrival_4",0,0
 "dream catcher","arrival_5",0,0
-"dream catcher","arrival_6",1,0.03125
 "dream catcher","being_a_pirate",0,0
 "dream catcher","birthday_party_fun",0,0
 "dream catcher","by_the_lake",0,0
@@ -3751,7 +3884,6 @@
 "eye patch","arrival_4",0,0
 "eye patch","arrival_5",0,0
 "eye patch","arrival_6",0,0
-"eye patch","being_a_pirate",3,0.09375
 "eye patch","birthday_party_fun",0,0
 "eye patch","by_the_lake",0,0
 "eye patch","campsite",0,0
@@ -3759,7 +3891,6 @@
 "eye patch","dinosaurs_spacemen_and_ghouls",0,0
 "eye patch","escape_from_the_zoo",0,0
 "eye patch","exhibit_12",0,0
-"eye patch","flowerman",2,0.0625
 "eye patch","journey",0,0
 "eye patch","make_a_splash",0,0
 "eye patch","picture_this",0,0
@@ -3983,7 +4114,6 @@
 "fire extinguisher","arrival_2",0,0
 "fire extinguisher","arrival_3",0,0
 "fire extinguisher","arrival_4",0,0
-"fire extinguisher","arrival_5",0,0
 "fire extinguisher","arrival_6",0,0
 "fire extinguisher","being_a_pirate",0,0
 "fire extinguisher","birthday_party_fun",0,0
@@ -4003,13 +4133,11 @@
 "fire extinguisher","waldo_1",0,0
 "fire extinguisher","wanderer",0,0
 "fire extinguisher","wild_west",0,0
-"fire hydrant","airport",1,0.03125
 "fire hydrant","ancient_rome",0,0
 "fire hydrant","arrival_1",0,0
 "fire hydrant","arrival_2",0,0
 "fire hydrant","arrival_3",0,0
 "fire hydrant","arrival_4",0,0
-"fire hydrant","arrival_5",1,0.03125
 "fire hydrant","arrival_6",0,0
 "fire hydrant","being_a_pirate",0,0
 "fire hydrant","birthday_party_fun",0,0
@@ -4019,9 +4147,6 @@
 "fire hydrant","dinosaurs_spacemen_and_ghouls",0,0
 "fire hydrant","escape_from_the_zoo",0,0
 "fire hydrant","exhibit_12",0,0
-"fire hydrant","flowerman",10,0.3125
-"fire hydrant","journey",11,0.34375
-"fire hydrant","make_a_splash",1,0.03125
 "fire hydrant","picture_this",0,0
 "fire hydrant","quest",0,0
 "fire hydrant","return",0,0
@@ -4034,7 +4159,6 @@
 "fish skeleton","arrival_1",0,0
 "fish skeleton","arrival_2",0,0
 "fish skeleton","arrival_3",0,0
-"fish skeleton","arrival_4",1,0.03125
 "fish skeleton","arrival_5",0,0
 "fish skeleton","arrival_6",0,0
 "fish skeleton","being_a_pirate",0,0
@@ -4118,8 +4242,6 @@
 "fishing pole","being_a_pirate",0,0
 "fishing pole","birthday_party_fun",0,0
 "fishing pole","by_the_lake",0,0
-"fishing pole","campsite",3,0.09375
-"fishing pole","deep_sea_divers",4,0.125
 "fishing pole","dinosaurs_spacemen_and_ghouls",0,0
 "fishing pole","escape_from_the_zoo",0,0
 "fishing pole","exhibit_12",0,0
@@ -4131,7 +4253,6 @@
 "fishing pole","return",0,0
 "fishing pole","unfriendly_giants",0,0
 "fishing pole","waldo_1",0,0
-"fishing pole","wanderer",17,0.53125
 "fishing pole","wild_west",0,0
 "fishing rod","airport",0,0
 "fishing rod","ancient_rome",0,0
@@ -4145,10 +4266,8 @@
 "fishing rod","birthday_party_fun",0,0
 "fishing rod","by_the_lake",0,0
 "fishing rod","campsite",0,0
-"fishing rod","deep_sea_divers",3,0.09375
 "fishing rod","dinosaurs_spacemen_and_ghouls",0,0
 "fishing rod","escape_from_the_zoo",0,0
-"fishing rod","exhibit_12",1,0.03125
 "fishing rod","flowerman",0,0
 "fishing rod","journey",0,0
 "fishing rod","make_a_splash",0,0
@@ -4157,7 +4276,6 @@
 "fishing rod","return",0,0
 "fishing rod","unfriendly_giants",0,0
 "fishing rod","waldo_1",0,0
-"fishing rod","wanderer",10,0.3125
 "fishing rod","wild_west",0,0
 "flat peach","airport",0,0
 "flat peach","ancient_rome",0,0
@@ -4452,7 +4570,6 @@
 "fountain pen","arrival_3",0,0
 "fountain pen","arrival_4",0,0
 "fountain pen","arrival_5",0,0
-"fountain pen","arrival_6",4,0.125
 "fountain pen","being_a_pirate",0,0
 "fountain pen","birthday_party_fun",0,0
 "fountain pen","by_the_lake",0,0
@@ -4617,11 +4734,8 @@
 "garbage can","dinosaurs_spacemen_and_ghouls",0,0
 "garbage can","escape_from_the_zoo",0,0
 "garbage can","exhibit_12",0,0
-"garbage can","flowerman",3,0.09375
 "garbage can","journey",0,0
 "garbage can","make_a_splash",0,0
-"garbage can","picture_this",1,0.03125
-"garbage can","quest",2,0.0625
 "garbage can","return",0,0
 "garbage can","unfriendly_giants",0,0
 "garbage can","waldo_1",0,0
@@ -4924,7 +5038,6 @@
 "golf club","being_a_pirate",0,0
 "golf club","birthday_party_fun",0,0
 "golf club","by_the_lake",0,0
-"golf club","campsite",1,0.03125
 "golf club","deep_sea_divers",0,0
 "golf club","dinosaurs_spacemen_and_ghouls",0,0
 "golf club","escape_from_the_zoo",0,0
@@ -5168,7 +5281,6 @@
 "guitar case","make_a_splash",0,0
 "guitar case","picture_this",0,0
 "guitar case","quest",0,0
-"guitar case","return",2,0.0625
 "guitar case","unfriendly_giants",0,0
 "guitar case","waldo_1",0,0
 "guitar case","wanderer",0,0
@@ -5376,7 +5488,6 @@
 "hand vacuum","make_a_splash",0,0
 "hand vacuum","picture_this",0,0
 "hand vacuum","quest",0,0
-"hand vacuum","return",1,0.03125
 "hand vacuum","unfriendly_giants",0,0
 "hand vacuum","waldo_1",0,0
 "hand vacuum","wanderer",0,0
@@ -5516,7 +5627,6 @@
 "hole punch","arrival_1",0,0
 "hole punch","arrival_2",0,0
 "hole punch","arrival_3",0,0
-"hole punch","arrival_4",2,0.0625
 "hole punch","arrival_5",0,0
 "hole punch","arrival_6",0,0
 "hole punch","being_a_pirate",0,0
@@ -5593,19 +5703,14 @@
 "hot dog","ancient_rome",0,0
 "hot dog","arrival_1",0,0
 "hot dog","arrival_2",0,0
-"hot dog","arrival_3",1,0.03125
 "hot dog","arrival_4",0,0
-"hot dog","arrival_5",1,0.03125
 "hot dog","arrival_6",0,0
 "hot dog","being_a_pirate",0,0
-"hot dog","birthday_party_fun",1,0.03125
 "hot dog","by_the_lake",0,0
 "hot dog","campsite",0,0
 "hot dog","deep_sea_divers",0,0
 "hot dog","dinosaurs_spacemen_and_ghouls",0,0
-"hot dog","escape_from_the_zoo",18,0.5625
 "hot dog","exhibit_12",0,0
-"hot dog","flowerman",2,0.0625
 "hot dog","journey",0,0
 "hot dog","make_a_splash",0,0
 "hot dog","picture_this",0,0
@@ -5696,10 +5801,8 @@
 "ice bucket","airport",0,0
 "ice bucket","ancient_rome",0,0
 "ice bucket","arrival_1",0,0
-"ice bucket","arrival_2",2,0.0625
 "ice bucket","arrival_3",0,0
 "ice bucket","arrival_4",0,0
-"ice bucket","arrival_5",1,0.03125
 "ice bucket","arrival_6",0,0
 "ice bucket","being_a_pirate",0,0
 "ice bucket","birthday_party_fun",0,0
@@ -5732,8 +5835,6 @@
 "ice cream cone","by_the_lake",0,0
 "ice cream cone","campsite",0,0
 "ice cream cone","deep_sea_divers",0,0
-"ice cream cone","dinosaurs_spacemen_and_ghouls",6,0.1875
-"ice cream cone","escape_from_the_zoo",12,0.375
 "ice cream cone","exhibit_12",0,0
 "ice cream cone","flowerman",0,0
 "ice cream cone","journey",0,0
@@ -5861,7 +5962,6 @@
 "ice skate","birthday_party_fun",0,0
 "ice skate","by_the_lake",0,0
 "ice skate","campsite",0,0
-"ice skate","deep_sea_divers",4,0.125
 "ice skate","dinosaurs_spacemen_and_ghouls",0,0
 "ice skate","escape_from_the_zoo",0,0
 "ice skate","exhibit_12",0,0
@@ -5963,7 +6063,6 @@
 "jet ski","arrival_6",0,0
 "jet ski","being_a_pirate",0,0
 "jet ski","birthday_party_fun",0,0
-"jet ski","by_the_lake",9,0.28125
 "jet ski","campsite",0,0
 "jet ski","deep_sea_divers",0,0
 "jet ski","dinosaurs_spacemen_and_ghouls",0,0
@@ -5977,7 +6076,6 @@
 "jet ski","return",0,0
 "jet ski","unfriendly_giants",0,0
 "jet ski","waldo_1",0,0
-"jet ski","wanderer",3,0.09375
 "jet ski","wild_west",0,0
 "jewelry box","airport",0,0
 "jewelry box","ancient_rome",0,0
@@ -6048,7 +6146,6 @@
 "jump rope","escape_from_the_zoo",0,0
 "jump rope","exhibit_12",0,0
 "jump rope","flowerman",0,0
-"jump rope","journey",1,0.03125
 "jump rope","make_a_splash",0,0
 "jump rope","picture_this",0,0
 "jump rope","quest",0,0
@@ -6118,7 +6215,6 @@
 "kiddie pool","arrival_5",0,0
 "kiddie pool","arrival_6",0,0
 "kiddie pool","being_a_pirate",0,0
-"kiddie pool","birthday_party_fun",2,0.0625
 "kiddie pool","by_the_lake",0,0
 "kiddie pool","campsite",0,0
 "kiddie pool","deep_sea_divers",0,0
@@ -6185,7 +6281,6 @@
 "killer whale","return",0,0
 "killer whale","unfriendly_giants",0,0
 "killer whale","waldo_1",0,0
-"killer whale","wanderer",2,0.0625
 "killer whale","wild_west",0,0
 "kiwi fruit","airport",0,0
 "kiwi fruit","ancient_rome",0,0
@@ -6281,15 +6376,11 @@
 "lamp post","dinosaurs_spacemen_and_ghouls",0,0
 "lamp post","escape_from_the_zoo",0,0
 "lamp post","exhibit_12",0,0
-"lamp post","flowerman",2,0.0625
-"lamp post","journey",2,0.0625
 "lamp post","make_a_splash",0,0
 "lamp post","picture_this",0,0
-"lamp post","quest",4,0.125
 "lamp post","return",0,0
 "lamp post","unfriendly_giants",0,0
 "lamp post","waldo_1",0,0
-"lamp post","wanderer",1,0.03125
 "lamp post","wild_west",0,0
 "large fritter","airport",0,0
 "large fritter","ancient_rome",0,0
@@ -6359,7 +6450,6 @@
 "lawn mower","dinosaurs_spacemen_and_ghouls",0,0
 "lawn mower","escape_from_the_zoo",0,0
 "lawn mower","exhibit_12",0,0
-"lawn mower","flowerman",15,0.46875
 "lawn mower","journey",0,0
 "lawn mower","make_a_splash",0,0
 "lawn mower","picture_this",0,0
@@ -6431,7 +6521,6 @@
 "life jacket","arrival_6",0,0
 "life jacket","being_a_pirate",0,0
 "life jacket","birthday_party_fun",0,0
-"life jacket","by_the_lake",1,0.03125
 "life jacket","campsite",0,0
 "life jacket","deep_sea_divers",0,0
 "life jacket","dinosaurs_spacemen_and_ghouls",0,0
@@ -6439,13 +6528,11 @@
 "life jacket","exhibit_12",0,0
 "life jacket","flowerman",0,0
 "life jacket","journey",0,0
-"life jacket","make_a_splash",2,0.0625
 "life jacket","picture_this",0,0
 "life jacket","quest",0,0
 "life jacket","return",0,0
 "life jacket","unfriendly_giants",0,0
 "life jacket","waldo_1",0,0
-"life jacket","wanderer",1,0.03125
 "life jacket","wild_west",0,0
 "light switch","airport",0,0
 "light switch","ancient_rome",0,0
@@ -6667,7 +6754,6 @@
 "machine gun","birthday_party_fun",0,0
 "machine gun","by_the_lake",0,0
 "machine gun","campsite",0,0
-"machine gun","deep_sea_divers",1,0.03125
 "machine gun","dinosaurs_spacemen_and_ghouls",0,0
 "machine gun","escape_from_the_zoo",0,0
 "machine gun","exhibit_12",0,0
@@ -6697,7 +6783,6 @@
 "magnifying glass","dinosaurs_spacemen_and_ghouls",0,0
 "magnifying glass","escape_from_the_zoo",0,0
 "magnifying glass","exhibit_12",0,0
-"magnifying glass","flowerman",1,0.03125
 "magnifying glass","journey",0,0
 "magnifying glass","make_a_splash",0,0
 "magnifying glass","picture_this",0,0
@@ -6843,7 +6928,6 @@
 "measuring cup","arrival_2",0,0
 "measuring cup","arrival_3",0,0
 "measuring cup","arrival_4",0,0
-"measuring cup","arrival_5",1,0.03125
 "measuring cup","arrival_6",0,0
 "measuring cup","being_a_pirate",0,0
 "measuring cup","birthday_party_fun",0,0
@@ -7101,7 +7185,6 @@
 "music sheet","ancient_rome",0,0
 "music sheet","arrival_1",0,0
 "music sheet","arrival_2",0,0
-"music sheet","arrival_3",1,0.03125
 "music sheet","arrival_4",0,0
 "music sheet","arrival_5",0,0
 "music sheet","arrival_6",0,0
@@ -7127,7 +7210,6 @@
 "music stand","ancient_rome",0,0
 "music stand","arrival_1",0,0
 "music stand","arrival_2",0,0
-"music stand","arrival_3",5,0.15625
 "music stand","arrival_4",0,0
 "music stand","arrival_5",0,0
 "music stand","arrival_6",0,0
@@ -7235,7 +7317,6 @@
 "name tag","arrival_4",0,0
 "name tag","arrival_5",0,0
 "name tag","arrival_6",0,0
-"name tag","being_a_pirate",1,0.03125
 "name tag","birthday_party_fun",0,0
 "name tag","by_the_lake",0,0
 "name tag","campsite",0,0
@@ -7400,7 +7481,6 @@
 "office chair","escape_from_the_zoo",0,0
 "office chair","exhibit_12",0,0
 "office chair","flowerman",0,0
-"office chair","journey",1,0.03125
 "office chair","make_a_splash",0,0
 "office chair","picture_this",0,0
 "office chair","quest",0,0
@@ -7545,14 +7625,12 @@
 "paint brush","arrival_2",0,0
 "paint brush","arrival_3",0,0
 "paint brush","arrival_4",0,0
-"paint brush","arrival_5",2,0.0625
 "paint brush","arrival_6",0,0
 "paint brush","being_a_pirate",0,0
 "paint brush","birthday_party_fun",0,0
 "paint brush","by_the_lake",0,0
 "paint brush","campsite",0,0
 "paint brush","deep_sea_divers",0,0
-"paint brush","dinosaurs_spacemen_and_ghouls",1,0.03125
 "paint brush","escape_from_the_zoo",0,0
 "paint brush","exhibit_12",0,0
 "paint brush","flowerman",0,0
@@ -7651,28 +7729,19 @@
 "palm tree","arrival_4",0,0
 "palm tree","arrival_5",0,0
 "palm tree","arrival_6",0,0
-"palm tree","being_a_pirate",17,0.53125
 "palm tree","birthday_party_fun",0,0
 "palm tree","by_the_lake",0,0
 "palm tree","campsite",0,0
 "palm tree","deep_sea_divers",0,0
 "palm tree","dinosaurs_spacemen_and_ghouls",0,0
 "palm tree","escape_from_the_zoo",0,0
-"palm tree","exhibit_12",2,0.0625
 "palm tree","flowerman",0,0
-"palm tree","journey",25,0.78125
-"palm tree","make_a_splash",7,0.21875
-"palm tree","picture_this",19,0.59375
-"palm tree","quest",24,0.75
 "palm tree","return",0,0
 "palm tree","unfriendly_giants",0,0
 "palm tree","waldo_1",0,0
-"palm tree","wanderer",2,0.0625
 "palm tree","wild_west",0,0
-"paper airplane","airport",1,0.03125
 "paper airplane","ancient_rome",0,0
 "paper airplane","arrival_1",0,0
-"paper airplane","arrival_2",1,0.03125
 "paper airplane","arrival_3",0,0
 "paper airplane","arrival_4",0,0
 "paper airplane","arrival_5",0,0
@@ -7693,7 +7762,6 @@
 "paper airplane","return",0,0
 "paper airplane","unfriendly_giants",0,0
 "paper airplane","waldo_1",0,0
-"paper airplane","wanderer",21,0.65625
 "paper airplane","wild_west",0,0
 "paper chain","airport",0,0
 "paper chain","ancient_rome",0,0
@@ -7804,7 +7872,6 @@
 "parking meter","arrival_1",0,0
 "parking meter","arrival_2",0,0
 "parking meter","arrival_3",0,0
-"parking meter","arrival_4",1,0.03125
 "parking meter","arrival_5",0,0
 "parking meter","arrival_6",0,0
 "parking meter","being_a_pirate",0,0
@@ -7960,7 +8027,6 @@
 "phone booth","arrival_1",0,0
 "phone booth","arrival_2",0,0
 "phone booth","arrival_3",0,0
-"phone booth","arrival_4",1,0.03125
 "phone booth","arrival_5",0,0
 "phone booth","arrival_6",0,0
 "phone booth","being_a_pirate",0,0
@@ -7976,7 +8042,6 @@
 "phone booth","make_a_splash",0,0
 "phone booth","picture_this",0,0
 "phone booth","quest",0,0
-"phone booth","return",1,0.03125
 "phone booth","unfriendly_giants",0,0
 "phone booth","waldo_1",0,0
 "phone booth","wanderer",0,0
@@ -8017,13 +8082,11 @@
 "picnic table","arrival_6",0,0
 "picnic table","being_a_pirate",0,0
 "picnic table","birthday_party_fun",0,0
-"picnic table","by_the_lake",6,0.1875
 "picnic table","campsite",0,0
 "picnic table","deep_sea_divers",0,0
 "picnic table","dinosaurs_spacemen_and_ghouls",0,0
 "picnic table","escape_from_the_zoo",0,0
 "picnic table","exhibit_12",0,0
-"picnic table","flowerman",1,0.03125
 "picnic table","journey",0,0
 "picnic table","make_a_splash",0,0
 "picnic table","picture_this",0,0
@@ -8035,12 +8098,9 @@
 "picnic table","wild_west",0,0
 "picture frame","airport",0,0
 "picture frame","ancient_rome",0,0
-"picture frame","arrival_1",2,0.0625
 "picture frame","arrival_2",0,0
 "picture frame","arrival_3",0,0
 "picture frame","arrival_4",0,0
-"picture frame","arrival_5",3,0.09375
-"picture frame","arrival_6",4,0.125
 "picture frame","being_a_pirate",0,0
 "picture frame","birthday_party_fun",0,0
 "picture frame","by_the_lake",0,0
@@ -8048,13 +8108,9 @@
 "picture frame","deep_sea_divers",0,0
 "picture frame","dinosaurs_spacemen_and_ghouls",0,0
 "picture frame","escape_from_the_zoo",0,0
-"picture frame","exhibit_12",1,0.03125
 "picture frame","flowerman",0,0
-"picture frame","journey",2,0.0625
 "picture frame","make_a_splash",0,0
-"picture frame","picture_this",4,0.125
 "picture frame","quest",0,0
-"picture frame","return",1,0.03125
 "picture frame","unfriendly_giants",0,0
 "picture frame","waldo_1",0,0
 "picture frame","wanderer",0,0
@@ -8118,10 +8174,8 @@
 "pine tree","arrival_3",0,0
 "pine tree","arrival_4",0,0
 "pine tree","arrival_5",0,0
-"pine tree","arrival_6",1,0.03125
 "pine tree","being_a_pirate",0,0
 "pine tree","birthday_party_fun",0,0
-"pine tree","by_the_lake",1,0.03125
 "pine tree","campsite",0,0
 "pine tree","deep_sea_divers",0,0
 "pine tree","dinosaurs_spacemen_and_ghouls",0,0
@@ -8223,7 +8277,6 @@
 "pirate flag","arrival_4",0,0
 "pirate flag","arrival_5",0,0
 "pirate flag","arrival_6",0,0
-"pirate flag","being_a_pirate",9,0.28125
 "pirate flag","birthday_party_fun",0,0
 "pirate flag","by_the_lake",0,0
 "pirate flag","campsite",0,0
@@ -8239,7 +8292,6 @@
 "pirate flag","return",0,0
 "pirate flag","unfriendly_giants",0,0
 "pirate flag","waldo_1",0,0
-"pirate flag","wanderer",1,0.03125
 "pirate flag","wild_west",0,0
 "pita bread","airport",0,0
 "pita bread","ancient_rome",0,0
@@ -8319,7 +8371,6 @@
 "plastic cup","waldo_1",0,0
 "plastic cup","wanderer",0,0
 "plastic cup","wild_west",0,0
-"playing card","airport",4,0.125
 "playing card","ancient_rome",0,0
 "playing card","arrival_1",0,0
 "playing card","arrival_2",0,0
@@ -8338,7 +8389,6 @@
 "playing card","flowerman",0,0
 "playing card","journey",0,0
 "playing card","make_a_splash",0,0
-"playing card","picture_this",1,0.03125
 "playing card","quest",0,0
 "playing card","return",0,0
 "playing card","unfriendly_giants",0,0
@@ -8437,7 +8487,6 @@
 "polar bear","campsite",0,0
 "polar bear","deep_sea_divers",0,0
 "polar bear","dinosaurs_spacemen_and_ghouls",0,0
-"polar bear","escape_from_the_zoo",25,0.78125
 "polar bear","exhibit_12",0,0
 "polar bear","flowerman",0,0
 "polar bear","journey",0,0
@@ -8716,7 +8765,6 @@
 "praying mantis","arrival_3",0,0
 "praying mantis","arrival_4",0,0
 "praying mantis","arrival_5",0,0
-"praying mantis","arrival_6",2,0.0625
 "praying mantis","being_a_pirate",0,0
 "praying mantis","birthday_party_fun",0,0
 "praying mantis","by_the_lake",0,0
@@ -8906,7 +8954,6 @@
 "puzzle piece","deep_sea_divers",0,0
 "puzzle piece","dinosaurs_spacemen_and_ghouls",0,0
 "puzzle piece","escape_from_the_zoo",0,0
-"puzzle piece","exhibit_12",1,0.03125
 "puzzle piece","flowerman",0,0
 "puzzle piece","journey",0,0
 "puzzle piece","make_a_splash",0,0
@@ -8968,7 +9015,6 @@
 "railroad tracks","unfriendly_giants",0,0
 "railroad tracks","waldo_1",0,0
 "railroad tracks","wanderer",0,0
-"railroad tracks","wild_west",2,0.0625
 "razor shell","airport",0,0
 "razor shell","ancient_rome",0,0
 "razor shell","arrival_1",0,0
@@ -9201,7 +9247,6 @@
 "roller coaster","return",0,0
 "roller coaster","unfriendly_giants",0,0
 "roller coaster","waldo_1",0,0
-"roller coaster","wanderer",1,0.03125
 "roller coaster","wild_west",0,0
 "roller skate","airport",0,0
 "roller skate","ancient_rome",0,0
@@ -9625,7 +9670,6 @@
 "sewing machine","arrival_2",0,0
 "sewing machine","arrival_3",0,0
 "sewing machine","arrival_4",0,0
-"sewing machine","arrival_5",1,0.03125
 "sewing machine","arrival_6",0,0
 "sewing machine","being_a_pirate",0,0
 "sewing machine","birthday_party_fun",0,0
@@ -9817,7 +9861,6 @@
 "shopping cart","dinosaurs_spacemen_and_ghouls",0,0
 "shopping cart","escape_from_the_zoo",0,0
 "shopping cart","exhibit_12",0,0
-"shopping cart","flowerman",1,0.03125
 "shopping cart","journey",0,0
 "shopping cart","make_a_splash",0,0
 "shopping cart","picture_this",0,0
@@ -9903,7 +9946,6 @@
 "shower head","return",0,0
 "shower head","unfriendly_giants",0,0
 "shower head","waldo_1",0,0
-"shower head","wanderer",5,0.15625
 "shower head","wild_west",0,0
 "ski boot","airport",0,0
 "ski boot","ancient_rome",0,0
@@ -9972,7 +10014,6 @@
 "ski poles","deep_sea_divers",0,0
 "ski poles","dinosaurs_spacemen_and_ghouls",0,0
 "ski poles","escape_from_the_zoo",0,0
-"ski poles","exhibit_12",1,0.03125
 "ski poles","flowerman",0,0
 "ski poles","journey",0,0
 "ski poles","make_a_splash",0,0
@@ -10201,12 +10242,10 @@
 "soccer ball","arrival_6",0,0
 "soccer ball","being_a_pirate",0,0
 "soccer ball","birthday_party_fun",0,0
-"soccer ball","by_the_lake",5,0.15625
 "soccer ball","campsite",0,0
 "soccer ball","deep_sea_divers",0,0
 "soccer ball","dinosaurs_spacemen_and_ghouls",0,0
 "soccer ball","escape_from_the_zoo",0,0
-"soccer ball","exhibit_12",2,0.0625
 "soccer ball","flowerman",0,0
 "soccer ball","journey",0,0
 "soccer ball","make_a_splash",0,0
@@ -10312,7 +10351,6 @@
 "spice rack","escape_from_the_zoo",0,0
 "spice rack","exhibit_12",0,0
 "spice rack","flowerman",0,0
-"spice rack","journey",1,0.03125
 "spice rack","make_a_splash",0,0
 "spice rack","picture_this",0,0
 "spice rack","quest",0,0
@@ -10338,7 +10376,6 @@
 "spider web","escape_from_the_zoo",0,0
 "spider web","exhibit_12",0,0
 "spider web","flowerman",0,0
-"spider web","journey",1,0.03125
 "spider web","make_a_splash",0,0
 "spider web","picture_this",0,0
 "spider web","quest",0,0
@@ -10362,7 +10399,6 @@
 "spinning top","deep_sea_divers",0,0
 "spinning top","dinosaurs_spacemen_and_ghouls",0,0
 "spinning top","escape_from_the_zoo",0,0
-"spinning top","exhibit_12",1,0.03125
 "spinning top","flowerman",0,0
 "spinning top","journey",0,0
 "spinning top","make_a_splash",0,0
@@ -10520,14 +10556,12 @@
 "steering wheel","escape_from_the_zoo",0,0
 "steering wheel","exhibit_12",0,0
 "steering wheel","flowerman",0,0
-"steering wheel","journey",1,0.03125
 "steering wheel","make_a_splash",0,0
 "steering wheel","picture_this",0,0
 "steering wheel","quest",0,0
 "steering wheel","return",0,0
 "steering wheel","unfriendly_giants",0,0
 "steering wheel","waldo_1",0,0
-"steering wheel","wanderer",2,0.0625
 "steering wheel","wild_west",0,0
 "styrofoam cup","airport",0,0
 "styrofoam cup","ancient_rome",0,0
@@ -10586,7 +10620,6 @@
 "sweet potato","arrival_1",0,0
 "sweet potato","arrival_2",0,0
 "sweet potato","arrival_3",0,0
-"sweet potato","arrival_4",3,0.09375
 "sweet potato","arrival_5",0,0
 "sweet potato","arrival_6",0,0
 "sweet potato","being_a_pirate",0,0
@@ -10709,7 +10742,6 @@
 "tail lights","return",0,0
 "tail lights","unfriendly_giants",0,0
 "tail lights","waldo_1",0,0
-"tail lights","wanderer",1,0.03125
 "tail lights","wild_west",0,0
 "tape measure","airport",0,0
 "tape measure","ancient_rome",0,0
@@ -10798,7 +10830,6 @@
 "teddy bear","arrival_5",0,0
 "teddy bear","arrival_6",0,0
 "teddy bear","being_a_pirate",0,0
-"teddy bear","birthday_party_fun",1,0.03125
 "teddy bear","by_the_lake",0,0
 "teddy bear","campsite",0,0
 "teddy bear","deep_sea_divers",0,0
@@ -10808,7 +10839,6 @@
 "teddy bear","flowerman",0,0
 "teddy bear","journey",0,0
 "teddy bear","make_a_splash",0,0
-"teddy bear","picture_this",1,0.03125
 "teddy bear","quest",0,0
 "teddy bear","return",0,0
 "teddy bear","unfriendly_giants",0,0
@@ -11241,7 +11271,6 @@
 "toy truck","arrival_6",0,0
 "toy truck","being_a_pirate",0,0
 "toy truck","birthday_party_fun",0,0
-"toy truck","by_the_lake",1,0.03125
 "toy truck","campsite",0,0
 "toy truck","deep_sea_divers",0,0
 "toy truck","dinosaurs_spacemen_and_ghouls",0,0
@@ -11274,11 +11303,9 @@
 "traffic light","escape_from_the_zoo",0,0
 "traffic light","exhibit_12",0,0
 "traffic light","flowerman",0,0
-"traffic light","journey",8,0.25
 "traffic light","make_a_splash",0,0
 "traffic light","picture_this",0,0
 "traffic light","quest",0,0
-"traffic light","return",2,0.0625
 "traffic light","unfriendly_giants",0,0
 "traffic light","waldo_1",0,0
 "traffic light","wanderer",0,0
@@ -11319,18 +11346,11 @@
 "trash can","arrival_6",0,0
 "trash can","being_a_pirate",0,0
 "trash can","birthday_party_fun",0,0
-"trash can","by_the_lake",3,0.09375
 "trash can","campsite",0,0
 "trash can","deep_sea_divers",0,0
-"trash can","dinosaurs_spacemen_and_ghouls",1,0.03125
-"trash can","escape_from_the_zoo",1,0.03125
 "trash can","exhibit_12",0,0
-"trash can","flowerman",3,0.09375
-"trash can","journey",2,0.0625
 "trash can","make_a_splash",0,0
 "trash can","picture_this",0,0
-"trash can","quest",5,0.15625
-"trash can","return",2,0.0625
 "trash can","unfriendly_giants",0,0
 "trash can","waldo_1",0,0
 "trash can","wanderer",0,0
@@ -11378,17 +11398,13 @@
 "tree trunk","escape_from_the_zoo",0,0
 "tree trunk","exhibit_12",0,0
 "tree trunk","flowerman",0,0
-"tree trunk","journey",3,0.09375
 "tree trunk","make_a_splash",0,0
 "tree trunk","picture_this",0,0
-"tree trunk","quest",1,0.03125
 "tree trunk","return",0,0
 "tree trunk","unfriendly_giants",0,0
 "tree trunk","waldo_1",0,0
-"tree trunk","wanderer",2,0.0625
 "tree trunk","wild_west",0,0
 "trojan horse","airport",0,0
-"trojan horse","ancient_rome",1,0.03125
 "trojan horse","arrival_1",0,0
 "trojan horse","arrival_2",0,0
 "trojan horse","arrival_3",0,0
@@ -11408,8 +11424,6 @@
 "trojan horse","make_a_splash",0,0
 "trojan horse","picture_this",0,0
 "trojan horse","quest",0,0
-"trojan horse","return",3,0.09375
-"trojan horse","unfriendly_giants",1,0.03125
 "trojan horse","waldo_1",0,0
 "trojan horse","wanderer",0,0
 "trojan horse","wild_west",0,0
@@ -11504,7 +11518,6 @@
 "video camera","by_the_lake",0,0
 "video camera","campsite",0,0
 "video camera","deep_sea_divers",0,0
-"video camera","dinosaurs_spacemen_and_ghouls",1,0.03125
 "video camera","escape_from_the_zoo",0,0
 "video camera","exhibit_12",0,0
 "video camera","flowerman",0,0
@@ -11715,14 +11728,9 @@
 "water fountain","dinosaurs_spacemen_and_ghouls",0,0
 "water fountain","escape_from_the_zoo",0,0
 "water fountain","exhibit_12",0,0
-"water fountain","flowerman",2,0.0625
 "water fountain","journey",0,0
-"water fountain","make_a_splash",1,0.03125
-"water fountain","picture_this",0,0
-"water fountain","quest",2,0.0625
 "water fountain","return",0,0
 "water fountain","unfriendly_giants",0,0
-"water fountain","waldo_1",3,0.09375
 "water fountain","wanderer",0,0
 "water fountain","wild_west",0,0
 "water heater","airport",0,0
@@ -11742,11 +11750,9 @@
 "water heater","escape_from_the_zoo",0,0
 "water heater","exhibit_12",0,0
 "water heater","flowerman",0,0
-"water heater","journey",2,0.0625
 "water heater","make_a_splash",0,0
 "water heater","picture_this",0,0
 "water heater","quest",0,0
-"water heater","return",3,0.09375
 "water heater","unfriendly_giants",0,0
 "water heater","waldo_1",0,0
 "water heater","wanderer",0,0
@@ -11820,7 +11826,6 @@
 "weather vane","escape_from_the_zoo",0,0
 "weather vane","exhibit_12",0,0
 "weather vane","flowerman",0,0
-"weather vane","journey",5,0.15625
 "weather vane","make_a_splash",0,0
 "weather vane","picture_this",0,0
 "weather vane","quest",0,0
@@ -12043,7 +12048,6 @@
 "wine glass","arrival_2",0,0
 "wine glass","arrival_3",0,0
 "wine glass","arrival_4",0,0
-"wine glass","arrival_5",2,0.0625
 "wine glass","arrival_6",0,0
 "wine glass","being_a_pirate",0,0
 "wine glass","birthday_party_fun",0,0
@@ -12134,7 +12138,6 @@
 "witch hat","flowerman",0,0
 "witch hat","journey",0,0
 "witch hat","make_a_splash",0,0
-"witch hat","picture_this",0,0
 "witch hat","quest",0,0
 "witch hat","return",0,0
 "witch hat","unfriendly_giants",0,0
@@ -12195,7 +12198,6 @@
 "wooden shoe","wild_west",0,0
 "wooden spoon","airport",0,0
 "wooden spoon","ancient_rome",0,0
-"wooden spoon","arrival_1",6,0.1875
 "wooden spoon","arrival_2",0,0
 "wooden spoon","arrival_3",0,0
 "wooden spoon","arrival_4",0,0
@@ -12206,7 +12208,6 @@
 "wooden spoon","by_the_lake",0,0
 "wooden spoon","campsite",0,0
 "wooden spoon","deep_sea_divers",0,0
-"wooden spoon","dinosaurs_spacemen_and_ghouls",1,0.03125
 "wooden spoon","escape_from_the_zoo",0,0
 "wooden spoon","exhibit_12",0,0
 "wooden spoon","flowerman",0,0
@@ -12262,7 +12263,6 @@
 "world map","escape_from_the_zoo",0,0
 "world map","exhibit_12",0,0
 "world map","flowerman",0,0
-"world map","journey",1,0.03125
 "world map","make_a_splash",0,0
 "world map","picture_this",0,0
 "world map","quest",0,0

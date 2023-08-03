@@ -9,24 +9,29 @@ library(textclean)
 library(udpipe)
 library(fuzzyjoin)
 
-files = list.files(here("check-nouns hand corrected", "Final Noun Lists"),full.names = TRUE, pattern = ".xlsx" )
-fileNames = list.files(here("check-nouns hand corrected", "Final Noun Lists"), pattern = ".xlsx" )
+# files = list.files(here("check-nouns hand corrected", "Final Noun Lists"),full.names = TRUE, pattern = ".xlsx" )
+# fileNames = list.files(here("check-nouns hand corrected", "Final Noun Lists"), pattern = ".xlsx" )
+# 
+# dl = list()
+# for(i in 1:length(files)){
+#   
+#   dl[[i]] = read_excel(files[[i]], col_types = "text", sheet = 1) |> 
+#     mutate(source = fileNames[[i]])
+#   
+# }
+# 
+# all = bind_rows(dl) |> select(-`...11`, -`...12`)
+# rm(dl)
 
-dl = list()
-for(i in 1:length(files)){
-  
-  dl[[i]] = read_excel(files[[i]], col_types = "text", sheet = 1) |> 
-    mutate(source = fileNames[[i]])
-  
-}
-
-all = bind_rows(dl) |> select(-`...11`, -`...12`)
-rm(dl)
+all <- read.csv(here("output", paste0("2023-07-21", "_nounCounts.csv")))
 
 df_30 = all |> 
   mutate(n = as.integer(n), percent = as.double(percent)) |> 
-  filter(isPicturable == 1, notNoun == 0, percent >= 30) |> 
-  select(stimuli, lemma_hc, n, percent)
+  filter(
+    # isPicturable == 1,
+    # notNoun == 0,
+    percent >= 30) |> 
+  select(stimuli, lemma_hc = lemma, n, percent)
 
 #multiwords
 multi <- read.csv("data/multiword.csv") |> 
@@ -75,7 +80,7 @@ stringdist_join(
   select(id, stimuli, n, percent, lemma_dis = lemma.y, lemma_naming = lemma.x, source, agreement,  dist) %>% 
   filter(dist > 0) -> fuzz_join2
 
-write.csv(fuzz_join2, "data/found_in_discourse_fuzzy.csv")
+#write.csv(fuzz_join2, "data/found_in_discourse_fuzzy.csv")
 
 
 
