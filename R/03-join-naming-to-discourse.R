@@ -66,7 +66,10 @@ stringdist_join(
 
 df_30$id = seq(1, nrow(df_30), 1)
 
-exact_join = left_join(df_30, naming, by = "lemma")
+exact_join = left_join(df_30,  naming, by = "lemma")
+exact_join2 = left_join(df_30 |> distinct(lemma), naming, by = "lemma")
+
+#write.csv(exact_join2, "data/discourse_lemmas_matched_to_naming.csv")
 #write.csv(exact_join, "data/found_in_discourse_exact.csv")
 
 stringdist_join(
