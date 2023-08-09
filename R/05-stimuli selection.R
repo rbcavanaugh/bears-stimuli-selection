@@ -38,7 +38,8 @@ fuzz_join |>
 #item_params = read.csv("data/item_parameters.csv")
 # updated to new merged sheet with a few more items...
 item_params = read.csv("data/AoA-phonemes-freq_joined_2023-08-02.csv") |> 
-  select(Word, LgSUBTLCD = LgSUBTLCD2, Age_Of_Acquisition = Age_Of_Acquisition2, NPhon)
+  select(Word, LgSUBTLCD = LgSUBTLCD2, Age_Of_Acquisition = Age_Of_Acquisition2, NPhon) |> 
+  mutate(LgSUBTLCD = readr::parse_number(LgSUBTLCD))
 
 # join together and calculate item difficulty
 diff = naming |> 
@@ -115,6 +116,7 @@ groups <- anticlustering(
   dat[, c(4, 5, 7)], # use the variables directly
   K = c(60,60, 60),
   method = "local-maximum",
+  #preclustering = TRUE,
   categories = dat$in_discourse,
   repetitions = 100,
   objective = "kplus",

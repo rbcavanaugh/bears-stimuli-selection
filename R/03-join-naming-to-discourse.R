@@ -41,8 +41,9 @@ multi <- read.csv("data/multiword.csv") |>
 
 df_30 <- bind_rows(multi, df_30) |> rename(lemma = lemma_hc)
 
-naming <- read_csv("data/naming-battery-items.csv") |> 
-  select(lemma = modal, source, agreement) |> 
+naming <- read_csv(here("data", "final_database_4-11-23.csv")) |> 
+  select(lemma = modal, source, agreement, target = `confirmed file name`) |> 
+  distinct() |> 
   filter(agreement > 70) |> 
   group_by(lemma) |> 
   mutate(source = paste(source, collapse = ", ")) |> 
@@ -59,14 +60,14 @@ stringdist_join(
 ) |> arrange(desc(dist)) |> 
   select(source, agreement, stimuli, n, percent, lemma_naming = lemma.x, lemma_dis = lemma.y, dist)-> fuzz_join
 
-write.csv(fuzz_join, "data/join_check.csv")
+#write.csv(fuzz_join, "data/join_check.csv")
 
 # repeat it the other way...
 
 df_30$id = seq(1, nrow(df_30), 1)
 
 exact_join = left_join(df_30, naming, by = "lemma")
-write.csv(exact_join, "data/found_in_discourse_exact.csv")
+#write.csv(exact_join, "data/found_in_discourse_exact.csv")
 
 stringdist_join(
   df_30, naming,
@@ -77,7 +78,7 @@ stringdist_join(
   max_dist = 0.1, 
   distance_col = "dist"
 ) |> arrange(desc(dist)) |> 
-  select(id, stimuli, n, percent, lemma_dis = lemma.y, lemma_naming = lemma.x, source, agreement,  dist) %>% 
+  select(id, stimuli, n, percent, lemma_dis = lemma.y, lemma_naming = lemma.x, source, agreement,  dist, target) %>% 
   filter(dist > 0) -> fuzz_join2
 
 #write.csv(fuzz_join2, "data/found_in_discourse_fuzzy.csv")
