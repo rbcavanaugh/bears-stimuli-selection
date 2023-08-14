@@ -23,7 +23,7 @@ library(fuzzyjoin)
 # all = bind_rows(dl) |> select(-`...11`, -`...12`)
 # rm(dl)
 
-all <- read.csv(here("output", paste0("2023-07-21", "_nounCounts.csv")))
+all <- read.csv(here("output", paste0("2023-08-13", "_nounCounts.csv")))
 
 df_30 = all |> 
   mutate(n = as.integer(n), percent = as.double(percent)) |> 
@@ -60,14 +60,19 @@ stringdist_join(
 ) |> arrange(desc(dist)) |> 
   select(source, agreement, stimuli, n, percent, lemma_naming = lemma.x, lemma_dis = lemma.y, dist)-> fuzz_join
 
-#write.csv(fuzz_join, "data/join_check.csv")
+#write.csv(fuzz_join, here::here("data", "join_check.csv"))
 
 # repeat it the other way...
 
 df_30$id = seq(1, nrow(df_30), 1)
 
 exact_join = left_join(df_30,  naming, by = "lemma")
-exact_join2 = left_join(df_30 |> distinct(lemma), naming, by = "lemma")
+with_stim = exact_join |> 
+  select(stimuli, lemma, source, agreement, target) |> 
+  group_by(lemma) |> 
+  summarize(stimuli = paste(stimuli, collapse = ", "))
+exact_join2 = left_join(df_30 |> distinct(lemma), naming, by = "lemma") |> 
+  left_join(with_stim, by = "lemma")
 
 write.csv(exact_join2, here("data", "discourse_lemmas_matched_to_naming.csv"))
 write.csv(exact_join, here("data", "found_in_discourse_exact.csv"))
@@ -84,7 +89,7 @@ stringdist_join(
   select(id, stimuli, n, percent, lemma_dis = lemma.y, lemma_naming = lemma.x, source, agreement,  dist, target) %>% 
   filter(dist > 0) -> fuzz_join2
 
-#write.csv(fuzz_join2, "data/found_in_discourse_fuzzy.csv")
+#write.csv(fuzz_join2, here::here("data", "found_in_discourse_fuzzy.csv"))
 
 
 

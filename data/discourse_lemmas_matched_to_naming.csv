@@ -1,664 +1,632 @@
-"","lemma","source","agreement","target"
-"1","ace",NA,NA,NA
-"2","air",NA,NA,NA
-"3","airplane","DR2",95.4545455,"airplane_01_og.jpg"
-"4","airport",NA,NA,NA
-"5","area",NA,NA,NA
-"6","attendant",NA,NA,NA
-"7","background",NA,NA,NA
-"8","baggage",NA,NA,NA
-"9","balloon","boss",87,"balloon01b.jpg"
-"10","biplane",NA,NA,NA
-"11","blimp","DR2",91.3,"blimp_01_og.jpg"
-"12","bottom",NA,NA,NA
-"13","building",NA,NA,NA
-"14","bus","moreno-martinez",76,"bus.jpg"
-"15","card",NA,NA,NA
-"16","cart","moreno-martinez",75,"cart.jpg"
-"17","coat","moreno-martinez",96,"coat.jpg"
-"18","control",NA,NA,NA
-"19","couple",NA,NA,NA
-"20","elephant","brodeur",95,"africanelephant.jpg"
-"21","fire",NA,NA,NA
-"22","flag","brodeur",71,"flag.jpg"
-"23","flight",NA,NA,NA
-"24","ground",NA,NA,NA
-"25","guy",NA,NA,NA
-"26","helicopter","brodeur",90,"helicopter.jpg"
-"27","hose",NA,NA,NA
-"28","jet",NA,NA,NA
-"29","kind",NA,NA,NA
-"30","line",NA,NA,NA
-"31","lot",NA,NA,NA
-"32","luggage",NA,NA,NA
-"33","man",NA,NA,NA
-"34","one",NA,NA,NA
-"35","people",NA,NA,NA
-"36","plane",NA,NA,NA
-"37","rocket","DR2",86.3636364,"rocket_01_og.jpg"
-"38","scene",NA,NA,NA
-"39","sky",NA,NA,NA
-"40","smoke",NA,NA,NA
-"41","spade",NA,NA,NA
-"42","tarmac",NA,NA,NA
-"43","thing",NA,NA,NA
-"44","top",NA,NA,NA
-"45","tower","moreno-martinez",78,"tower.jpg"
-"46","truck","DR2",95.4545455,"truck_01_og.jpg"
-"47","um",NA,NA,NA
-"48","watch","DR2",95.4545455,"watch_01_og.jpg"
-"49","water",NA,NA,NA
-"50","wing",NA,NA,NA
-"51","worker",NA,NA,NA
-"52","animal",NA,NA,NA
-"53","arena",NA,NA,NA
-"54","bunch",NA,NA,NA
-"55","chariot",NA,NA,NA
-"56","colosseum",NA,NA,NA
-"57","fight",NA,NA,NA
-"58","game",NA,NA,NA
-"59","gladiator",NA,NA,NA
-"60","hand","brodeur",81,"?"
-"61","horse","brodeur",100,"horse.jpg"
-"62","knife","boss",87,"?"
-"63","leopard",NA,NA,NA
-"64","lion","brodeur",88,"lion.jpg"
-"65","lions",NA,NA,NA
-"66","person",NA,NA,NA
-"67","place",NA,NA,NA
-"68","pyramid","moreno-martinez",84,"pyramid.jpg"
-"69","rome",NA,NA,NA
-"70","shield","moreno-martinez",96,"shield.jpg"
-"71","side",NA,NA,NA
-"72","stand",NA,NA,NA
-"73","sword","moreno-martinez",97,"sword.jpg"
-"74","tiger","moreno-martinez",99,"tiger.jpg"
-"75","wall",NA,NA,NA
-"76","bed","brodeur",81,"bed.jpg"
-"77","belt","boss",95,"belt02a.jpg"
-"78","bird","DR2",100,"bird_01_og.jpg"
-"79","boot","boss",82,"boot02b.jpg"
-"80","bow","moreno-martinez",99,"bow.jpg"
-"81","bowl","boss",85,"bowl01.jpg"
-"82","breakfast",NA,NA,NA
-"83","child",NA,NA,NA
-"84","clock","boss",92,"clock04.jpg"
-"85","cloth",NA,NA,NA
-"86","coffee",NA,NA,NA
-"87","cup","moreno-martinez",82,"cup.jpg"
-"88","dad",NA,NA,NA
-"89","daughter",NA,NA,NA
-"90","distance",NA,NA,NA
-"91","dragon",NA,NA,NA
-"92","drawing",NA,NA,NA
-"93","ear","moreno-martinez",99,"ear.jpg"
-"94","eye","brodeur",76,"eye.jpg"
-"95","family",NA,NA,NA
-"96","father",NA,NA,NA
-"97","girl",NA,NA,NA
-"98","goodbye",NA,NA,NA
-"99","hat","DR2",100,"hat_01_og.jpg"
-"100","head",NA,NA,NA
-"101","hold",NA,NA,NA
-"102","hook",NA,NA,NA
-"103","hug",NA,NA,NA
-"104","item",NA,NA,NA
-"105","kitchen",NA,NA,NA
-"106","left",NA,NA,NA
-"107","mom",NA,NA,NA
-"108","mother",NA,NA,NA
-"109","origami",NA,NA,NA
-"110","paper","DR2",72.7,"paper_02_og.jpg"
-"111","photo",NA,NA,NA
-"112","picture",NA,NA,NA
-"113","pot","DR2",100,"pot_01_og.jpg"
-"114","scarf","boss",95,"scarf.jpg"
-"115","shadow",NA,NA,NA
-"116","ship","moreno-martinez",74,"ship.jpg"
-"117","shoulder",NA,NA,NA
-"118","soup",NA,NA,NA
-"119","spoon","boss",92,"spoon01.jpg"
-"120","station",NA,NA,NA
-"121","steam",NA,NA,NA
-"122","street",NA,NA,NA
-"123","string",NA,NA,NA
-"124","suitcase","DR2",97.0588235,"suitcase_01_og.jpg"
-"125","table","brodeur",81,"table01.jpg"
-"126","tail",NA,NA,NA
-"127","tea",NA,NA,NA
-"128","teapot","DR2",93.3,"teapot_01_og.jpg"
-"129","train","moreno-martinez",93,"train.jpg"
-"130","trunk",NA,NA,NA
-"131","wife",NA,NA,NA
-"132","woman",NA,NA,NA
-"133","arm","moreno-martinez",96,"arm.jpg"
-"134","baby",NA,NA,NA
-"135","boat","moreno-martinez",86,"boat.jpg"
-"136","book","boss",90,"book01b.jpg"
-"137","city","DR2",74.1,"city_01_og.jpg"
-"138","creature",NA,NA,NA
-"139","deck",NA,NA,NA
-"140","gate","brodeur",71,"entrancegate.jpg"
-"141","harbor",NA,NA,NA
-"142","megaphone",NA,NA,NA
-"143","page",NA,NA,NA
-"144","statue","DR2",93.3,"statue_02_og.jpg"
-"145","accordion","brodeur, moreno-martinez",97,"accordion.jpg"
-"146","arrow","moreno-martinez",94,"arrow.jpg"
-"147","barber",NA,NA,NA
-"148","basket","boss",81,"strawbasket01.jpg"
-"149","boy",NA,NA,NA
-"150","cat","brodeur",88,"cat.jpg"
-"151","direction",NA,NA,NA
-"152","egg","DR2",100,"egg_01_og.jpg"
-"153","front",NA,NA,NA
-"154","instrument",NA,NA,NA
-"155","language",NA,NA,NA
-"156","light",NA,NA,NA
-"157","map",NA,NA,NA
-"158","music",NA,NA,NA
-"159","musician",NA,NA,NA
-"160","newspaper",NA,NA,NA
-"161","rabbit","brodeur",88,"jackrabbit.jpg"
-"162","sign",NA,NA,NA
-"163","snail",NA,NA,NA
-"164","time",NA,NA,NA
-"165","type",NA,NA,NA
-"166","violin","boss",97,"violin.jpg"
-"167","way",NA,NA,NA
-"168","wind",NA,NA,NA
-"169","window","brodeur",82,"dormer.jpg"
-"170","bag",NA,NA,NA
-"171","bench","brodeur",76,"bench01.jpg"
-"172","billboard",NA,NA,NA
-"173","bite",NA,NA,NA
-"174","box","DR2",95.4545455,"box_02_og.jpg"
-"175","bread",NA,NA,NA
-"176","bridge","brodeur",90,"bridge.jpg"
-"177","car","moreno-martinez",93,"car.jpg"
-"178","chimney","brodeur",86,"chimney.jpg"
-"179","coal",NA,NA,NA
-"180","conductor",NA,NA,NA
-"181","cone",NA,NA,NA
-"182","conversation",NA,NA,NA
-"183","door",NA,NA,NA
-"184","drawer","DR2",82.1,"drawer_02_og.jpg"
-"185","face",NA,NA,NA
-"186","fish","brodeur",90,"rockbass.jpg"
-"187","food",NA,NA,NA
-"188","foot",NA,NA,NA
-"189","friend",NA,NA,NA
-"190","fruit",NA,NA,NA
-"191","furnace",NA,NA,NA
-"192","glass",NA,NA,NA
-"193","horn",NA,NA,NA
-"194","house","moreno-martinez",93,"house.jpg"
-"195","ladder","DR2",100,"ladder_02_og.jpg"
-"196","lever",NA,NA,NA
-"197","loaf",NA,NA,NA
-"198","look",NA,NA,NA
-"199","machine",NA,NA,NA
-"200","money",NA,NA,NA
-"201","mouth","moreno-martinez",76,"mouth.jpg"
-"202","number",NA,NA,NA
-"203","pet",NA,NA,NA
-"204","phone",NA,NA,NA
-"205","piece",NA,NA,NA
-"206","pocket",NA,NA,NA
-"207","point",NA,NA,NA
-"208","question",NA,NA,NA
-"209","shoe","boss",77,"manshoe.jpg"
-"210","shovel","moreno-martinez",96,"showel.jpg"
-"211","shower","DR2",96.7741935,"shower_01_og.jpg"
-"212","shrimp","brodeur",82,"shrimp.jpg"
-"213","smokestack",NA,NA,NA
-"214","snake","moreno-martinez",92,"snake.jpg"
-"215","sort",NA,NA,NA
-"216","story",NA,NA,NA
-"217","structure",NA,NA,NA
-"218","teepee","DR2",100,"teepee_01_og.jpg"
-"219","telephone",NA,NA,NA
-"220","tentacle",NA,NA,NA
-"221","ticket",NA,NA,NA
-"222","town",NA,NA,NA
-"223","uh",NA,NA,NA
-"224","umm",NA,NA,NA
-"225","vegetable",NA,NA,NA
-"226","vest",NA,NA,NA
-"227","work",NA,NA,NA
-"228","banjo","brodeur",95,"banjo.jpg"
-"229","chef",NA,NA,NA
-"230","counter",NA,NA,NA
-"231","cupboard",NA,NA,NA
-"232","dinner",NA,NA,NA
-"233","drink",NA,NA,NA
-"234","flute",NA,NA,NA
-"235","jacket","DR2",72.7272727,"jacket_02_og.jpg"
-"236","meal",NA,NA,NA
-"237","owl","brodeur",100,"greathornowl.jpg"
-"238","plate","boss",92,"plate01b.jpg"
-"239","rope","boss",86,"rope03.jpg"
-"240","shape",NA,NA,NA
-"241","shirt","moreno-martinez",99,"shirt.jpg"
-"242","shop",NA,NA,NA
-"243","stair",NA,NA,NA
-"244","suit",NA,NA,NA
-"245","wine","DR2",70.7,"wine_01_og.jpg"
-"246","center",NA,NA,NA
-"247","coin",NA,NA,NA
-"248","dandelion",NA,NA,NA
-"249","desk",NA,NA,NA
-"250","dish",NA,NA,NA
-"251","edge",NA,NA,NA
-"252","end",NA,NA,NA
-"253","envelope","boss",100,"envelope03a.jpg"
-"254","finger","moreno-martinez",90,"finger.jpg"
-"255","floor","DR2",100,"floor_02_og.jpg"
-"256","flower","brodeur, brodeur",89,"hibiscusflower02.jpg"
-"257","flower","brodeur, brodeur",89,"lily.jpg"
-"258","frame",NA,NA,NA
-"259","hole",NA,NA,NA
-"260","insect",NA,NA,NA
-"261","lamp","boss",92,"lamp04a.jpg"
-"262","leaf","boss",97,"leaf02a.jpg"
-"263","leave",NA,NA,NA
-"264","letter",NA,NA,NA
-"265","mailbox","brodeur, DR2",100,"mailbox02.jpg"
-"266","mailbox","brodeur, DR2",100,"mailbox_01_og.jpg"
-"267","mirror","DR2",100,"mirror_02_og.jpg"
-"268","mouse","DR2",100,"mouse_01_og.jpg"
-"269","part",NA,NA,NA
-"270","pen","boss",90,"pen04b.jpg"
-"271","petal",NA,NA,NA
-"272","plant","boss",84,"plant01.jpg"
-"273","room",NA,NA,NA
-"274","seed",NA,NA,NA
-"275","snow",NA,NA,NA
-"276","split",NA,NA,NA
-"277","stamp",NA,NA,NA
-"278","stem",NA,NA,NA
-"279","step",NA,NA,NA
-"280","tree","brodeur",95,"tree.jpg"
-"281","vase","boss",84,"vase02.jpg"
-"282","winter",NA,NA,NA
-"283","write",NA,NA,NA
-"284","beach",NA,NA,NA
-"285","cannon","moreno-martinez",98,"cannon.jpg"
-"286","crossbone",NA,NA,NA
-"287","half",NA,NA,NA
-"288","land",NA,NA,NA
-"289","mast",NA,NA,NA
-"290","octopus",NA,NA,NA
-"291","palm",NA,NA,NA
-"292","pirate",NA,NA,NA
-"293","sail",NA,NA,NA
-"294","sea","moreno-martinez",93,"sea.jpg"
-"295","shore",NA,NA,NA
-"296","skull",NA,NA,NA
-"297","treasure",NA,NA,NA
-"298","alligator",NA,NA,NA
-"299","backyard",NA,NA,NA
-"300","bat","moreno-martinez",96,"bat.jpg"
-"301","birthday",NA,NA,NA
-"302","bouncy",NA,NA,NA
-"303","bunny",NA,NA,NA
-"304","cake",NA,NA,NA
-"305","castle","DR2",100,"castle_01_og.jpg"
-"306","clown",NA,NA,NA
-"307","costume",NA,NA,NA
-"308","cupcake","brodeur",95,"cupcake.jpg"
-"309","fence","DR2",100,"fence_02_og.jpg"
-"310","fun",NA,NA,NA
-"311","gift",NA,NA,NA
-"312","gun","moreno-martinez",90,"gun.jpg"
-"313","kid",NA,NA,NA
-"314","lantern",NA,NA,NA
-"315","mermaid",NA,NA,NA
-"316","party",NA,NA,NA
-"317","penguin","moreno-martinez",99,"penguin.jpg"
-"318","pinata",NA,NA,NA
-"319","pool","DR2",100,"pool_01_og.jpg"
-"320","present",NA,NA,NA
-"321","robot",NA,NA,NA
-"322","sandwich",NA,NA,NA
-"323","tug",NA,NA,NA
-"324","viking",NA,NA,NA
-"325","war",NA,NA,NA
-"326","witch",NA,NA,NA
-"327","ball","moreno-martinez",89,"ball.jpg"
-"328","cabin",NA,NA,NA
-"329","dock",NA,NA,NA
-"330","dog",NA,NA,NA
-"331","group",NA,NA,NA
-"332","guitar","brodeur",71,"acousticguitar02.jpg"
-"333","kayak",NA,NA,NA
-"334","kite","brodeur",98,"kite.jpg"
-"335","kites",NA,NA,NA
-"336","lake",NA,NA,NA
-"337","mountain","moreno-martinez",83,"mountain.jpg"
-"338","net",NA,NA,NA
-"339","paddle",NA,NA,NA
-"340","raft",NA,NA,NA
-"341","rock",NA,NA,NA
-"342","sailboat","DR2",85.7,"sailboat_02_og.jpg"
-"343","sand",NA,NA,NA
-"344","sandcastle","brodeur",95,"sandcastle.jpg"
-"345","tube",NA,NA,NA
-"346","umbrella","boss, DR2",100,"umbrella04.jpg"
-"347","umbrella","boss, DR2",100,"umbrella_01_og.jpg"
-"348","volleyball","brodeur",76,"volleyball.jpg"
-"349","backpack","DR2",95.1,"backpack_01_og.jpg"
-"350","bike",NA,NA,NA
-"351","bull","brodeur",88,"bull.jpg"
-"352","campers",NA,NA,NA
-"353","campground",NA,NA,NA
-"354","canal",NA,NA,NA
-"355","duck","moreno-martinez",93,"duck.jpg"
-"356","field",NA,NA,NA
-"357","hiker",NA,NA,NA
-"358","river",NA,NA,NA
-"359","rv",NA,NA,NA
-"360","scout",NA,NA,NA
-"361","shark","DR2",100,"shark_01_og.jpg"
-"362","sidewalk",NA,NA,NA
-"363","tent","brodeur",90,"tent.jpg"
-"364","chest","DR2, DR2",85.7,"chest_02_og.JPG"
-"365","chest","DR2, DR2",85.7,NA
-"366","diver",NA,NA,NA
-"367","fishing",NA,NA,NA
-"368","nose","brodeur",88,"nose.jpg"
-"369","ocean",NA,NA,NA
-"370","school",NA,NA,NA
-"371","stripe",NA,NA,NA
-"372","swordfish","brodeur",83,"swordfish.jpg"
-"373","actor",NA,NA,NA
-"374","alien",NA,NA,NA
-"375","astronaut",NA,NA,NA
-"376","cafeteria",NA,NA,NA
-"377","camera","boss",82,"camera01a.jpg"
-"378","caveman",NA,NA,NA
-"379","color",NA,NA,NA
-"380","dinosaur",NA,NA,NA
-"381","ghoul",NA,NA,NA
-"382","ice",NA,NA,NA
-"383","makeup",NA,NA,NA
-"384","movie",NA,NA,NA
-"385","mummy","brodeur",86,"mummy.jpg"
-"386","pie","moreno-martinez",73,"pie.jpg"
-"387","saucer",NA,NA,NA
-"388","set",NA,NA,NA
-"389","space",NA,NA,NA
-"390","spaceman",NA,NA,NA
-"391","spaceship",NA,NA,NA
-"392","stage",NA,NA,NA
-"393","volcano","moreno-martinez",99,"volcano.jpg"
-"394","antelope",NA,NA,NA
-"395","back",NA,NA,NA
-"396","bear","DR2",100,"bear_02_og.jpg"
-"397","cafe",NA,NA,NA
-"398","cream",NA,NA,NA
-"399","crebe",NA,NA,NA
-"400","enclosure",NA,NA,NA
-"401","escape",NA,NA,NA
-"402","flamingo","brodeur",87,"flamingo.jpg"
-"403","giraffe","brodeur, DR2",100,"giraffe.jpg"
-"404","giraffe","brodeur, DR2",100,"giraffe_01_og.jpg"
-"405","gorilla","DR2",85.7,"gorilla_01_og.jpg"
-"406","kangaroo","DR2",98.5507246,"kangaroo_02_og.jpg"
-"407","middle",NA,NA,NA
-"408","monkey","brodeur",73,"proboscismonkey.jpg"
-"409","parrot","DR2",78.6,"parrot_02_og.jpg"
-"410","peacock","DR2",100,"peacock_01_og.jpg"
-"411","rhinocero",NA,NA,NA
-"412","zebras",NA,NA,NA
-"413","zoo",NA,NA,NA
-"414","art",NA,NA,NA
-"415","exhibit",NA,NA,NA
-"416","exhibition",NA,NA,NA
-"417","gallery",NA,NA,NA
-"418","king",NA,NA,NA
-"419","level","boss",74,"level03a.jpg"
-"420","museum",NA,NA,NA
-"421","painting","brodeur",71,"painting.jpg"
-"422","portrait",NA,NA,NA
-"423","activity",NA,NA,NA
-"424","anchor","brodeur",93,"anchor.jpg"
-"425","apartment",NA,NA,NA
-"426","artist",NA,NA,NA
-"427","awning",NA,NA,NA
-"428","bait",NA,NA,NA
-"429","balcony","DR2",85.7142857,"balcony_01_og.jpg"
-"430","bar",NA,NA,NA
-"431","bath",NA,NA,NA
-"432","bit","moreno-martinez",73,"bit.jpg"
-"433","brick","boss",100,"brick.jpg"
-"434","chair","brodeur",88,"chair.jpg"
-"435","cloud","brodeur",95,"cloud.jpg"
-"436","cobblestone",NA,NA,NA
-"437","corner",NA,NA,NA
-"438","day",NA,NA,NA
-"439","daytime",NA,NA,NA
-"440","evening",NA,NA,NA
-"441","ferris",NA,NA,NA
-"442","fountain","DR2",100,"fountain_01_og.jpg"
-"443","gas",NA,NA,NA
-"444","gentleman",NA,NA,NA
-"445","grass",NA,NA,NA
-"446","hair",NA,NA,NA
-"447","home",NA,NA,NA
-"448","lady",NA,NA,NA
-"449","lawn",NA,NA,NA
-"450","leg",NA,NA,NA
-"451","life",NA,NA,NA
-"452","milk",NA,NA,NA
-"453","milkman",NA,NA,NA
-"454","motorcycle","DR2",98.4,"motorcycle_02_og.jpg"
-"455","mover",NA,NA,NA
-"456","mower",NA,NA,NA
-"457","neighbor",NA,NA,NA
-"458","neighborhood",NA,NA,NA
-"459","night",NA,NA,NA
-"460","rest",NA,NA,NA
-"461","right",NA,NA,NA
-"462","road","DR2",85.7142857,"road_02_og.jpg"
-"463","roof","DR2",90.9,"roof_02_og.jpg"
-"464","rooftop",NA,NA,NA
-"465","sale",NA,NA,NA
-"466","scooter","brodeur",90,"scooter.jpg"
-"467","shaker",NA,NA,NA
-"468","shutter",NA,NA,NA
-"469","skirt","moreno-martinez",99,"skirt.jpg"
-"470","stone",NA,NA,NA
-"471","telescope","DR2",100,"telescope_01_og.jpg"
-"472","tie","DR2",100,"tie_02_og.jpg"
-"473","towel",NA,NA,NA
-"474","village",NA,NA,NA
-"475","walk",NA,NA,NA
-"476","wheel","boss",82,"wheel01.jpg"
-"477","wheelchair","DR2",98.1,"wheelchair_01_og.jpg"
-"478","yard",NA,NA,NA
-"479","attention",NA,NA,NA
-"480","base",NA,NA,NA
-"481","bedroom",NA,NA,NA
-"482","bicycle","DR2",94.9152542,"bicycle_02_og.jpg"
-"483","cage",NA,NA,NA
-"484","carpet",NA,NA,NA
-"485","circle",NA,NA,NA
-"486","clouds",NA,NA,NA
-"487","computer",NA,NA,NA
-"488","couch","DR2",100,"couch_02_og.jpg"
-"489","crayon","boss",82,"crayon.jpg"
-"490","dome",NA,NA,NA
-"491","doorway",NA,NA,NA
-"492","draw",NA,NA,NA
-"493","dresser","DR2",78.5714286,"dresser_02_og.jpg"
-"494","forest",NA,NA,NA
-"495","gold",NA,NA,NA
-"496","guard",NA,NA,NA
-"497","hydrant",NA,NA,NA
-"498","magic",NA,NA,NA
-"499","marker","boss",82,"marker01a.jpg"
-"500","moat",NA,NA,NA
-"501","papers",NA,NA,NA
-"502","platform",NA,NA,NA
-"503","propeller",NA,NA,NA
-"504","purple",NA,NA,NA
-"505","rectangle",NA,NA,NA
-"506","reflection",NA,NA,NA
-"507","sister",NA,NA,NA
-"508","skateboard","brodeur, DR2",100,"skateboard.jpg"
-"509","skateboard","brodeur, DR2",100,"skateboard_01_og.jpg"
-"510","soldier","DR2",75,"soldier_01_og.jpg"
-"511","star",NA,NA,NA
-"512","stove","DR2",95.4545455,"stove_01_og.jpg"
-"513","stream",NA,NA,NA
-"514","towers",NA,NA,NA
-"515","traffic",NA,NA,NA
-"516","waterfall","brodeur",95,"waterfall.jpg"
-"517","world",NA,NA,NA
-"518","lifeguard",NA,NA,NA
-"519","mushroom","boss",100,"mushroom01.jpg"
-"520","park",NA,NA,NA
-"521","rainbow",NA,NA,NA
-"522","slide","DR2",95.5,"slide_02_og.jpg"
-"523","splash",NA,NA,NA
-"524","cactus","brodeur",93,"cactus.jpg"
-"525","sumo",NA,NA,NA
-"526","tongue","moreno-martinez",92,"tongue.jpg"
-"527","wrestler",NA,NA,NA
-"528","archway",NA,NA,NA
-"529","buddha",NA,NA,NA
-"530","crown","brodeur",88,"crown.jpg"
-"531","dragonfly","brodeur",76,"dragonfly02.jpg"
-"532","flipper",NA,NA,NA
-"533","gear",NA,NA,NA
-"534","helmet","DR2",100,"helmet_01_og.jpg"
-"535","island","moreno-martinez",84,"island.jpg"
-"536","key","boss",97,"key01.jpg"
-"537","orange","boss",100,"orange.jpg"
-"538","rain",NA,NA,NA
-"539","scuba",NA,NA,NA
-"540","seahorse","DR2",96.4,"seahorse_02_og.jpg"
-"541","seat",NA,NA,NA
-"542","spear","brodeur",75,"spear02.jpg"
-"543","squid","brodeur",88,"squid.jpg"
-"544","swing","brodeur",98,"swing.jpg"
-"545","tank","DR2",95.1,"tank_02_og.jpg"
-"546","temple",NA,NA,NA
-"547","underwater",NA,NA,NA
-"548","bathroom",NA,NA,NA
-"549","beard",NA,NA,NA
-"550","board",NA,NA,NA
-"551","butterfly","moreno-martinez",99,"butterfly.jpg"
-"552","cave",NA,NA,NA
-"553","ceiling",NA,NA,NA
-"554","fall",NA,NA,NA
-"555","feather","boss",100,"feather03a.jpg"
-"556","inside",NA,NA,NA
-"557","moon","moreno-martinez",95,"moon.jpg"
-"558","periscope",NA,NA,NA
-"559","sink","DR2",97.6190476,"sink_01_og.jpg"
-"560","submarine","DR2",100,"submarine_02_og.jpg"
-"561","throne",NA,NA,NA
-"562","trap",NA,NA,NA
-"563","bouquet",NA,NA,NA
-"564","chess",NA,NA,NA
-"565","giant",NA,NA,NA
-"566","giants",NA,NA,NA
-"567","hammer","boss",100,"hammer01.jpg"
-"568","straw","boss",83,"straw.jpg"
-"569","windmill","brodeur, DR2",100,"windmill.jpg"
-"570","windmill","brodeur, DR2",100,"windmill_02_og.jpg"
-"571","accident",NA,NA,NA
-"572","ambulance",NA,NA,NA
-"573","crossing",NA,NA,NA
-"574","engine",NA,NA,NA
-"575","fireman",NA,NA,NA
-"576","garage",NA,NA,NA
-"577","hotel",NA,NA,NA
-"578","manhole",NA,NA,NA
-"579","market",NA,NA,NA
-"580","mop","DR2",100,"mop_01_og.jpg"
-"581","snorkel",NA,NA,NA
-"582","square",NA,NA,NA
-"583","store",NA,NA,NA
-"584","triangle","brodeur",79,"triangle.jpg"
-"585","waiter","DR2",97.1428571,"waiter_01_og.jpg"
-"586","arch",NA,NA,NA
-"587","aurora",NA,NA,NA
-"588","body",NA,NA,NA
-"589","borealis",NA,NA,NA
-"590","bottle","DR2",90.9090909,"bottle_01_og.png"
-"591","branch",NA,NA,NA
-"592","buoy",NA,NA,NA
-"593","can",NA,NA,NA
-"594","cape",NA,NA,NA
-"595","character",NA,NA,NA
-"596","claw",NA,NA,NA
-"597","coral",NA,NA,NA
-"598","crab","brodeur",98,"crab01.jpg"
-"599","crane",NA,NA,NA
-"600","deer","DR2",100,"deer_01_og.jpg"
-"601","donut",NA,NA,NA
-"602","dot",NA,NA,NA
-"603","eel",NA,NA,NA
-"604","fin",NA,NA,NA
-"605","fins",NA,NA,NA
-"606","float",NA,NA,NA
-"607","foreground",NA,NA,NA
-"608","hmm",NA,NA,NA
-"609","iceberg","moreno-martinez",81,"iceberg_.jpg"
-"610","jellyfish","brodeur",95,"jellyfish.jpg"
-"611","jester",NA,NA,NA
-"612","lighthouse","DR2",100,"lighthouse_01_og.jpg"
-"613","lightning",NA,NA,NA
-"614","lobster","DR2",100,"lobster_02_og.jpg"
-"615","nostril",NA,NA,NA
-"616","oh",NA,NA,NA
-"617","oil",NA,NA,NA
-"618","opening",NA,NA,NA
-"619","outfit",NA,NA,NA
-"620","pair",NA,NA,NA
-"621","pattern",NA,NA,NA
-"622","pearl",NA,NA,NA
-"623","pier",NA,NA,NA
-"624","pipe","brodeur",83,"pipe.jpg"
-"625","pole",NA,NA,NA
-"626","reef",NA,NA,NA
-"627","rod",NA,NA,NA
-"628","root",NA,NA,NA
-"629","scissors","boss",100,"scissors01.jpg"
-"630","seagull","moreno-martinez",83,"seagull.jpg"
-"631","seal","brodeur",88,"seal.jpg"
-"632","serpent",NA,NA,NA
-"633","shell",NA,NA,NA
-"634","spot",NA,NA,NA
-"635","stingray",NA,NA,NA
-"636","storm",NA,NA,NA
-"637","stuff",NA,NA,NA
-"638","sun","moreno-martinez",75,"sun.jpg"
-"639","surface",NA,NA,NA
-"640","tooth",NA,NA,NA
-"641","trash",NA,NA,NA
-"642","tunnel",NA,NA,NA
-"643","turtle","DR2",95.2380952,"turtle_01_og.jpg"
-"644","vessel",NA,NA,NA
-"645","view",NA,NA,NA
-"646","wave","moreno-martinez",89,"wave.jpg"
-"647","whale",NA,NA,NA
-"648","zebra","moreno-martinez",99,"zebra.jpg"
-"649","bank",NA,NA,NA
-"650","buffalo",NA,NA,NA
-"651","cowboy",NA,NA,NA
-"652","heriff",NA,NA,NA
-"653","jail",NA,NA,NA
-"654","livery",NA,NA,NA
-"655","mine",NA,NA,NA
-"656","pioneer",NA,NA,NA
-"657","saloon",NA,NA,NA
-"658","stable",NA,NA,NA
-"659","stagecoach",NA,NA,NA
-"660","sunset",NA,NA,NA
-"661","track",NA,NA,NA
-"662","wagon",NA,NA,NA
-"663","wild",NA,NA,NA
+"","lemma","source","agreement","target","stimuli"
+"1","ace",NA,NA,NA,"airport"
+"2","air",NA,NA,NA,"airport, arrival_4, arrival_5, arrival_6, journey, quest, return, wanderer"
+"3","airplane","DR2",95.4545455,"airplane_01_og.jpg","airport, wanderer"
+"4","airport",NA,NA,NA,"airport"
+"5","area",NA,NA,NA,"airport, ancient_rome, campsite, dinosaurs_spacemen_and_ghouls, escape_from_the_zoo, flowerman, journey, make_a_splash, quest, return, wanderer"
+"6","attendant",NA,NA,NA,"airport"
+"7","background",NA,NA,NA,"airport, arrival_2, arrival_4, arrival_6, by_the_lake, dinosaurs_spacemen_and_ghouls, escape_from_the_zoo, flowerman, journey, quest, return, wanderer"
+"8","baggage",NA,NA,NA,"airport"
+"9","balloon","boss",87,"balloon01b.jpg","airport, arrival_6, birthday_party_fun, journey, quest, return"
+"10","biplane",NA,NA,NA,"airport"
+"11","blimp","DR2",91.3,"blimp_01_og.jpg","airport"
+"12","bottom",NA,NA,NA,"airport, deep_sea_divers, dinosaurs_spacemen_and_ghouls, flowerman, journey, return, wanderer"
+"13","bus","moreno-martinez",76,"bus.jpg","airport"
+"14","card",NA,NA,NA,"airport"
+"15","cart","moreno-martinez",75,"cart.jpg","airport, arrival_3, arrival_5, flowerman"
+"16","center",NA,NA,NA,"airport, escape_from_the_zoo, quest, waldo_1"
+"17","control",NA,NA,NA,"airport"
+"18","couple",NA,NA,NA,"airport, arrival_6, being_a_pirate, by_the_lake, campsite, escape_from_the_zoo, exhibit_12, flowerman, journey, picture_this, waldo_1, wanderer, wild_west"
+"19","elephant","brodeur",95,"africanelephant.jpg","airport, birthday_party_fun, escape_from_the_zoo, make_a_splash, wanderer"
+"20","fire",NA,NA,NA,"airport, arrival_4, flowerman, journey, quest, waldo_1"
+"21","flag","brodeur",71,"flag.jpg","airport, being_a_pirate, wanderer"
+"22","flight",NA,NA,NA,"airport"
+"23","ground",NA,NA,NA,"airport, ancient_rome, arrival_3, arrival_4, arrival_6, campsite, dinosaurs_spacemen_and_ghouls, journey, quest, return, unfriendly_giants"
+"24","helicopter","brodeur",90,"helicopter.jpg","airport"
+"25","hose",NA,NA,NA,"airport"
+"26","jet",NA,NA,NA,"airport"
+"27","kind",NA,NA,NA,"airport, ancient_rome, arrival_1, arrival_2, arrival_3, arrival_4, arrival_5, arrival_6, being_a_pirate, birthday_party_fun, by_the_lake, campsite, deep_sea_divers, dinosaurs_spacemen_and_ghouls, escape_from_the_zoo, exhibit_12, flowerman, journey, make_a_splash, picture_this, quest, return, unfriendly_giants, waldo_1, wanderer, wild_west"
+"28","line",NA,NA,NA,"airport, arrival_2, deep_sea_divers, make_a_splash, wanderer"
+"29","lot",NA,NA,NA,"airport, ancient_rome, arrival_2, arrival_4, arrival_5, arrival_6, being_a_pirate, birthday_party_fun, by_the_lake, campsite, deep_sea_divers, dinosaurs_spacemen_and_ghouls, escape_from_the_zoo, exhibit_12, flowerman, journey, make_a_splash, picture_this, quest, return, unfriendly_giants, waldo_1, wanderer, wild_west"
+"30","luggage",NA,NA,NA,"airport, arrival_1, arrival_2"
+"31","man",NA,NA,NA,"airport, ancient_rome, arrival_1, arrival_2, arrival_3, arrival_4, arrival_5, arrival_6, being_a_pirate, birthday_party_fun, by_the_lake, campsite, deep_sea_divers, escape_from_the_zoo, exhibit_12, flowerman, journey, picture_this, quest, return, unfriendly_giants, waldo_1, wanderer, wild_west"
+"32","one",NA,NA,NA,"airport, arrival_2, arrival_3, arrival_4, arrival_5, arrival_6, being_a_pirate, birthday_party_fun, campsite, dinosaurs_spacemen_and_ghouls, exhibit_12, flowerman, journey, make_a_splash, quest, return, unfriendly_giants, wanderer"
+"33","people",NA,NA,NA,"airport, ancient_rome, arrival_1, arrival_2, arrival_3, arrival_4, arrival_5, arrival_6, being_a_pirate, birthday_party_fun, by_the_lake, campsite, deep_sea_divers, dinosaurs_spacemen_and_ghouls, escape_from_the_zoo, exhibit_12, flowerman, journey, make_a_splash, picture_this, quest, return, unfriendly_giants, waldo_1, wanderer, wild_west"
+"34","plane",NA,NA,NA,"airport"
+"35","rocket","DR2",86.3636364,"rocket_01_og.jpg","airport, dinosaurs_spacemen_and_ghouls, wanderer"
+"36","scene",NA,NA,NA,"airport, ancient_rome, arrival_2, arrival_3, arrival_4, arrival_5, arrival_6, being_a_pirate, birthday_party_fun, by_the_lake, campsite, deep_sea_divers, dinosaurs_spacemen_and_ghouls, escape_from_the_zoo, exhibit_12, flowerman, journey, make_a_splash, picture_this, quest, return, unfriendly_giants, waldo_1, wanderer, wild_west"
+"37","sky",NA,NA,NA,"airport, arrival_2, arrival_4, arrival_5, arrival_6, flowerman, journey, quest, return, wanderer"
+"38","smoke",NA,NA,NA,"airport, arrival_1, arrival_4, arrival_6, campsite, flowerman, quest, wanderer"
+"39","spade",NA,NA,NA,"airport"
+"40","tarmac",NA,NA,NA,"airport"
+"41","thing",NA,NA,NA,"airport, ancient_rome, arrival_1, arrival_2, arrival_3, arrival_4, arrival_5, arrival_6, being_a_pirate, birthday_party_fun, by_the_lake, campsite, deep_sea_divers, dinosaurs_spacemen_and_ghouls, escape_from_the_zoo, exhibit_12, flowerman, journey, make_a_splash, picture_this, quest, return, unfriendly_giants, waldo_1, wanderer, wild_west"
+"42","top",NA,NA,NA,"airport, ancient_rome, arrival_1, arrival_4, arrival_5, arrival_6, being_a_pirate, by_the_lake, campsite, deep_sea_divers, dinosaurs_spacemen_and_ghouls, escape_from_the_zoo, flowerman, journey, make_a_splash, picture_this, quest, return, unfriendly_giants, waldo_1, wanderer, wild_west"
+"43","tower","moreno-martinez",78,"tower.jpg","airport, journey, quest"
+"44","truck","DR2",95.4545455,"truck_01_og.jpg","airport, flowerman, waldo_1"
+"45","um",NA,NA,NA,"airport, arrival_1, arrival_4, arrival_5, arrival_6, escape_from_the_zoo, flowerman, journey, make_a_splash, quest, return, wanderer, wild_west"
+"46","watch","DR2",95.4545455,"watch_01_og.jpg","airport, arrival_3"
+"47","water",NA,NA,NA,"airport, arrival_2, arrival_5, being_a_pirate, birthday_party_fun, by_the_lake, campsite, deep_sea_divers, escape_from_the_zoo, flowerman, journey, make_a_splash, picture_this, quest, return, unfriendly_giants, waldo_1, wanderer"
+"48","wing",NA,NA,NA,"airport, quest, return, wanderer"
+"49","worker",NA,NA,NA,"airport"
+"50","animal",NA,NA,NA,"ancient_rome, arrival_3, arrival_4, arrival_5, arrival_6, campsite, escape_from_the_zoo, flowerman, picture_this, return, wanderer"
+"51","arena",NA,NA,NA,"ancient_rome"
+"52","bunch",NA,NA,NA,"ancient_rome, arrival_4, campsite, unfriendly_giants, wanderer, wild_west"
+"53","chariot",NA,NA,NA,"ancient_rome"
+"54","colosseum",NA,NA,NA,"ancient_rome"
+"55","fight",NA,NA,NA,"ancient_rome"
+"56","game",NA,NA,NA,"ancient_rome"
+"57","gladiator",NA,NA,NA,"ancient_rome"
+"58","hand","brodeur",81,"?","ancient_rome, arrival_1, arrival_2, arrival_3, arrival_4, arrival_5, arrival_6, by_the_lake, deep_sea_divers, dinosaurs_spacemen_and_ghouls, flowerman, journey, picture_this, quest, return, unfriendly_giants, wanderer, wild_west"
+"59","horse","brodeur",100,"horse.jpg","ancient_rome, exhibit_12, flowerman, return, wanderer, wild_west"
+"60","knife","boss",87,"?","ancient_rome"
+"61","leopard",NA,NA,NA,"ancient_rome"
+"62","lion","brodeur",88,"lion.jpg","ancient_rome, birthday_party_fun, escape_from_the_zoo, wanderer"
+"63","lions",NA,NA,NA,"ancient_rome, escape_from_the_zoo"
+"64","person",NA,NA,NA,"ancient_rome, arrival_1, arrival_2, arrival_3, arrival_4, arrival_5, arrival_6, birthday_party_fun, deep_sea_divers, flowerman, journey, picture_this, quest, return, waldo_1, wanderer"
+"65","picture",NA,NA,NA,"ancient_rome, arrival_1, arrival_2, arrival_3, arrival_4, arrival_5, arrival_6, being_a_pirate, by_the_lake, dinosaurs_spacemen_and_ghouls, escape_from_the_zoo, exhibit_12, flowerman, journey, picture_this, quest, return, unfriendly_giants, waldo_1, wanderer, wild_west"
+"66","place",NA,NA,NA,"ancient_rome, arrival_4, arrival_5, flowerman, quest, return, wanderer, wild_west"
+"67","pyramid","moreno-martinez",84,"pyramid.jpg","ancient_rome, by_the_lake, quest"
+"68","ring","boss",100,"ring01.jpg","ancient_rome"
+"69","rome",NA,NA,NA,"ancient_rome"
+"70","shield","moreno-martinez",96,"shield.jpg","ancient_rome"
+"71","side",NA,NA,NA,"ancient_rome, arrival_1, arrival_4, arrival_5, arrival_6, being_a_pirate, birthday_party_fun, by_the_lake, campsite, dinosaurs_spacemen_and_ghouls, escape_from_the_zoo, exhibit_12, flowerman, journey, make_a_splash, picture_this, quest, return, unfriendly_giants, waldo_1, wanderer, wild_west"
+"72","stand",NA,NA,NA,"ancient_rome, escape_from_the_zoo"
+"73","sword","moreno-martinez",97,"sword.jpg","ancient_rome, picture_this, return"
+"74","tiger","moreno-martinez",99,"tiger.jpg","ancient_rome"
+"75","wall",NA,NA,NA,"ancient_rome, arrival_1, arrival_4, arrival_5, arrival_6, exhibit_12, journey, return, wanderer"
+"76","bed","brodeur",81,"bed.jpg","arrival_1, arrival_3, arrival_5, arrival_6, journey, return"
+"77","belt","boss",95,"belt02a.jpg","arrival_1, quest, unfriendly_giants"
+"78","bird","DR2",100,"bird_01_og.jpg","arrival_1, arrival_2, arrival_3, arrival_4, arrival_5, arrival_6, escape_from_the_zoo, journey, quest, return, wanderer"
+"79","boot","boss",82,"boot02b.jpg","arrival_1, arrival_6"
+"80","bow","moreno-martinez",99,"bow.jpg","arrival_1, flowerman, waldo_1"
+"81","bowl","boss",85,"bowl01.jpg","arrival_1, arrival_4, arrival_5, arrival_6"
+"82","breakfast",NA,NA,NA,"arrival_1"
+"83","child",NA,NA,NA,"arrival_1, arrival_2, arrival_6, birthday_party_fun, escape_from_the_zoo, flowerman, journey, quest, return, waldo_1"
+"84","clock","boss",92,"clock04.jpg","arrival_1, arrival_3, flowerman"
+"85","cloth",NA,NA,NA,"arrival_1"
+"86","coat","moreno-martinez",96,"coat.jpg","arrival_1, flowerman"
+"87","coffee",NA,NA,NA,"arrival_1, arrival_6"
+"88","cup","moreno-martinez",82,"cup.jpg","arrival_1, arrival_6"
+"89","dad",NA,NA,NA,"arrival_1, journey, return"
+"90","daughter",NA,NA,NA,"arrival_1, flowerman, return"
+"91","distance",NA,NA,NA,"arrival_1, quest, wanderer"
+"92","dragon",NA,NA,NA,"arrival_1, arrival_4, by_the_lake, journey, make_a_splash, picture_this, return"
+"93","drawing",NA,NA,NA,"arrival_1, arrival_6, return"
+"94","ear","moreno-martinez",99,"ear.jpg","arrival_1, arrival_4"
+"95","eye","brodeur",76,"eye.jpg","arrival_1, arrival_4, arrival_5, flowerman, return, wanderer"
+"96","family",NA,NA,NA,"arrival_1, arrival_2, arrival_6, flowerman"
+"97","father",NA,NA,NA,"arrival_1, arrival_4, arrival_6, journey, return"
+"98","girl",NA,NA,NA,"arrival_1, arrival_4, arrival_6, birthday_party_fun, flowerman, journey, quest, return"
+"99","goodbye",NA,NA,NA,"arrival_1, quest"
+"100","hat","DR2",100,"hat_01_og.jpg","arrival_1, arrival_2, arrival_3, arrival_4, arrival_5, arrival_6, flowerman, picture_this, unfriendly_giants, wanderer, wild_west"
+"101","head",NA,NA,NA,"arrival_1, arrival_2, arrival_3, arrival_4, arrival_6, birthday_party_fun, journey, picture_this, quest, return, unfriendly_giants, waldo_1, wanderer"
+"102","hold",NA,NA,NA,"arrival_1, arrival_3, arrival_4, quest, return"
+"103","hook",NA,NA,NA,"arrival_1, arrival_6"
+"104","hug",NA,NA,NA,"arrival_1"
+"105","item",NA,NA,NA,"arrival_1, arrival_4, arrival_5"
+"106","kitchen",NA,NA,NA,"arrival_1, journey, return"
+"107","mom",NA,NA,NA,"arrival_1, journey"
+"108","mother",NA,NA,NA,"arrival_1, arrival_6, flowerman, journey"
+"109","ocean",NA,NA,NA,"arrival_1, deep_sea_divers, wanderer"
+"110","origami",NA,NA,NA,"arrival_1, arrival_2, arrival_5, arrival_6"
+"111","paper","DR2",72.7,"paper_02_og.jpg","arrival_1, arrival_2, arrival_4, arrival_5, arrival_6, quest, wanderer"
+"112","photo",NA,NA,NA,"arrival_1"
+"113","porthole",NA,NA,NA,"arrival_1"
+"114","pot","DR2",100,"pot_01_og.jpg","arrival_1, arrival_4, arrival_5, arrival_6"
+"115","scarf","boss",95,"scarf.jpg","arrival_1"
+"116","shadow",NA,NA,NA,"arrival_1"
+"117","ship","moreno-martinez",74,"ship.jpg","arrival_1, arrival_2, arrival_4, being_a_pirate, dinosaurs_spacemen_and_ghouls, journey, make_a_splash, quest, return, wanderer"
+"118","shoulder",NA,NA,NA,"arrival_1, arrival_2, arrival_3, journey, quest"
+"119","soup",NA,NA,NA,"arrival_1"
+"120","spoon","boss",92,"spoon01.jpg","arrival_1"
+"121","station",NA,NA,NA,"arrival_1, flowerman, waldo_1"
+"122","steam",NA,NA,NA,"arrival_1"
+"123","street",NA,NA,NA,"arrival_1, arrival_3, arrival_4, arrival_5, arrival_6, flowerman, journey, waldo_1, wanderer, wild_west"
+"124","string",NA,NA,NA,"arrival_1"
+"125","suitcase","DR2",97.0588235,"suitcase_01_og.jpg","arrival_1, arrival_2, arrival_3"
+"126","table","brodeur",81,"table01.jpg","arrival_1, arrival_5, arrival_6, birthday_party_fun, dinosaurs_spacemen_and_ghouls, journey, return"
+"127","tail",NA,NA,NA,"arrival_1, arrival_2, arrival_4, arrival_5, arrival_6, journey, quest, return, wanderer"
+"128","tea",NA,NA,NA,"arrival_1"
+"129","teapot","DR2",93.3,"teapot_01_og.jpg","arrival_1, arrival_2"
+"130","train","moreno-martinez",93,"train.jpg","arrival_1, arrival_4, wild_west"
+"131","trunk",NA,NA,NA,"arrival_1"
+"132","wife",NA,NA,NA,"arrival_1, arrival_5, arrival_6"
+"133","woman",NA,NA,NA,"arrival_1, arrival_2, arrival_3, arrival_4, arrival_5, arrival_6, exhibit_12, flowerman, journey, picture_this, unfriendly_giants"
+"134","arm","moreno-martinez",96,"arm.jpg","arrival_2, arrival_3, arrival_4, journey, return, wanderer"
+"135","baby",NA,NA,NA,"arrival_2, arrival_6"
+"136","boat","moreno-martinez",86,"boat.jpg","arrival_2, arrival_4, arrival_5, arrival_6, being_a_pirate, by_the_lake, campsite, deep_sea_divers, journey, quest, return, wanderer"
+"137","book","boss",90,"book01b.jpg","arrival_2, arrival_3, arrival_4, journey"
+"138","city","DR2",74.1,"city_01_og.jpg","arrival_2, arrival_4, arrival_5, arrival_6, journey, quest, return, waldo_1, wanderer"
+"139","creature",NA,NA,NA,"arrival_2, arrival_3, arrival_4, arrival_5, arrival_6, deep_sea_divers, quest, return, wanderer"
+"140","deck",NA,NA,NA,"arrival_2"
+"141","dock",NA,NA,NA,"arrival_2, by_the_lake, journey, return, wanderer"
+"142","gate","brodeur",71,"entrancegate.jpg","arrival_2"
+"143","harbor",NA,NA,NA,"arrival_2"
+"144","megaphone",NA,NA,NA,"arrival_2, arrival_4"
+"145","page",NA,NA,NA,"arrival_2, arrival_4, arrival_6, dinosaurs_spacemen_and_ghouls, flowerman, journey, picture_this, quest, return, wanderer, wild_west"
+"146","statue","DR2",93.3,"statue_02_og.jpg","arrival_2, arrival_4, arrival_5, flowerman, quest, waldo_1"
+"147","accordion","brodeur, moreno-martinez",97,"accordion.jpg","arrival_3, arrival_5"
+"148","arrow","moreno-martinez",94,"arrow.jpg","arrival_3, deep_sea_divers, waldo_1"
+"149","back",NA,NA,NA,"arrival_3, escape_from_the_zoo, flowerman, journey, quest, return, wanderer"
+"150","barber",NA,NA,NA,"arrival_3"
+"151","basket","boss",81,"strawbasket01.jpg","arrival_3, arrival_4, arrival_5, arrival_6, journey"
+"152","boy",NA,NA,NA,"arrival_3, arrival_4, arrival_5, campsite, flowerman, journey, quest, return, wanderer"
+"153","cat","brodeur",88,"cat.jpg","arrival_3, arrival_4, arrival_5, flowerman, journey, return, wanderer"
+"154","direction",NA,NA,NA,"arrival_3, arrival_4, arrival_6"
+"155","egg","DR2",100,"egg_01_og.jpg","arrival_3"
+"156","front",NA,NA,NA,"arrival_3, arrival_4, arrival_6, flowerman, journey, quest, return, wanderer, wild_west"
+"157","instrument",NA,NA,NA,"arrival_3, arrival_5"
+"158","language",NA,NA,NA,"arrival_3, arrival_4"
+"159","light",NA,NA,NA,"arrival_3, arrival_6, dinosaurs_spacemen_and_ghouls, flowerman, journey, quest, return, wanderer"
+"160","map",NA,NA,NA,"arrival_3, arrival_4, journey, quest"
+"161","music",NA,NA,NA,"arrival_3"
+"162","musician",NA,NA,NA,"arrival_3"
+"163","newspaper",NA,NA,NA,"arrival_3, arrival_6"
+"164","sign",NA,NA,NA,"arrival_3, flowerman"
+"165","snail",NA,NA,NA,"arrival_3"
+"166","time",NA,NA,NA,"arrival_3, arrival_4, arrival_5, arrival_6, by_the_lake, flowerman, journey, quest, return, unfriendly_giants, wanderer"
+"167","type",NA,NA,NA,"arrival_3, arrival_4, arrival_5, arrival_6, by_the_lake, campsite, dinosaurs_spacemen_and_ghouls, journey, quest, return, wanderer"
+"168","violin","boss",97,"violin.jpg","arrival_3"
+"169","way",NA,NA,NA,"arrival_3, arrival_4, arrival_5, arrival_6, campsite, escape_from_the_zoo, flowerman, journey, quest, return, wanderer"
+"170","wind",NA,NA,NA,"arrival_3"
+"171","window","brodeur",82,"dormer.jpg","arrival_3, arrival_5, arrival_6, flowerman, journey, waldo_1, wanderer"
+"172","bag",NA,NA,NA,"arrival_4, flowerman, wild_west"
+"173","bench","brodeur",76,"bench01.jpg","arrival_4, quest"
+"174","billboard",NA,NA,NA,"arrival_4"
+"175","bite",NA,NA,NA,"arrival_4"
+"176","box","DR2",95.4545455,"box_02_og.jpg","arrival_4, arrival_6, quest, return"
+"177","bread",NA,NA,NA,"arrival_4"
+"178","bridge","brodeur",90,"bridge.jpg","arrival_4, campsite, flowerman, journey, make_a_splash, quest, return, wanderer"
+"179","building",NA,NA,NA,"arrival_4, arrival_5, arrival_6, by_the_lake, flowerman, journey, quest, return, waldo_1, wanderer, wild_west"
+"180","car","moreno-martinez",93,"car.jpg","arrival_4, flowerman, waldo_1"
+"181","chimney","brodeur",86,"chimney.jpg","arrival_4, arrival_6, flowerman"
+"182","coal",NA,NA,NA,"arrival_4"
+"183","conductor",NA,NA,NA,"arrival_4"
+"184","cone",NA,NA,NA,"arrival_4, dinosaurs_spacemen_and_ghouls, escape_from_the_zoo"
+"185","conversation",NA,NA,NA,"arrival_4"
+"186","door",NA,NA,NA,"arrival_4, arrival_5, dinosaurs_spacemen_and_ghouls, flowerman, journey, quest, return, waldo_1"
+"187","drawer","DR2",82.1,"drawer_02_og.jpg","arrival_4"
+"188","face",NA,NA,NA,"arrival_4, deep_sea_divers, flowerman, picture_this, wanderer"
+"189","fish","brodeur",90,"rockbass.jpg","arrival_4, arrival_5, campsite, deep_sea_divers, picture_this, quest, return, wanderer"
+"190","food",NA,NA,NA,"arrival_4, arrival_5, arrival_6, birthday_party_fun, dinosaurs_spacemen_and_ghouls"
+"191","foot",NA,NA,NA,"arrival_4, quest, wanderer"
+"192","friend",NA,NA,NA,"arrival_4, journey"
+"193","fruit",NA,NA,NA,"arrival_4, arrival_5"
+"194","furnace",NA,NA,NA,"arrival_4"
+"195","glass",NA,NA,NA,"arrival_4, arrival_5, flowerman"
+"196","horn",NA,NA,NA,"arrival_4, wanderer"
+"197","house","moreno-martinez",93,"house.jpg","arrival_4, arrival_5, birthday_party_fun, by_the_lake, flowerman, journey, return, unfriendly_giants, wanderer"
+"198","ladder","DR2",100,"ladder_02_og.jpg","arrival_4, arrival_5, arrival_6, exhibit_12, flowerman, journey, waldo_1, wild_west"
+"199","lever",NA,NA,NA,"arrival_4"
+"200","loaf",NA,NA,NA,"arrival_4"
+"201","look",NA,NA,NA,"arrival_4, wanderer"
+"202","machine",NA,NA,NA,"arrival_4, arrival_6, journey"
+"203","money",NA,NA,NA,"arrival_4, arrival_6"
+"204","mouth","moreno-martinez",76,"mouth.jpg","arrival_4, arrival_6, wanderer"
+"205","number",NA,NA,NA,"arrival_4, wanderer"
+"206","pet",NA,NA,NA,"arrival_4, arrival_5, arrival_6"
+"207","phone",NA,NA,NA,"arrival_4, journey"
+"208","piece",NA,NA,NA,"arrival_4, arrival_5, arrival_6, quest, unfriendly_giants, wanderer"
+"209","pocket",NA,NA,NA,"arrival_4"
+"210","point",NA,NA,NA,"arrival_4, quest"
+"211","question",NA,NA,NA,"arrival_4"
+"212","shoe","boss",77,"manshoe.jpg","arrival_4"
+"213","shovel","moreno-martinez",96,"showel.jpg","arrival_4"
+"214","shower","DR2",96.7741935,"shower_01_og.jpg","arrival_4, wanderer"
+"215","shrimp","brodeur",82,"shrimp.jpg","arrival_4"
+"216","smokestack",NA,NA,NA,"arrival_4, arrival_6, wanderer"
+"217","snake","moreno-martinez",92,"snake.jpg","arrival_4, escape_from_the_zoo, make_a_splash, wanderer"
+"218","sort",NA,NA,NA,"arrival_4, arrival_5, arrival_6, journey, quest, return, wanderer"
+"219","story",NA,NA,NA,"arrival_4, arrival_5, arrival_6, flowerman, journey, quest, return"
+"220","structure",NA,NA,NA,"arrival_4, quest, return, wanderer"
+"221","teepee","DR2",100,"teepee_01_og.jpg","arrival_4"
+"222","telephone",NA,NA,NA,"arrival_4"
+"223","tentacle",NA,NA,NA,"arrival_4, quest, wanderer"
+"224","ticket",NA,NA,NA,"arrival_4"
+"225","town",NA,NA,NA,"arrival_4, arrival_5, flowerman, waldo_1, wanderer, wild_west"
+"226","uh",NA,NA,NA,"arrival_4, arrival_5, flowerman, journey, quest, wanderer"
+"227","umm",NA,NA,NA,"arrival_4, arrival_6, being_a_pirate, exhibit_12, flowerman, make_a_splash, picture_this, quest, return, waldo_1, wanderer, wild_west"
+"228","vegetable",NA,NA,NA,"arrival_4, arrival_5"
+"229","vest",NA,NA,NA,"arrival_4"
+"230","work",NA,NA,NA,"arrival_4"
+"231","banjo","brodeur",95,"banjo.jpg","arrival_5"
+"232","chef",NA,NA,NA,"arrival_5"
+"233","counter",NA,NA,NA,"arrival_5, journey"
+"234","cupboard",NA,NA,NA,"arrival_5"
+"235","dinner",NA,NA,NA,"arrival_5"
+"236","drink",NA,NA,NA,"arrival_5"
+"237","flute",NA,NA,NA,"arrival_5"
+"238","jacket","DR2",72.7272727,"jacket_02_og.jpg","arrival_5"
+"239","meal",NA,NA,NA,"arrival_5"
+"240","owl","brodeur",100,"greathornowl.jpg","arrival_5"
+"241","plate","boss",92,"plate01b.jpg","arrival_5"
+"242","propeller",NA,NA,NA,"arrival_5, journey, wanderer"
+"243","rope","boss",86,"rope03.jpg","arrival_5, quest, unfriendly_giants, wanderer"
+"244","shape",NA,NA,NA,"arrival_5, arrival_6, deep_sea_divers, return, wanderer"
+"245","shirt","moreno-martinez",99,"shirt.jpg","arrival_5, flowerman, wanderer"
+"246","shop",NA,NA,NA,"arrival_5, escape_from_the_zoo, flowerman, waldo_1"
+"247","stair",NA,NA,NA,"arrival_5, arrival_6, exhibit_12, return, wanderer"
+"248","suit",NA,NA,NA,"arrival_5, picture_this, wanderer"
+"249","wine","DR2",70.7,"wine_01_og.jpg","arrival_5"
+"250","coin",NA,NA,NA,"arrival_6"
+"251","dandelion",NA,NA,NA,"arrival_6"
+"252","desk",NA,NA,NA,"arrival_6, journey, return"
+"253","dish",NA,NA,NA,"arrival_6"
+"254","edge",NA,NA,NA,"arrival_6, flowerman, journey, return, wanderer"
+"255","end",NA,NA,NA,"arrival_6, journey, quest, return, wanderer"
+"256","envelope","boss",100,"envelope03a.jpg","arrival_6"
+"257","finger","moreno-martinez",90,"finger.jpg","arrival_6"
+"258","floor","DR2",100,"floor_02_og.jpg","arrival_6, exhibit_12, flowerman, journey, return"
+"259","flower","brodeur, brodeur",89,"hibiscusflower02.jpg","arrival_6, arrival_6, campsite, campsite, flowerman, flowerman, unfriendly_giants, unfriendly_giants, wanderer, wanderer"
+"260","flower","brodeur, brodeur",89,"lily.jpg","arrival_6, arrival_6, campsite, campsite, flowerman, flowerman, unfriendly_giants, unfriendly_giants, wanderer, wanderer"
+"261","frame",NA,NA,NA,"arrival_6, exhibit_12, picture_this"
+"262","hole",NA,NA,NA,"arrival_6, wanderer"
+"263","insect",NA,NA,NA,"arrival_6"
+"264","lamp","boss",92,"lamp04a.jpg","arrival_6, journey, return"
+"265","leaf","boss",97,"leaf02a.jpg","arrival_6"
+"266","leave",NA,NA,NA,"arrival_6, wanderer"
+"267","letter",NA,NA,NA,"arrival_6"
+"268","mailbox","brodeur, DR2",100,"mailbox02.jpg","arrival_6, arrival_6, journey, journey"
+"269","mailbox","brodeur, DR2",100,"mailbox_01_og.jpg","arrival_6, arrival_6, journey, journey"
+"270","mirror","DR2",100,"mirror_02_og.jpg","arrival_6, dinosaurs_spacemen_and_ghouls"
+"271","mouse","DR2",100,"mouse_01_og.jpg","arrival_6"
+"272","part",NA,NA,NA,"arrival_6, dinosaurs_spacemen_and_ghouls, flowerman, journey, quest, return, wanderer"
+"273","pen","boss",90,"pen04b.jpg","arrival_6"
+"274","petal",NA,NA,NA,"arrival_6"
+"275","plant","boss",84,"plant01.jpg","arrival_6, return, waldo_1, wanderer"
+"276","room",NA,NA,NA,"arrival_6, dinosaurs_spacemen_and_ghouls, flowerman, journey, return"
+"277","seed",NA,NA,NA,"arrival_6"
+"278","snow",NA,NA,NA,"arrival_6"
+"279","split",NA,NA,NA,"arrival_6"
+"280","stamp",NA,NA,NA,"arrival_6, wild_west"
+"281","stem",NA,NA,NA,"arrival_6"
+"282","step",NA,NA,NA,"arrival_6, flowerman, journey, return, wanderer"
+"283","tree","brodeur",95,"tree.jpg","arrival_6, being_a_pirate, birthday_party_fun, dinosaurs_spacemen_and_ghouls, escape_from_the_zoo, flowerman, journey, make_a_splash, picture_this, quest, return, unfriendly_giants, wanderer"
+"284","winter",NA,NA,NA,"arrival_6"
+"285","beach",NA,NA,NA,"being_a_pirate, by_the_lake"
+"286","cannon","moreno-martinez",98,"cannon.jpg","being_a_pirate"
+"287","crossbone",NA,NA,NA,"being_a_pirate"
+"288","half",NA,NA,NA,"being_a_pirate, wanderer"
+"289","land",NA,NA,NA,"being_a_pirate, journey, quest, wanderer"
+"290","mast",NA,NA,NA,"being_a_pirate"
+"291","octopus",NA,NA,NA,"being_a_pirate, deep_sea_divers, quest, wanderer"
+"292","palm",NA,NA,NA,"being_a_pirate, journey, picture_this, quest"
+"293","pirate",NA,NA,NA,"being_a_pirate, birthday_party_fun"
+"294","sail",NA,NA,NA,"being_a_pirate, wanderer"
+"295","sea","moreno-martinez",93,"sea.jpg","being_a_pirate, deep_sea_divers, quest, return, wanderer"
+"296","shore",NA,NA,NA,"being_a_pirate"
+"297","skull",NA,NA,NA,"being_a_pirate"
+"298","treasure",NA,NA,NA,"being_a_pirate, deep_sea_divers"
+"299","backyard",NA,NA,NA,"birthday_party_fun"
+"300","bat","moreno-martinez",96,"bat.jpg","birthday_party_fun, wanderer"
+"301","birthday",NA,NA,NA,"birthday_party_fun"
+"302","cake",NA,NA,NA,"birthday_party_fun"
+"303","castle","DR2",100,"castle_01_og.jpg","birthday_party_fun, by_the_lake, journey, quest, return, unfriendly_giants"
+"304","clown",NA,NA,NA,"birthday_party_fun, exhibit_12, flowerman"
+"305","costume",NA,NA,NA,"birthday_party_fun, dinosaurs_spacemen_and_ghouls, exhibit_12, wanderer"
+"306","cupcake","brodeur",95,"cupcake.jpg","birthday_party_fun"
+"307","fence","DR2",100,"fence_02_og.jpg","birthday_party_fun, flowerman"
+"308","fun",NA,NA,NA,"birthday_party_fun"
+"309","gift",NA,NA,NA,"birthday_party_fun"
+"310","gun","moreno-martinez",90,"gun.jpg","birthday_party_fun, make_a_splash, wild_west"
+"311","kid",NA,NA,NA,"birthday_party_fun, by_the_lake, escape_from_the_zoo, flowerman, journey, make_a_splash, quest"
+"312","lantern",NA,NA,NA,"birthday_party_fun, journey, quest, return"
+"313","mermaid",NA,NA,NA,"birthday_party_fun, campsite, deep_sea_divers"
+"314","party",NA,NA,NA,"birthday_party_fun"
+"315","penguin","moreno-martinez",99,"penguin.jpg","birthday_party_fun, by_the_lake, escape_from_the_zoo, make_a_splash"
+"316","pinata",NA,NA,NA,"birthday_party_fun"
+"317","pool","DR2",100,"pool_01_og.jpg","birthday_party_fun, make_a_splash"
+"318","present",NA,NA,NA,"birthday_party_fun"
+"319","robot",NA,NA,NA,"birthday_party_fun"
+"320","tug",NA,NA,NA,"birthday_party_fun"
+"321","viking",NA,NA,NA,"birthday_party_fun"
+"322","war",NA,NA,NA,"birthday_party_fun"
+"323","witch",NA,NA,NA,"birthday_party_fun"
+"324","ball","moreno-martinez",89,"ball.jpg","by_the_lake, flowerman, journey, make_a_splash, return, wanderer"
+"325","cabin",NA,NA,NA,"by_the_lake"
+"326","dog",NA,NA,NA,"by_the_lake, campsite, escape_from_the_zoo, flowerman, picture_this, waldo_1, wanderer"
+"327","group",NA,NA,NA,"by_the_lake, unfriendly_giants"
+"328","guitar","brodeur",71,"acousticguitar02.jpg","by_the_lake, campsite"
+"329","kayak",NA,NA,NA,"by_the_lake"
+"330","kite","brodeur",98,"kite.jpg","by_the_lake, journey, return, wanderer"
+"331","kites",NA,NA,NA,"by_the_lake"
+"332","lake",NA,NA,NA,"by_the_lake"
+"333","net",NA,NA,NA,"by_the_lake, deep_sea_divers, escape_from_the_zoo, journey, wanderer"
+"334","paddle",NA,NA,NA,"by_the_lake, journey, quest"
+"335","raft",NA,NA,NA,"by_the_lake"
+"336","rock",NA,NA,NA,"by_the_lake, deep_sea_divers, quest, return, wanderer"
+"337","sailboat","DR2",85.7,"sailboat_02_og.jpg","by_the_lake, wanderer"
+"338","sand",NA,NA,NA,"by_the_lake"
+"339","sandcastle","brodeur",95,"sandcastle.jpg","by_the_lake"
+"340","tube",NA,NA,NA,"by_the_lake, make_a_splash"
+"341","umbrella","boss, DR2",100,"umbrella04.jpg","by_the_lake, by_the_lake, flowerman, flowerman"
+"342","umbrella","boss, DR2",100,"umbrella_01_og.jpg","by_the_lake, by_the_lake, flowerman, flowerman"
+"343","volleyball","brodeur",76,"volleyball.jpg","by_the_lake"
+"344","backpack","DR2",95.1,"backpack_01_og.jpg","campsite"
+"345","bike",NA,NA,NA,"campsite, journey, waldo_1"
+"346","bull","brodeur",88,"bull.jpg","campsite"
+"347","camper",NA,NA,NA,"campsite"
+"348","campers",NA,NA,NA,"campsite"
+"349","canal",NA,NA,NA,"campsite"
+"350","duck","moreno-martinez",93,"duck.jpg","campsite"
+"351","field",NA,NA,NA,"campsite"
+"352","hiker",NA,NA,NA,"campsite"
+"353","river",NA,NA,NA,"campsite, journey, make_a_splash, quest, return, wanderer"
+"354","rv",NA,NA,NA,"campsite"
+"355","scout",NA,NA,NA,"campsite"
+"356","shark","DR2",100,"shark_01_og.jpg","campsite, deep_sea_divers, exhibit_12"
+"357","tent","brodeur",90,"tent.jpg","campsite, flowerman"
+"358","chest","DR2, DR2",85.7,"chest_02_og.JPG","deep_sea_divers, deep_sea_divers"
+"359","chest","DR2, DR2",85.7,NA,"deep_sea_divers, deep_sea_divers"
+"360","diver",NA,NA,NA,"deep_sea_divers, wanderer"
+"361","fishing",NA,NA,NA,"deep_sea_divers, wanderer"
+"362","school",NA,NA,NA,"deep_sea_divers, waldo_1, wanderer"
+"363","stripe",NA,NA,NA,"deep_sea_divers, wanderer"
+"364","swordfish","brodeur",83,"swordfish.jpg","deep_sea_divers, wanderer"
+"365","actor",NA,NA,NA,"dinosaurs_spacemen_and_ghouls"
+"366","alien",NA,NA,NA,"dinosaurs_spacemen_and_ghouls"
+"367","astronaut",NA,NA,NA,"dinosaurs_spacemen_and_ghouls"
+"368","cafeteria",NA,NA,NA,"dinosaurs_spacemen_and_ghouls"
+"369","camera","boss",82,"camera01a.jpg","dinosaurs_spacemen_and_ghouls"
+"370","caveman",NA,NA,NA,"dinosaurs_spacemen_and_ghouls, picture_this"
+"371","color",NA,NA,NA,"dinosaurs_spacemen_and_ghouls, flowerman, journey, make_a_splash, quest, return"
+"372","dinosaur",NA,NA,NA,"dinosaurs_spacemen_and_ghouls"
+"373","ghoul",NA,NA,NA,"dinosaurs_spacemen_and_ghouls"
+"374","ice",NA,NA,NA,"dinosaurs_spacemen_and_ghouls, escape_from_the_zoo, flowerman, wanderer"
+"375","makeup",NA,NA,NA,"dinosaurs_spacemen_and_ghouls"
+"376","movie",NA,NA,NA,"dinosaurs_spacemen_and_ghouls, wild_west"
+"377","mummy","brodeur",86,"mummy.jpg","dinosaurs_spacemen_and_ghouls"
+"378","pie","moreno-martinez",73,"pie.jpg","dinosaurs_spacemen_and_ghouls"
+"379","saucer",NA,NA,NA,"dinosaurs_spacemen_and_ghouls"
+"380","set",NA,NA,NA,"dinosaurs_spacemen_and_ghouls"
+"381","space",NA,NA,NA,"dinosaurs_spacemen_and_ghouls"
+"382","spaceman",NA,NA,NA,"dinosaurs_spacemen_and_ghouls"
+"383","spaceship",NA,NA,NA,"dinosaurs_spacemen_and_ghouls"
+"384","stage",NA,NA,NA,"dinosaurs_spacemen_and_ghouls"
+"385","volcano","moreno-martinez",99,"volcano.jpg","dinosaurs_spacemen_and_ghouls"
+"386","antelope",NA,NA,NA,"escape_from_the_zoo"
+"387","bear","DR2",100,"bear_02_og.jpg","escape_from_the_zoo, picture_this"
+"388","cafe",NA,NA,NA,"escape_from_the_zoo, flowerman"
+"389","cream",NA,NA,NA,"escape_from_the_zoo"
+"390","crebe",NA,NA,NA,"escape_from_the_zoo"
+"391","enclosure",NA,NA,NA,"escape_from_the_zoo"
+"392","escape",NA,NA,NA,"escape_from_the_zoo"
+"393","flamingo","brodeur",87,"flamingo.jpg","escape_from_the_zoo"
+"394","giraffe","brodeur, DR2",100,"giraffe.jpg","escape_from_the_zoo, escape_from_the_zoo"
+"395","giraffe","brodeur, DR2",100,"giraffe_01_og.jpg","escape_from_the_zoo, escape_from_the_zoo"
+"396","gorilla","DR2",85.7,"gorilla_01_og.jpg","escape_from_the_zoo"
+"397","kangaroo","DR2",98.5507246,"kangaroo_02_og.jpg","escape_from_the_zoo"
+"398","middle",NA,NA,NA,"escape_from_the_zoo, flowerman, quest, waldo_1, wanderer"
+"399","monkey","brodeur",73,"proboscismonkey.jpg","escape_from_the_zoo"
+"400","parrot","DR2",78.6,"parrot_02_og.jpg","escape_from_the_zoo"
+"401","peacock","DR2",100,"peacock_01_og.jpg","escape_from_the_zoo"
+"402","rhinocero",NA,NA,NA,"escape_from_the_zoo, quest"
+"403","zebras",NA,NA,NA,"escape_from_the_zoo"
+"404","zoo",NA,NA,NA,"escape_from_the_zoo"
+"405","art",NA,NA,NA,"exhibit_12"
+"406","exhibit",NA,NA,NA,"exhibit_12"
+"407","exhibition",NA,NA,NA,"exhibit_12"
+"408","gallery",NA,NA,NA,"exhibit_12"
+"409","king",NA,NA,NA,"exhibit_12, quest, return"
+"410","level","boss",74,"level03a.jpg","exhibit_12, journey"
+"411","museum",NA,NA,NA,"exhibit_12"
+"412","painting","brodeur",71,"painting.jpg","exhibit_12, flowerman"
+"413","portrait",NA,NA,NA,"exhibit_12, picture_this"
+"414","activity",NA,NA,NA,"flowerman"
+"415","apartment",NA,NA,NA,"flowerman, journey"
+"416","artist",NA,NA,NA,"flowerman"
+"417","awning",NA,NA,NA,"flowerman, waldo_1"
+"418","bait",NA,NA,NA,"flowerman"
+"419","balcony","DR2",85.7142857,"balcony_01_og.jpg","flowerman"
+"420","bar",NA,NA,NA,"flowerman"
+"421","bit","moreno-martinez",73,"bit.jpg","flowerman, journey, wanderer"
+"422","brick","boss",100,"brick.jpg","flowerman"
+"423","cloud","brodeur",95,"cloud.jpg","flowerman, journey, wanderer"
+"424","cobblestone",NA,NA,NA,"flowerman"
+"425","corner",NA,NA,NA,"flowerman, wanderer"
+"426","day",NA,NA,NA,"flowerman"
+"427","ferris",NA,NA,NA,"flowerman"
+"428","fountain","DR2",100,"fountain_01_og.jpg","flowerman, waldo_1"
+"429","gas",NA,NA,NA,"flowerman, waldo_1"
+"430","gentleman",NA,NA,NA,"flowerman"
+"431","grass",NA,NA,NA,"flowerman"
+"432","guy",NA,NA,NA,"flowerman, picture_this, return, wanderer"
+"433","hair",NA,NA,NA,"flowerman"
+"434","home",NA,NA,NA,"flowerman"
+"435","lady",NA,NA,NA,"flowerman"
+"436","lawn",NA,NA,NA,"flowerman"
+"437","left",NA,NA,NA,"flowerman, quest"
+"438","leg",NA,NA,NA,"flowerman, wanderer"
+"439","life",NA,NA,NA,"flowerman, wanderer"
+"440","milk",NA,NA,NA,"flowerman"
+"441","milkman",NA,NA,NA,"flowerman"
+"442","motorcycle","DR2",98.4,"motorcycle_02_og.jpg","flowerman, waldo_1"
+"443","mover",NA,NA,NA,"flowerman"
+"444","mower",NA,NA,NA,"flowerman"
+"445","neighborhood",NA,NA,NA,"flowerman"
+"446","night",NA,NA,NA,"flowerman, journey, return, wanderer"
+"447","rest",NA,NA,NA,"flowerman, wanderer"
+"448","right",NA,NA,NA,"flowerman, journey, quest, wanderer"
+"449","road","DR2",85.7142857,"road_02_og.jpg","flowerman"
+"450","roof","DR2",90.9,"roof_02_og.jpg","flowerman, waldo_1, wanderer, wild_west"
+"451","rooftop",NA,NA,NA,"flowerman"
+"452","sale",NA,NA,NA,"flowerman"
+"453","scooter","brodeur",90,"scooter.jpg","flowerman, journey"
+"454","shaker",NA,NA,NA,"flowerman"
+"455","shutter",NA,NA,NA,"flowerman"
+"456","sidewalk",NA,NA,NA,"flowerman"
+"457","skirt","moreno-martinez",99,"skirt.jpg","flowerman"
+"458","stone",NA,NA,NA,"flowerman"
+"459","telescope","DR2",100,"telescope_01_og.jpg","flowerman"
+"460","tie","DR2",100,"tie_02_og.jpg","flowerman"
+"461","towel",NA,NA,NA,"flowerman"
+"462","village",NA,NA,NA,"flowerman"
+"463","walk",NA,NA,NA,"flowerman"
+"464","wheel","boss",82,"wheel01.jpg","flowerman, journey, quest, wanderer"
+"465","wheelchair","DR2",98.1,"wheelchair_01_og.jpg","flowerman"
+"466","yard",NA,NA,NA,"flowerman"
+"467","attention",NA,NA,NA,"journey"
+"468","base",NA,NA,NA,"journey"
+"469","bedroom",NA,NA,NA,"journey, return"
+"470","bicycle","DR2",94.9152542,"bicycle_02_og.jpg","journey, quest, waldo_1"
+"471","cage",NA,NA,NA,"journey, quest, return"
+"472","carpet",NA,NA,NA,"journey"
+"473","chair","brodeur",88,"chair.jpg","journey, return"
+"474","circle",NA,NA,NA,"journey, quest"
+"475","clouds",NA,NA,NA,"journey"
+"476","computer",NA,NA,NA,"journey"
+"477","couch","DR2",100,"couch_02_og.jpg","journey"
+"478","crayon","boss",82,"crayon.jpg","journey, quest, return"
+"479","dome",NA,NA,NA,"journey"
+"480","doorway",NA,NA,NA,"journey, quest, return"
+"481","draw",NA,NA,NA,"journey, quest, return"
+"482","dresser","DR2",78.5714286,"dresser_02_og.jpg","journey"
+"483","forest",NA,NA,NA,"journey, return, wanderer"
+"484","gold",NA,NA,NA,"journey"
+"485","guard",NA,NA,NA,"journey, quest, return, waldo_1"
+"486","lock","DR2",100,"lock_03_og.jpg","journey"
+"487","magic",NA,NA,NA,"journey, quest"
+"488","marker","boss",82,"marker01a.jpg","journey, return"
+"489","moat",NA,NA,NA,"journey, quest"
+"490","mountain","moreno-martinez",83,"mountain.jpg","journey, quest"
+"491","office",NA,NA,NA,"journey, return"
+"492","papers",NA,NA,NA,"journey"
+"493","platform",NA,NA,NA,"journey"
+"494","purple",NA,NA,NA,"journey, quest, return"
+"495","rectangle",NA,NA,NA,"journey"
+"496","reflection",NA,NA,NA,"journey"
+"497","sister",NA,NA,NA,"journey"
+"498","soldier","DR2",75,"soldier_01_og.jpg","journey, quest, return"
+"499","star",NA,NA,NA,"journey, wanderer"
+"500","stove","DR2",95.4545455,"stove_01_og.jpg","journey"
+"501","stream",NA,NA,NA,"journey, return"
+"502","towers",NA,NA,NA,"journey"
+"503","waterfall","brodeur",95,"waterfall.jpg","journey, quest"
+"504","world",NA,NA,NA,"journey, quest"
+"505","lifeguard",NA,NA,NA,"make_a_splash"
+"506","park",NA,NA,NA,"make_a_splash, quest"
+"507","rainbow",NA,NA,NA,"make_a_splash, quest"
+"508","slide","DR2",95.5,"slide_02_og.jpg","make_a_splash"
+"509","splash",NA,NA,NA,"make_a_splash"
+"510","cactus","brodeur",93,"cactus.jpg","picture_this"
+"511","sumo",NA,NA,NA,"picture_this"
+"512","wrestler",NA,NA,NA,"picture_this"
+"513","archway",NA,NA,NA,"quest"
+"514","buddha",NA,NA,NA,"quest"
+"515","crown","brodeur",88,"crown.jpg","quest, return"
+"516","dragonfly","brodeur",76,"dragonfly02.jpg","quest"
+"517","flipper",NA,NA,NA,"quest"
+"518","gear",NA,NA,NA,"quest"
+"519","helmet","DR2",100,"helmet_01_og.jpg","quest, wanderer"
+"520","island","moreno-martinez",84,"island.jpg","quest, wanderer"
+"521","key","boss",97,"key01.jpg","quest"
+"522","orange","boss",100,"orange.jpg","quest"
+"523","rain",NA,NA,NA,"quest"
+"524","scuba",NA,NA,NA,"quest, wanderer"
+"525","seahorse","DR2",96.4,"seahorse_02_og.jpg","quest, wanderer"
+"526","seat",NA,NA,NA,"quest"
+"527","spear","brodeur",75,"spear02.jpg","quest"
+"528","squid","brodeur",88,"squid.jpg","quest, wanderer"
+"529","swing","brodeur",98,"swing.jpg","quest"
+"530","tank","DR2",95.1,"tank_02_og.jpg","quest, wanderer"
+"531","temple",NA,NA,NA,"quest"
+"532","underwater",NA,NA,NA,"quest, wanderer"
+"533","bathroom",NA,NA,NA,"return"
+"534","beard",NA,NA,NA,"return"
+"535","board",NA,NA,NA,"return, unfriendly_giants"
+"536","butterfly","moreno-martinez",99,"butterfly.jpg","return"
+"537","cave",NA,NA,NA,"return, wanderer"
+"538","fall",NA,NA,NA,"return"
+"539","feather","boss",100,"feather03a.jpg","return"
+"540","moon","moreno-martinez",95,"moon.jpg","return, wanderer"
+"541","periscope",NA,NA,NA,"return"
+"542","sink","DR2",97.6190476,"sink_01_og.jpg","return"
+"543","submarine","DR2",100,"submarine_02_og.jpg","return, wanderer"
+"544","throne",NA,NA,NA,"return"
+"545","trap",NA,NA,NA,"return"
+"546","bouquet",NA,NA,NA,"unfriendly_giants"
+"547","chess",NA,NA,NA,"unfriendly_giants"
+"548","giant",NA,NA,NA,"unfriendly_giants"
+"549","giants",NA,NA,NA,"unfriendly_giants"
+"550","hammer","boss",100,"hammer01.jpg","unfriendly_giants"
+"551","straw","boss",83,"straw.jpg","unfriendly_giants"
+"552","windmill","brodeur, DR2",100,"windmill.jpg","unfriendly_giants, unfriendly_giants"
+"553","windmill","brodeur, DR2",100,"windmill_02_og.jpg","unfriendly_giants, unfriendly_giants"
+"554","accident",NA,NA,NA,"waldo_1"
+"555","ambulance",NA,NA,NA,"waldo_1"
+"556","crossing",NA,NA,NA,"waldo_1"
+"557","engine",NA,NA,NA,"waldo_1"
+"558","hotel",NA,NA,NA,"waldo_1, wild_west"
+"559","manhole",NA,NA,NA,"waldo_1"
+"560","market",NA,NA,NA,"waldo_1"
+"561","mop","DR2",100,"mop_01_og.jpg","waldo_1"
+"562","snorkel",NA,NA,NA,"waldo_1"
+"563","store",NA,NA,NA,"waldo_1, wild_west"
+"564","triangle","brodeur",79,"triangle.jpg","waldo_1"
+"565","alligator",NA,NA,NA,"wanderer"
+"566","anchor","brodeur",93,"anchor.jpg","wanderer"
+"567","arch",NA,NA,NA,"wanderer"
+"568","aurora",NA,NA,NA,"wanderer"
+"569","body",NA,NA,NA,"wanderer"
+"570","bottle","DR2",90.9090909,"bottle_01_og.png","wanderer"
+"571","branch",NA,NA,NA,"wanderer"
+"572","buoy",NA,NA,NA,"wanderer"
+"573","can",NA,NA,NA,"wanderer"
+"574","character",NA,NA,NA,"wanderer"
+"575","claw",NA,NA,NA,"wanderer"
+"576","coral",NA,NA,NA,"wanderer"
+"577","crane",NA,NA,NA,"wanderer"
+"578","deer","DR2",100,"deer_01_og.jpg","wanderer"
+"579","donut",NA,NA,NA,"wanderer"
+"580","dot",NA,NA,NA,"wanderer"
+"581","eel",NA,NA,NA,"wanderer"
+"582","fin",NA,NA,NA,"wanderer"
+"583","fins",NA,NA,NA,"wanderer"
+"584","float",NA,NA,NA,"wanderer"
+"585","hmm",NA,NA,NA,"wanderer"
+"586","iceberg","moreno-martinez",81,"iceberg_.jpg","wanderer"
+"587","jellyfish","brodeur",95,"jellyfish.jpg","wanderer"
+"588","jester",NA,NA,NA,"wanderer"
+"589","lighthouse","DR2",100,"lighthouse_01_og.jpg","wanderer"
+"590","lightning",NA,NA,NA,"wanderer"
+"591","lobster","DR2",100,"lobster_02_og.jpg","wanderer"
+"592","nose","brodeur",88,"nose.jpg","wanderer"
+"593","oh",NA,NA,NA,"wanderer"
+"594","opening",NA,NA,NA,"wanderer"
+"595","outfit",NA,NA,NA,"wanderer"
+"596","pair",NA,NA,NA,"wanderer"
+"597","pier",NA,NA,NA,"wanderer"
+"598","pipe","brodeur",83,"pipe.jpg","wanderer"
+"599","pole",NA,NA,NA,"wanderer"
+"600","reef",NA,NA,NA,"wanderer"
+"601","root",NA,NA,NA,"wanderer"
+"602","seagull","moreno-martinez",83,"seagull.jpg","wanderer"
+"603","seal","brodeur",88,"seal.jpg","wanderer"
+"604","shell",NA,NA,NA,"wanderer"
+"605","spot",NA,NA,NA,"wanderer"
+"606","stingray",NA,NA,NA,"wanderer"
+"607","storm",NA,NA,NA,"wanderer"
+"608","sun","moreno-martinez",75,"sun.jpg","wanderer"
+"609","surface",NA,NA,NA,"wanderer"
+"610","tooth",NA,NA,NA,"wanderer"
+"611","tunnel",NA,NA,NA,"wanderer"
+"612","turtle","DR2",95.2380952,"turtle_01_og.jpg","wanderer"
+"613","wave","moreno-martinez",89,"wave.jpg","wanderer"
+"614","whale",NA,NA,NA,"wanderer"
+"615","zebra","moreno-martinez",99,"zebra.jpg","wanderer"
+"616","bank",NA,NA,NA,"wild_west"
+"617","buffalo",NA,NA,NA,"wild_west"
+"618","cowboy",NA,NA,NA,"wild_west"
+"619","heriff",NA,NA,NA,"wild_west"
+"620","jail",NA,NA,NA,"wild_west"
+"621","livery",NA,NA,NA,"wild_west"
+"622","mine",NA,NA,NA,"wild_west"
+"623","pioneer",NA,NA,NA,"wild_west"
+"624","poster",NA,NA,NA,"wild_west"
+"625","saloon",NA,NA,NA,"wild_west"
+"626","stable",NA,NA,NA,"wild_west"
+"627","stagecoach",NA,NA,NA,"wild_west"
+"628","sunset",NA,NA,NA,"wild_west"
+"629","track",NA,NA,NA,"wild_west"
+"630","wagon",NA,NA,NA,"wild_west"
+"631","wild",NA,NA,NA,"wild_west"

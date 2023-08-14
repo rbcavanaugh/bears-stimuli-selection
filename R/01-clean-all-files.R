@@ -48,8 +48,8 @@ library(glue)
 here()
 
 # these two lines of code find all of the files in the data folder ending in vtt
-filepaths = list.files(here("VTT_updated"), full.names = TRUE, pattern = "vtt")
-files = list.files(here("VTT_updated"), full.names = FALSE, pattern = "vtt")
+filepaths = list.files(here("VTT_updated_813"), full.names = TRUE, pattern = "vtt")
+files = list.files(here("VTT_updated_813"), full.names = FALSE, pattern = "vtt")
 
 # Note 3: To retrieve parts of speech other than nouns, replace "NOUN" in the
 # code below in the getNouns() function with one of the following:
@@ -96,8 +96,8 @@ allNouns = bind_rows(nounList) |>
                           stimuli))
 
 # save the result
-# write.csv(allNouns, file = here("output", paste0(Sys.Date(), "_allNouns.csv")), row.names = FALSE)
-# allNouns <- read.csv(here("output", "2023-02-21_allNouns.csv"))
+ write.csv(allNouns, file = here("output", paste0(Sys.Date(), "_allNouns.csv")), row.names = FALSE)
+# allNouns <- read.csv(here("output", "2023-08-13_allNouns.csv"))
 
 # how many participants are there?
 numParticipants = length(unique(allNouns$participant))

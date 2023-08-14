@@ -47,8 +47,8 @@ library(glue)
 here()
 
 # these two lines of code find all of the files in the data folder ending in vtt
-filepaths = list.files(here("VTT_updated"), full.names = TRUE, pattern = "vtt")
-files = list.files(here("VTT_updated"), full.names = FALSE, pattern = "vtt")
+filepaths = list.files(here("VTT_updated_813"), full.names = TRUE, pattern = "vtt")
+files = list.files(here("VTT_updated_813"), full.names = FALSE, pattern = "vtt")
 
 # This loads the two key functions that clean up the VTT files
 source(here("R", "functions.R"))
@@ -77,10 +77,16 @@ for(i in seq_along(files)){
 }
 
 # add all the cleaned files together
-stim = bind_rows(tsList) 
+stim = bind_rows(tsList)  |> 
+  mutate(stimuli = str_replace_all(stimuli, "-", "_"),
+         stimuli = ifelse(stimuli == "dinasours_spacemen_and_ghouls",
+                          "dinosaurs_spacemen_and_ghouls", 
+                          stimuli))
 
-# write.csv(stim, paste0("output/", Sys.Date(), "_timestamp.csv"), row.names = FALSE)
-# write.csv(stim %>% filter(is.na(duration)), paste0("output/", Sys.Date(), "_timestamp-errors.csv"), row.names = FALSE)
+test = stim %>% filter(is.na(duration))
+stim |> count(stimuli) -> test
+write.csv(stim, here::here("output", paste0(Sys.Date(), "_timestamp.csv")), row.names = FALSE)
+write.csv(stim %>% filter(is.na(duration)), paste0("output/", Sys.Date(), "_timestamp-errors.csv"), row.names = FALSE)
 
 test = stim %>% filter(is.na(duration)) %>% drop_na(stimuli)
 

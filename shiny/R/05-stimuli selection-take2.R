@@ -15,7 +15,7 @@ select_stimuli <- function(participant_theta){
     #### reading in files ####
     # any dataframe that holds the word, the source, and the agreement scores...
     naming <- read_csv(here("data", "final_database_4-11-23.csv")) |> 
-      select(lemma = modal, source, agreement, target = `confirmed file name`) |> 
+      select(lemma = modal, source, agreement) |> #, target = `confirmed file name`
       distinct() |> 
       filter(agreement > 70) |> 
       group_by(lemma) |> 
@@ -74,7 +74,7 @@ select_stimuli <- function(participant_theta){
     # best agreement from naming with a difficulty score. should go up in
     # size after getting more difficulty scores
     cl = diff |> 
-      select(lemma_naming = lemma, stimuli, agreement, percent, difficulty, target) |> 
+      select(lemma_naming = lemma, stimuli, agreement, percent, difficulty) |> #, target
       mutate(in_discourse = ifelse(is.na(stimuli), 0, 1)) |> 
       group_by(lemma_naming) |> 
       filter(agreement == max(agreement)) |> 
@@ -244,8 +244,7 @@ select_stimuli <- function(participant_theta){
              in_discourse,
              discourse_stimuli = stimuli,
              agreement, item_difficulty = difficulty, core_lex_percent = percent,
-             condition,
-             target)
+             condition) #, target
     
     
     nrep = ifelse(min_cat >= 28, 28, min_cat)
