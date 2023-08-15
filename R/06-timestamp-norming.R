@@ -79,8 +79,8 @@ for(i in seq_along(files)){
 # add all the cleaned files together
 stim = bind_rows(tsList)  |> 
   mutate(stimuli = str_replace_all(stimuli, "-", "_"),
-         stimuli = ifelse(stimuli == "dinasours_spacemen_and_ghouls",
-                          "dinosaurs_spacemen_and_ghouls", 
+         stimuli = ifelse(str_detect(stimuli,"ghouls"),
+                          "dinosaurs_spacemen_and_ghouls",
                           stimuli))
 
 test = stim %>% filter(is.na(duration))

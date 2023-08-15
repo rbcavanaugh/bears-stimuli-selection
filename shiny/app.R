@@ -1,6 +1,5 @@
 library(shiny)
-
-source("R/05-stimuli selection-take2.R")
+source(here::here("shiny", "R", "05-stimuli selection-working-version.R"))
 
 # Define UI
 ui <- fluidPage(

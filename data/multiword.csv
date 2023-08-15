@@ -3,8 +3,8 @@
 "palm tree","journey",25,0.78125
 "palm tree","quest",24,0.75
 "palm tree","picture_this",20,0.625
+"paper airplane","wanderer",20,0.625
 "hot dog","escape_from_the_zoo",19,0.59375
-"paper airplane","wanderer",19,0.59375
 "palm tree","being_a_pirate",18,0.5625
 "fishing pole","wanderer",17,0.53125
 "lawn mower","flowerman",16,0.5
@@ -195,7 +195,6 @@
 "50 bill","campsite",0,0
 "50 bill","deep_sea_divers",0,0
 "50 bill","dinosaurs_spacemen_and_ghouls",0,0
-"50 bill","dinosours_spacemen_and_ghouls",0,0
 "50 bill","escape_from_the_zoo",0,0
 "50 bill","exhibit_12",0,0
 "50 bill","flowerman",0,0
@@ -222,7 +221,6 @@
 "8 ball","campsite",0,0
 "8 ball","deep_sea_divers",0,0
 "8 ball","dinosaurs_spacemen_and_ghouls",0,0
-"8 ball","dinosours_spacemen_and_ghouls",0,0
 "8 ball","escape_from_the_zoo",0,0
 "8 ball","exhibit_12",0,0
 "8 ball","flowerman",0,0
@@ -249,7 +247,6 @@
 "ace of diamond","campsite",0,0
 "ace of diamond","deep_sea_divers",0,0
 "ace of diamond","dinosaurs_spacemen_and_ghouls",0,0
-"ace of diamond","dinosours_spacemen_and_ghouls",0,0
 "ace of diamond","escape_from_the_zoo",0,0
 "ace of diamond","exhibit_12",0,0
 "ace of diamond","flowerman",0,0
@@ -276,7 +273,6 @@
 "air compressor","campsite",0,0
 "air compressor","deep_sea_divers",0,0
 "air compressor","dinosaurs_spacemen_and_ghouls",0,0
-"air compressor","dinosours_spacemen_and_ghouls",0,0
 "air compressor","escape_from_the_zoo",0,0
 "air compressor","exhibit_12",0,0
 "air compressor","flowerman",0,0
@@ -303,7 +299,6 @@
 "air conditioner","campsite",0,0
 "air conditioner","deep_sea_divers",0,0
 "air conditioner","dinosaurs_spacemen_and_ghouls",0,0
-"air conditioner","dinosours_spacemen_and_ghouls",0,0
 "air conditioner","escape_from_the_zoo",0,0
 "air conditioner","exhibit_12",0,0
 "air conditioner","flowerman",0,0
@@ -330,7 +325,6 @@
 "air hockey table","campsite",0,0
 "air hockey table","deep_sea_divers",0,0
 "air hockey table","dinosaurs_spacemen_and_ghouls",0,0
-"air hockey table","dinosours_spacemen_and_ghouls",0,0
 "air hockey table","escape_from_the_zoo",0,0
 "air hockey table","exhibit_12",0,0
 "air hockey table","flowerman",0,0
@@ -357,7 +351,6 @@
 "air pump","campsite",0,0
 "air pump","deep_sea_divers",0,0
 "air pump","dinosaurs_spacemen_and_ghouls",0,0
-"air pump","dinosours_spacemen_and_ghouls",0,0
 "air pump","escape_from_the_zoo",0,0
 "air pump","exhibit_12",0,0
 "air pump","flowerman",0,0
@@ -382,7 +375,6 @@
 "alarm clock","campsite",0,0
 "alarm clock","deep_sea_divers",0,0
 "alarm clock","dinosaurs_spacemen_and_ghouls",0,0
-"alarm clock","dinosours_spacemen_and_ghouls",0,0
 "alarm clock","escape_from_the_zoo",0,0
 "alarm clock","exhibit_12",0,0
 "alarm clock","flowerman",0,0
@@ -409,7 +401,6 @@
 "alarm system","campsite",0,0
 "alarm system","deep_sea_divers",0,0
 "alarm system","dinosaurs_spacemen_and_ghouls",0,0
-"alarm system","dinosours_spacemen_and_ghouls",0,0
 "alarm system","escape_from_the_zoo",0,0
 "alarm system","exhibit_12",0,0
 "alarm system","flowerman",0,0
@@ -436,7 +427,6 @@
 "aluminum foil","campsite",0,0
 "aluminum foil","deep_sea_divers",0,0
 "aluminum foil","dinosaurs_spacemen_and_ghouls",0,0
-"aluminum foil","dinosours_spacemen_and_ghouls",0,0
 "aluminum foil","escape_from_the_zoo",0,0
 "aluminum foil","exhibit_12",0,0
 "aluminum foil","flowerman",0,0
@@ -463,7 +453,6 @@
 "angel statue","campsite",0,0
 "angel statue","deep_sea_divers",0,0
 "angel statue","dinosaurs_spacemen_and_ghouls",0,0
-"angel statue","dinosours_spacemen_and_ghouls",0,0
 "angel statue","escape_from_the_zoo",0,0
 "angel statue","exhibit_12",0,0
 "angel statue","flowerman",0,0
@@ -489,7 +478,6 @@
 "animal cage","campsite",0,0
 "animal cage","deep_sea_divers",0,0
 "animal cage","dinosaurs_spacemen_and_ghouls",0,0
-"animal cage","dinosours_spacemen_and_ghouls",0,0
 "animal cage","escape_from_the_zoo",0,0
 "animal cage","exhibit_12",0,0
 "animal cage","flowerman",0,0
@@ -516,7 +504,6 @@
 "antenna for a car","campsite",0,0
 "antenna for a car","deep_sea_divers",0,0
 "antenna for a car","dinosaurs_spacemen_and_ghouls",0,0
-"antenna for a car","dinosours_spacemen_and_ghouls",0,0
 "antenna for a car","escape_from_the_zoo",0,0
 "antenna for a car","exhibit_12",0,0
 "antenna for a car","flowerman",0,0
@@ -543,7 +530,6 @@
 "applesauce jar","campsite",0,0
 "applesauce jar","deep_sea_divers",0,0
 "applesauce jar","dinosaurs_spacemen_and_ghouls",0,0
-"applesauce jar","dinosours_spacemen_and_ghouls",0,0
 "applesauce jar","escape_from_the_zoo",0,0
 "applesauce jar","exhibit_12",0,0
 "applesauce jar","flowerman",0,0
@@ -570,7 +556,6 @@
 "ash tray","campsite",0,0
 "ash tray","deep_sea_divers",0,0
 "ash tray","dinosaurs_spacemen_and_ghouls",0,0
-"ash tray","dinosours_spacemen_and_ghouls",0,0
 "ash tray","escape_from_the_zoo",0,0
 "ash tray","exhibit_12",0,0
 "ash tray","flowerman",0,0
@@ -597,7 +582,6 @@
 "baby bottle","campsite",0,0
 "baby bottle","deep_sea_divers",0,0
 "baby bottle","dinosaurs_spacemen_and_ghouls",0,0
-"baby bottle","dinosours_spacemen_and_ghouls",0,0
 "baby bottle","escape_from_the_zoo",0,0
 "baby bottle","exhibit_12",0,0
 "baby bottle","flowerman",0,0
@@ -624,7 +608,6 @@
 "baby seat","campsite",0,0
 "baby seat","deep_sea_divers",0,0
 "baby seat","dinosaurs_spacemen_and_ghouls",0,0
-"baby seat","dinosours_spacemen_and_ghouls",0,0
 "baby seat","escape_from_the_zoo",0,0
 "baby seat","exhibit_12",0,0
 "baby seat","flowerman",0,0
@@ -651,7 +634,6 @@
 "badminton racket","campsite",0,0
 "badminton racket","deep_sea_divers",0,0
 "badminton racket","dinosaurs_spacemen_and_ghouls",0,0
-"badminton racket","dinosours_spacemen_and_ghouls",0,0
 "badminton racket","escape_from_the_zoo",0,0
 "badminton racket","exhibit_12",0,0
 "badminton racket","flowerman",0,0
@@ -678,7 +660,6 @@
 "bangle bracelet","campsite",0,0
 "bangle bracelet","deep_sea_divers",0,0
 "bangle bracelet","dinosaurs_spacemen_and_ghouls",0,0
-"bangle bracelet","dinosours_spacemen_and_ghouls",0,0
 "bangle bracelet","escape_from_the_zoo",0,0
 "bangle bracelet","exhibit_12",0,0
 "bangle bracelet","flowerman",0,0
@@ -705,7 +686,6 @@
 "barbed wire","campsite",0,0
 "barbed wire","deep_sea_divers",0,0
 "barbed wire","dinosaurs_spacemen_and_ghouls",0,0
-"barbed wire","dinosours_spacemen_and_ghouls",0,0
 "barbed wire","exhibit_12",0,0
 "barbed wire","flowerman",0,0
 "barbed wire","journey",0,0
@@ -731,7 +711,6 @@
 "barn owl","campsite",0,0
 "barn owl","deep_sea_divers",0,0
 "barn owl","dinosaurs_spacemen_and_ghouls",0,0
-"barn owl","dinosours_spacemen_and_ghouls",0,0
 "barn owl","escape_from_the_zoo",0,0
 "barn owl","exhibit_12",0,0
 "barn owl","flowerman",0,0
@@ -758,7 +737,6 @@
 "baseball bat","campsite",0,0
 "baseball bat","deep_sea_divers",0,0
 "baseball bat","dinosaurs_spacemen_and_ghouls",0,0
-"baseball bat","dinosours_spacemen_and_ghouls",0,0
 "baseball bat","escape_from_the_zoo",0,0
 "baseball bat","exhibit_12",0,0
 "baseball bat","flowerman",0,0
@@ -785,7 +763,6 @@
 "baseball glove","campsite",0,0
 "baseball glove","deep_sea_divers",0,0
 "baseball glove","dinosaurs_spacemen_and_ghouls",0,0
-"baseball glove","dinosours_spacemen_and_ghouls",0,0
 "baseball glove","escape_from_the_zoo",0,0
 "baseball glove","exhibit_12",0,0
 "baseball glove","flowerman",0,0
@@ -812,7 +789,6 @@
 "basketball hoop","campsite",0,0
 "basketball hoop","deep_sea_divers",0,0
 "basketball hoop","dinosaurs_spacemen_and_ghouls",0,0
-"basketball hoop","dinosours_spacemen_and_ghouls",0,0
 "basketball hoop","escape_from_the_zoo",0,0
 "basketball hoop","exhibit_12",0,0
 "basketball hoop","flowerman",0,0
@@ -838,7 +814,6 @@
 "bedside table","campsite",0,0
 "bedside table","deep_sea_divers",0,0
 "bedside table","dinosaurs_spacemen_and_ghouls",0,0
-"bedside table","dinosours_spacemen_and_ghouls",0,0
 "bedside table","escape_from_the_zoo",0,0
 "bedside table","exhibit_12",0,0
 "bedside table","flowerman",0,0
@@ -865,7 +840,6 @@
 "beer bottle","campsite",0,0
 "beer bottle","deep_sea_divers",0,0
 "beer bottle","dinosaurs_spacemen_and_ghouls",0,0
-"beer bottle","dinosours_spacemen_and_ghouls",0,0
 "beer bottle","escape_from_the_zoo",0,0
 "beer bottle","exhibit_12",0,0
 "beer bottle","flowerman",0,0
@@ -891,7 +865,6 @@
 "beer mug","campsite",0,0
 "beer mug","deep_sea_divers",0,0
 "beer mug","dinosaurs_spacemen_and_ghouls",0,0
-"beer mug","dinosours_spacemen_and_ghouls",0,0
 "beer mug","escape_from_the_zoo",0,0
 "beer mug","exhibit_12",0,0
 "beer mug","flowerman",0,0
@@ -917,7 +890,6 @@
 "beluga whale","campsite",0,0
 "beluga whale","deep_sea_divers",0,0
 "beluga whale","dinosaurs_spacemen_and_ghouls",0,0
-"beluga whale","dinosours_spacemen_and_ghouls",0,0
 "beluga whale","escape_from_the_zoo",0,0
 "beluga whale","exhibit_12",0,0
 "beluga whale","flowerman",0,0
@@ -943,7 +915,6 @@
 "bike rack","campsite",0,0
 "bike rack","deep_sea_divers",0,0
 "bike rack","dinosaurs_spacemen_and_ghouls",0,0
-"bike rack","dinosours_spacemen_and_ghouls",0,0
 "bike rack","escape_from_the_zoo",0,0
 "bike rack","exhibit_12",0,0
 "bike rack","flowerman",0,0
@@ -970,7 +941,6 @@
 "bike wheel","campsite",0,0
 "bike wheel","deep_sea_divers",0,0
 "bike wheel","dinosaurs_spacemen_and_ghouls",0,0
-"bike wheel","dinosours_spacemen_and_ghouls",0,0
 "bike wheel","escape_from_the_zoo",0,0
 "bike wheel","exhibit_12",0,0
 "bike wheel","flowerman",0,0
@@ -997,7 +967,6 @@
 "bird feeder","campsite",0,0
 "bird feeder","deep_sea_divers",0,0
 "bird feeder","dinosaurs_spacemen_and_ghouls",0,0
-"bird feeder","dinosours_spacemen_and_ghouls",0,0
 "bird feeder","escape_from_the_zoo",0,0
 "bird feeder","exhibit_12",0,0
 "bird feeder","flowerman",0,0
@@ -1024,7 +993,6 @@
 "bird food","campsite",0,0
 "bird food","deep_sea_divers",0,0
 "bird food","dinosaurs_spacemen_and_ghouls",0,0
-"bird food","dinosours_spacemen_and_ghouls",0,0
 "bird food","escape_from_the_zoo",0,0
 "bird food","exhibit_12",0,0
 "bird food","flowerman",0,0
@@ -1050,7 +1018,6 @@
 "birds nest","campsite",0,0
 "birds nest","deep_sea_divers",0,0
 "birds nest","dinosaurs_spacemen_and_ghouls",0,0
-"birds nest","dinosours_spacemen_and_ghouls",0,0
 "birds nest","escape_from_the_zoo",0,0
 "birds nest","exhibit_12",0,0
 "birds nest","flowerman",0,0
@@ -1077,7 +1044,6 @@
 "black poplar","campsite",0,0
 "black poplar","deep_sea_divers",0,0
 "black poplar","dinosaurs_spacemen_and_ghouls",0,0
-"black poplar","dinosours_spacemen_and_ghouls",0,0
 "black poplar","escape_from_the_zoo",0,0
 "black poplar","exhibit_12",0,0
 "black poplar","flowerman",0,0
@@ -1104,7 +1070,6 @@
 "black pudding","campsite",0,0
 "black pudding","deep_sea_divers",0,0
 "black pudding","dinosaurs_spacemen_and_ghouls",0,0
-"black pudding","dinosours_spacemen_and_ghouls",0,0
 "black pudding","escape_from_the_zoo",0,0
 "black pudding","exhibit_12",0,0
 "black pudding","flowerman",0,0
@@ -1131,7 +1096,6 @@
 "blue cheese","campsite",0,0
 "blue cheese","deep_sea_divers",0,0
 "blue cheese","dinosaurs_spacemen_and_ghouls",0,0
-"blue cheese","dinosours_spacemen_and_ghouls",0,0
 "blue cheese","escape_from_the_zoo",0,0
 "blue cheese","exhibit_12",0,0
 "blue cheese","flowerman",0,0
@@ -1158,7 +1122,6 @@
 "blue jay","campsite",0,0
 "blue jay","deep_sea_divers",0,0
 "blue jay","dinosaurs_spacemen_and_ghouls",0,0
-"blue jay","dinosours_spacemen_and_ghouls",0,0
 "blue jay","escape_from_the_zoo",0,0
 "blue jay","exhibit_12",0,0
 "blue jay","flowerman",0,0
@@ -1185,7 +1148,6 @@
 "boat motor","campsite",0,0
 "boat motor","deep_sea_divers",0,0
 "boat motor","dinosaurs_spacemen_and_ghouls",0,0
-"boat motor","dinosours_spacemen_and_ghouls",0,0
 "boat motor","escape_from_the_zoo",0,0
 "boat motor","exhibit_12",0,0
 "boat motor","flowerman",0,0
@@ -1212,7 +1174,6 @@
 "bolt cutter","campsite",0,0
 "bolt cutter","deep_sea_divers",0,0
 "bolt cutter","dinosaurs_spacemen_and_ghouls",0,0
-"bolt cutter","dinosours_spacemen_and_ghouls",0,0
 "bolt cutter","escape_from_the_zoo",0,0
 "bolt cutter","exhibit_12",0,0
 "bolt cutter","flowerman",0,0
@@ -1239,7 +1200,6 @@
 "boogie board","campsite",0,0
 "boogie board","deep_sea_divers",0,0
 "boogie board","dinosaurs_spacemen_and_ghouls",0,0
-"boogie board","dinosours_spacemen_and_ghouls",0,0
 "boogie board","escape_from_the_zoo",0,0
 "boogie board","exhibit_12",0,0
 "boogie board","flowerman",0,0
@@ -1266,7 +1226,6 @@
 "bottle cap","campsite",0,0
 "bottle cap","deep_sea_divers",0,0
 "bottle cap","dinosaurs_spacemen_and_ghouls",0,0
-"bottle cap","dinosours_spacemen_and_ghouls",0,0
 "bottle cap","escape_from_the_zoo",0,0
 "bottle cap","exhibit_12",0,0
 "bottle cap","flowerman",0,0
@@ -1293,7 +1252,6 @@
 "bottle opener","campsite",0,0
 "bottle opener","deep_sea_divers",0,0
 "bottle opener","dinosaurs_spacemen_and_ghouls",0,0
-"bottle opener","dinosours_spacemen_and_ghouls",0,0
 "bottle opener","escape_from_the_zoo",0,0
 "bottle opener","exhibit_12",0,0
 "bottle opener","flowerman",0,0
@@ -1320,7 +1278,6 @@
 "bowl of chips","campsite",0,0
 "bowl of chips","deep_sea_divers",0,0
 "bowl of chips","dinosaurs_spacemen_and_ghouls",0,0
-"bowl of chips","dinosours_spacemen_and_ghouls",0,0
 "bowl of chips","escape_from_the_zoo",0,0
 "bowl of chips","exhibit_12",0,0
 "bowl of chips","flowerman",0,0
@@ -1347,7 +1304,6 @@
 "bowling ball","campsite",0,0
 "bowling ball","deep_sea_divers",0,0
 "bowling ball","dinosaurs_spacemen_and_ghouls",0,0
-"bowling ball","dinosours_spacemen_and_ghouls",0,0
 "bowling ball","escape_from_the_zoo",0,0
 "bowling ball","flowerman",0,0
 "bowling ball","journey",0,0
@@ -1372,7 +1328,6 @@
 "bowling pin","campsite",0,0
 "bowling pin","deep_sea_divers",0,0
 "bowling pin","dinosaurs_spacemen_and_ghouls",0,0
-"bowling pin","dinosours_spacemen_and_ghouls",0,0
 "bowling pin","escape_from_the_zoo",0,0
 "bowling pin","exhibit_12",0,0
 "bowling pin","flowerman",0,0
@@ -1399,7 +1354,6 @@
 "boxing glove","campsite",0,0
 "boxing glove","deep_sea_divers",0,0
 "boxing glove","dinosaurs_spacemen_and_ghouls",0,0
-"boxing glove","dinosours_spacemen_and_ghouls",0,0
 "boxing glove","escape_from_the_zoo",0,0
 "boxing glove","exhibit_12",0,0
 "boxing glove","flowerman",0,0
@@ -1425,7 +1379,6 @@
 "boxing gloves","campsite",0,0
 "boxing gloves","deep_sea_divers",0,0
 "boxing gloves","dinosaurs_spacemen_and_ghouls",0,0
-"boxing gloves","dinosours_spacemen_and_ghouls",0,0
 "boxing gloves","escape_from_the_zoo",0,0
 "boxing gloves","exhibit_12",0,0
 "boxing gloves","flowerman",0,0
@@ -1452,7 +1405,6 @@
 "brass knuckles","campsite",0,0
 "brass knuckles","deep_sea_divers",0,0
 "brass knuckles","dinosaurs_spacemen_and_ghouls",0,0
-"brass knuckles","dinosours_spacemen_and_ghouls",0,0
 "brass knuckles","escape_from_the_zoo",0,0
 "brass knuckles","exhibit_12",0,0
 "brass knuckles","flowerman",0,0
@@ -1479,7 +1431,6 @@
 "bread slice","campsite",0,0
 "bread slice","deep_sea_divers",0,0
 "bread slice","dinosaurs_spacemen_and_ghouls",0,0
-"bread slice","dinosours_spacemen_and_ghouls",0,0
 "bread slice","escape_from_the_zoo",0,0
 "bread slice","exhibit_12",0,0
 "bread slice","flowerman",0,0
@@ -1506,7 +1457,6 @@
 "brown sugar","campsite",0,0
 "brown sugar","deep_sea_divers",0,0
 "brown sugar","dinosaurs_spacemen_and_ghouls",0,0
-"brown sugar","dinosours_spacemen_and_ghouls",0,0
 "brown sugar","escape_from_the_zoo",0,0
 "brown sugar","exhibit_12",0,0
 "brown sugar","flowerman",0,0
@@ -1533,7 +1483,6 @@
 "brussels sprout","campsite",0,0
 "brussels sprout","deep_sea_divers",0,0
 "brussels sprout","dinosaurs_spacemen_and_ghouls",0,0
-"brussels sprout","dinosours_spacemen_and_ghouls",0,0
 "brussels sprout","escape_from_the_zoo",0,0
 "brussels sprout","exhibit_12",0,0
 "brussels sprout","flowerman",0,0
@@ -1560,7 +1509,6 @@
 "bull skull","campsite",0,0
 "bull skull","deep_sea_divers",0,0
 "bull skull","dinosaurs_spacemen_and_ghouls",0,0
-"bull skull","dinosours_spacemen_and_ghouls",0,0
 "bull skull","escape_from_the_zoo",0,0
 "bull skull","exhibit_12",0,0
 "bull skull","flowerman",0,0
@@ -1587,7 +1535,6 @@
 "bungee cord","campsite",0,0
 "bungee cord","deep_sea_divers",0,0
 "bungee cord","dinosaurs_spacemen_and_ghouls",0,0
-"bungee cord","dinosours_spacemen_and_ghouls",0,0
 "bungee cord","escape_from_the_zoo",0,0
 "bungee cord","exhibit_12",0,0
 "bungee cord","flowerman",0,0
@@ -1614,7 +1561,6 @@
 "bus shelter","campsite",0,0
 "bus shelter","deep_sea_divers",0,0
 "bus shelter","dinosaurs_spacemen_and_ghouls",0,0
-"bus shelter","dinosours_spacemen_and_ghouls",0,0
 "bus shelter","escape_from_the_zoo",0,0
 "bus shelter","exhibit_12",0,0
 "bus shelter","flowerman",0,0
@@ -1640,7 +1586,6 @@
 "butcher knife","campsite",0,0
 "butcher knife","deep_sea_divers",0,0
 "butcher knife","dinosaurs_spacemen_and_ghouls",0,0
-"butcher knife","dinosours_spacemen_and_ghouls",0,0
 "butcher knife","escape_from_the_zoo",0,0
 "butcher knife","exhibit_12",0,0
 "butcher knife","flowerman",0,0
@@ -1667,7 +1612,6 @@
 "butter dish","campsite",0,0
 "butter dish","deep_sea_divers",0,0
 "butter dish","dinosaurs_spacemen_and_ghouls",0,0
-"butter dish","dinosours_spacemen_and_ghouls",0,0
 "butter dish","escape_from_the_zoo",0,0
 "butter dish","exhibit_12",0,0
 "butter dish","flowerman",0,0
@@ -1694,7 +1638,6 @@
 "butter knife","campsite",0,0
 "butter knife","deep_sea_divers",0,0
 "butter knife","dinosaurs_spacemen_and_ghouls",0,0
-"butter knife","dinosours_spacemen_and_ghouls",0,0
 "butter knife","escape_from_the_zoo",0,0
 "butter knife","exhibit_12",0,0
 "butter knife","flowerman",0,0
@@ -1721,7 +1664,6 @@
 "cake platter","campsite",0,0
 "cake platter","deep_sea_divers",0,0
 "cake platter","dinosaurs_spacemen_and_ghouls",0,0
-"cake platter","dinosours_spacemen_and_ghouls",0,0
 "cake platter","escape_from_the_zoo",0,0
 "cake platter","exhibit_12",0,0
 "cake platter","flowerman",0,0
@@ -1748,7 +1690,6 @@
 "camera case","campsite",0,0
 "camera case","deep_sea_divers",0,0
 "camera case","dinosaurs_spacemen_and_ghouls",0,0
-"camera case","dinosours_spacemen_and_ghouls",0,0
 "camera case","escape_from_the_zoo",0,0
 "camera case","exhibit_12",0,0
 "camera case","flowerman",0,0
@@ -1774,7 +1715,6 @@
 "can opener","campsite",0,0
 "can opener","deep_sea_divers",0,0
 "can opener","dinosaurs_spacemen_and_ghouls",0,0
-"can opener","dinosours_spacemen_and_ghouls",0,0
 "can opener","escape_from_the_zoo",0,0
 "can opener","exhibit_12",0,0
 "can opener","flowerman",0,0
@@ -1801,7 +1741,6 @@
 "canadian goose","campsite",0,0
 "canadian goose","deep_sea_divers",0,0
 "canadian goose","dinosaurs_spacemen_and_ghouls",0,0
-"canadian goose","dinosours_spacemen_and_ghouls",0,0
 "canadian goose","escape_from_the_zoo",0,0
 "canadian goose","exhibit_12",0,0
 "canadian goose","flowerman",0,0
@@ -1828,7 +1767,6 @@
 "candle holder","campsite",0,0
 "candle holder","deep_sea_divers",0,0
 "candle holder","dinosaurs_spacemen_and_ghouls",0,0
-"candle holder","dinosours_spacemen_and_ghouls",0,0
 "candle holder","escape_from_the_zoo",0,0
 "candle holder","exhibit_12",0,0
 "candle holder","flowerman",0,0
@@ -1855,7 +1793,6 @@
 "candy cane","campsite",0,0
 "candy cane","deep_sea_divers",0,0
 "candy cane","dinosaurs_spacemen_and_ghouls",0,0
-"candy cane","dinosours_spacemen_and_ghouls",0,0
 "candy cane","escape_from_the_zoo",0,0
 "candy cane","exhibit_12",0,0
 "candy cane","flowerman",0,0
@@ -1881,7 +1818,6 @@
 "candy dispenser","campsite",0,0
 "candy dispenser","deep_sea_divers",0,0
 "candy dispenser","dinosaurs_spacemen_and_ghouls",0,0
-"candy dispenser","dinosours_spacemen_and_ghouls",0,0
 "candy dispenser","escape_from_the_zoo",0,0
 "candy dispenser","exhibit_12",0,0
 "candy dispenser","flowerman",0,0
@@ -1908,7 +1844,6 @@
 "car battery","campsite",0,0
 "car battery","deep_sea_divers",0,0
 "car battery","dinosaurs_spacemen_and_ghouls",0,0
-"car battery","dinosours_spacemen_and_ghouls",0,0
 "car battery","escape_from_the_zoo",0,0
 "car battery","exhibit_12",0,0
 "car battery","flowerman",0,0
@@ -1935,7 +1870,6 @@
 "car jack","campsite",0,0
 "car jack","deep_sea_divers",0,0
 "car jack","dinosaurs_spacemen_and_ghouls",0,0
-"car jack","dinosours_spacemen_and_ghouls",0,0
 "car jack","escape_from_the_zoo",0,0
 "car jack","exhibit_12",0,0
 "car jack","flowerman",0,0
@@ -1962,7 +1896,6 @@
 "car lighter","campsite",0,0
 "car lighter","deep_sea_divers",0,0
 "car lighter","dinosaurs_spacemen_and_ghouls",0,0
-"car lighter","dinosours_spacemen_and_ghouls",0,0
 "car lighter","escape_from_the_zoo",0,0
 "car lighter","exhibit_12",0,0
 "car lighter","flowerman",0,0
@@ -1989,7 +1922,6 @@
 "car mat","campsite",0,0
 "car mat","deep_sea_divers",0,0
 "car mat","dinosaurs_spacemen_and_ghouls",0,0
-"car mat","dinosours_spacemen_and_ghouls",0,0
 "car mat","escape_from_the_zoo",0,0
 "car mat","exhibit_12",0,0
 "car mat","flowerman",0,0
@@ -2016,7 +1948,6 @@
 "car side mirror","campsite",0,0
 "car side mirror","deep_sea_divers",0,0
 "car side mirror","dinosaurs_spacemen_and_ghouls",0,0
-"car side mirror","dinosours_spacemen_and_ghouls",0,0
 "car side mirror","escape_from_the_zoo",0,0
 "car side mirror","exhibit_12",0,0
 "car side mirror","flowerman",0,0
@@ -2041,7 +1972,6 @@
 "cash register","by_the_lake",0,0
 "cash register","campsite",0,0
 "cash register","deep_sea_divers",0,0
-"cash register","dinosours_spacemen_and_ghouls",0,0
 "cash register","escape_from_the_zoo",0,0
 "cash register","exhibit_12",0,0
 "cash register","flowerman",0,0
@@ -2068,7 +1998,6 @@
 "cassette tape","campsite",0,0
 "cassette tape","deep_sea_divers",0,0
 "cassette tape","dinosaurs_spacemen_and_ghouls",0,0
-"cassette tape","dinosours_spacemen_and_ghouls",0,0
 "cassette tape","escape_from_the_zoo",0,0
 "cassette tape","exhibit_12",0,0
 "cassette tape","flowerman",0,0
@@ -2095,7 +2024,6 @@
 "castle tower","campsite",0,0
 "castle tower","deep_sea_divers",0,0
 "castle tower","dinosaurs_spacemen_and_ghouls",0,0
-"castle tower","dinosours_spacemen_and_ghouls",0,0
 "castle tower","escape_from_the_zoo",0,0
 "castle tower","exhibit_12",0,0
 "castle tower","flowerman",0,0
@@ -2121,7 +2049,6 @@
 "catchers mask","campsite",0,0
 "catchers mask","deep_sea_divers",0,0
 "catchers mask","dinosaurs_spacemen_and_ghouls",0,0
-"catchers mask","dinosours_spacemen_and_ghouls",0,0
 "catchers mask","escape_from_the_zoo",0,0
 "catchers mask","exhibit_12",0,0
 "catchers mask","flowerman",0,0
@@ -2148,7 +2075,6 @@
 "ceiling fan","campsite",0,0
 "ceiling fan","deep_sea_divers",0,0
 "ceiling fan","dinosaurs_spacemen_and_ghouls",0,0
-"ceiling fan","dinosours_spacemen_and_ghouls",0,0
 "ceiling fan","escape_from_the_zoo",0,0
 "ceiling fan","exhibit_12",0,0
 "ceiling fan","flowerman",0,0
@@ -2175,7 +2101,6 @@
 "cement truck","campsite",0,0
 "cement truck","deep_sea_divers",0,0
 "cement truck","dinosaurs_spacemen_and_ghouls",0,0
-"cement truck","dinosours_spacemen_and_ghouls",0,0
 "cement truck","escape_from_the_zoo",0,0
 "cement truck","exhibit_12",0,0
 "cement truck","flowerman",0,0
@@ -2202,7 +2127,6 @@
 "chalk board","campsite",0,0
 "chalk board","deep_sea_divers",0,0
 "chalk board","dinosaurs_spacemen_and_ghouls",0,0
-"chalk board","dinosours_spacemen_and_ghouls",0,0
 "chalk board","escape_from_the_zoo",0,0
 "chalk board","exhibit_12",0,0
 "chalk board","flowerman",0,0
@@ -2227,7 +2151,6 @@
 "chefs hat","campsite",0,0
 "chefs hat","deep_sea_divers",0,0
 "chefs hat","dinosaurs_spacemen_and_ghouls",0,0
-"chefs hat","dinosours_spacemen_and_ghouls",0,0
 "chefs hat","escape_from_the_zoo",0,0
 "chefs hat","exhibit_12",0,0
 "chefs hat","flowerman",0,0
@@ -2254,7 +2177,6 @@
 "cherry picker","campsite",0,0
 "cherry picker","deep_sea_divers",0,0
 "cherry picker","dinosaurs_spacemen_and_ghouls",0,0
-"cherry picker","dinosours_spacemen_and_ghouls",0,0
 "cherry picker","escape_from_the_zoo",0,0
 "cherry picker","exhibit_12",0,0
 "cherry picker","flowerman",0,0
@@ -2280,7 +2202,6 @@
 "chess board","campsite",0,0
 "chess board","deep_sea_divers",0,0
 "chess board","dinosaurs_spacemen_and_ghouls",0,0
-"chess board","dinosours_spacemen_and_ghouls",0,0
 "chess board","escape_from_the_zoo",0,0
 "chess board","exhibit_12",0,0
 "chess board","flowerman",0,0
@@ -2306,7 +2227,6 @@
 "chess piece","campsite",0,0
 "chess piece","deep_sea_divers",0,0
 "chess piece","dinosaurs_spacemen_and_ghouls",0,0
-"chess piece","dinosours_spacemen_and_ghouls",0,0
 "chess piece","escape_from_the_zoo",0,0
 "chess piece","exhibit_12",0,0
 "chess piece","flowerman",0,0
@@ -2332,7 +2252,6 @@
 "chest of drawers","campsite",0,0
 "chest of drawers","deep_sea_divers",0,0
 "chest of drawers","dinosaurs_spacemen_and_ghouls",0,0
-"chest of drawers","dinosours_spacemen_and_ghouls",0,0
 "chest of drawers","escape_from_the_zoo",0,0
 "chest of drawers","exhibit_12",0,0
 "chest of drawers","flowerman",0,0
@@ -2358,7 +2277,6 @@
 "chocolate milk","campsite",0,0
 "chocolate milk","deep_sea_divers",0,0
 "chocolate milk","dinosaurs_spacemen_and_ghouls",0,0
-"chocolate milk","dinosours_spacemen_and_ghouls",0,0
 "chocolate milk","escape_from_the_zoo",0,0
 "chocolate milk","exhibit_12",0,0
 "chocolate milk","flowerman",0,0
@@ -2385,7 +2303,6 @@
 "christmas ball","campsite",0,0
 "christmas ball","deep_sea_divers",0,0
 "christmas ball","dinosaurs_spacemen_and_ghouls",0,0
-"christmas ball","dinosours_spacemen_and_ghouls",0,0
 "christmas ball","escape_from_the_zoo",0,0
 "christmas ball","exhibit_12",0,0
 "christmas ball","flowerman",0,0
@@ -2412,7 +2329,6 @@
 "christmas lights","campsite",0,0
 "christmas lights","deep_sea_divers",0,0
 "christmas lights","dinosaurs_spacemen_and_ghouls",0,0
-"christmas lights","dinosours_spacemen_and_ghouls",0,0
 "christmas lights","escape_from_the_zoo",0,0
 "christmas lights","exhibit_12",0,0
 "christmas lights","flowerman",0,0
@@ -2436,7 +2352,6 @@
 "christmas tree","campsite",0,0
 "christmas tree","deep_sea_divers",0,0
 "christmas tree","dinosaurs_spacemen_and_ghouls",0,0
-"christmas tree","dinosours_spacemen_and_ghouls",0,0
 "christmas tree","escape_from_the_zoo",0,0
 "christmas tree","exhibit_12",0,0
 "christmas tree","flowerman",0,0
@@ -2461,7 +2376,6 @@
 "church tower","campsite",0,0
 "church tower","deep_sea_divers",0,0
 "church tower","dinosaurs_spacemen_and_ghouls",0,0
-"church tower","dinosours_spacemen_and_ghouls",0,0
 "church tower","escape_from_the_zoo",0,0
 "church tower","exhibit_12",0,0
 "church tower","flowerman",0,0
@@ -2488,7 +2402,6 @@
 "cinder block","campsite",0,0
 "cinder block","deep_sea_divers",0,0
 "cinder block","dinosaurs_spacemen_and_ghouls",0,0
-"cinder block","dinosours_spacemen_and_ghouls",0,0
 "cinder block","escape_from_the_zoo",0,0
 "cinder block","exhibit_12",0,0
 "cinder block","flowerman",0,0
@@ -2514,7 +2427,6 @@
 "clothes pin","campsite",0,0
 "clothes pin","deep_sea_divers",0,0
 "clothes pin","dinosaurs_spacemen_and_ghouls",0,0
-"clothes pin","dinosours_spacemen_and_ghouls",0,0
 "clothes pin","escape_from_the_zoo",0,0
 "clothes pin","exhibit_12",0,0
 "clothes pin","flowerman",0,0
@@ -2540,7 +2452,6 @@
 "coat hook","campsite",0,0
 "coat hook","deep_sea_divers",0,0
 "coat hook","dinosaurs_spacemen_and_ghouls",0,0
-"coat hook","dinosours_spacemen_and_ghouls",0,0
 "coat hook","escape_from_the_zoo",0,0
 "coat hook","exhibit_12",0,0
 "coat hook","flowerman",0,0
@@ -2566,7 +2477,6 @@
 "coat rack","campsite",0,0
 "coat rack","deep_sea_divers",0,0
 "coat rack","dinosaurs_spacemen_and_ghouls",0,0
-"coat rack","dinosours_spacemen_and_ghouls",0,0
 "coat rack","escape_from_the_zoo",0,0
 "coat rack","exhibit_12",0,0
 "coat rack","flowerman",0,0
@@ -2591,7 +2501,6 @@
 "coffee beans","campsite",0,0
 "coffee beans","deep_sea_divers",0,0
 "coffee beans","dinosaurs_spacemen_and_ghouls",0,0
-"coffee beans","dinosours_spacemen_and_ghouls",0,0
 "coffee beans","escape_from_the_zoo",0,0
 "coffee beans","exhibit_12",0,0
 "coffee beans","flowerman",0,0
@@ -2617,7 +2526,6 @@
 "coffee machine","campsite",0,0
 "coffee machine","deep_sea_divers",0,0
 "coffee machine","dinosaurs_spacemen_and_ghouls",0,0
-"coffee machine","dinosours_spacemen_and_ghouls",0,0
 "coffee machine","escape_from_the_zoo",0,0
 "coffee machine","exhibit_12",0,0
 "coffee machine","flowerman",0,0
@@ -2643,7 +2551,6 @@
 "coffee maker","campsite",0,0
 "coffee maker","deep_sea_divers",0,0
 "coffee maker","dinosaurs_spacemen_and_ghouls",0,0
-"coffee maker","dinosours_spacemen_and_ghouls",0,0
 "coffee maker","escape_from_the_zoo",0,0
 "coffee maker","exhibit_12",0,0
 "coffee maker","flowerman",0,0
@@ -2669,7 +2576,6 @@
 "coffee mug","campsite",0,0
 "coffee mug","deep_sea_divers",0,0
 "coffee mug","dinosaurs_spacemen_and_ghouls",0,0
-"coffee mug","dinosours_spacemen_and_ghouls",0,0
 "coffee mug","escape_from_the_zoo",0,0
 "coffee mug","exhibit_12",0,0
 "coffee mug","flowerman",0,0
@@ -2693,7 +2599,6 @@
 "coffee pot","campsite",0,0
 "coffee pot","deep_sea_divers",0,0
 "coffee pot","dinosaurs_spacemen_and_ghouls",0,0
-"coffee pot","dinosours_spacemen_and_ghouls",0,0
 "coffee pot","escape_from_the_zoo",0,0
 "coffee pot","exhibit_12",0,0
 "coffee pot","flowerman",0,0
@@ -2720,7 +2625,6 @@
 "cold chisel","campsite",0,0
 "cold chisel","deep_sea_divers",0,0
 "cold chisel","dinosaurs_spacemen_and_ghouls",0,0
-"cold chisel","dinosours_spacemen_and_ghouls",0,0
 "cold chisel","escape_from_the_zoo",0,0
 "cold chisel","exhibit_12",0,0
 "cold chisel","flowerman",0,0
@@ -2747,7 +2651,6 @@
 "coloring set","campsite",0,0
 "coloring set","deep_sea_divers",0,0
 "coloring set","dinosaurs_spacemen_and_ghouls",0,0
-"coloring set","dinosours_spacemen_and_ghouls",0,0
 "coloring set","escape_from_the_zoo",0,0
 "coloring set","exhibit_12",0,0
 "coloring set","flowerman",0,0
@@ -2774,7 +2677,6 @@
 "cookie cutter","campsite",0,0
 "cookie cutter","deep_sea_divers",0,0
 "cookie cutter","dinosaurs_spacemen_and_ghouls",0,0
-"cookie cutter","dinosours_spacemen_and_ghouls",0,0
 "cookie cutter","escape_from_the_zoo",0,0
 "cookie cutter","exhibit_12",0,0
 "cookie cutter","flowerman",0,0
@@ -2800,7 +2702,6 @@
 "cooking pot","campsite",0,0
 "cooking pot","deep_sea_divers",0,0
 "cooking pot","dinosaurs_spacemen_and_ghouls",0,0
-"cooking pot","dinosours_spacemen_and_ghouls",0,0
 "cooking pot","escape_from_the_zoo",0,0
 "cooking pot","exhibit_12",0,0
 "cooking pot","flowerman",0,0
@@ -2827,7 +2728,6 @@
 "cork board","campsite",0,0
 "cork board","deep_sea_divers",0,0
 "cork board","dinosaurs_spacemen_and_ghouls",0,0
-"cork board","dinosours_spacemen_and_ghouls",0,0
 "cork board","escape_from_the_zoo",0,0
 "cork board","exhibit_12",0,0
 "cork board","flowerman",0,0
@@ -2854,7 +2754,6 @@
 "cotton pad","campsite",0,0
 "cotton pad","deep_sea_divers",0,0
 "cotton pad","dinosaurs_spacemen_and_ghouls",0,0
-"cotton pad","dinosours_spacemen_and_ghouls",0,0
 "cotton pad","escape_from_the_zoo",0,0
 "cotton pad","exhibit_12",0,0
 "cotton pad","flowerman",0,0
@@ -2879,7 +2778,6 @@
 "cruise ship","by_the_lake",0,0
 "cruise ship","campsite",0,0
 "cruise ship","deep_sea_divers",0,0
-"cruise ship","dinosours_spacemen_and_ghouls",0,0
 "cruise ship","escape_from_the_zoo",0,0
 "cruise ship","exhibit_12",0,0
 "cruise ship","flowerman",0,0
@@ -2905,7 +2803,6 @@
 "crème brulee","campsite",0,0
 "crème brulee","deep_sea_divers",0,0
 "crème brulee","dinosaurs_spacemen_and_ghouls",0,0
-"crème brulee","dinosours_spacemen_and_ghouls",0,0
 "crème brulee","escape_from_the_zoo",0,0
 "crème brulee","exhibit_12",0,0
 "crème brulee","flowerman",0,0
@@ -2932,7 +2829,6 @@
 "crème caramel","campsite",0,0
 "crème caramel","deep_sea_divers",0,0
 "crème caramel","dinosaurs_spacemen_and_ghouls",0,0
-"crème caramel","dinosours_spacemen_and_ghouls",0,0
 "crème caramel","escape_from_the_zoo",0,0
 "crème caramel","exhibit_12",0,0
 "crème caramel","flowerman",0,0
@@ -2959,7 +2855,6 @@
 "curling iron","campsite",0,0
 "curling iron","deep_sea_divers",0,0
 "curling iron","dinosaurs_spacemen_and_ghouls",0,0
-"curling iron","dinosours_spacemen_and_ghouls",0,0
 "curling iron","escape_from_the_zoo",0,0
 "curling iron","exhibit_12",0,0
 "curling iron","flowerman",0,0
@@ -2986,7 +2881,6 @@
 "custard apple","campsite",0,0
 "custard apple","deep_sea_divers",0,0
 "custard apple","dinosaurs_spacemen_and_ghouls",0,0
-"custard apple","dinosours_spacemen_and_ghouls",0,0
 "custard apple","escape_from_the_zoo",0,0
 "custard apple","exhibit_12",0,0
 "custard apple","flowerman",0,0
@@ -3013,7 +2907,6 @@
 "cutlery set","campsite",0,0
 "cutlery set","deep_sea_divers",0,0
 "cutlery set","dinosaurs_spacemen_and_ghouls",0,0
-"cutlery set","dinosours_spacemen_and_ghouls",0,0
 "cutlery set","escape_from_the_zoo",0,0
 "cutlery set","exhibit_12",0,0
 "cutlery set","flowerman",0,0
@@ -3040,7 +2933,6 @@
 "cutting board","campsite",0,0
 "cutting board","deep_sea_divers",0,0
 "cutting board","dinosaurs_spacemen_and_ghouls",0,0
-"cutting board","dinosours_spacemen_and_ghouls",0,0
 "cutting board","escape_from_the_zoo",0,0
 "cutting board","exhibit_12",0,0
 "cutting board","flowerman",0,0
@@ -3067,7 +2959,6 @@
 "dental floss","campsite",0,0
 "dental floss","deep_sea_divers",0,0
 "dental floss","dinosaurs_spacemen_and_ghouls",0,0
-"dental floss","dinosours_spacemen_and_ghouls",0,0
 "dental floss","escape_from_the_zoo",0,0
 "dental floss","exhibit_12",0,0
 "dental floss","flowerman",0,0
@@ -3094,7 +2985,6 @@
 "dinosaur skull","campsite",0,0
 "dinosaur skull","deep_sea_divers",0,0
 "dinosaur skull","dinosaurs_spacemen_and_ghouls",0,0
-"dinosaur skull","dinosours_spacemen_and_ghouls",0,0
 "dinosaur skull","escape_from_the_zoo",0,0
 "dinosaur skull","exhibit_12",0,0
 "dinosaur skull","flowerman",0,0
@@ -3121,7 +3011,6 @@
 "disco ball","campsite",0,0
 "disco ball","deep_sea_divers",0,0
 "disco ball","dinosaurs_spacemen_and_ghouls",0,0
-"disco ball","dinosours_spacemen_and_ghouls",0,0
 "disco ball","escape_from_the_zoo",0,0
 "disco ball","exhibit_12",0,0
 "disco ball","flowerman",0,0
@@ -3148,7 +3037,6 @@
 "dish rack","campsite",0,0
 "dish rack","deep_sea_divers",0,0
 "dish rack","dinosaurs_spacemen_and_ghouls",0,0
-"dish rack","dinosours_spacemen_and_ghouls",0,0
 "dish rack","escape_from_the_zoo",0,0
 "dish rack","exhibit_12",0,0
 "dish rack","flowerman",0,0
@@ -3175,7 +3063,6 @@
 "dish soap","campsite",0,0
 "dish soap","deep_sea_divers",0,0
 "dish soap","dinosaurs_spacemen_and_ghouls",0,0
-"dish soap","dinosours_spacemen_and_ghouls",0,0
 "dish soap","escape_from_the_zoo",0,0
 "dish soap","exhibit_12",0,0
 "dish soap","flowerman",0,0
@@ -3202,7 +3089,6 @@
 "dj turntable","campsite",0,0
 "dj turntable","deep_sea_divers",0,0
 "dj turntable","dinosaurs_spacemen_and_ghouls",0,0
-"dj turntable","dinosours_spacemen_and_ghouls",0,0
 "dj turntable","escape_from_the_zoo",0,0
 "dj turntable","exhibit_12",0,0
 "dj turntable","flowerman",0,0
@@ -3229,7 +3115,6 @@
 "do not enter sign","campsite",0,0
 "do not enter sign","deep_sea_divers",0,0
 "do not enter sign","dinosaurs_spacemen_and_ghouls",0,0
-"do not enter sign","dinosours_spacemen_and_ghouls",0,0
 "do not enter sign","escape_from_the_zoo",0,0
 "do not enter sign","exhibit_12",0,0
 "do not enter sign","flowerman",0,0
@@ -3256,7 +3141,6 @@
 "do not walk sign","campsite",0,0
 "do not walk sign","deep_sea_divers",0,0
 "do not walk sign","dinosaurs_spacemen_and_ghouls",0,0
-"do not walk sign","dinosours_spacemen_and_ghouls",0,0
 "do not walk sign","escape_from_the_zoo",0,0
 "do not walk sign","exhibit_12",0,0
 "do not walk sign","flowerman",0,0
@@ -3283,7 +3167,6 @@
 "dog sled","campsite",0,0
 "dog sled","deep_sea_divers",0,0
 "dog sled","dinosaurs_spacemen_and_ghouls",0,0
-"dog sled","dinosours_spacemen_and_ghouls",0,0
 "dog sled","escape_from_the_zoo",0,0
 "dog sled","exhibit_12",0,0
 "dog sled","flowerman",0,0
@@ -3310,7 +3193,6 @@
 "door bolt plate","campsite",0,0
 "door bolt plate","deep_sea_divers",0,0
 "door bolt plate","dinosaurs_spacemen_and_ghouls",0,0
-"door bolt plate","dinosours_spacemen_and_ghouls",0,0
 "door bolt plate","escape_from_the_zoo",0,0
 "door bolt plate","exhibit_12",0,0
 "door bolt plate","flowerman",0,0
@@ -3337,7 +3219,6 @@
 "door handle","campsite",0,0
 "door handle","deep_sea_divers",0,0
 "door handle","dinosaurs_spacemen_and_ghouls",0,0
-"door handle","dinosours_spacemen_and_ghouls",0,0
 "door handle","escape_from_the_zoo",0,0
 "door handle","exhibit_12",0,0
 "door handle","flowerman",0,0
@@ -3363,7 +3244,6 @@
 "door stop","campsite",0,0
 "door stop","deep_sea_divers",0,0
 "door stop","dinosaurs_spacemen_and_ghouls",0,0
-"door stop","dinosours_spacemen_and_ghouls",0,0
 "door stop","escape_from_the_zoo",0,0
 "door stop","exhibit_12",0,0
 "door stop","flowerman",0,0
@@ -3389,7 +3269,6 @@
 "dream catcher","campsite",0,0
 "dream catcher","deep_sea_divers",0,0
 "dream catcher","dinosaurs_spacemen_and_ghouls",0,0
-"dream catcher","dinosours_spacemen_and_ghouls",0,0
 "dream catcher","escape_from_the_zoo",0,0
 "dream catcher","exhibit_12",0,0
 "dream catcher","flowerman",0,0
@@ -3416,7 +3295,6 @@
 "drill bit","campsite",0,0
 "drill bit","deep_sea_divers",0,0
 "drill bit","dinosaurs_spacemen_and_ghouls",0,0
-"drill bit","dinosours_spacemen_and_ghouls",0,0
 "drill bit","escape_from_the_zoo",0,0
 "drill bit","exhibit_12",0,0
 "drill bit","flowerman",0,0
@@ -3443,7 +3321,6 @@
 "drum set","campsite",0,0
 "drum set","deep_sea_divers",0,0
 "drum set","dinosaurs_spacemen_and_ghouls",0,0
-"drum set","dinosours_spacemen_and_ghouls",0,0
 "drum set","escape_from_the_zoo",0,0
 "drum set","exhibit_12",0,0
 "drum set","flowerman",0,0
@@ -3470,7 +3347,6 @@
 "drying rack","campsite",0,0
 "drying rack","deep_sea_divers",0,0
 "drying rack","dinosaurs_spacemen_and_ghouls",0,0
-"drying rack","dinosours_spacemen_and_ghouls",0,0
 "drying rack","escape_from_the_zoo",0,0
 "drying rack","exhibit_12",0,0
 "drying rack","flowerman",0,0
@@ -3497,7 +3373,6 @@
 "duct tape","campsite",0,0
 "duct tape","deep_sea_divers",0,0
 "duct tape","dinosaurs_spacemen_and_ghouls",0,0
-"duct tape","dinosours_spacemen_and_ghouls",0,0
 "duct tape","escape_from_the_zoo",0,0
 "duct tape","exhibit_12",0,0
 "duct tape","flowerman",0,0
@@ -3524,7 +3399,6 @@
 "dvd case","campsite",0,0
 "dvd case","deep_sea_divers",0,0
 "dvd case","dinosaurs_spacemen_and_ghouls",0,0
-"dvd case","dinosours_spacemen_and_ghouls",0,0
 "dvd case","escape_from_the_zoo",0,0
 "dvd case","exhibit_12",0,0
 "dvd case","flowerman",0,0
@@ -3551,7 +3425,6 @@
 "egg carton","campsite",0,0
 "egg carton","deep_sea_divers",0,0
 "egg carton","dinosaurs_spacemen_and_ghouls",0,0
-"egg carton","dinosours_spacemen_and_ghouls",0,0
 "egg carton","escape_from_the_zoo",0,0
 "egg carton","exhibit_12",0,0
 "egg carton","flowerman",0,0
@@ -3578,7 +3451,6 @@
 "egg slicer","campsite",0,0
 "egg slicer","deep_sea_divers",0,0
 "egg slicer","dinosaurs_spacemen_and_ghouls",0,0
-"egg slicer","dinosours_spacemen_and_ghouls",0,0
 "egg slicer","escape_from_the_zoo",0,0
 "egg slicer","exhibit_12",0,0
 "egg slicer","flowerman",0,0
@@ -3605,7 +3477,6 @@
 "eiffel tower","campsite",0,0
 "eiffel tower","deep_sea_divers",0,0
 "eiffel tower","dinosaurs_spacemen_and_ghouls",0,0
-"eiffel tower","dinosours_spacemen_and_ghouls",0,0
 "eiffel tower","escape_from_the_zoo",0,0
 "eiffel tower","exhibit_12",0,0
 "eiffel tower","flowerman",0,0
@@ -3632,7 +3503,6 @@
 "electric guitar","campsite",0,0
 "electric guitar","deep_sea_divers",0,0
 "electric guitar","dinosaurs_spacemen_and_ghouls",0,0
-"electric guitar","dinosours_spacemen_and_ghouls",0,0
 "electric guitar","escape_from_the_zoo",0,0
 "electric guitar","exhibit_12",0,0
 "electric guitar","flowerman",0,0
@@ -3659,7 +3529,6 @@
 "electric outlet","campsite",0,0
 "electric outlet","deep_sea_divers",0,0
 "electric outlet","dinosaurs_spacemen_and_ghouls",0,0
-"electric outlet","dinosours_spacemen_and_ghouls",0,0
 "electric outlet","escape_from_the_zoo",0,0
 "electric outlet","exhibit_12",0,0
 "electric outlet","flowerman",0,0
@@ -3686,7 +3555,6 @@
 "electric razor","campsite",0,0
 "electric razor","deep_sea_divers",0,0
 "electric razor","dinosaurs_spacemen_and_ghouls",0,0
-"electric razor","dinosours_spacemen_and_ghouls",0,0
 "electric razor","escape_from_the_zoo",0,0
 "electric razor","exhibit_12",0,0
 "electric razor","flowerman",0,0
@@ -3713,7 +3581,6 @@
 "electric toothbrush","campsite",0,0
 "electric toothbrush","deep_sea_divers",0,0
 "electric toothbrush","dinosaurs_spacemen_and_ghouls",0,0
-"electric toothbrush","dinosours_spacemen_and_ghouls",0,0
 "electric toothbrush","escape_from_the_zoo",0,0
 "electric toothbrush","exhibit_12",0,0
 "electric toothbrush","flowerman",0,0
@@ -3740,7 +3607,6 @@
 "elliptical machine","campsite",0,0
 "elliptical machine","deep_sea_divers",0,0
 "elliptical machine","dinosaurs_spacemen_and_ghouls",0,0
-"elliptical machine","dinosours_spacemen_and_ghouls",0,0
 "elliptical machine","escape_from_the_zoo",0,0
 "elliptical machine","exhibit_12",0,0
 "elliptical machine","flowerman",0,0
@@ -3767,7 +3633,6 @@
 "english muffin","campsite",0,0
 "english muffin","deep_sea_divers",0,0
 "english muffin","dinosaurs_spacemen_and_ghouls",0,0
-"english muffin","dinosours_spacemen_and_ghouls",0,0
 "english muffin","escape_from_the_zoo",0,0
 "english muffin","exhibit_12",0,0
 "english muffin","flowerman",0,0
@@ -3794,7 +3659,6 @@
 "espresso machine","campsite",0,0
 "espresso machine","deep_sea_divers",0,0
 "espresso machine","dinosaurs_spacemen_and_ghouls",0,0
-"espresso machine","dinosours_spacemen_and_ghouls",0,0
 "espresso machine","escape_from_the_zoo",0,0
 "espresso machine","exhibit_12",0,0
 "espresso machine","flowerman",0,0
@@ -3821,7 +3685,6 @@
 "exacto knife","campsite",0,0
 "exacto knife","deep_sea_divers",0,0
 "exacto knife","dinosaurs_spacemen_and_ghouls",0,0
-"exacto knife","dinosours_spacemen_and_ghouls",0,0
 "exacto knife","escape_from_the_zoo",0,0
 "exacto knife","exhibit_12",0,0
 "exacto knife","flowerman",0,0
@@ -3848,7 +3711,6 @@
 "exercise bench","campsite",0,0
 "exercise bench","deep_sea_divers",0,0
 "exercise bench","dinosaurs_spacemen_and_ghouls",0,0
-"exercise bench","dinosours_spacemen_and_ghouls",0,0
 "exercise bench","escape_from_the_zoo",0,0
 "exercise bench","exhibit_12",0,0
 "exercise bench","flowerman",0,0
@@ -3875,7 +3737,6 @@
 "exercise bike","campsite",0,0
 "exercise bike","deep_sea_divers",0,0
 "exercise bike","dinosaurs_spacemen_and_ghouls",0,0
-"exercise bike","dinosours_spacemen_and_ghouls",0,0
 "exercise bike","escape_from_the_zoo",0,0
 "exercise bike","exhibit_12",0,0
 "exercise bike","flowerman",0,0
@@ -3902,7 +3763,6 @@
 "exercise machine","campsite",0,0
 "exercise machine","deep_sea_divers",0,0
 "exercise machine","dinosaurs_spacemen_and_ghouls",0,0
-"exercise machine","dinosours_spacemen_and_ghouls",0,0
 "exercise machine","escape_from_the_zoo",0,0
 "exercise machine","exhibit_12",0,0
 "exercise machine","flowerman",0,0
@@ -3929,7 +3789,6 @@
 "exit sign","campsite",0,0
 "exit sign","deep_sea_divers",0,0
 "exit sign","dinosaurs_spacemen_and_ghouls",0,0
-"exit sign","dinosours_spacemen_and_ghouls",0,0
 "exit sign","escape_from_the_zoo",0,0
 "exit sign","exhibit_12",0,0
 "exit sign","flowerman",0,0
@@ -3956,7 +3815,6 @@
 "extension cord","campsite",0,0
 "extension cord","deep_sea_divers",0,0
 "extension cord","dinosaurs_spacemen_and_ghouls",0,0
-"extension cord","dinosours_spacemen_and_ghouls",0,0
 "extension cord","escape_from_the_zoo",0,0
 "extension cord","exhibit_12",0,0
 "extension cord","flowerman",0,0
@@ -3983,7 +3841,6 @@
 "eye chart","campsite",0,0
 "eye chart","deep_sea_divers",0,0
 "eye chart","dinosaurs_spacemen_and_ghouls",0,0
-"eye chart","dinosours_spacemen_and_ghouls",0,0
 "eye chart","escape_from_the_zoo",0,0
 "eye chart","exhibit_12",0,0
 "eye chart","flowerman",0,0
@@ -4010,7 +3867,6 @@
 "eye drops","campsite",0,0
 "eye drops","deep_sea_divers",0,0
 "eye drops","dinosaurs_spacemen_and_ghouls",0,0
-"eye drops","dinosours_spacemen_and_ghouls",0,0
 "eye drops","escape_from_the_zoo",0,0
 "eye drops","exhibit_12",0,0
 "eye drops","flowerman",0,0
@@ -4036,7 +3892,6 @@
 "eye patch","campsite",0,0
 "eye patch","deep_sea_divers",0,0
 "eye patch","dinosaurs_spacemen_and_ghouls",0,0
-"eye patch","dinosours_spacemen_and_ghouls",0,0
 "eye patch","escape_from_the_zoo",0,0
 "eye patch","exhibit_12",0,0
 "eye patch","journey",0,0
@@ -4062,7 +3917,6 @@
 "fair game","campsite",0,0
 "fair game","deep_sea_divers",0,0
 "fair game","dinosaurs_spacemen_and_ghouls",0,0
-"fair game","dinosours_spacemen_and_ghouls",0,0
 "fair game","escape_from_the_zoo",0,0
 "fair game","exhibit_12",0,0
 "fair game","flowerman",0,0
@@ -4089,7 +3943,6 @@
 "fax machine","campsite",0,0
 "fax machine","deep_sea_divers",0,0
 "fax machine","dinosaurs_spacemen_and_ghouls",0,0
-"fax machine","dinosours_spacemen_and_ghouls",0,0
 "fax machine","escape_from_the_zoo",0,0
 "fax machine","exhibit_12",0,0
 "fax machine","flowerman",0,0
@@ -4116,7 +3969,6 @@
 "felt tip pen","campsite",0,0
 "felt tip pen","deep_sea_divers",0,0
 "felt tip pen","dinosaurs_spacemen_and_ghouls",0,0
-"felt tip pen","dinosours_spacemen_and_ghouls",0,0
 "felt tip pen","escape_from_the_zoo",0,0
 "felt tip pen","exhibit_12",0,0
 "felt tip pen","flowerman",0,0
@@ -4143,7 +3995,6 @@
 "fig tree","campsite",0,0
 "fig tree","deep_sea_divers",0,0
 "fig tree","dinosaurs_spacemen_and_ghouls",0,0
-"fig tree","dinosours_spacemen_and_ghouls",0,0
 "fig tree","escape_from_the_zoo",0,0
 "fig tree","exhibit_12",0,0
 "fig tree","flowerman",0,0
@@ -4170,7 +4021,6 @@
 "filing cabinet","campsite",0,0
 "filing cabinet","deep_sea_divers",0,0
 "filing cabinet","dinosaurs_spacemen_and_ghouls",0,0
-"filing cabinet","dinosours_spacemen_and_ghouls",0,0
 "filing cabinet","escape_from_the_zoo",0,0
 "filing cabinet","exhibit_12",0,0
 "filing cabinet","flowerman",0,0
@@ -4197,7 +4047,6 @@
 "filling cabinet","campsite",0,0
 "filling cabinet","deep_sea_divers",0,0
 "filling cabinet","dinosaurs_spacemen_and_ghouls",0,0
-"filling cabinet","dinosours_spacemen_and_ghouls",0,0
 "filling cabinet","escape_from_the_zoo",0,0
 "filling cabinet","exhibit_12",0,0
 "filling cabinet","flowerman",0,0
@@ -4224,7 +4073,6 @@
 "finger print","campsite",0,0
 "finger print","deep_sea_divers",0,0
 "finger print","dinosaurs_spacemen_and_ghouls",0,0
-"finger print","dinosours_spacemen_and_ghouls",0,0
 "finger print","escape_from_the_zoo",0,0
 "finger print","exhibit_12",0,0
 "finger print","flowerman",0,0
@@ -4251,7 +4099,6 @@
 "fire alarm","campsite",0,0
 "fire alarm","deep_sea_divers",0,0
 "fire alarm","dinosaurs_spacemen_and_ghouls",0,0
-"fire alarm","dinosours_spacemen_and_ghouls",0,0
 "fire alarm","escape_from_the_zoo",0,0
 "fire alarm","exhibit_12",0,0
 "fire alarm","flowerman",0,0
@@ -4277,7 +4124,6 @@
 "fire extinguisher","campsite",0,0
 "fire extinguisher","deep_sea_divers",0,0
 "fire extinguisher","dinosaurs_spacemen_and_ghouls",0,0
-"fire extinguisher","dinosours_spacemen_and_ghouls",0,0
 "fire extinguisher","escape_from_the_zoo",0,0
 "fire extinguisher","exhibit_12",0,0
 "fire extinguisher","flowerman",0,0
@@ -4302,7 +4148,6 @@
 "fire hydrant","campsite",0,0
 "fire hydrant","deep_sea_divers",0,0
 "fire hydrant","dinosaurs_spacemen_and_ghouls",0,0
-"fire hydrant","dinosours_spacemen_and_ghouls",0,0
 "fire hydrant","escape_from_the_zoo",0,0
 "fire hydrant","exhibit_12",0,0
 "fire hydrant","picture_this",0,0
@@ -4325,7 +4170,6 @@
 "fish skeleton","campsite",0,0
 "fish skeleton","deep_sea_divers",0,0
 "fish skeleton","dinosaurs_spacemen_and_ghouls",0,0
-"fish skeleton","dinosours_spacemen_and_ghouls",0,0
 "fish skeleton","escape_from_the_zoo",0,0
 "fish skeleton","exhibit_12",0,0
 "fish skeleton","flowerman",0,0
@@ -4352,7 +4196,6 @@
 "fish tank","campsite",0,0
 "fish tank","deep_sea_divers",0,0
 "fish tank","dinosaurs_spacemen_and_ghouls",0,0
-"fish tank","dinosours_spacemen_and_ghouls",0,0
 "fish tank","escape_from_the_zoo",0,0
 "fish tank","exhibit_12",0,0
 "fish tank","flowerman",0,0
@@ -4379,7 +4222,6 @@
 "fishing hook","campsite",0,0
 "fishing hook","deep_sea_divers",0,0
 "fishing hook","dinosaurs_spacemen_and_ghouls",0,0
-"fishing hook","dinosours_spacemen_and_ghouls",0,0
 "fishing hook","escape_from_the_zoo",0,0
 "fishing hook","exhibit_12",0,0
 "fishing hook","flowerman",0,0
@@ -4404,7 +4246,6 @@
 "fishing pole","birthday_party_fun",0,0
 "fishing pole","by_the_lake",0,0
 "fishing pole","dinosaurs_spacemen_and_ghouls",0,0
-"fishing pole","dinosours_spacemen_and_ghouls",0,0
 "fishing pole","escape_from_the_zoo",0,0
 "fishing pole","exhibit_12",0,0
 "fishing pole","flowerman",0,0
@@ -4429,7 +4270,6 @@
 "fishing rod","by_the_lake",0,0
 "fishing rod","campsite",0,0
 "fishing rod","dinosaurs_spacemen_and_ghouls",0,0
-"fishing rod","dinosours_spacemen_and_ghouls",0,0
 "fishing rod","escape_from_the_zoo",0,0
 "fishing rod","flowerman",0,0
 "fishing rod","journey",0,0
@@ -4454,7 +4294,6 @@
 "flat peach","campsite",0,0
 "flat peach","deep_sea_divers",0,0
 "flat peach","dinosaurs_spacemen_and_ghouls",0,0
-"flat peach","dinosours_spacemen_and_ghouls",0,0
 "flat peach","escape_from_the_zoo",0,0
 "flat peach","exhibit_12",0,0
 "flat peach","flowerman",0,0
@@ -4481,7 +4320,6 @@
 "flip flop","campsite",0,0
 "flip flop","deep_sea_divers",0,0
 "flip flop","dinosaurs_spacemen_and_ghouls",0,0
-"flip flop","dinosours_spacemen_and_ghouls",0,0
 "flip flop","escape_from_the_zoo",0,0
 "flip flop","exhibit_12",0,0
 "flip flop","flowerman",0,0
@@ -4508,7 +4346,6 @@
 "floatation device for child","campsite",0,0
 "floatation device for child","deep_sea_divers",0,0
 "floatation device for child","dinosaurs_spacemen_and_ghouls",0,0
-"floatation device for child","dinosours_spacemen_and_ghouls",0,0
 "floatation device for child","escape_from_the_zoo",0,0
 "floatation device for child","exhibit_12",0,0
 "floatation device for child","flowerman",0,0
@@ -4535,7 +4372,6 @@
 "floppy disk","campsite",0,0
 "floppy disk","deep_sea_divers",0,0
 "floppy disk","dinosaurs_spacemen_and_ghouls",0,0
-"floppy disk","dinosours_spacemen_and_ghouls",0,0
 "floppy disk","escape_from_the_zoo",0,0
 "floppy disk","exhibit_12",0,0
 "floppy disk","flowerman",0,0
@@ -4562,7 +4398,6 @@
 "fly swatter","campsite",0,0
 "fly swatter","deep_sea_divers",0,0
 "fly swatter","dinosaurs_spacemen_and_ghouls",0,0
-"fly swatter","dinosours_spacemen_and_ghouls",0,0
 "fly swatter","escape_from_the_zoo",0,0
 "fly swatter","exhibit_12",0,0
 "fly swatter","flowerman",0,0
@@ -4589,7 +4424,6 @@
 "folding chair","campsite",0,0
 "folding chair","deep_sea_divers",0,0
 "folding chair","dinosaurs_spacemen_and_ghouls",0,0
-"folding chair","dinosours_spacemen_and_ghouls",0,0
 "folding chair","escape_from_the_zoo",0,0
 "folding chair","exhibit_12",0,0
 "folding chair","flowerman",0,0
@@ -4616,7 +4450,6 @@
 "fondue fork","campsite",0,0
 "fondue fork","deep_sea_divers",0,0
 "fondue fork","dinosaurs_spacemen_and_ghouls",0,0
-"fondue fork","dinosours_spacemen_and_ghouls",0,0
 "fondue fork","escape_from_the_zoo",0,0
 "fondue fork","exhibit_12",0,0
 "fondue fork","flowerman",0,0
@@ -4643,7 +4476,6 @@
 "foosball table","campsite",0,0
 "foosball table","deep_sea_divers",0,0
 "foosball table","dinosaurs_spacemen_and_ghouls",0,0
-"foosball table","dinosours_spacemen_and_ghouls",0,0
 "foosball table","escape_from_the_zoo",0,0
 "foosball table","exhibit_12",0,0
 "foosball table","flowerman",0,0
@@ -4670,7 +4502,6 @@
 "foot rest","campsite",0,0
 "foot rest","deep_sea_divers",0,0
 "foot rest","dinosaurs_spacemen_and_ghouls",0,0
-"foot rest","dinosours_spacemen_and_ghouls",0,0
 "foot rest","escape_from_the_zoo",0,0
 "foot rest","exhibit_12",0,0
 "foot rest","flowerman",0,0
@@ -4697,7 +4528,6 @@
 "football helmet","campsite",0,0
 "football helmet","deep_sea_divers",0,0
 "football helmet","dinosaurs_spacemen_and_ghouls",0,0
-"football helmet","dinosours_spacemen_and_ghouls",0,0
 "football helmet","escape_from_the_zoo",0,0
 "football helmet","exhibit_12",0,0
 "football helmet","flowerman",0,0
@@ -4724,7 +4554,6 @@
 "fortune cookie","campsite",0,0
 "fortune cookie","deep_sea_divers",0,0
 "fortune cookie","dinosaurs_spacemen_and_ghouls",0,0
-"fortune cookie","dinosours_spacemen_and_ghouls",0,0
 "fortune cookie","escape_from_the_zoo",0,0
 "fortune cookie","exhibit_12",0,0
 "fortune cookie","flowerman",0,0
@@ -4750,7 +4579,6 @@
 "fountain pen","campsite",0,0
 "fountain pen","deep_sea_divers",0,0
 "fountain pen","dinosaurs_spacemen_and_ghouls",0,0
-"fountain pen","dinosours_spacemen_and_ghouls",0,0
 "fountain pen","escape_from_the_zoo",0,0
 "fountain pen","exhibit_12",0,0
 "fountain pen","flowerman",0,0
@@ -4777,7 +4605,6 @@
 "french horn","campsite",0,0
 "french horn","deep_sea_divers",0,0
 "french horn","dinosaurs_spacemen_and_ghouls",0,0
-"french horn","dinosours_spacemen_and_ghouls",0,0
 "french horn","escape_from_the_zoo",0,0
 "french horn","exhibit_12",0,0
 "french horn","flowerman",0,0
@@ -4804,7 +4631,6 @@
 "frying pan","campsite",0,0
 "frying pan","deep_sea_divers",0,0
 "frying pan","dinosaurs_spacemen_and_ghouls",0,0
-"frying pan","dinosours_spacemen_and_ghouls",0,0
 "frying pan","escape_from_the_zoo",0,0
 "frying pan","exhibit_12",0,0
 "frying pan","flowerman",0,0
@@ -4831,7 +4657,6 @@
 "fuse box","campsite",0,0
 "fuse box","deep_sea_divers",0,0
 "fuse box","dinosaurs_spacemen_and_ghouls",0,0
-"fuse box","dinosours_spacemen_and_ghouls",0,0
 "fuse box","escape_from_the_zoo",0,0
 "fuse box","exhibit_12",0,0
 "fuse box","flowerman",0,0
@@ -4858,7 +4683,6 @@
 "game controller","campsite",0,0
 "game controller","deep_sea_divers",0,0
 "game controller","dinosaurs_spacemen_and_ghouls",0,0
-"game controller","dinosours_spacemen_and_ghouls",0,0
 "game controller","escape_from_the_zoo",0,0
 "game controller","exhibit_12",0,0
 "game controller","flowerman",0,0
@@ -4885,7 +4709,6 @@
 "game piece","campsite",0,0
 "game piece","deep_sea_divers",0,0
 "game piece","dinosaurs_spacemen_and_ghouls",0,0
-"game piece","dinosours_spacemen_and_ghouls",0,0
 "game piece","escape_from_the_zoo",0,0
 "game piece","exhibit_12",0,0
 "game piece","flowerman",0,0
@@ -4912,7 +4735,6 @@
 "garbage can","campsite",0,0
 "garbage can","deep_sea_divers",0,0
 "garbage can","dinosaurs_spacemen_and_ghouls",0,0
-"garbage can","dinosours_spacemen_and_ghouls",0,0
 "garbage can","escape_from_the_zoo",0,0
 "garbage can","exhibit_12",0,0
 "garbage can","make_a_splash",0,0
@@ -4935,7 +4757,6 @@
 "garden gnome","campsite",0,0
 "garden gnome","deep_sea_divers",0,0
 "garden gnome","dinosaurs_spacemen_and_ghouls",0,0
-"garden gnome","dinosours_spacemen_and_ghouls",0,0
 "garden gnome","escape_from_the_zoo",0,0
 "garden gnome","exhibit_12",0,0
 "garden gnome","flowerman",0,0
@@ -4962,7 +4783,6 @@
 "garden swing","campsite",0,0
 "garden swing","deep_sea_divers",0,0
 "garden swing","dinosaurs_spacemen_and_ghouls",0,0
-"garden swing","dinosours_spacemen_and_ghouls",0,0
 "garden swing","escape_from_the_zoo",0,0
 "garden swing","exhibit_12",0,0
 "garden swing","flowerman",0,0
@@ -4989,7 +4809,6 @@
 "garlic press","campsite",0,0
 "garlic press","deep_sea_divers",0,0
 "garlic press","dinosaurs_spacemen_and_ghouls",0,0
-"garlic press","dinosours_spacemen_and_ghouls",0,0
 "garlic press","escape_from_the_zoo",0,0
 "garlic press","exhibit_12",0,0
 "garlic press","flowerman",0,0
@@ -5016,7 +4835,6 @@
 "gas jug","campsite",0,0
 "gas jug","deep_sea_divers",0,0
 "gas jug","dinosaurs_spacemen_and_ghouls",0,0
-"gas jug","dinosours_spacemen_and_ghouls",0,0
 "gas jug","escape_from_the_zoo",0,0
 "gas jug","exhibit_12",0,0
 "gas jug","flowerman",0,0
@@ -5043,7 +4861,6 @@
 "gift bag","campsite",0,0
 "gift bag","deep_sea_divers",0,0
 "gift bag","dinosaurs_spacemen_and_ghouls",0,0
-"gift bag","dinosours_spacemen_and_ghouls",0,0
 "gift bag","escape_from_the_zoo",0,0
 "gift bag","exhibit_12",0,0
 "gift bag","flowerman",0,0
@@ -5070,7 +4887,6 @@
 "giraffe statue","campsite",0,0
 "giraffe statue","deep_sea_divers",0,0
 "giraffe statue","dinosaurs_spacemen_and_ghouls",0,0
-"giraffe statue","dinosours_spacemen_and_ghouls",0,0
 "giraffe statue","escape_from_the_zoo",0,0
 "giraffe statue","exhibit_12",0,0
 "giraffe statue","flowerman",0,0
@@ -5097,7 +4913,6 @@
 "glass of beer","campsite",0,0
 "glass of beer","deep_sea_divers",0,0
 "glass of beer","dinosaurs_spacemen_and_ghouls",0,0
-"glass of beer","dinosours_spacemen_and_ghouls",0,0
 "glass of beer","escape_from_the_zoo",0,0
 "glass of beer","exhibit_12",0,0
 "glass of beer","flowerman",0,0
@@ -5124,7 +4939,6 @@
 "glue stick","campsite",0,0
 "glue stick","deep_sea_divers",0,0
 "glue stick","dinosaurs_spacemen_and_ghouls",0,0
-"glue stick","dinosours_spacemen_and_ghouls",0,0
 "glue stick","escape_from_the_zoo",0,0
 "glue stick","exhibit_12",0,0
 "glue stick","flowerman",0,0
@@ -5151,7 +4965,6 @@
 "goalie glove","campsite",0,0
 "goalie glove","deep_sea_divers",0,0
 "goalie glove","dinosaurs_spacemen_and_ghouls",0,0
-"goalie glove","dinosours_spacemen_and_ghouls",0,0
 "goalie glove","escape_from_the_zoo",0,0
 "goalie glove","exhibit_12",0,0
 "goalie glove","flowerman",0,0
@@ -5178,7 +4991,6 @@
 "goalie pad","campsite",0,0
 "goalie pad","deep_sea_divers",0,0
 "goalie pad","dinosaurs_spacemen_and_ghouls",0,0
-"goalie pad","dinosours_spacemen_and_ghouls",0,0
 "goalie pad","escape_from_the_zoo",0,0
 "goalie pad","exhibit_12",0,0
 "goalie pad","flowerman",0,0
@@ -5205,7 +5017,6 @@
 "golf ball","campsite",0,0
 "golf ball","deep_sea_divers",0,0
 "golf ball","dinosaurs_spacemen_and_ghouls",0,0
-"golf ball","dinosours_spacemen_and_ghouls",0,0
 "golf ball","escape_from_the_zoo",0,0
 "golf ball","exhibit_12",0,0
 "golf ball","flowerman",0,0
@@ -5231,7 +5042,6 @@
 "golf club","by_the_lake",0,0
 "golf club","deep_sea_divers",0,0
 "golf club","dinosaurs_spacemen_and_ghouls",0,0
-"golf club","dinosours_spacemen_and_ghouls",0,0
 "golf club","escape_from_the_zoo",0,0
 "golf club","exhibit_12",0,0
 "golf club","flowerman",0,0
@@ -5258,7 +5068,6 @@
 "golf clubs","campsite",0,0
 "golf clubs","deep_sea_divers",0,0
 "golf clubs","dinosaurs_spacemen_and_ghouls",0,0
-"golf clubs","dinosours_spacemen_and_ghouls",0,0
 "golf clubs","escape_from_the_zoo",0,0
 "golf clubs","exhibit_12",0,0
 "golf clubs","flowerman",0,0
@@ -5285,7 +5094,6 @@
 "goose barnacle","campsite",0,0
 "goose barnacle","deep_sea_divers",0,0
 "goose barnacle","dinosaurs_spacemen_and_ghouls",0,0
-"goose barnacle","dinosours_spacemen_and_ghouls",0,0
 "goose barnacle","escape_from_the_zoo",0,0
 "goose barnacle","exhibit_12",0,0
 "goose barnacle","flowerman",0,0
@@ -5312,7 +5120,6 @@
 "graduation cap","campsite",0,0
 "graduation cap","deep_sea_divers",0,0
 "graduation cap","dinosaurs_spacemen_and_ghouls",0,0
-"graduation cap","dinosours_spacemen_and_ghouls",0,0
 "graduation cap","escape_from_the_zoo",0,0
 "graduation cap","exhibit_12",0,0
 "graduation cap","flowerman",0,0
@@ -5339,7 +5146,6 @@
 "granola bar","campsite",0,0
 "granola bar","deep_sea_divers",0,0
 "granola bar","dinosaurs_spacemen_and_ghouls",0,0
-"granola bar","dinosours_spacemen_and_ghouls",0,0
 "granola bar","escape_from_the_zoo",0,0
 "granola bar","exhibit_12",0,0
 "granola bar","flowerman",0,0
@@ -5366,7 +5172,6 @@
 "gravy boat","campsite",0,0
 "gravy boat","deep_sea_divers",0,0
 "gravy boat","dinosaurs_spacemen_and_ghouls",0,0
-"gravy boat","dinosours_spacemen_and_ghouls",0,0
 "gravy boat","escape_from_the_zoo",0,0
 "gravy boat","exhibit_12",0,0
 "gravy boat","flowerman",0,0
@@ -5393,7 +5198,6 @@
 "green beans","campsite",0,0
 "green beans","deep_sea_divers",0,0
 "green beans","dinosaurs_spacemen_and_ghouls",0,0
-"green beans","dinosours_spacemen_and_ghouls",0,0
 "green beans","escape_from_the_zoo",0,0
 "green beans","exhibit_12",0,0
 "green beans","flowerman",0,0
@@ -5420,7 +5224,6 @@
 "green onion","campsite",0,0
 "green onion","deep_sea_divers",0,0
 "green onion","dinosaurs_spacemen_and_ghouls",0,0
-"green onion","dinosours_spacemen_and_ghouls",0,0
 "green onion","escape_from_the_zoo",0,0
 "green onion","exhibit_12",0,0
 "green onion","flowerman",0,0
@@ -5447,7 +5250,6 @@
 "grip exerciser","campsite",0,0
 "grip exerciser","deep_sea_divers",0,0
 "grip exerciser","dinosaurs_spacemen_and_ghouls",0,0
-"grip exerciser","dinosours_spacemen_and_ghouls",0,0
 "grip exerciser","escape_from_the_zoo",0,0
 "grip exerciser","exhibit_12",0,0
 "grip exerciser","flowerman",0,0
@@ -5474,7 +5276,6 @@
 "guitar case","campsite",0,0
 "guitar case","deep_sea_divers",0,0
 "guitar case","dinosaurs_spacemen_and_ghouls",0,0
-"guitar case","dinosours_spacemen_and_ghouls",0,0
 "guitar case","escape_from_the_zoo",0,0
 "guitar case","exhibit_12",0,0
 "guitar case","flowerman",0,0
@@ -5500,7 +5301,6 @@
 "gymnastic rings","campsite",0,0
 "gymnastic rings","deep_sea_divers",0,0
 "gymnastic rings","dinosaurs_spacemen_and_ghouls",0,0
-"gymnastic rings","dinosours_spacemen_and_ghouls",0,0
 "gymnastic rings","escape_from_the_zoo",0,0
 "gymnastic rings","exhibit_12",0,0
 "gymnastic rings","flowerman",0,0
@@ -5527,7 +5327,6 @@
 "hair clip","campsite",0,0
 "hair clip","deep_sea_divers",0,0
 "hair clip","dinosaurs_spacemen_and_ghouls",0,0
-"hair clip","dinosours_spacemen_and_ghouls",0,0
 "hair clip","escape_from_the_zoo",0,0
 "hair clip","exhibit_12",0,0
 "hair clip","flowerman",0,0
@@ -5554,7 +5353,6 @@
 "hair clipper","campsite",0,0
 "hair clipper","deep_sea_divers",0,0
 "hair clipper","dinosaurs_spacemen_and_ghouls",0,0
-"hair clipper","dinosours_spacemen_and_ghouls",0,0
 "hair clipper","escape_from_the_zoo",0,0
 "hair clipper","exhibit_12",0,0
 "hair clipper","flowerman",0,0
@@ -5581,7 +5379,6 @@
 "hair dryer","campsite",0,0
 "hair dryer","deep_sea_divers",0,0
 "hair dryer","dinosaurs_spacemen_and_ghouls",0,0
-"hair dryer","dinosours_spacemen_and_ghouls",0,0
 "hair dryer","escape_from_the_zoo",0,0
 "hair dryer","exhibit_12",0,0
 "hair dryer","flowerman",0,0
@@ -5608,7 +5405,6 @@
 "hammerhead shark","campsite",0,0
 "hammerhead shark","deep_sea_divers",0,0
 "hammerhead shark","dinosaurs_spacemen_and_ghouls",0,0
-"hammerhead shark","dinosours_spacemen_and_ghouls",0,0
 "hammerhead shark","escape_from_the_zoo",0,0
 "hammerhead shark","exhibit_12",0,0
 "hammerhead shark","flowerman",0,0
@@ -5635,7 +5431,6 @@
 "hand blender","campsite",0,0
 "hand blender","deep_sea_divers",0,0
 "hand blender","dinosaurs_spacemen_and_ghouls",0,0
-"hand blender","dinosours_spacemen_and_ghouls",0,0
 "hand blender","escape_from_the_zoo",0,0
 "hand blender","exhibit_12",0,0
 "hand blender","flowerman",0,0
@@ -5662,7 +5457,6 @@
 "hand saw","campsite",0,0
 "hand saw","deep_sea_divers",0,0
 "hand saw","dinosaurs_spacemen_and_ghouls",0,0
-"hand saw","dinosours_spacemen_and_ghouls",0,0
 "hand saw","escape_from_the_zoo",0,0
 "hand saw","exhibit_12",0,0
 "hand saw","flowerman",0,0
@@ -5689,7 +5483,6 @@
 "hand vacuum","campsite",0,0
 "hand vacuum","deep_sea_divers",0,0
 "hand vacuum","dinosaurs_spacemen_and_ghouls",0,0
-"hand vacuum","dinosours_spacemen_and_ghouls",0,0
 "hand vacuum","escape_from_the_zoo",0,0
 "hand vacuum","exhibit_12",0,0
 "hand vacuum","flowerman",0,0
@@ -5715,7 +5508,6 @@
 "hedge trimmer","campsite",0,0
 "hedge trimmer","deep_sea_divers",0,0
 "hedge trimmer","dinosaurs_spacemen_and_ghouls",0,0
-"hedge trimmer","dinosours_spacemen_and_ghouls",0,0
 "hedge trimmer","escape_from_the_zoo",0,0
 "hedge trimmer","exhibit_12",0,0
 "hedge trimmer","flowerman",0,0
@@ -5742,7 +5534,6 @@
 "hershey kisses","campsite",0,0
 "hershey kisses","deep_sea_divers",0,0
 "hershey kisses","dinosaurs_spacemen_and_ghouls",0,0
-"hershey kisses","dinosours_spacemen_and_ghouls",0,0
 "hershey kisses","escape_from_the_zoo",0,0
 "hershey kisses","exhibit_12",0,0
 "hershey kisses","flowerman",0,0
@@ -5769,7 +5560,6 @@
 "hockey mask","campsite",0,0
 "hockey mask","deep_sea_divers",0,0
 "hockey mask","dinosaurs_spacemen_and_ghouls",0,0
-"hockey mask","dinosours_spacemen_and_ghouls",0,0
 "hockey mask","escape_from_the_zoo",0,0
 "hockey mask","exhibit_12",0,0
 "hockey mask","flowerman",0,0
@@ -5796,7 +5586,6 @@
 "hockey puck","campsite",0,0
 "hockey puck","deep_sea_divers",0,0
 "hockey puck","dinosaurs_spacemen_and_ghouls",0,0
-"hockey puck","dinosours_spacemen_and_ghouls",0,0
 "hockey puck","escape_from_the_zoo",0,0
 "hockey puck","exhibit_12",0,0
 "hockey puck","flowerman",0,0
@@ -5823,7 +5612,6 @@
 "hockey stick","campsite",0,0
 "hockey stick","deep_sea_divers",0,0
 "hockey stick","dinosaurs_spacemen_and_ghouls",0,0
-"hockey stick","dinosours_spacemen_and_ghouls",0,0
 "hockey stick","escape_from_the_zoo",0,0
 "hockey stick","exhibit_12",0,0
 "hockey stick","flowerman",0,0
@@ -5849,7 +5637,6 @@
 "hole punch","campsite",0,0
 "hole punch","deep_sea_divers",0,0
 "hole punch","dinosaurs_spacemen_and_ghouls",0,0
-"hole punch","dinosours_spacemen_and_ghouls",0,0
 "hole punch","escape_from_the_zoo",0,0
 "hole punch","exhibit_12",0,0
 "hole punch","flowerman",0,0
@@ -5876,7 +5663,6 @@
 "holm oak","campsite",0,0
 "holm oak","deep_sea_divers",0,0
 "holm oak","dinosaurs_spacemen_and_ghouls",0,0
-"holm oak","dinosours_spacemen_and_ghouls",0,0
 "holm oak","escape_from_the_zoo",0,0
 "holm oak","exhibit_12",0,0
 "holm oak","flowerman",0,0
@@ -5903,7 +5689,6 @@
 "hose nozzle","campsite",0,0
 "hose nozzle","deep_sea_divers",0,0
 "hose nozzle","dinosaurs_spacemen_and_ghouls",0,0
-"hose nozzle","dinosours_spacemen_and_ghouls",0,0
 "hose nozzle","escape_from_the_zoo",0,0
 "hose nozzle","exhibit_12",0,0
 "hose nozzle","flowerman",0,0
@@ -5927,7 +5712,6 @@
 "hot dog","campsite",0,0
 "hot dog","deep_sea_divers",0,0
 "hot dog","dinosaurs_spacemen_and_ghouls",0,0
-"hot dog","dinosours_spacemen_and_ghouls",0,0
 "hot dog","exhibit_12",0,0
 "hot dog","journey",0,0
 "hot dog","make_a_splash",0,0
@@ -5952,7 +5736,6 @@
 "hula hoop","campsite",0,0
 "hula hoop","deep_sea_divers",0,0
 "hula hoop","dinosaurs_spacemen_and_ghouls",0,0
-"hula hoop","dinosours_spacemen_and_ghouls",0,0
 "hula hoop","escape_from_the_zoo",0,0
 "hula hoop","exhibit_12",0,0
 "hula hoop","flowerman",0,0
@@ -5979,7 +5762,6 @@
 "human skull","campsite",0,0
 "human skull","deep_sea_divers",0,0
 "human skull","dinosaurs_spacemen_and_ghouls",0,0
-"human skull","dinosours_spacemen_and_ghouls",0,0
 "human skull","escape_from_the_zoo",0,0
 "human skull","exhibit_12",0,0
 "human skull","flowerman",0,0
@@ -6006,7 +5788,6 @@
 "humming bird","campsite",0,0
 "humming bird","deep_sea_divers",0,0
 "humming bird","dinosaurs_spacemen_and_ghouls",0,0
-"humming bird","dinosours_spacemen_and_ghouls",0,0
 "humming bird","escape_from_the_zoo",0,0
 "humming bird","exhibit_12",0,0
 "humming bird","flowerman",0,0
@@ -6031,7 +5812,6 @@
 "ice bucket","campsite",0,0
 "ice bucket","deep_sea_divers",0,0
 "ice bucket","dinosaurs_spacemen_and_ghouls",0,0
-"ice bucket","dinosours_spacemen_and_ghouls",0,0
 "ice bucket","escape_from_the_zoo",0,0
 "ice bucket","exhibit_12",0,0
 "ice bucket","flowerman",0,0
@@ -6057,7 +5837,6 @@
 "ice cream cone","by_the_lake",0,0
 "ice cream cone","campsite",0,0
 "ice cream cone","deep_sea_divers",0,0
-"ice cream cone","dinosours_spacemen_and_ghouls",0,0
 "ice cream cone","exhibit_12",0,0
 "ice cream cone","flowerman",0,0
 "ice cream cone","journey",0,0
@@ -6083,7 +5862,6 @@
 "ice cube","campsite",0,0
 "ice cube","deep_sea_divers",0,0
 "ice cube","dinosaurs_spacemen_and_ghouls",0,0
-"ice cube","dinosours_spacemen_and_ghouls",0,0
 "ice cube","escape_from_the_zoo",0,0
 "ice cube","exhibit_12",0,0
 "ice cube","flowerman",0,0
@@ -6110,7 +5888,6 @@
 "ice cube tray","campsite",0,0
 "ice cube tray","deep_sea_divers",0,0
 "ice cube tray","dinosaurs_spacemen_and_ghouls",0,0
-"ice cube tray","dinosours_spacemen_and_ghouls",0,0
 "ice cube tray","escape_from_the_zoo",0,0
 "ice cube tray","exhibit_12",0,0
 "ice cube tray","flowerman",0,0
@@ -6137,7 +5914,6 @@
 "ice pack","campsite",0,0
 "ice pack","deep_sea_divers",0,0
 "ice pack","dinosaurs_spacemen_and_ghouls",0,0
-"ice pack","dinosours_spacemen_and_ghouls",0,0
 "ice pack","escape_from_the_zoo",0,0
 "ice pack","exhibit_12",0,0
 "ice pack","flowerman",0,0
@@ -6164,7 +5940,6 @@
 "ice scraper","campsite",0,0
 "ice scraper","deep_sea_divers",0,0
 "ice scraper","dinosaurs_spacemen_and_ghouls",0,0
-"ice scraper","dinosours_spacemen_and_ghouls",0,0
 "ice scraper","escape_from_the_zoo",0,0
 "ice scraper","exhibit_12",0,0
 "ice scraper","flowerman",0,0
@@ -6190,7 +5965,6 @@
 "ice skate","by_the_lake",0,0
 "ice skate","campsite",0,0
 "ice skate","dinosaurs_spacemen_and_ghouls",0,0
-"ice skate","dinosours_spacemen_and_ghouls",0,0
 "ice skate","escape_from_the_zoo",0,0
 "ice skate","exhibit_12",0,0
 "ice skate","flowerman",0,0
@@ -6217,7 +5991,6 @@
 "ink pad","campsite",0,0
 "ink pad","deep_sea_divers",0,0
 "ink pad","dinosaurs_spacemen_and_ghouls",0,0
-"ink pad","dinosours_spacemen_and_ghouls",0,0
 "ink pad","escape_from_the_zoo",0,0
 "ink pad","exhibit_12",0,0
 "ink pad","flowerman",0,0
@@ -6244,7 +6017,6 @@
 "ironing board","campsite",0,0
 "ironing board","deep_sea_divers",0,0
 "ironing board","dinosaurs_spacemen_and_ghouls",0,0
-"ironing board","dinosours_spacemen_and_ghouls",0,0
 "ironing board","escape_from_the_zoo",0,0
 "ironing board","exhibit_12",0,0
 "ironing board","flowerman",0,0
@@ -6271,7 +6043,6 @@
 "jesus statue","campsite",0,0
 "jesus statue","deep_sea_divers",0,0
 "jesus statue","dinosaurs_spacemen_and_ghouls",0,0
-"jesus statue","dinosours_spacemen_and_ghouls",0,0
 "jesus statue","escape_from_the_zoo",0,0
 "jesus statue","exhibit_12",0,0
 "jesus statue","flowerman",0,0
@@ -6297,7 +6068,6 @@
 "jet ski","campsite",0,0
 "jet ski","deep_sea_divers",0,0
 "jet ski","dinosaurs_spacemen_and_ghouls",0,0
-"jet ski","dinosours_spacemen_and_ghouls",0,0
 "jet ski","escape_from_the_zoo",0,0
 "jet ski","exhibit_12",0,0
 "jet ski","flowerman",0,0
@@ -6323,7 +6093,6 @@
 "jewelry box","campsite",0,0
 "jewelry box","deep_sea_divers",0,0
 "jewelry box","dinosaurs_spacemen_and_ghouls",0,0
-"jewelry box","dinosours_spacemen_and_ghouls",0,0
 "jewelry box","escape_from_the_zoo",0,0
 "jewelry box","exhibit_12",0,0
 "jewelry box","flowerman",0,0
@@ -6350,7 +6119,6 @@
 "joker card","campsite",0,0
 "joker card","deep_sea_divers",0,0
 "joker card","dinosaurs_spacemen_and_ghouls",0,0
-"joker card","dinosours_spacemen_and_ghouls",0,0
 "joker card","escape_from_the_zoo",0,0
 "joker card","exhibit_12",0,0
 "joker card","flowerman",0,0
@@ -6377,7 +6145,6 @@
 "jump rope","campsite",0,0
 "jump rope","deep_sea_divers",0,0
 "jump rope","dinosaurs_spacemen_and_ghouls",0,0
-"jump rope","dinosours_spacemen_and_ghouls",0,0
 "jump rope","escape_from_the_zoo",0,0
 "jump rope","exhibit_12",0,0
 "jump rope","flowerman",0,0
@@ -6403,7 +6170,6 @@
 "jumper cables","campsite",0,0
 "jumper cables","deep_sea_divers",0,0
 "jumper cables","dinosaurs_spacemen_and_ghouls",0,0
-"jumper cables","dinosours_spacemen_and_ghouls",0,0
 "jumper cables","escape_from_the_zoo",0,0
 "jumper cables","exhibit_12",0,0
 "jumper cables","flowerman",0,0
@@ -6430,7 +6196,6 @@
 "key hook","campsite",0,0
 "key hook","deep_sea_divers",0,0
 "key hook","dinosaurs_spacemen_and_ghouls",0,0
-"key hook","dinosours_spacemen_and_ghouls",0,0
 "key hook","escape_from_the_zoo",0,0
 "key hook","exhibit_12",0,0
 "key hook","flowerman",0,0
@@ -6456,7 +6221,6 @@
 "kiddie pool","campsite",0,0
 "kiddie pool","deep_sea_divers",0,0
 "kiddie pool","dinosaurs_spacemen_and_ghouls",0,0
-"kiddie pool","dinosours_spacemen_and_ghouls",0,0
 "kiddie pool","escape_from_the_zoo",0,0
 "kiddie pool","exhibit_12",0,0
 "kiddie pool","flowerman",0,0
@@ -6483,7 +6247,6 @@
 "kids picnic table","campsite",0,0
 "kids picnic table","deep_sea_divers",0,0
 "kids picnic table","dinosaurs_spacemen_and_ghouls",0,0
-"kids picnic table","dinosours_spacemen_and_ghouls",0,0
 "kids picnic table","escape_from_the_zoo",0,0
 "kids picnic table","exhibit_12",0,0
 "kids picnic table","flowerman",0,0
@@ -6510,7 +6273,6 @@
 "killer whale","campsite",0,0
 "killer whale","deep_sea_divers",0,0
 "killer whale","dinosaurs_spacemen_and_ghouls",0,0
-"killer whale","dinosours_spacemen_and_ghouls",0,0
 "killer whale","escape_from_the_zoo",0,0
 "killer whale","exhibit_12",0,0
 "killer whale","flowerman",0,0
@@ -6536,7 +6298,6 @@
 "kiwi fruit","campsite",0,0
 "kiwi fruit","deep_sea_divers",0,0
 "kiwi fruit","dinosaurs_spacemen_and_ghouls",0,0
-"kiwi fruit","dinosours_spacemen_and_ghouls",0,0
 "kiwi fruit","escape_from_the_zoo",0,0
 "kiwi fruit","exhibit_12",0,0
 "kiwi fruit","flowerman",0,0
@@ -6563,7 +6324,6 @@
 "kleenex box","campsite",0,0
 "kleenex box","deep_sea_divers",0,0
 "kleenex box","dinosaurs_spacemen_and_ghouls",0,0
-"kleenex box","dinosours_spacemen_and_ghouls",0,0
 "kleenex box","escape_from_the_zoo",0,0
 "kleenex box","exhibit_12",0,0
 "kleenex box","flowerman",0,0
@@ -6590,7 +6350,6 @@
 "knee pad","campsite",0,0
 "knee pad","deep_sea_divers",0,0
 "knee pad","dinosaurs_spacemen_and_ghouls",0,0
-"knee pad","dinosours_spacemen_and_ghouls",0,0
 "knee pad","escape_from_the_zoo",0,0
 "knee pad","exhibit_12",0,0
 "knee pad","flowerman",0,0
@@ -6617,7 +6376,6 @@
 "lamp post","campsite",0,0
 "lamp post","deep_sea_divers",0,0
 "lamp post","dinosaurs_spacemen_and_ghouls",0,0
-"lamp post","dinosours_spacemen_and_ghouls",0,0
 "lamp post","escape_from_the_zoo",0,0
 "lamp post","exhibit_12",0,0
 "lamp post","make_a_splash",0,0
@@ -6640,7 +6398,6 @@
 "large fritter","campsite",0,0
 "large fritter","deep_sea_divers",0,0
 "large fritter","dinosaurs_spacemen_and_ghouls",0,0
-"large fritter","dinosours_spacemen_and_ghouls",0,0
 "large fritter","escape_from_the_zoo",0,0
 "large fritter","exhibit_12",0,0
 "large fritter","flowerman",0,0
@@ -6667,7 +6424,6 @@
 "laundry basket","campsite",0,0
 "laundry basket","deep_sea_divers",0,0
 "laundry basket","dinosaurs_spacemen_and_ghouls",0,0
-"laundry basket","dinosours_spacemen_and_ghouls",0,0
 "laundry basket","escape_from_the_zoo",0,0
 "laundry basket","exhibit_12",0,0
 "laundry basket","flowerman",0,0
@@ -6694,7 +6450,6 @@
 "lawn mower","campsite",0,0
 "lawn mower","deep_sea_divers",0,0
 "lawn mower","dinosaurs_spacemen_and_ghouls",0,0
-"lawn mower","dinosours_spacemen_and_ghouls",0,0
 "lawn mower","escape_from_the_zoo",0,0
 "lawn mower","exhibit_12",0,0
 "lawn mower","journey",0,0
@@ -6720,7 +6475,6 @@
 "leaf blower","campsite",0,0
 "leaf blower","deep_sea_divers",0,0
 "leaf blower","dinosaurs_spacemen_and_ghouls",0,0
-"leaf blower","dinosours_spacemen_and_ghouls",0,0
 "leaf blower","escape_from_the_zoo",0,0
 "leaf blower","exhibit_12",0,0
 "leaf blower","flowerman",0,0
@@ -6747,7 +6501,6 @@
 "license plate","campsite",0,0
 "license plate","deep_sea_divers",0,0
 "license plate","dinosaurs_spacemen_and_ghouls",0,0
-"license plate","dinosours_spacemen_and_ghouls",0,0
 "license plate","escape_from_the_zoo",0,0
 "license plate","exhibit_12",0,0
 "license plate","flowerman",0,0
@@ -6773,7 +6526,6 @@
 "life jacket","campsite",0,0
 "life jacket","deep_sea_divers",0,0
 "life jacket","dinosaurs_spacemen_and_ghouls",0,0
-"life jacket","dinosours_spacemen_and_ghouls",0,0
 "life jacket","escape_from_the_zoo",0,0
 "life jacket","exhibit_12",0,0
 "life jacket","flowerman",0,0
@@ -6798,7 +6550,6 @@
 "light switch","campsite",0,0
 "light switch","deep_sea_divers",0,0
 "light switch","dinosaurs_spacemen_and_ghouls",0,0
-"light switch","dinosours_spacemen_and_ghouls",0,0
 "light switch","escape_from_the_zoo",0,0
 "light switch","exhibit_12",0,0
 "light switch","flowerman",0,0
@@ -6825,7 +6576,6 @@
 "lint brush","campsite",0,0
 "lint brush","deep_sea_divers",0,0
 "lint brush","dinosaurs_spacemen_and_ghouls",0,0
-"lint brush","dinosours_spacemen_and_ghouls",0,0
 "lint brush","escape_from_the_zoo",0,0
 "lint brush","exhibit_12",0,0
 "lint brush","flowerman",0,0
@@ -6852,7 +6602,6 @@
 "lint roller","campsite",0,0
 "lint roller","deep_sea_divers",0,0
 "lint roller","dinosaurs_spacemen_and_ghouls",0,0
-"lint roller","dinosours_spacemen_and_ghouls",0,0
 "lint roller","escape_from_the_zoo",0,0
 "lint roller","exhibit_12",0,0
 "lint roller","flowerman",0,0
@@ -6879,7 +6628,6 @@
 "lion statue","campsite",0,0
 "lion statue","deep_sea_divers",0,0
 "lion statue","dinosaurs_spacemen_and_ghouls",0,0
-"lion statue","dinosours_spacemen_and_ghouls",0,0
 "lion statue","escape_from_the_zoo",0,0
 "lion statue","exhibit_12",0,0
 "lion statue","flowerman",0,0
@@ -6906,7 +6654,6 @@
 "litter box","campsite",0,0
 "litter box","deep_sea_divers",0,0
 "litter box","dinosaurs_spacemen_and_ghouls",0,0
-"litter box","dinosours_spacemen_and_ghouls",0,0
 "litter box","escape_from_the_zoo",0,0
 "litter box","exhibit_12",0,0
 "litter box","flowerman",0,0
@@ -6933,7 +6680,6 @@
 "lock code","campsite",0,0
 "lock code","deep_sea_divers",0,0
 "lock code","dinosaurs_spacemen_and_ghouls",0,0
-"lock code","dinosours_spacemen_and_ghouls",0,0
 "lock code","escape_from_the_zoo",0,0
 "lock code","exhibit_12",0,0
 "lock code","flowerman",0,0
@@ -6960,7 +6706,6 @@
 "lunch bag","campsite",0,0
 "lunch bag","deep_sea_divers",0,0
 "lunch bag","dinosaurs_spacemen_and_ghouls",0,0
-"lunch bag","dinosours_spacemen_and_ghouls",0,0
 "lunch bag","escape_from_the_zoo",0,0
 "lunch bag","exhibit_12",0,0
 "lunch bag","flowerman",0,0
@@ -6987,7 +6732,6 @@
 "lunch box","campsite",0,0
 "lunch box","deep_sea_divers",0,0
 "lunch box","dinosaurs_spacemen_and_ghouls",0,0
-"lunch box","dinosours_spacemen_and_ghouls",0,0
 "lunch box","escape_from_the_zoo",0,0
 "lunch box","exhibit_12",0,0
 "lunch box","flowerman",0,0
@@ -7013,7 +6757,6 @@
 "machine gun","by_the_lake",0,0
 "machine gun","campsite",0,0
 "machine gun","dinosaurs_spacemen_and_ghouls",0,0
-"machine gun","dinosours_spacemen_and_ghouls",0,0
 "machine gun","escape_from_the_zoo",0,0
 "machine gun","exhibit_12",0,0
 "machine gun","flowerman",0,0
@@ -7040,7 +6783,6 @@
 "magnifying glass","campsite",0,0
 "magnifying glass","deep_sea_divers",0,0
 "magnifying glass","dinosaurs_spacemen_and_ghouls",0,0
-"magnifying glass","dinosours_spacemen_and_ghouls",0,0
 "magnifying glass","escape_from_the_zoo",0,0
 "magnifying glass","exhibit_12",0,0
 "magnifying glass","journey",0,0
@@ -7066,7 +6808,6 @@
 "makeup brush","campsite",0,0
 "makeup brush","deep_sea_divers",0,0
 "makeup brush","dinosaurs_spacemen_and_ghouls",0,0
-"makeup brush","dinosours_spacemen_and_ghouls",0,0
 "makeup brush","escape_from_the_zoo",0,0
 "makeup brush","exhibit_12",0,0
 "makeup brush","flowerman",0,0
@@ -7093,7 +6834,6 @@
 "mars rover","campsite",0,0
 "mars rover","deep_sea_divers",0,0
 "mars rover","dinosaurs_spacemen_and_ghouls",0,0
-"mars rover","dinosours_spacemen_and_ghouls",0,0
 "mars rover","escape_from_the_zoo",0,0
 "mars rover","exhibit_12",0,0
 "mars rover","flowerman",0,0
@@ -7120,7 +6860,6 @@
 "martini glass","campsite",0,0
 "martini glass","deep_sea_divers",0,0
 "martini glass","dinosaurs_spacemen_and_ghouls",0,0
-"martini glass","dinosours_spacemen_and_ghouls",0,0
 "martini glass","escape_from_the_zoo",0,0
 "martini glass","exhibit_12",0,0
 "martini glass","flowerman",0,0
@@ -7147,7 +6886,6 @@
 "martini shaker","campsite",0,0
 "martini shaker","deep_sea_divers",0,0
 "martini shaker","dinosaurs_spacemen_and_ghouls",0,0
-"martini shaker","dinosours_spacemen_and_ghouls",0,0
 "martini shaker","escape_from_the_zoo",0,0
 "martini shaker","exhibit_12",0,0
 "martini shaker","flowerman",0,0
@@ -7174,7 +6912,6 @@
 "mascara brush","campsite",0,0
 "mascara brush","deep_sea_divers",0,0
 "mascara brush","dinosaurs_spacemen_and_ghouls",0,0
-"mascara brush","dinosours_spacemen_and_ghouls",0,0
 "mascara brush","escape_from_the_zoo",0,0
 "mascara brush","exhibit_12",0,0
 "mascara brush","flowerman",0,0
@@ -7200,7 +6937,6 @@
 "measuring cup","campsite",0,0
 "measuring cup","deep_sea_divers",0,0
 "measuring cup","dinosaurs_spacemen_and_ghouls",0,0
-"measuring cup","dinosours_spacemen_and_ghouls",0,0
 "measuring cup","escape_from_the_zoo",0,0
 "measuring cup","exhibit_12",0,0
 "measuring cup","flowerman",0,0
@@ -7227,7 +6963,6 @@
 "measuring tape","campsite",0,0
 "measuring tape","deep_sea_divers",0,0
 "measuring tape","dinosaurs_spacemen_and_ghouls",0,0
-"measuring tape","dinosours_spacemen_and_ghouls",0,0
 "measuring tape","escape_from_the_zoo",0,0
 "measuring tape","exhibit_12",0,0
 "measuring tape","flowerman",0,0
@@ -7254,7 +6989,6 @@
 "melba toast","campsite",0,0
 "melba toast","deep_sea_divers",0,0
 "melba toast","dinosaurs_spacemen_and_ghouls",0,0
-"melba toast","dinosours_spacemen_and_ghouls",0,0
 "melba toast","escape_from_the_zoo",0,0
 "melba toast","exhibit_12",0,0
 "melba toast","flowerman",0,0
@@ -7281,7 +7015,6 @@
 "mens washroom sign","campsite",0,0
 "mens washroom sign","deep_sea_divers",0,0
 "mens washroom sign","dinosaurs_spacemen_and_ghouls",0,0
-"mens washroom sign","dinosours_spacemen_and_ghouls",0,0
 "mens washroom sign","escape_from_the_zoo",0,0
 "mens washroom sign","exhibit_12",0,0
 "mens washroom sign","flowerman",0,0
@@ -7308,7 +7041,6 @@
 "milk container","campsite",0,0
 "milk container","deep_sea_divers",0,0
 "milk container","dinosaurs_spacemen_and_ghouls",0,0
-"milk container","dinosours_spacemen_and_ghouls",0,0
 "milk container","escape_from_the_zoo",0,0
 "milk container","exhibit_12",0,0
 "milk container","flowerman",0,0
@@ -7335,7 +7067,6 @@
 "mille feuille","campsite",0,0
 "mille feuille","deep_sea_divers",0,0
 "mille feuille","dinosaurs_spacemen_and_ghouls",0,0
-"mille feuille","dinosours_spacemen_and_ghouls",0,0
 "mille feuille","escape_from_the_zoo",0,0
 "mille feuille","exhibit_12",0,0
 "mille feuille","flowerman",0,0
@@ -7362,7 +7093,6 @@
 "mortar and pestle","campsite",0,0
 "mortar and pestle","deep_sea_divers",0,0
 "mortar and pestle","dinosaurs_spacemen_and_ghouls",0,0
-"mortar and pestle","dinosours_spacemen_and_ghouls",0,0
 "mortar and pestle","escape_from_the_zoo",0,0
 "mortar and pestle","exhibit_12",0,0
 "mortar and pestle","flowerman",0,0
@@ -7389,7 +7119,6 @@
 "mr potato head","campsite",0,0
 "mr potato head","deep_sea_divers",0,0
 "mr potato head","dinosaurs_spacemen_and_ghouls",0,0
-"mr potato head","dinosours_spacemen_and_ghouls",0,0
 "mr potato head","escape_from_the_zoo",0,0
 "mr potato head","exhibit_12",0,0
 "mr potato head","flowerman",0,0
@@ -7416,7 +7145,6 @@
 "muffin tin","campsite",0,0
 "muffin tin","deep_sea_divers",0,0
 "muffin tin","dinosaurs_spacemen_and_ghouls",0,0
-"muffin tin","dinosours_spacemen_and_ghouls",0,0
 "muffin tin","escape_from_the_zoo",0,0
 "muffin tin","exhibit_12",0,0
 "muffin tin","flowerman",0,0
@@ -7443,7 +7171,6 @@
 "muffin tray","campsite",0,0
 "muffin tray","deep_sea_divers",0,0
 "muffin tray","dinosaurs_spacemen_and_ghouls",0,0
-"muffin tray","dinosours_spacemen_and_ghouls",0,0
 "muffin tray","escape_from_the_zoo",0,0
 "muffin tray","exhibit_12",0,0
 "muffin tray","flowerman",0,0
@@ -7469,7 +7196,6 @@
 "music sheet","campsite",0,0
 "music sheet","deep_sea_divers",0,0
 "music sheet","dinosaurs_spacemen_and_ghouls",0,0
-"music sheet","dinosours_spacemen_and_ghouls",0,0
 "music sheet","escape_from_the_zoo",0,0
 "music sheet","exhibit_12",0,0
 "music sheet","flowerman",0,0
@@ -7495,7 +7221,6 @@
 "music stand","campsite",0,0
 "music stand","deep_sea_divers",0,0
 "music stand","dinosaurs_spacemen_and_ghouls",0,0
-"music stand","dinosours_spacemen_and_ghouls",0,0
 "music stand","escape_from_the_zoo",0,0
 "music stand","exhibit_12",0,0
 "music stand","flowerman",0,0
@@ -7522,7 +7247,6 @@
 "nail clipper","campsite",0,0
 "nail clipper","deep_sea_divers",0,0
 "nail clipper","dinosaurs_spacemen_and_ghouls",0,0
-"nail clipper","dinosours_spacemen_and_ghouls",0,0
 "nail clipper","escape_from_the_zoo",0,0
 "nail clipper","exhibit_12",0,0
 "nail clipper","flowerman",0,0
@@ -7549,7 +7273,6 @@
 "nail gun","campsite",0,0
 "nail gun","deep_sea_divers",0,0
 "nail gun","dinosaurs_spacemen_and_ghouls",0,0
-"nail gun","dinosours_spacemen_and_ghouls",0,0
 "nail gun","escape_from_the_zoo",0,0
 "nail gun","exhibit_12",0,0
 "nail gun","flowerman",0,0
@@ -7576,7 +7299,6 @@
 "nail polish","campsite",0,0
 "nail polish","deep_sea_divers",0,0
 "nail polish","dinosaurs_spacemen_and_ghouls",0,0
-"nail polish","dinosours_spacemen_and_ghouls",0,0
 "nail polish","escape_from_the_zoo",0,0
 "nail polish","exhibit_12",0,0
 "nail polish","flowerman",0,0
@@ -7602,7 +7324,6 @@
 "name tag","campsite",0,0
 "name tag","deep_sea_divers",0,0
 "name tag","dinosaurs_spacemen_and_ghouls",0,0
-"name tag","dinosours_spacemen_and_ghouls",0,0
 "name tag","escape_from_the_zoo",0,0
 "name tag","exhibit_12",0,0
 "name tag","flowerman",0,0
@@ -7629,7 +7350,6 @@
 "nintendo ds","campsite",0,0
 "nintendo ds","deep_sea_divers",0,0
 "nintendo ds","dinosaurs_spacemen_and_ghouls",0,0
-"nintendo ds","dinosours_spacemen_and_ghouls",0,0
 "nintendo ds","escape_from_the_zoo",0,0
 "nintendo ds","exhibit_12",0,0
 "nintendo ds","flowerman",0,0
@@ -7656,7 +7376,6 @@
 "no parking sign","campsite",0,0
 "no parking sign","deep_sea_divers",0,0
 "no parking sign","dinosaurs_spacemen_and_ghouls",0,0
-"no parking sign","dinosours_spacemen_and_ghouls",0,0
 "no parking sign","escape_from_the_zoo",0,0
 "no parking sign","exhibit_12",0,0
 "no parking sign","flowerman",0,0
@@ -7683,7 +7402,6 @@
 "no smoking sign","campsite",0,0
 "no smoking sign","deep_sea_divers",0,0
 "no smoking sign","dinosaurs_spacemen_and_ghouls",0,0
-"no smoking sign","dinosours_spacemen_and_ghouls",0,0
 "no smoking sign","escape_from_the_zoo",0,0
 "no smoking sign","exhibit_12",0,0
 "no smoking sign","flowerman",0,0
@@ -7710,7 +7428,6 @@
 "noise maker","campsite",0,0
 "noise maker","deep_sea_divers",0,0
 "noise maker","dinosaurs_spacemen_and_ghouls",0,0
-"noise maker","dinosours_spacemen_and_ghouls",0,0
 "noise maker","escape_from_the_zoo",0,0
 "noise maker","exhibit_12",0,0
 "noise maker","flowerman",0,0
@@ -7737,7 +7454,6 @@
 "number 3","campsite",0,0
 "number 3","deep_sea_divers",0,0
 "number 3","dinosaurs_spacemen_and_ghouls",0,0
-"number 3","dinosours_spacemen_and_ghouls",0,0
 "number 3","escape_from_the_zoo",0,0
 "number 3","exhibit_12",0,0
 "number 3","flowerman",0,0
@@ -7764,7 +7480,6 @@
 "office chair","campsite",0,0
 "office chair","deep_sea_divers",0,0
 "office chair","dinosaurs_spacemen_and_ghouls",0,0
-"office chair","dinosours_spacemen_and_ghouls",0,0
 "office chair","escape_from_the_zoo",0,0
 "office chair","exhibit_12",0,0
 "office chair","flowerman",0,0
@@ -7790,7 +7505,6 @@
 "olive tree","campsite",0,0
 "olive tree","deep_sea_divers",0,0
 "olive tree","dinosaurs_spacemen_and_ghouls",0,0
-"olive tree","dinosours_spacemen_and_ghouls",0,0
 "olive tree","escape_from_the_zoo",0,0
 "olive tree","exhibit_12",0,0
 "olive tree","flowerman",0,0
@@ -7817,7 +7531,6 @@
 "one way sign","campsite",0,0
 "one way sign","deep_sea_divers",0,0
 "one way sign","dinosaurs_spacemen_and_ghouls",0,0
-"one way sign","dinosours_spacemen_and_ghouls",0,0
 "one way sign","escape_from_the_zoo",0,0
 "one way sign","exhibit_12",0,0
 "one way sign","flowerman",0,0
@@ -7844,7 +7557,6 @@
 "orange juice","campsite",0,0
 "orange juice","deep_sea_divers",0,0
 "orange juice","dinosaurs_spacemen_and_ghouls",0,0
-"orange juice","dinosours_spacemen_and_ghouls",0,0
 "orange juice","escape_from_the_zoo",0,0
 "orange juice","exhibit_12",0,0
 "orange juice","flowerman",0,0
@@ -7871,7 +7583,6 @@
 "outdoor heater","campsite",0,0
 "outdoor heater","deep_sea_divers",0,0
 "outdoor heater","dinosaurs_spacemen_and_ghouls",0,0
-"outdoor heater","dinosours_spacemen_and_ghouls",0,0
 "outdoor heater","escape_from_the_zoo",0,0
 "outdoor heater","exhibit_12",0,0
 "outdoor heater","flowerman",0,0
@@ -7898,7 +7609,6 @@
 "paddle ball","campsite",0,0
 "paddle ball","deep_sea_divers",0,0
 "paddle ball","dinosaurs_spacemen_and_ghouls",0,0
-"paddle ball","dinosours_spacemen_and_ghouls",0,0
 "paddle ball","escape_from_the_zoo",0,0
 "paddle ball","exhibit_12",0,0
 "paddle ball","flowerman",0,0
@@ -7923,7 +7633,6 @@
 "paint brush","by_the_lake",0,0
 "paint brush","campsite",0,0
 "paint brush","deep_sea_divers",0,0
-"paint brush","dinosours_spacemen_and_ghouls",0,0
 "paint brush","escape_from_the_zoo",0,0
 "paint brush","exhibit_12",0,0
 "paint brush","flowerman",0,0
@@ -7950,7 +7659,6 @@
 "paint can","campsite",0,0
 "paint can","deep_sea_divers",0,0
 "paint can","dinosaurs_spacemen_and_ghouls",0,0
-"paint can","dinosours_spacemen_and_ghouls",0,0
 "paint can","escape_from_the_zoo",0,0
 "paint can","exhibit_12",0,0
 "paint can","flowerman",0,0
@@ -7977,7 +7685,6 @@
 "paint roller","campsite",0,0
 "paint roller","deep_sea_divers",0,0
 "paint roller","dinosaurs_spacemen_and_ghouls",0,0
-"paint roller","dinosours_spacemen_and_ghouls",0,0
 "paint roller","escape_from_the_zoo",0,0
 "paint roller","exhibit_12",0,0
 "paint roller","flowerman",0,0
@@ -8004,7 +7711,6 @@
 "paint tray","campsite",0,0
 "paint tray","deep_sea_divers",0,0
 "paint tray","dinosaurs_spacemen_and_ghouls",0,0
-"paint tray","dinosours_spacemen_and_ghouls",0,0
 "paint tray","escape_from_the_zoo",0,0
 "paint tray","exhibit_12",0,0
 "paint tray","flowerman",0,0
@@ -8030,7 +7736,6 @@
 "palm tree","campsite",0,0
 "palm tree","deep_sea_divers",0,0
 "palm tree","dinosaurs_spacemen_and_ghouls",0,0
-"palm tree","dinosours_spacemen_and_ghouls",0,0
 "palm tree","escape_from_the_zoo",0,0
 "palm tree","flowerman",0,0
 "palm tree","return",0,0
@@ -8049,7 +7754,6 @@
 "paper airplane","campsite",0,0
 "paper airplane","deep_sea_divers",0,0
 "paper airplane","dinosaurs_spacemen_and_ghouls",0,0
-"paper airplane","dinosours_spacemen_and_ghouls",0,0
 "paper airplane","escape_from_the_zoo",0,0
 "paper airplane","exhibit_12",0,0
 "paper airplane","flowerman",0,0
@@ -8075,7 +7779,6 @@
 "paper chain","campsite",0,0
 "paper chain","deep_sea_divers",0,0
 "paper chain","dinosaurs_spacemen_and_ghouls",0,0
-"paper chain","dinosours_spacemen_and_ghouls",0,0
 "paper chain","escape_from_the_zoo",0,0
 "paper chain","exhibit_12",0,0
 "paper chain","flowerman",0,0
@@ -8102,7 +7805,6 @@
 "paper shredder","campsite",0,0
 "paper shredder","deep_sea_divers",0,0
 "paper shredder","dinosaurs_spacemen_and_ghouls",0,0
-"paper shredder","dinosours_spacemen_and_ghouls",0,0
 "paper shredder","escape_from_the_zoo",0,0
 "paper shredder","exhibit_12",0,0
 "paper shredder","flowerman",0,0
@@ -8129,7 +7831,6 @@
 "paper towel","campsite",0,0
 "paper towel","deep_sea_divers",0,0
 "paper towel","dinosaurs_spacemen_and_ghouls",0,0
-"paper towel","dinosours_spacemen_and_ghouls",0,0
 "paper towel","escape_from_the_zoo",0,0
 "paper towel","exhibit_12",0,0
 "paper towel","flowerman",0,0
@@ -8156,7 +7857,6 @@
 "parking gate","campsite",0,0
 "parking gate","deep_sea_divers",0,0
 "parking gate","dinosaurs_spacemen_and_ghouls",0,0
-"parking gate","dinosours_spacemen_and_ghouls",0,0
 "parking gate","escape_from_the_zoo",0,0
 "parking gate","exhibit_12",0,0
 "parking gate","flowerman",0,0
@@ -8182,7 +7882,6 @@
 "parking meter","campsite",0,0
 "parking meter","deep_sea_divers",0,0
 "parking meter","dinosaurs_spacemen_and_ghouls",0,0
-"parking meter","dinosours_spacemen_and_ghouls",0,0
 "parking meter","escape_from_the_zoo",0,0
 "parking meter","exhibit_12",0,0
 "parking meter","flowerman",0,0
@@ -8209,7 +7908,6 @@
 "party hat","campsite",0,0
 "party hat","deep_sea_divers",0,0
 "party hat","dinosaurs_spacemen_and_ghouls",0,0
-"party hat","dinosours_spacemen_and_ghouls",0,0
 "party hat","escape_from_the_zoo",0,0
 "party hat","exhibit_12",0,0
 "party hat","flowerman",0,0
@@ -8236,7 +7934,6 @@
 "pedestrian crossing sign","campsite",0,0
 "pedestrian crossing sign","deep_sea_divers",0,0
 "pedestrian crossing sign","dinosaurs_spacemen_and_ghouls",0,0
-"pedestrian crossing sign","dinosours_spacemen_and_ghouls",0,0
 "pedestrian crossing sign","escape_from_the_zoo",0,0
 "pedestrian crossing sign","exhibit_12",0,0
 "pedestrian crossing sign","flowerman",0,0
@@ -8263,7 +7960,6 @@
 "pencil case","campsite",0,0
 "pencil case","deep_sea_divers",0,0
 "pencil case","dinosaurs_spacemen_and_ghouls",0,0
-"pencil case","dinosours_spacemen_and_ghouls",0,0
 "pencil case","escape_from_the_zoo",0,0
 "pencil case","exhibit_12",0,0
 "pencil case","flowerman",0,0
@@ -8290,7 +7986,6 @@
 "pencil sharpener","campsite",0,0
 "pencil sharpener","deep_sea_divers",0,0
 "pencil sharpener","dinosaurs_spacemen_and_ghouls",0,0
-"pencil sharpener","dinosours_spacemen_and_ghouls",0,0
 "pencil sharpener","escape_from_the_zoo",0,0
 "pencil sharpener","exhibit_12",0,0
 "pencil sharpener","flowerman",0,0
@@ -8317,7 +8012,6 @@
 "pepper mill","campsite",0,0
 "pepper mill","deep_sea_divers",0,0
 "pepper mill","dinosaurs_spacemen_and_ghouls",0,0
-"pepper mill","dinosours_spacemen_and_ghouls",0,0
 "pepper mill","escape_from_the_zoo",0,0
 "pepper mill","exhibit_12",0,0
 "pepper mill","flowerman",0,0
@@ -8343,7 +8037,6 @@
 "phone booth","campsite",0,0
 "phone booth","deep_sea_divers",0,0
 "phone booth","dinosaurs_spacemen_and_ghouls",0,0
-"phone booth","dinosours_spacemen_and_ghouls",0,0
 "phone booth","escape_from_the_zoo",0,0
 "phone booth","exhibit_12",0,0
 "phone booth","flowerman",0,0
@@ -8369,7 +8062,6 @@
 "phone jack","campsite",0,0
 "phone jack","deep_sea_divers",0,0
 "phone jack","dinosaurs_spacemen_and_ghouls",0,0
-"phone jack","dinosours_spacemen_and_ghouls",0,0
 "phone jack","escape_from_the_zoo",0,0
 "phone jack","exhibit_12",0,0
 "phone jack","flowerman",0,0
@@ -8395,7 +8087,6 @@
 "picnic table","campsite",0,0
 "picnic table","deep_sea_divers",0,0
 "picnic table","dinosaurs_spacemen_and_ghouls",0,0
-"picnic table","dinosours_spacemen_and_ghouls",0,0
 "picnic table","escape_from_the_zoo",0,0
 "picnic table","exhibit_12",0,0
 "picnic table","journey",0,0
@@ -8418,7 +8109,6 @@
 "picture frame","campsite",0,0
 "picture frame","deep_sea_divers",0,0
 "picture frame","dinosaurs_spacemen_and_ghouls",0,0
-"picture frame","dinosours_spacemen_and_ghouls",0,0
 "picture frame","escape_from_the_zoo",0,0
 "picture frame","flowerman",0,0
 "picture frame","make_a_splash",0,0
@@ -8441,7 +8131,6 @@
 "piggy bank","campsite",0,0
 "piggy bank","deep_sea_divers",0,0
 "piggy bank","dinosaurs_spacemen_and_ghouls",0,0
-"piggy bank","dinosours_spacemen_and_ghouls",0,0
 "piggy bank","escape_from_the_zoo",0,0
 "piggy bank","exhibit_12",0,0
 "piggy bank","flowerman",0,0
@@ -8468,7 +8157,6 @@
 "pine kernel","campsite",0,0
 "pine kernel","deep_sea_divers",0,0
 "pine kernel","dinosaurs_spacemen_and_ghouls",0,0
-"pine kernel","dinosours_spacemen_and_ghouls",0,0
 "pine kernel","escape_from_the_zoo",0,0
 "pine kernel","exhibit_12",0,0
 "pine kernel","flowerman",0,0
@@ -8493,7 +8181,6 @@
 "pine tree","campsite",0,0
 "pine tree","deep_sea_divers",0,0
 "pine tree","dinosaurs_spacemen_and_ghouls",0,0
-"pine tree","dinosours_spacemen_and_ghouls",0,0
 "pine tree","escape_from_the_zoo",0,0
 "pine tree","exhibit_12",0,0
 "pine tree","flowerman",0,0
@@ -8520,7 +8207,6 @@
 "ping pong paddle","campsite",0,0
 "ping pong paddle","deep_sea_divers",0,0
 "ping pong paddle","dinosaurs_spacemen_and_ghouls",0,0
-"ping pong paddle","dinosours_spacemen_and_ghouls",0,0
 "ping pong paddle","escape_from_the_zoo",0,0
 "ping pong paddle","exhibit_12",0,0
 "ping pong paddle","flowerman",0,0
@@ -8547,7 +8233,6 @@
 "ping pong racket","campsite",0,0
 "ping pong racket","deep_sea_divers",0,0
 "ping pong racket","dinosaurs_spacemen_and_ghouls",0,0
-"ping pong racket","dinosours_spacemen_and_ghouls",0,0
 "ping pong racket","escape_from_the_zoo",0,0
 "ping pong racket","exhibit_12",0,0
 "ping pong racket","flowerman",0,0
@@ -8574,7 +8259,6 @@
 "ping pong table","campsite",0,0
 "ping pong table","deep_sea_divers",0,0
 "ping pong table","dinosaurs_spacemen_and_ghouls",0,0
-"ping pong table","dinosours_spacemen_and_ghouls",0,0
 "ping pong table","escape_from_the_zoo",0,0
 "ping pong table","exhibit_12",0,0
 "ping pong table","flowerman",0,0
@@ -8600,7 +8284,6 @@
 "pirate flag","campsite",0,0
 "pirate flag","deep_sea_divers",0,0
 "pirate flag","dinosaurs_spacemen_and_ghouls",0,0
-"pirate flag","dinosours_spacemen_and_ghouls",0,0
 "pirate flag","escape_from_the_zoo",0,0
 "pirate flag","exhibit_12",0,0
 "pirate flag","flowerman",0,0
@@ -8626,7 +8309,6 @@
 "pita bread","campsite",0,0
 "pita bread","deep_sea_divers",0,0
 "pita bread","dinosaurs_spacemen_and_ghouls",0,0
-"pita bread","dinosours_spacemen_and_ghouls",0,0
 "pita bread","escape_from_the_zoo",0,0
 "pita bread","exhibit_12",0,0
 "pita bread","flowerman",0,0
@@ -8653,7 +8335,6 @@
 "plastic bag","campsite",0,0
 "plastic bag","deep_sea_divers",0,0
 "plastic bag","dinosaurs_spacemen_and_ghouls",0,0
-"plastic bag","dinosours_spacemen_and_ghouls",0,0
 "plastic bag","escape_from_the_zoo",0,0
 "plastic bag","exhibit_12",0,0
 "plastic bag","flowerman",0,0
@@ -8680,7 +8361,6 @@
 "plastic cup","campsite",0,0
 "plastic cup","deep_sea_divers",0,0
 "plastic cup","dinosaurs_spacemen_and_ghouls",0,0
-"plastic cup","dinosours_spacemen_and_ghouls",0,0
 "plastic cup","escape_from_the_zoo",0,0
 "plastic cup","exhibit_12",0,0
 "plastic cup","flowerman",0,0
@@ -8706,7 +8386,6 @@
 "playing card","campsite",0,0
 "playing card","deep_sea_divers",0,0
 "playing card","dinosaurs_spacemen_and_ghouls",0,0
-"playing card","dinosours_spacemen_and_ghouls",0,0
 "playing card","escape_from_the_zoo",0,0
 "playing card","exhibit_12",0,0
 "playing card","flowerman",0,0
@@ -8732,7 +8411,6 @@
 "pocket knife","campsite",0,0
 "pocket knife","deep_sea_divers",0,0
 "pocket knife","dinosaurs_spacemen_and_ghouls",0,0
-"pocket knife","dinosours_spacemen_and_ghouls",0,0
 "pocket knife","escape_from_the_zoo",0,0
 "pocket knife","exhibit_12",0,0
 "pocket knife","flowerman",0,0
@@ -8759,7 +8437,6 @@
 "poker chips","campsite",0,0
 "poker chips","deep_sea_divers",0,0
 "poker chips","dinosaurs_spacemen_and_ghouls",0,0
-"poker chips","dinosours_spacemen_and_ghouls",0,0
 "poker chips","escape_from_the_zoo",0,0
 "poker chips","exhibit_12",0,0
 "poker chips","flowerman",0,0
@@ -8786,7 +8463,6 @@
 "poker set","campsite",0,0
 "poker set","deep_sea_divers",0,0
 "poker set","dinosaurs_spacemen_and_ghouls",0,0
-"poker set","dinosours_spacemen_and_ghouls",0,0
 "poker set","escape_from_the_zoo",0,0
 "poker set","exhibit_12",0,0
 "poker set","flowerman",0,0
@@ -8813,7 +8489,6 @@
 "polar bear","campsite",0,0
 "polar bear","deep_sea_divers",0,0
 "polar bear","dinosaurs_spacemen_and_ghouls",0,0
-"polar bear","dinosours_spacemen_and_ghouls",0,0
 "polar bear","exhibit_12",0,0
 "polar bear","flowerman",0,0
 "polar bear","journey",0,0
@@ -8839,7 +8514,6 @@
 "police tape","campsite",0,0
 "police tape","deep_sea_divers",0,0
 "police tape","dinosaurs_spacemen_and_ghouls",0,0
-"police tape","dinosours_spacemen_and_ghouls",0,0
 "police tape","escape_from_the_zoo",0,0
 "police tape","exhibit_12",0,0
 "police tape","flowerman",0,0
@@ -8866,7 +8540,6 @@
 "pool cue","campsite",0,0
 "pool cue","deep_sea_divers",0,0
 "pool cue","dinosaurs_spacemen_and_ghouls",0,0
-"pool cue","dinosours_spacemen_and_ghouls",0,0
 "pool cue","escape_from_the_zoo",0,0
 "pool cue","exhibit_12",0,0
 "pool cue","flowerman",0,0
@@ -8893,7 +8566,6 @@
 "pool rake","campsite",0,0
 "pool rake","deep_sea_divers",0,0
 "pool rake","dinosaurs_spacemen_and_ghouls",0,0
-"pool rake","dinosours_spacemen_and_ghouls",0,0
 "pool rake","escape_from_the_zoo",0,0
 "pool rake","exhibit_12",0,0
 "pool rake","flowerman",0,0
@@ -8920,7 +8592,6 @@
 "pool table","campsite",0,0
 "pool table","deep_sea_divers",0,0
 "pool table","dinosaurs_spacemen_and_ghouls",0,0
-"pool table","dinosours_spacemen_and_ghouls",0,0
 "pool table","escape_from_the_zoo",0,0
 "pool table","exhibit_12",0,0
 "pool table","flowerman",0,0
@@ -8947,7 +8618,6 @@
 "pool triangle","campsite",0,0
 "pool triangle","deep_sea_divers",0,0
 "pool triangle","dinosaurs_spacemen_and_ghouls",0,0
-"pool triangle","dinosours_spacemen_and_ghouls",0,0
 "pool triangle","escape_from_the_zoo",0,0
 "pool triangle","exhibit_12",0,0
 "pool triangle","flowerman",0,0
@@ -8974,7 +8644,6 @@
 "porta potty","campsite",0,0
 "porta potty","deep_sea_divers",0,0
 "porta potty","dinosaurs_spacemen_and_ghouls",0,0
-"porta potty","dinosours_spacemen_and_ghouls",0,0
 "porta potty","escape_from_the_zoo",0,0
 "porta potty","exhibit_12",0,0
 "porta potty","flowerman",0,0
@@ -9001,7 +8670,6 @@
 "postit notes","campsite",0,0
 "postit notes","deep_sea_divers",0,0
 "postit notes","dinosaurs_spacemen_and_ghouls",0,0
-"postit notes","dinosours_spacemen_and_ghouls",0,0
 "postit notes","escape_from_the_zoo",0,0
 "postit notes","exhibit_12",0,0
 "postit notes","flowerman",0,0
@@ -9028,7 +8696,6 @@
 "potato masher","campsite",0,0
 "potato masher","deep_sea_divers",0,0
 "potato masher","dinosaurs_spacemen_and_ghouls",0,0
-"potato masher","dinosours_spacemen_and_ghouls",0,0
 "potato masher","escape_from_the_zoo",0,0
 "potato masher","exhibit_12",0,0
 "potato masher","flowerman",0,0
@@ -9055,7 +8722,6 @@
 "power lines","campsite",0,0
 "power lines","deep_sea_divers",0,0
 "power lines","dinosaurs_spacemen_and_ghouls",0,0
-"power lines","dinosours_spacemen_and_ghouls",0,0
 "power lines","escape_from_the_zoo",0,0
 "power lines","exhibit_12",0,0
 "power lines","flowerman",0,0
@@ -9082,7 +8748,6 @@
 "power saw","campsite",0,0
 "power saw","deep_sea_divers",0,0
 "power saw","dinosaurs_spacemen_and_ghouls",0,0
-"power saw","dinosours_spacemen_and_ghouls",0,0
 "power saw","escape_from_the_zoo",0,0
 "power saw","exhibit_12",0,0
 "power saw","flowerman",0,0
@@ -9108,7 +8773,6 @@
 "praying mantis","campsite",0,0
 "praying mantis","deep_sea_divers",0,0
 "praying mantis","dinosaurs_spacemen_and_ghouls",0,0
-"praying mantis","dinosours_spacemen_and_ghouls",0,0
 "praying mantis","escape_from_the_zoo",0,0
 "praying mantis","exhibit_12",0,0
 "praying mantis","flowerman",0,0
@@ -9135,7 +8799,6 @@
 "pressure washer","campsite",0,0
 "pressure washer","deep_sea_divers",0,0
 "pressure washer","dinosaurs_spacemen_and_ghouls",0,0
-"pressure washer","dinosours_spacemen_and_ghouls",0,0
 "pressure washer","escape_from_the_zoo",0,0
 "pressure washer","exhibit_12",0,0
 "pressure washer","flowerman",0,0
@@ -9162,7 +8825,6 @@
 "price sign","campsite",0,0
 "price sign","deep_sea_divers",0,0
 "price sign","dinosaurs_spacemen_and_ghouls",0,0
-"price sign","dinosours_spacemen_and_ghouls",0,0
 "price sign","escape_from_the_zoo",0,0
 "price sign","exhibit_12",0,0
 "price sign","flowerman",0,0
@@ -9189,7 +8851,6 @@
 "projector screen","campsite",0,0
 "projector screen","deep_sea_divers",0,0
 "projector screen","dinosaurs_spacemen_and_ghouls",0,0
-"projector screen","dinosours_spacemen_and_ghouls",0,0
 "projector screen","escape_from_the_zoo",0,0
 "projector screen","exhibit_12",0,0
 "projector screen","flowerman",0,0
@@ -9216,7 +8877,6 @@
 "propane tank","campsite",0,0
 "propane tank","deep_sea_divers",0,0
 "propane tank","dinosaurs_spacemen_and_ghouls",0,0
-"propane tank","dinosours_spacemen_and_ghouls",0,0
 "propane tank","escape_from_the_zoo",0,0
 "propane tank","exhibit_12",0,0
 "propane tank","flowerman",0,0
@@ -9243,7 +8903,6 @@
 "punching bag","campsite",0,0
 "punching bag","deep_sea_divers",0,0
 "punching bag","dinosaurs_spacemen_and_ghouls",0,0
-"punching bag","dinosours_spacemen_and_ghouls",0,0
 "punching bag","escape_from_the_zoo",0,0
 "punching bag","exhibit_12",0,0
 "punching bag","flowerman",0,0
@@ -9269,7 +8928,6 @@
 "puppet theatre","campsite",0,0
 "puppet theatre","deep_sea_divers",0,0
 "puppet theatre","dinosaurs_spacemen_and_ghouls",0,0
-"puppet theatre","dinosours_spacemen_and_ghouls",0,0
 "puppet theatre","escape_from_the_zoo",0,0
 "puppet theatre","exhibit_12",0,0
 "puppet theatre","flowerman",0,0
@@ -9296,7 +8954,6 @@
 "puzzle piece","campsite",0,0
 "puzzle piece","deep_sea_divers",0,0
 "puzzle piece","dinosaurs_spacemen_and_ghouls",0,0
-"puzzle piece","dinosours_spacemen_and_ghouls",0,0
 "puzzle piece","escape_from_the_zoo",0,0
 "puzzle piece","flowerman",0,0
 "puzzle piece","journey",0,0
@@ -9322,7 +8979,6 @@
 "railroad crossing","campsite",0,0
 "railroad crossing","deep_sea_divers",0,0
 "railroad crossing","dinosaurs_spacemen_and_ghouls",0,0
-"railroad crossing","dinosours_spacemen_and_ghouls",0,0
 "railroad crossing","escape_from_the_zoo",0,0
 "railroad crossing","exhibit_12",0,0
 "railroad crossing","flowerman",0,0
@@ -9349,7 +9005,6 @@
 "railroad tracks","campsite",0,0
 "railroad tracks","deep_sea_divers",0,0
 "railroad tracks","dinosaurs_spacemen_and_ghouls",0,0
-"railroad tracks","dinosours_spacemen_and_ghouls",0,0
 "railroad tracks","escape_from_the_zoo",0,0
 "railroad tracks","exhibit_12",0,0
 "railroad tracks","flowerman",0,0
@@ -9375,7 +9030,6 @@
 "razor shell","campsite",0,0
 "razor shell","deep_sea_divers",0,0
 "razor shell","dinosaurs_spacemen_and_ghouls",0,0
-"razor shell","dinosours_spacemen_and_ghouls",0,0
 "razor shell","escape_from_the_zoo",0,0
 "razor shell","exhibit_12",0,0
 "razor shell","flowerman",0,0
@@ -9402,7 +9056,6 @@
 "rearview mirror","campsite",0,0
 "rearview mirror","deep_sea_divers",0,0
 "rearview mirror","dinosaurs_spacemen_and_ghouls",0,0
-"rearview mirror","dinosours_spacemen_and_ghouls",0,0
 "rearview mirror","escape_from_the_zoo",0,0
 "rearview mirror","exhibit_12",0,0
 "rearview mirror","flowerman",0,0
@@ -9429,7 +9082,6 @@
 "recycling bin","campsite",0,0
 "recycling bin","deep_sea_divers",0,0
 "recycling bin","dinosaurs_spacemen_and_ghouls",0,0
-"recycling bin","dinosours_spacemen_and_ghouls",0,0
 "recycling bin","escape_from_the_zoo",0,0
 "recycling bin","exhibit_12",0,0
 "recycling bin","flowerman",0,0
@@ -9456,7 +9108,6 @@
 "red cabbage","campsite",0,0
 "red cabbage","deep_sea_divers",0,0
 "red cabbage","dinosaurs_spacemen_and_ghouls",0,0
-"red cabbage","dinosours_spacemen_and_ghouls",0,0
 "red cabbage","escape_from_the_zoo",0,0
 "red cabbage","exhibit_12",0,0
 "red cabbage","flowerman",0,0
@@ -9483,7 +9134,6 @@
 "red pepper","campsite",0,0
 "red pepper","deep_sea_divers",0,0
 "red pepper","dinosaurs_spacemen_and_ghouls",0,0
-"red pepper","dinosours_spacemen_and_ghouls",0,0
 "red pepper","escape_from_the_zoo",0,0
 "red pepper","exhibit_12",0,0
 "red pepper","flowerman",0,0
@@ -9510,7 +9160,6 @@
 "remote control","campsite",0,0
 "remote control","deep_sea_divers",0,0
 "remote control","dinosaurs_spacemen_and_ghouls",0,0
-"remote control","dinosours_spacemen_and_ghouls",0,0
 "remote control","escape_from_the_zoo",0,0
 "remote control","exhibit_12",0,0
 "remote control","flowerman",0,0
@@ -9537,7 +9186,6 @@
 "rocking chair","campsite",0,0
 "rocking chair","deep_sea_divers",0,0
 "rocking chair","dinosaurs_spacemen_and_ghouls",0,0
-"rocking chair","dinosours_spacemen_and_ghouls",0,0
 "rocking chair","escape_from_the_zoo",0,0
 "rocking chair","exhibit_12",0,0
 "rocking chair","flowerman",0,0
@@ -9564,7 +9212,6 @@
 "rocking horse","campsite",0,0
 "rocking horse","deep_sea_divers",0,0
 "rocking horse","dinosaurs_spacemen_and_ghouls",0,0
-"rocking horse","dinosours_spacemen_and_ghouls",0,0
 "rocking horse","escape_from_the_zoo",0,0
 "rocking horse","exhibit_12",0,0
 "rocking horse","flowerman",0,0
@@ -9591,7 +9238,6 @@
 "roller coaster","campsite",0,0
 "roller coaster","deep_sea_divers",0,0
 "roller coaster","dinosaurs_spacemen_and_ghouls",0,0
-"roller coaster","dinosours_spacemen_and_ghouls",0,0
 "roller coaster","escape_from_the_zoo",0,0
 "roller coaster","exhibit_12",0,0
 "roller coaster","flowerman",0,0
@@ -9617,7 +9263,6 @@
 "roller skate","campsite",0,0
 "roller skate","deep_sea_divers",0,0
 "roller skate","dinosaurs_spacemen_and_ghouls",0,0
-"roller skate","dinosours_spacemen_and_ghouls",0,0
 "roller skate","escape_from_the_zoo",0,0
 "roller skate","exhibit_12",0,0
 "roller skate","flowerman",0,0
@@ -9644,7 +9289,6 @@
 "rolling pin","campsite",0,0
 "rolling pin","deep_sea_divers",0,0
 "rolling pin","dinosaurs_spacemen_and_ghouls",0,0
-"rolling pin","dinosours_spacemen_and_ghouls",0,0
 "rolling pin","escape_from_the_zoo",0,0
 "rolling pin","exhibit_12",0,0
 "rolling pin","flowerman",0,0
@@ -9671,7 +9315,6 @@
 "rubber stamp","campsite",0,0
 "rubber stamp","deep_sea_divers",0,0
 "rubber stamp","dinosaurs_spacemen_and_ghouls",0,0
-"rubber stamp","dinosours_spacemen_and_ghouls",0,0
 "rubber stamp","escape_from_the_zoo",0,0
 "rubber stamp","exhibit_12",0,0
 "rubber stamp","flowerman",0,0
@@ -9698,7 +9341,6 @@
 "rubik cube","campsite",0,0
 "rubik cube","deep_sea_divers",0,0
 "rubik cube","dinosaurs_spacemen_and_ghouls",0,0
-"rubik cube","dinosours_spacemen_and_ghouls",0,0
 "rubik cube","escape_from_the_zoo",0,0
 "rubik cube","exhibit_12",0,0
 "rubik cube","flowerman",0,0
@@ -9725,7 +9367,6 @@
 "safety glasses","campsite",0,0
 "safety glasses","deep_sea_divers",0,0
 "safety glasses","dinosaurs_spacemen_and_ghouls",0,0
-"safety glasses","dinosours_spacemen_and_ghouls",0,0
 "safety glasses","escape_from_the_zoo",0,0
 "safety glasses","exhibit_12",0,0
 "safety glasses","flowerman",0,0
@@ -9752,7 +9393,6 @@
 "safety pin","campsite",0,0
 "safety pin","deep_sea_divers",0,0
 "safety pin","dinosaurs_spacemen_and_ghouls",0,0
-"safety pin","dinosours_spacemen_and_ghouls",0,0
 "safety pin","escape_from_the_zoo",0,0
 "safety pin","exhibit_12",0,0
 "safety pin","flowerman",0,0
@@ -9779,7 +9419,6 @@
 "salad spinner","campsite",0,0
 "salad spinner","deep_sea_divers",0,0
 "salad spinner","dinosaurs_spacemen_and_ghouls",0,0
-"salad spinner","dinosours_spacemen_and_ghouls",0,0
 "salad spinner","escape_from_the_zoo",0,0
 "salad spinner","exhibit_12",0,0
 "salad spinner","flowerman",0,0
@@ -9806,7 +9445,6 @@
 "salt shaker","campsite",0,0
 "salt shaker","deep_sea_divers",0,0
 "salt shaker","dinosaurs_spacemen_and_ghouls",0,0
-"salt shaker","dinosours_spacemen_and_ghouls",0,0
 "salt shaker","escape_from_the_zoo",0,0
 "salt shaker","exhibit_12",0,0
 "salt shaker","flowerman",0,0
@@ -9833,7 +9471,6 @@
 "sardine can","campsite",0,0
 "sardine can","deep_sea_divers",0,0
 "sardine can","dinosaurs_spacemen_and_ghouls",0,0
-"sardine can","dinosours_spacemen_and_ghouls",0,0
 "sardine can","escape_from_the_zoo",0,0
 "sardine can","exhibit_12",0,0
 "sardine can","flowerman",0,0
@@ -9860,7 +9497,6 @@
 "satellite dish","campsite",0,0
 "satellite dish","deep_sea_divers",0,0
 "satellite dish","dinosaurs_spacemen_and_ghouls",0,0
-"satellite dish","dinosours_spacemen_and_ghouls",0,0
 "satellite dish","escape_from_the_zoo",0,0
 "satellite dish","exhibit_12",0,0
 "satellite dish","flowerman",0,0
@@ -9887,7 +9523,6 @@
 "school bus","campsite",0,0
 "school bus","deep_sea_divers",0,0
 "school bus","dinosaurs_spacemen_and_ghouls",0,0
-"school bus","dinosours_spacemen_and_ghouls",0,0
 "school bus","escape_from_the_zoo",0,0
 "school bus","exhibit_12",0,0
 "school bus","flowerman",0,0
@@ -9914,7 +9549,6 @@
 "scotch tape","campsite",0,0
 "scotch tape","deep_sea_divers",0,0
 "scotch tape","dinosaurs_spacemen_and_ghouls",0,0
-"scotch tape","dinosours_spacemen_and_ghouls",0,0
 "scotch tape","escape_from_the_zoo",0,0
 "scotch tape","exhibit_12",0,0
 "scotch tape","flowerman",0,0
@@ -9941,7 +9575,6 @@
 "screw driver","campsite",0,0
 "screw driver","deep_sea_divers",0,0
 "screw driver","dinosaurs_spacemen_and_ghouls",0,0
-"screw driver","dinosours_spacemen_and_ghouls",0,0
 "screw driver","escape_from_the_zoo",0,0
 "screw driver","exhibit_12",0,0
 "screw driver","flowerman",0,0
@@ -9968,7 +9601,6 @@
 "seal ring","campsite",0,0
 "seal ring","deep_sea_divers",0,0
 "seal ring","dinosaurs_spacemen_and_ghouls",0,0
-"seal ring","dinosours_spacemen_and_ghouls",0,0
 "seal ring","escape_from_the_zoo",0,0
 "seal ring","exhibit_12",0,0
 "seal ring","flowerman",0,0
@@ -9995,7 +9627,6 @@
 "security camera","campsite",0,0
 "security camera","deep_sea_divers",0,0
 "security camera","dinosaurs_spacemen_and_ghouls",0,0
-"security camera","dinosours_spacemen_and_ghouls",0,0
 "security camera","escape_from_the_zoo",0,0
 "security camera","exhibit_12",0,0
 "security camera","flowerman",0,0
@@ -10022,7 +9653,6 @@
 "set square","campsite",0,0
 "set square","deep_sea_divers",0,0
 "set square","dinosaurs_spacemen_and_ghouls",0,0
-"set square","dinosours_spacemen_and_ghouls",0,0
 "set square","escape_from_the_zoo",0,0
 "set square","exhibit_12",0,0
 "set square","flowerman",0,0
@@ -10048,7 +9678,6 @@
 "sewing machine","campsite",0,0
 "sewing machine","deep_sea_divers",0,0
 "sewing machine","dinosaurs_spacemen_and_ghouls",0,0
-"sewing machine","dinosours_spacemen_and_ghouls",0,0
 "sewing machine","escape_from_the_zoo",0,0
 "sewing machine","exhibit_12",0,0
 "sewing machine","flowerman",0,0
@@ -10075,7 +9704,6 @@
 "sharpening steel","campsite",0,0
 "sharpening steel","deep_sea_divers",0,0
 "sharpening steel","dinosaurs_spacemen_and_ghouls",0,0
-"sharpening steel","dinosours_spacemen_and_ghouls",0,0
 "sharpening steel","escape_from_the_zoo",0,0
 "sharpening steel","exhibit_12",0,0
 "sharpening steel","flowerman",0,0
@@ -10102,7 +9730,6 @@
 "shell pasta","campsite",0,0
 "shell pasta","deep_sea_divers",0,0
 "shell pasta","dinosaurs_spacemen_and_ghouls",0,0
-"shell pasta","dinosours_spacemen_and_ghouls",0,0
 "shell pasta","escape_from_the_zoo",0,0
 "shell pasta","exhibit_12",0,0
 "shell pasta","flowerman",0,0
@@ -10129,7 +9756,6 @@
 "sheriff hat","campsite",0,0
 "sheriff hat","deep_sea_divers",0,0
 "sheriff hat","dinosaurs_spacemen_and_ghouls",0,0
-"sheriff hat","dinosours_spacemen_and_ghouls",0,0
 "sheriff hat","escape_from_the_zoo",0,0
 "sheriff hat","exhibit_12",0,0
 "sheriff hat","flowerman",0,0
@@ -10156,7 +9782,6 @@
 "shin pad","campsite",0,0
 "shin pad","deep_sea_divers",0,0
 "shin pad","dinosaurs_spacemen_and_ghouls",0,0
-"shin pad","dinosours_spacemen_and_ghouls",0,0
 "shin pad","escape_from_the_zoo",0,0
 "shin pad","exhibit_12",0,0
 "shin pad","flowerman",0,0
@@ -10183,7 +9808,6 @@
 "ship in a bottle","campsite",0,0
 "ship in a bottle","deep_sea_divers",0,0
 "ship in a bottle","dinosaurs_spacemen_and_ghouls",0,0
-"ship in a bottle","dinosours_spacemen_and_ghouls",0,0
 "ship in a bottle","escape_from_the_zoo",0,0
 "ship in a bottle","exhibit_12",0,0
 "ship in a bottle","flowerman",0,0
@@ -10210,7 +9834,6 @@
 "shoe polish","campsite",0,0
 "shoe polish","deep_sea_divers",0,0
 "shoe polish","dinosaurs_spacemen_and_ghouls",0,0
-"shoe polish","dinosours_spacemen_and_ghouls",0,0
 "shoe polish","escape_from_the_zoo",0,0
 "shoe polish","exhibit_12",0,0
 "shoe polish","flowerman",0,0
@@ -10237,7 +9860,6 @@
 "shopping cart","campsite",0,0
 "shopping cart","deep_sea_divers",0,0
 "shopping cart","dinosaurs_spacemen_and_ghouls",0,0
-"shopping cart","dinosours_spacemen_and_ghouls",0,0
 "shopping cart","escape_from_the_zoo",0,0
 "shopping cart","exhibit_12",0,0
 "shopping cart","journey",0,0
@@ -10263,7 +9885,6 @@
 "shot glass","campsite",0,0
 "shot glass","deep_sea_divers",0,0
 "shot glass","dinosaurs_spacemen_and_ghouls",0,0
-"shot glass","dinosours_spacemen_and_ghouls",0,0
 "shot glass","escape_from_the_zoo",0,0
 "shot glass","exhibit_12",0,0
 "shot glass","flowerman",0,0
@@ -10290,7 +9911,6 @@
 "shoulder pads","campsite",0,0
 "shoulder pads","deep_sea_divers",0,0
 "shoulder pads","dinosaurs_spacemen_and_ghouls",0,0
-"shoulder pads","dinosours_spacemen_and_ghouls",0,0
 "shoulder pads","escape_from_the_zoo",0,0
 "shoulder pads","exhibit_12",0,0
 "shoulder pads","flowerman",0,0
@@ -10317,7 +9937,6 @@
 "shower head","campsite",0,0
 "shower head","deep_sea_divers",0,0
 "shower head","dinosaurs_spacemen_and_ghouls",0,0
-"shower head","dinosours_spacemen_and_ghouls",0,0
 "shower head","escape_from_the_zoo",0,0
 "shower head","exhibit_12",0,0
 "shower head","flowerman",0,0
@@ -10343,7 +9962,6 @@
 "ski boot","campsite",0,0
 "ski boot","deep_sea_divers",0,0
 "ski boot","dinosaurs_spacemen_and_ghouls",0,0
-"ski boot","dinosours_spacemen_and_ghouls",0,0
 "ski boot","escape_from_the_zoo",0,0
 "ski boot","exhibit_12",0,0
 "ski boot","flowerman",0,0
@@ -10370,7 +9988,6 @@
 "ski goggles","campsite",0,0
 "ski goggles","deep_sea_divers",0,0
 "ski goggles","dinosaurs_spacemen_and_ghouls",0,0
-"ski goggles","dinosours_spacemen_and_ghouls",0,0
 "ski goggles","escape_from_the_zoo",0,0
 "ski goggles","exhibit_12",0,0
 "ski goggles","flowerman",0,0
@@ -10397,7 +10014,6 @@
 "ski poles","campsite",0,0
 "ski poles","deep_sea_divers",0,0
 "ski poles","dinosaurs_spacemen_and_ghouls",0,0
-"ski poles","dinosours_spacemen_and_ghouls",0,0
 "ski poles","escape_from_the_zoo",0,0
 "ski poles","flowerman",0,0
 "ski poles","journey",0,0
@@ -10423,7 +10039,6 @@
 "skipping rope","campsite",0,0
 "skipping rope","deep_sea_divers",0,0
 "skipping rope","dinosaurs_spacemen_and_ghouls",0,0
-"skipping rope","dinosours_spacemen_and_ghouls",0,0
 "skipping rope","escape_from_the_zoo",0,0
 "skipping rope","exhibit_12",0,0
 "skipping rope","flowerman",0,0
@@ -10450,7 +10065,6 @@
 "slushie machine","campsite",0,0
 "slushie machine","deep_sea_divers",0,0
 "slushie machine","dinosaurs_spacemen_and_ghouls",0,0
-"slushie machine","dinosours_spacemen_and_ghouls",0,0
 "slushie machine","escape_from_the_zoo",0,0
 "slushie machine","exhibit_12",0,0
 "slushie machine","flowerman",0,0
@@ -10477,7 +10091,6 @@
 "small saucepan","campsite",0,0
 "small saucepan","deep_sea_divers",0,0
 "small saucepan","dinosaurs_spacemen_and_ghouls",0,0
-"small saucepan","dinosours_spacemen_and_ghouls",0,0
 "small saucepan","escape_from_the_zoo",0,0
 "small saucepan","exhibit_12",0,0
 "small saucepan","flowerman",0,0
@@ -10504,7 +10117,6 @@
 "smoke detector","campsite",0,0
 "smoke detector","deep_sea_divers",0,0
 "smoke detector","dinosaurs_spacemen_and_ghouls",0,0
-"smoke detector","dinosours_spacemen_and_ghouls",0,0
 "smoke detector","escape_from_the_zoo",0,0
 "smoke detector","exhibit_12",0,0
 "smoke detector","flowerman",0,0
@@ -10531,7 +10143,6 @@
 "snow blower","campsite",0,0
 "snow blower","deep_sea_divers",0,0
 "snow blower","dinosaurs_spacemen_and_ghouls",0,0
-"snow blower","dinosours_spacemen_and_ghouls",0,0
 "snow blower","escape_from_the_zoo",0,0
 "snow blower","exhibit_12",0,0
 "snow blower","flowerman",0,0
@@ -10558,7 +10169,6 @@
 "snow peas","campsite",0,0
 "snow peas","deep_sea_divers",0,0
 "snow peas","dinosaurs_spacemen_and_ghouls",0,0
-"snow peas","dinosours_spacemen_and_ghouls",0,0
 "snow peas","escape_from_the_zoo",0,0
 "snow peas","exhibit_12",0,0
 "snow peas","flowerman",0,0
@@ -10585,7 +10195,6 @@
 "snow shovel","campsite",0,0
 "snow shovel","deep_sea_divers",0,0
 "snow shovel","dinosaurs_spacemen_and_ghouls",0,0
-"snow shovel","dinosours_spacemen_and_ghouls",0,0
 "snow shovel","escape_from_the_zoo",0,0
 "snow shovel","exhibit_12",0,0
 "snow shovel","flowerman",0,0
@@ -10612,7 +10221,6 @@
 "soap dispenser","campsite",0,0
 "soap dispenser","deep_sea_divers",0,0
 "soap dispenser","dinosaurs_spacemen_and_ghouls",0,0
-"soap dispenser","dinosours_spacemen_and_ghouls",0,0
 "soap dispenser","escape_from_the_zoo",0,0
 "soap dispenser","exhibit_12",0,0
 "soap dispenser","flowerman",0,0
@@ -10638,7 +10246,6 @@
 "soccer ball","campsite",0,0
 "soccer ball","deep_sea_divers",0,0
 "soccer ball","dinosaurs_spacemen_and_ghouls",0,0
-"soccer ball","dinosours_spacemen_and_ghouls",0,0
 "soccer ball","escape_from_the_zoo",0,0
 "soccer ball","flowerman",0,0
 "soccer ball","journey",0,0
@@ -10664,7 +10271,6 @@
 "soccer cleat","campsite",0,0
 "soccer cleat","deep_sea_divers",0,0
 "soccer cleat","dinosaurs_spacemen_and_ghouls",0,0
-"soccer cleat","dinosours_spacemen_and_ghouls",0,0
 "soccer cleat","escape_from_the_zoo",0,0
 "soccer cleat","exhibit_12",0,0
 "soccer cleat","flowerman",0,0
@@ -10691,7 +10297,6 @@
 "sound mixer","campsite",0,0
 "sound mixer","deep_sea_divers",0,0
 "sound mixer","dinosaurs_spacemen_and_ghouls",0,0
-"sound mixer","dinosours_spacemen_and_ghouls",0,0
 "sound mixer","escape_from_the_zoo",0,0
 "sound mixer","exhibit_12",0,0
 "sound mixer","flowerman",0,0
@@ -10718,7 +10323,6 @@
 "sperm whale","campsite",0,0
 "sperm whale","deep_sea_divers",0,0
 "sperm whale","dinosaurs_spacemen_and_ghouls",0,0
-"sperm whale","dinosours_spacemen_and_ghouls",0,0
 "sperm whale","escape_from_the_zoo",0,0
 "sperm whale","exhibit_12",0,0
 "sperm whale","flowerman",0,0
@@ -10745,7 +10349,6 @@
 "spice rack","campsite",0,0
 "spice rack","deep_sea_divers",0,0
 "spice rack","dinosaurs_spacemen_and_ghouls",0,0
-"spice rack","dinosours_spacemen_and_ghouls",0,0
 "spice rack","escape_from_the_zoo",0,0
 "spice rack","exhibit_12",0,0
 "spice rack","flowerman",0,0
@@ -10771,7 +10374,6 @@
 "spider web","campsite",0,0
 "spider web","deep_sea_divers",0,0
 "spider web","dinosaurs_spacemen_and_ghouls",0,0
-"spider web","dinosours_spacemen_and_ghouls",0,0
 "spider web","escape_from_the_zoo",0,0
 "spider web","exhibit_12",0,0
 "spider web","flowerman",0,0
@@ -10797,7 +10399,6 @@
 "spinning top","campsite",0,0
 "spinning top","deep_sea_divers",0,0
 "spinning top","dinosaurs_spacemen_and_ghouls",0,0
-"spinning top","dinosours_spacemen_and_ghouls",0,0
 "spinning top","escape_from_the_zoo",0,0
 "spinning top","flowerman",0,0
 "spinning top","journey",0,0
@@ -10823,7 +10424,6 @@
 "spray bottle","campsite",0,0
 "spray bottle","deep_sea_divers",0,0
 "spray bottle","dinosaurs_spacemen_and_ghouls",0,0
-"spray bottle","dinosours_spacemen_and_ghouls",0,0
 "spray bottle","escape_from_the_zoo",0,0
 "spray bottle","exhibit_12",0,0
 "spray bottle","flowerman",0,0
@@ -10850,7 +10450,6 @@
 "spray can","campsite",0,0
 "spray can","deep_sea_divers",0,0
 "spray can","dinosaurs_spacemen_and_ghouls",0,0
-"spray can","dinosours_spacemen_and_ghouls",0,0
 "spray can","escape_from_the_zoo",0,0
 "spray can","exhibit_12",0,0
 "spray can","flowerman",0,0
@@ -10877,7 +10476,6 @@
 "spring roll","campsite",0,0
 "spring roll","deep_sea_divers",0,0
 "spring roll","dinosaurs_spacemen_and_ghouls",0,0
-"spring roll","dinosours_spacemen_and_ghouls",0,0
 "spring roll","escape_from_the_zoo",0,0
 "spring roll","exhibit_12",0,0
 "spring roll","flowerman",0,0
@@ -10904,7 +10502,6 @@
 "staple gun","campsite",0,0
 "staple gun","deep_sea_divers",0,0
 "staple gun","dinosaurs_spacemen_and_ghouls",0,0
-"staple gun","dinosours_spacemen_and_ghouls",0,0
 "staple gun","escape_from_the_zoo",0,0
 "staple gun","exhibit_12",0,0
 "staple gun","flowerman",0,0
@@ -10931,7 +10528,6 @@
 "staple remover","campsite",0,0
 "staple remover","deep_sea_divers",0,0
 "staple remover","dinosaurs_spacemen_and_ghouls",0,0
-"staple remover","dinosours_spacemen_and_ghouls",0,0
 "staple remover","escape_from_the_zoo",0,0
 "staple remover","exhibit_12",0,0
 "staple remover","flowerman",0,0
@@ -10958,7 +10554,6 @@
 "steering wheel","campsite",0,0
 "steering wheel","deep_sea_divers",0,0
 "steering wheel","dinosaurs_spacemen_and_ghouls",0,0
-"steering wheel","dinosours_spacemen_and_ghouls",0,0
 "steering wheel","escape_from_the_zoo",0,0
 "steering wheel","exhibit_12",0,0
 "steering wheel","flowerman",0,0
@@ -10983,7 +10578,6 @@
 "styrofoam cup","campsite",0,0
 "styrofoam cup","deep_sea_divers",0,0
 "styrofoam cup","dinosaurs_spacemen_and_ghouls",0,0
-"styrofoam cup","dinosours_spacemen_and_ghouls",0,0
 "styrofoam cup","escape_from_the_zoo",0,0
 "styrofoam cup","exhibit_12",0,0
 "styrofoam cup","flowerman",0,0
@@ -11010,7 +10604,6 @@
 "sunflower seeds","campsite",0,0
 "sunflower seeds","deep_sea_divers",0,0
 "sunflower seeds","dinosaurs_spacemen_and_ghouls",0,0
-"sunflower seeds","dinosours_spacemen_and_ghouls",0,0
 "sunflower seeds","escape_from_the_zoo",0,0
 "sunflower seeds","exhibit_12",0,0
 "sunflower seeds","flowerman",0,0
@@ -11036,7 +10629,6 @@
 "sweet potato","campsite",0,0
 "sweet potato","deep_sea_divers",0,0
 "sweet potato","dinosaurs_spacemen_and_ghouls",0,0
-"sweet potato","dinosours_spacemen_and_ghouls",0,0
 "sweet potato","escape_from_the_zoo",0,0
 "sweet potato","exhibit_12",0,0
 "sweet potato","flowerman",0,0
@@ -11063,7 +10655,6 @@
 "tabasco sauce","campsite",0,0
 "tabasco sauce","deep_sea_divers",0,0
 "tabasco sauce","dinosaurs_spacemen_and_ghouls",0,0
-"tabasco sauce","dinosours_spacemen_and_ghouls",0,0
 "tabasco sauce","escape_from_the_zoo",0,0
 "tabasco sauce","exhibit_12",0,0
 "tabasco sauce","flowerman",0,0
@@ -11090,7 +10681,6 @@
 "table football","campsite",0,0
 "table football","deep_sea_divers",0,0
 "table football","dinosaurs_spacemen_and_ghouls",0,0
-"table football","dinosours_spacemen_and_ghouls",0,0
 "table football","escape_from_the_zoo",0,0
 "table football","exhibit_12",0,0
 "table football","flowerman",0,0
@@ -11117,7 +10707,6 @@
 "table saw","campsite",0,0
 "table saw","deep_sea_divers",0,0
 "table saw","dinosaurs_spacemen_and_ghouls",0,0
-"table saw","dinosours_spacemen_and_ghouls",0,0
 "table saw","escape_from_the_zoo",0,0
 "table saw","exhibit_12",0,0
 "table saw","flowerman",0,0
@@ -11144,7 +10733,6 @@
 "tail lights","campsite",0,0
 "tail lights","deep_sea_divers",0,0
 "tail lights","dinosaurs_spacemen_and_ghouls",0,0
-"tail lights","dinosours_spacemen_and_ghouls",0,0
 "tail lights","escape_from_the_zoo",0,0
 "tail lights","exhibit_12",0,0
 "tail lights","flowerman",0,0
@@ -11170,7 +10758,6 @@
 "tape measure","campsite",0,0
 "tape measure","deep_sea_divers",0,0
 "tape measure","dinosaurs_spacemen_and_ghouls",0,0
-"tape measure","dinosours_spacemen_and_ghouls",0,0
 "tape measure","escape_from_the_zoo",0,0
 "tape measure","exhibit_12",0,0
 "tape measure","flowerman",0,0
@@ -11197,7 +10784,6 @@
 "tape recorder","campsite",0,0
 "tape recorder","deep_sea_divers",0,0
 "tape recorder","dinosaurs_spacemen_and_ghouls",0,0
-"tape recorder","dinosours_spacemen_and_ghouls",0,0
 "tape recorder","escape_from_the_zoo",0,0
 "tape recorder","exhibit_12",0,0
 "tape recorder","flowerman",0,0
@@ -11224,7 +10810,6 @@
 "taxi sign","campsite",0,0
 "taxi sign","deep_sea_divers",0,0
 "taxi sign","dinosaurs_spacemen_and_ghouls",0,0
-"taxi sign","dinosours_spacemen_and_ghouls",0,0
 "taxi sign","escape_from_the_zoo",0,0
 "taxi sign","exhibit_12",0,0
 "taxi sign","flowerman",0,0
@@ -11250,7 +10835,6 @@
 "teddy bear","campsite",0,0
 "teddy bear","deep_sea_divers",0,0
 "teddy bear","dinosaurs_spacemen_and_ghouls",0,0
-"teddy bear","dinosours_spacemen_and_ghouls",0,0
 "teddy bear","escape_from_the_zoo",0,0
 "teddy bear","exhibit_12",0,0
 "teddy bear","flowerman",0,0
@@ -11276,7 +10860,6 @@
 "tennis ball","campsite",0,0
 "tennis ball","deep_sea_divers",0,0
 "tennis ball","dinosaurs_spacemen_and_ghouls",0,0
-"tennis ball","dinosours_spacemen_and_ghouls",0,0
 "tennis ball","escape_from_the_zoo",0,0
 "tennis ball","exhibit_12",0,0
 "tennis ball","flowerman",0,0
@@ -11303,7 +10886,6 @@
 "tennis racket","campsite",0,0
 "tennis racket","deep_sea_divers",0,0
 "tennis racket","dinosaurs_spacemen_and_ghouls",0,0
-"tennis racket","dinosours_spacemen_and_ghouls",0,0
 "tennis racket","escape_from_the_zoo",0,0
 "tennis racket","exhibit_12",0,0
 "tennis racket","flowerman",0,0
@@ -11330,7 +10912,6 @@
 "tie clip","campsite",0,0
 "tie clip","deep_sea_divers",0,0
 "tie clip","dinosaurs_spacemen_and_ghouls",0,0
-"tie clip","dinosours_spacemen_and_ghouls",0,0
 "tie clip","escape_from_the_zoo",0,0
 "tie clip","exhibit_12",0,0
 "tie clip","flowerman",0,0
@@ -11357,7 +10938,6 @@
 "toaster oven","campsite",0,0
 "toaster oven","deep_sea_divers",0,0
 "toaster oven","dinosaurs_spacemen_and_ghouls",0,0
-"toaster oven","dinosours_spacemen_and_ghouls",0,0
 "toaster oven","escape_from_the_zoo",0,0
 "toaster oven","exhibit_12",0,0
 "toaster oven","flowerman",0,0
@@ -11384,7 +10964,6 @@
 "toilet brush","campsite",0,0
 "toilet brush","deep_sea_divers",0,0
 "toilet brush","dinosaurs_spacemen_and_ghouls",0,0
-"toilet brush","dinosours_spacemen_and_ghouls",0,0
 "toilet brush","escape_from_the_zoo",0,0
 "toilet brush","exhibit_12",0,0
 "toilet brush","flowerman",0,0
@@ -11411,7 +10990,6 @@
 "toilet paper","campsite",0,0
 "toilet paper","deep_sea_divers",0,0
 "toilet paper","dinosaurs_spacemen_and_ghouls",0,0
-"toilet paper","dinosours_spacemen_and_ghouls",0,0
 "toilet paper","escape_from_the_zoo",0,0
 "toilet paper","exhibit_12",0,0
 "toilet paper","flowerman",0,0
@@ -11438,7 +11016,6 @@
 "tomato juice","campsite",0,0
 "tomato juice","deep_sea_divers",0,0
 "tomato juice","dinosaurs_spacemen_and_ghouls",0,0
-"tomato juice","dinosours_spacemen_and_ghouls",0,0
 "tomato juice","escape_from_the_zoo",0,0
 "tomato juice","exhibit_12",0,0
 "tomato juice","flowerman",0,0
@@ -11465,7 +11042,6 @@
 "tool belt","campsite",0,0
 "tool belt","deep_sea_divers",0,0
 "tool belt","dinosaurs_spacemen_and_ghouls",0,0
-"tool belt","dinosours_spacemen_and_ghouls",0,0
 "tool belt","escape_from_the_zoo",0,0
 "tool belt","exhibit_12",0,0
 "tool belt","flowerman",0,0
@@ -11492,7 +11068,6 @@
 "tortilla chip","campsite",0,0
 "tortilla chip","deep_sea_divers",0,0
 "tortilla chip","dinosaurs_spacemen_and_ghouls",0,0
-"tortilla chip","dinosours_spacemen_and_ghouls",0,0
 "tortilla chip","escape_from_the_zoo",0,0
 "tortilla chip","exhibit_12",0,0
 "tortilla chip","flowerman",0,0
@@ -11519,7 +11094,6 @@
 "totem pole","campsite",0,0
 "totem pole","deep_sea_divers",0,0
 "totem pole","dinosaurs_spacemen_and_ghouls",0,0
-"totem pole","dinosours_spacemen_and_ghouls",0,0
 "totem pole","escape_from_the_zoo",0,0
 "totem pole","exhibit_12",0,0
 "totem pole","flowerman",0,0
@@ -11546,7 +11120,6 @@
 "towel rack","campsite",0,0
 "towel rack","deep_sea_divers",0,0
 "towel rack","dinosaurs_spacemen_and_ghouls",0,0
-"towel rack","dinosours_spacemen_and_ghouls",0,0
 "towel rack","escape_from_the_zoo",0,0
 "towel rack","exhibit_12",0,0
 "towel rack","flowerman",0,0
@@ -11573,7 +11146,6 @@
 "toy cow","campsite",0,0
 "toy cow","deep_sea_divers",0,0
 "toy cow","dinosaurs_spacemen_and_ghouls",0,0
-"toy cow","dinosours_spacemen_and_ghouls",0,0
 "toy cow","escape_from_the_zoo",0,0
 "toy cow","exhibit_12",0,0
 "toy cow","flowerman",0,0
@@ -11600,7 +11172,6 @@
 "toy dinosaur","campsite",0,0
 "toy dinosaur","deep_sea_divers",0,0
 "toy dinosaur","dinosaurs_spacemen_and_ghouls",0,0
-"toy dinosaur","dinosours_spacemen_and_ghouls",0,0
 "toy dinosaur","escape_from_the_zoo",0,0
 "toy dinosaur","exhibit_12",0,0
 "toy dinosaur","flowerman",0,0
@@ -11627,7 +11198,6 @@
 "toy horse","campsite",0,0
 "toy horse","deep_sea_divers",0,0
 "toy horse","dinosaurs_spacemen_and_ghouls",0,0
-"toy horse","dinosours_spacemen_and_ghouls",0,0
 "toy horse","escape_from_the_zoo",0,0
 "toy horse","exhibit_12",0,0
 "toy horse","flowerman",0,0
@@ -11654,7 +11224,6 @@
 "toy soldier","campsite",0,0
 "toy soldier","deep_sea_divers",0,0
 "toy soldier","dinosaurs_spacemen_and_ghouls",0,0
-"toy soldier","dinosours_spacemen_and_ghouls",0,0
 "toy soldier","escape_from_the_zoo",0,0
 "toy soldier","exhibit_12",0,0
 "toy soldier","flowerman",0,0
@@ -11681,7 +11250,6 @@
 "toy tank","campsite",0,0
 "toy tank","deep_sea_divers",0,0
 "toy tank","dinosaurs_spacemen_and_ghouls",0,0
-"toy tank","dinosours_spacemen_and_ghouls",0,0
 "toy tank","escape_from_the_zoo",0,0
 "toy tank","exhibit_12",0,0
 "toy tank","flowerman",0,0
@@ -11707,7 +11275,6 @@
 "toy truck","campsite",0,0
 "toy truck","deep_sea_divers",0,0
 "toy truck","dinosaurs_spacemen_and_ghouls",0,0
-"toy truck","dinosours_spacemen_and_ghouls",0,0
 "toy truck","escape_from_the_zoo",0,0
 "toy truck","exhibit_12",0,0
 "toy truck","flowerman",0,0
@@ -11734,7 +11301,6 @@
 "traffic light","campsite",0,0
 "traffic light","deep_sea_divers",0,0
 "traffic light","dinosaurs_spacemen_and_ghouls",0,0
-"traffic light","dinosours_spacemen_and_ghouls",0,0
 "traffic light","escape_from_the_zoo",0,0
 "traffic light","exhibit_12",0,0
 "traffic light","flowerman",0,0
@@ -11759,7 +11325,6 @@
 "trailer hitch","campsite",0,0
 "trailer hitch","deep_sea_divers",0,0
 "trailer hitch","dinosaurs_spacemen_and_ghouls",0,0
-"trailer hitch","dinosours_spacemen_and_ghouls",0,0
 "trailer hitch","escape_from_the_zoo",0,0
 "trailer hitch","exhibit_12",0,0
 "trailer hitch","flowerman",0,0
@@ -11784,7 +11349,6 @@
 "trash can","birthday_party_fun",0,0
 "trash can","campsite",0,0
 "trash can","deep_sea_divers",0,0
-"trash can","dinosours_spacemen_and_ghouls",0,0
 "trash can","exhibit_12",0,0
 "trash can","make_a_splash",0,0
 "trash can","picture_this",0,0
@@ -11806,7 +11370,6 @@
 "tree stump","campsite",0,0
 "tree stump","deep_sea_divers",0,0
 "tree stump","dinosaurs_spacemen_and_ghouls",0,0
-"tree stump","dinosours_spacemen_and_ghouls",0,0
 "tree stump","escape_from_the_zoo",0,0
 "tree stump","exhibit_12",0,0
 "tree stump","flowerman",0,0
@@ -11833,7 +11396,6 @@
 "tree trunk","campsite",0,0
 "tree trunk","deep_sea_divers",0,0
 "tree trunk","dinosaurs_spacemen_and_ghouls",0,0
-"tree trunk","dinosours_spacemen_and_ghouls",0,0
 "tree trunk","escape_from_the_zoo",0,0
 "tree trunk","exhibit_12",0,0
 "tree trunk","flowerman",0,0
@@ -11856,7 +11418,6 @@
 "trojan horse","campsite",0,0
 "trojan horse","deep_sea_divers",0,0
 "trojan horse","dinosaurs_spacemen_and_ghouls",0,0
-"trojan horse","dinosours_spacemen_and_ghouls",0,0
 "trojan horse","escape_from_the_zoo",0,0
 "trojan horse","exhibit_12",0,0
 "trojan horse","flowerman",0,0
@@ -11881,7 +11442,6 @@
 "usb cable","campsite",0,0
 "usb cable","deep_sea_divers",0,0
 "usb cable","dinosaurs_spacemen_and_ghouls",0,0
-"usb cable","dinosours_spacemen_and_ghouls",0,0
 "usb cable","escape_from_the_zoo",0,0
 "usb cable","exhibit_12",0,0
 "usb cable","flowerman",0,0
@@ -11908,7 +11468,6 @@
 "usb key","campsite",0,0
 "usb key","deep_sea_divers",0,0
 "usb key","dinosaurs_spacemen_and_ghouls",0,0
-"usb key","dinosours_spacemen_and_ghouls",0,0
 "usb key","escape_from_the_zoo",0,0
 "usb key","exhibit_12",0,0
 "usb key","flowerman",0,0
@@ -11935,7 +11494,6 @@
 "vhs tape","campsite",0,0
 "vhs tape","deep_sea_divers",0,0
 "vhs tape","dinosaurs_spacemen_and_ghouls",0,0
-"vhs tape","dinosours_spacemen_and_ghouls",0,0
 "vhs tape","escape_from_the_zoo",0,0
 "vhs tape","exhibit_12",0,0
 "vhs tape","flowerman",0,0
@@ -11961,7 +11519,6 @@
 "video camera","by_the_lake",0,0
 "video camera","campsite",0,0
 "video camera","deep_sea_divers",0,0
-"video camera","dinosours_spacemen_and_ghouls",0,0
 "video camera","escape_from_the_zoo",0,0
 "video camera","exhibit_12",0,0
 "video camera","flowerman",0,0
@@ -11988,7 +11545,6 @@
 "vise grip","campsite",0,0
 "vise grip","deep_sea_divers",0,0
 "vise grip","dinosaurs_spacemen_and_ghouls",0,0
-"vise grip","dinosours_spacemen_and_ghouls",0,0
 "vise grip","escape_from_the_zoo",0,0
 "vise grip","exhibit_12",0,0
 "vise grip","flowerman",0,0
@@ -12015,7 +11571,6 @@
 "waffle maker","campsite",0,0
 "waffle maker","deep_sea_divers",0,0
 "waffle maker","dinosaurs_spacemen_and_ghouls",0,0
-"waffle maker","dinosours_spacemen_and_ghouls",0,0
 "waffle maker","escape_from_the_zoo",0,0
 "waffle maker","exhibit_12",0,0
 "waffle maker","flowerman",0,0
@@ -12042,7 +11597,6 @@
 "walkie talkie","campsite",0,0
 "walkie talkie","deep_sea_divers",0,0
 "walkie talkie","dinosaurs_spacemen_and_ghouls",0,0
-"walkie talkie","dinosours_spacemen_and_ghouls",0,0
 "walkie talkie","escape_from_the_zoo",0,0
 "walkie talkie","exhibit_12",0,0
 "walkie talkie","flowerman",0,0
@@ -12069,7 +11623,6 @@
 "washing machine","campsite",0,0
 "washing machine","deep_sea_divers",0,0
 "washing machine","dinosaurs_spacemen_and_ghouls",0,0
-"washing machine","dinosours_spacemen_and_ghouls",0,0
 "washing machine","escape_from_the_zoo",0,0
 "washing machine","exhibit_12",0,0
 "washing machine","flowerman",0,0
@@ -12096,7 +11649,6 @@
 "water bottle","campsite",0,0
 "water bottle","deep_sea_divers",0,0
 "water bottle","dinosaurs_spacemen_and_ghouls",0,0
-"water bottle","dinosours_spacemen_and_ghouls",0,0
 "water bottle","escape_from_the_zoo",0,0
 "water bottle","exhibit_12",0,0
 "water bottle","flowerman",0,0
@@ -12123,7 +11675,6 @@
 "water bottle holder","campsite",0,0
 "water bottle holder","deep_sea_divers",0,0
 "water bottle holder","dinosaurs_spacemen_and_ghouls",0,0
-"water bottle holder","dinosours_spacemen_and_ghouls",0,0
 "water bottle holder","escape_from_the_zoo",0,0
 "water bottle holder","exhibit_12",0,0
 "water bottle holder","flowerman",0,0
@@ -12150,7 +11701,6 @@
 "water cooler","campsite",0,0
 "water cooler","deep_sea_divers",0,0
 "water cooler","dinosaurs_spacemen_and_ghouls",0,0
-"water cooler","dinosours_spacemen_and_ghouls",0,0
 "water cooler","escape_from_the_zoo",0,0
 "water cooler","exhibit_12",0,0
 "water cooler","flowerman",0,0
@@ -12177,7 +11727,6 @@
 "water fountain","campsite",0,0
 "water fountain","deep_sea_divers",0,0
 "water fountain","dinosaurs_spacemen_and_ghouls",0,0
-"water fountain","dinosours_spacemen_and_ghouls",0,0
 "water fountain","escape_from_the_zoo",0,0
 "water fountain","exhibit_12",0,0
 "water fountain","return",0,0
@@ -12198,7 +11747,6 @@
 "water heater","campsite",0,0
 "water heater","deep_sea_divers",0,0
 "water heater","dinosaurs_spacemen_and_ghouls",0,0
-"water heater","dinosours_spacemen_and_ghouls",0,0
 "water heater","escape_from_the_zoo",0,0
 "water heater","exhibit_12",0,0
 "water heater","flowerman",0,0
@@ -12223,7 +11771,6 @@
 "water valve","campsite",0,0
 "water valve","deep_sea_divers",0,0
 "water valve","dinosaurs_spacemen_and_ghouls",0,0
-"water valve","dinosours_spacemen_and_ghouls",0,0
 "water valve","escape_from_the_zoo",0,0
 "water valve","exhibit_12",0,0
 "water valve","flowerman",0,0
@@ -12250,7 +11797,6 @@
 "watering can","campsite",0,0
 "watering can","deep_sea_divers",0,0
 "watering can","dinosaurs_spacemen_and_ghouls",0,0
-"watering can","dinosours_spacemen_and_ghouls",0,0
 "watering can","escape_from_the_zoo",0,0
 "watering can","exhibit_12",0,0
 "watering can","flowerman",0,0
@@ -12277,7 +11823,6 @@
 "weather vane","campsite",0,0
 "weather vane","deep_sea_divers",0,0
 "weather vane","dinosaurs_spacemen_and_ghouls",0,0
-"weather vane","dinosours_spacemen_and_ghouls",0,0
 "weather vane","escape_from_the_zoo",0,0
 "weather vane","exhibit_12",0,0
 "weather vane","flowerman",0,0
@@ -12303,7 +11848,6 @@
 "wedding cake","campsite",0,0
 "wedding cake","deep_sea_divers",0,0
 "wedding cake","dinosaurs_spacemen_and_ghouls",0,0
-"wedding cake","dinosours_spacemen_and_ghouls",0,0
 "wedding cake","escape_from_the_zoo",0,0
 "wedding cake","exhibit_12",0,0
 "wedding cake","flowerman",0,0
@@ -12330,7 +11874,6 @@
 "weed whacker","campsite",0,0
 "weed whacker","deep_sea_divers",0,0
 "weed whacker","dinosaurs_spacemen_and_ghouls",0,0
-"weed whacker","dinosours_spacemen_and_ghouls",0,0
 "weed whacker","escape_from_the_zoo",0,0
 "weed whacker","exhibit_12",0,0
 "weed whacker","flowerman",0,0
@@ -12357,7 +11900,6 @@
 "wet floor sign","campsite",0,0
 "wet floor sign","deep_sea_divers",0,0
 "wet floor sign","dinosaurs_spacemen_and_ghouls",0,0
-"wet floor sign","dinosours_spacemen_and_ghouls",0,0
 "wet floor sign","escape_from_the_zoo",0,0
 "wet floor sign","exhibit_12",0,0
 "wet floor sign","flowerman",0,0
@@ -12384,7 +11926,6 @@
 "wii controller","campsite",0,0
 "wii controller","deep_sea_divers",0,0
 "wii controller","dinosaurs_spacemen_and_ghouls",0,0
-"wii controller","dinosours_spacemen_and_ghouls",0,0
 "wii controller","escape_from_the_zoo",0,0
 "wii controller","exhibit_12",0,0
 "wii controller","flowerman",0,0
@@ -12411,7 +11952,6 @@
 "wind surfboard","campsite",0,0
 "wind surfboard","deep_sea_divers",0,0
 "wind surfboard","dinosaurs_spacemen_and_ghouls",0,0
-"wind surfboard","dinosours_spacemen_and_ghouls",0,0
 "wind surfboard","escape_from_the_zoo",0,0
 "wind surfboard","exhibit_12",0,0
 "wind surfboard","flowerman",0,0
@@ -12438,7 +11978,6 @@
 "windshield washer fluid","campsite",0,0
 "windshield washer fluid","deep_sea_divers",0,0
 "windshield washer fluid","dinosaurs_spacemen_and_ghouls",0,0
-"windshield washer fluid","dinosours_spacemen_and_ghouls",0,0
 "windshield washer fluid","escape_from_the_zoo",0,0
 "windshield washer fluid","exhibit_12",0,0
 "windshield washer fluid","flowerman",0,0
@@ -12465,7 +12004,6 @@
 "windshield wiper","campsite",0,0
 "windshield wiper","deep_sea_divers",0,0
 "windshield wiper","dinosaurs_spacemen_and_ghouls",0,0
-"windshield wiper","dinosours_spacemen_and_ghouls",0,0
 "windshield wiper","escape_from_the_zoo",0,0
 "windshield wiper","exhibit_12",0,0
 "windshield wiper","flowerman",0,0
@@ -12492,7 +12030,6 @@
 "wine bottle","campsite",0,0
 "wine bottle","deep_sea_divers",0,0
 "wine bottle","dinosaurs_spacemen_and_ghouls",0,0
-"wine bottle","dinosours_spacemen_and_ghouls",0,0
 "wine bottle","escape_from_the_zoo",0,0
 "wine bottle","exhibit_12",0,0
 "wine bottle","flowerman",0,0
@@ -12518,7 +12055,6 @@
 "wine glass","campsite",0,0
 "wine glass","deep_sea_divers",0,0
 "wine glass","dinosaurs_spacemen_and_ghouls",0,0
-"wine glass","dinosours_spacemen_and_ghouls",0,0
 "wine glass","escape_from_the_zoo",0,0
 "wine glass","exhibit_12",0,0
 "wine glass","flowerman",0,0
@@ -12545,7 +12081,6 @@
 "wine rack","campsite",0,0
 "wine rack","deep_sea_divers",0,0
 "wine rack","dinosaurs_spacemen_and_ghouls",0,0
-"wine rack","dinosours_spacemen_and_ghouls",0,0
 "wine rack","escape_from_the_zoo",0,0
 "wine rack","exhibit_12",0,0
 "wine rack","flowerman",0,0
@@ -12572,7 +12107,6 @@
 "winnie the pooh","campsite",0,0
 "winnie the pooh","deep_sea_divers",0,0
 "winnie the pooh","dinosaurs_spacemen_and_ghouls",0,0
-"winnie the pooh","dinosours_spacemen_and_ghouls",0,0
 "winnie the pooh","escape_from_the_zoo",0,0
 "winnie the pooh","exhibit_12",0,0
 "winnie the pooh","flowerman",0,0
@@ -12599,7 +12133,6 @@
 "witch hat","campsite",0,0
 "witch hat","deep_sea_divers",0,0
 "witch hat","dinosaurs_spacemen_and_ghouls",0,0
-"witch hat","dinosours_spacemen_and_ghouls",0,0
 "witch hat","escape_from_the_zoo",0,0
 "witch hat","exhibit_12",0,0
 "witch hat","flowerman",0,0
@@ -12625,7 +12158,6 @@
 "womens bathroom sign","campsite",0,0
 "womens bathroom sign","deep_sea_divers",0,0
 "womens bathroom sign","dinosaurs_spacemen_and_ghouls",0,0
-"womens bathroom sign","dinosours_spacemen_and_ghouls",0,0
 "womens bathroom sign","escape_from_the_zoo",0,0
 "womens bathroom sign","exhibit_12",0,0
 "womens bathroom sign","flowerman",0,0
@@ -12652,7 +12184,6 @@
 "wooden shoe","campsite",0,0
 "wooden shoe","deep_sea_divers",0,0
 "wooden shoe","dinosaurs_spacemen_and_ghouls",0,0
-"wooden shoe","dinosours_spacemen_and_ghouls",0,0
 "wooden shoe","escape_from_the_zoo",0,0
 "wooden shoe","exhibit_12",0,0
 "wooden shoe","flowerman",0,0
@@ -12677,7 +12208,6 @@
 "wooden spoon","by_the_lake",0,0
 "wooden spoon","campsite",0,0
 "wooden spoon","deep_sea_divers",0,0
-"wooden spoon","dinosours_spacemen_and_ghouls",0,0
 "wooden spoon","escape_from_the_zoo",0,0
 "wooden spoon","exhibit_12",0,0
 "wooden spoon","flowerman",0,0
@@ -12704,7 +12234,6 @@
 "wooden spoons","campsite",0,0
 "wooden spoons","deep_sea_divers",0,0
 "wooden spoons","dinosaurs_spacemen_and_ghouls",0,0
-"wooden spoons","dinosours_spacemen_and_ghouls",0,0
 "wooden spoons","escape_from_the_zoo",0,0
 "wooden spoons","exhibit_12",0,0
 "wooden spoons","flowerman",0,0
@@ -12731,7 +12260,6 @@
 "world map","campsite",0,0
 "world map","deep_sea_divers",0,0
 "world map","dinosaurs_spacemen_and_ghouls",0,0
-"world map","dinosours_spacemen_and_ghouls",0,0
 "world map","escape_from_the_zoo",0,0
 "world map","exhibit_12",0,0
 "world map","flowerman",0,0

@@ -91,9 +91,11 @@ for(i in seq_along(files)){
 # add all the cleaned files together
 allNouns = bind_rows(nounList) |> 
   mutate(stimuli = str_replace_all(stimuli, "-", "_"),
-         stimuli = ifelse(stimuli == "dinasours_spacemen_and_ghouls",
-                          "dinosaurs_spacemen_and_ghouls", 
+         stimuli = ifelse(str_detect(stimuli,"ghouls"),
+                          "dinosaurs_spacemen_and_ghouls",
                           stimuli))
+
+length(unique(allNouns$stimuli))
 
 # save the result
  write.csv(allNouns, file = here("output", paste0(Sys.Date(), "_allNouns.csv")), row.names = FALSE)

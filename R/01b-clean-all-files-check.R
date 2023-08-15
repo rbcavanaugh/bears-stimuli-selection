@@ -92,8 +92,8 @@ allNouns = bind_rows(nounList)
 # add all the cleaned files together
 allNouns = bind_rows(nounList) |> 
   mutate(stimuli = str_replace_all(stimuli, "-", "_"),
-         stimuli = ifelse(stimuli == "dinasours_spacemen_and_ghouls",
-                          "dinosaurs_spacemen_and_ghouls", 
+         stimuli = ifelse(str_detect(stimuli,"ghouls"),
+                          "dinosaurs_spacemen_and_ghouls",
                           stimuli))
 
 allNouns |> count(stimuli) |> nrow() == 26

@@ -18,17 +18,17 @@ naming <- read_csv("data/naming-battery-items.csv") |>
 # this is a joined df where I hand chekced the fuzzy join in 01-new-approach
 # between discourse and naming
 
-fuzz_join = read.csv("data/found_in_discourse_exact.csv")  |> select(-X) |> 
-  mutate(lemma_dis = lemma)
-fuzz_join_fuzz = read.csv("data/found_in_discourse_fuzzy.csv") |> filter(match == 1) |> 
-  select(-X, -match, -dist) |> 
-  rename(lemma = lemma_naming)
-
-fuzz_join_all = bind_rows(fuzz_join, fuzz_join_fuzz)
-
-fuzz_join = fuzz_join_all |> 
+fuzz_join = read.csv(here("data", "found_in_discourse_exact.csv"))  |> select(-X) |> 
+  mutate(lemma_dis = lemma) |> 
   filter(percent >= 30, agreement >= 70) |> 
   select(source, lemma, stimuli, percent, lemma_dis)
+
+
+# fuzz_join_fuzz = read.csv("data/found_in_discourse_fuzzy.csv") |> filter(match == 1) |> 
+#   select(-X, -match, -dist) |> 
+#   rename(lemma = lemma_naming)
+#fuzz_join_all = bind_rows(fuzz_join, fuzz_join_fuzz)
+
 
 # total number of unique found words between naming and discourse
 fuzz_join |> 

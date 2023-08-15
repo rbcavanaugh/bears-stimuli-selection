@@ -60,8 +60,8 @@ for(i in seq_along(files)){
 # add all the cleaned files together
 all = bind_rows(nounList) |> 
   mutate(stimuli = str_replace_all(stimuli, "-", "_"),
-         stimuli = ifelse(stimuli == "dinasours_spacemen_and_ghouls",
-                          "dinosaurs_spacemen_and_ghouls", 
+         stimuli = ifelse(str_detect(stimuli,"ghouls"),
+                          "dinosaurs_spacemen_and_ghouls",
                           stimuli))
 
 search = expand_grid(all, spaces) |> 

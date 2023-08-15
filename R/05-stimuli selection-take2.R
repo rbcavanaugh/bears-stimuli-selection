@@ -25,10 +25,13 @@ select_stimuli <- function(participant_theta){
     # between discourse and naming
     
     fuzz_join = read.csv(here("data", "found_in_discourse_exact.csv"))  |> select(-X) |> 
-      mutate(lemma_dis = lemma)
-    fuzz_join_fuzz = read.csv(here("data", "found_in_discourse_fuzzy.csv")) |> filter(match == 1) |> 
-      select(-X, -match, -dist) |> 
-      rename(lemma = lemma_naming)
+      mutate(lemma_dis = lemma) |> 
+      filter(percent >= 30, agreement >= 70) |> 
+      select(source, lemma, stimuli, percent, lemma_dis)
+    
+    # total number of unique found words between naming and discourse
+    fuzz_join |> 
+      distinct(lemma)  |> nrow()
     
     # get the average time to produce of each stimuli for more balancing
     times <- read_csv(here("output", "2023-07-20_timestamp.csv")) |> 
@@ -52,15 +55,7 @@ select_stimuli <- function(participant_theta){
              #NPhon = readr::parse_number(NPhon),
              Age_Of_Acquisition = readr::parse_number(Age_Of_Acquisition))
     
-    fuzz_join_all = bind_rows(fuzz_join, fuzz_join_fuzz)
-    
-    fuzz_join = fuzz_join_all |> 
-      filter(percent >= 30, agreement >= 70) |> 
-      select(source, lemma, stimuli, percent, lemma_dis)
-    
-    # total number of unique found words between naming and discourse
-    fuzz_join |> 
-      distinct(lemma)  |> nrow()
+   
     
     
     
@@ -77,7 +72,7 @@ select_stimuli <- function(participant_theta){
       mutate(in_discourse = ifelse(is.na(stimuli), 0, 1)) |> 
       group_by(lemma_naming) |> 
       filter(agreement == max(agreement)) |> 
-      slice_sample(n = 1) |> 
+     # slice_sample(n = 1) |> 
       drop_na(difficulty) |> 
       ungroup()
     
