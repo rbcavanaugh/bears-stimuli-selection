@@ -9,15 +9,33 @@ library(anticlust) # use dev version!
 library(patchwork)
 
 
-select_stimuli <- function(participant_theta){
+select_stimuli <- function(participant_theta,
+                           min_naming_agreement = 70,
+                           min_discourse_salience = 30,
+                           target_prob_correct = 0.33,
+                           min_discourse_stimuli = 9,
+                           min_discourse_items = 54,
+                           seed = 42,
+                           participant_id = ""){
   
  # participant_theta = 0.5
+ # min_naming_agreement = 70
+ # min_discourse_salience = 30
+ # target_prob_correct = 0.333
+ # min_discourse_stimuli = 9
+ # min_discourse_items = 54
+ # seed = 42
+ # participant_id = ""
+  
+  
+  set.seed(seed)
+  
     #### reading in files ####
     # any dataframe that holds the word, the source, and the agreement scores...
     naming <- read_csv(here("data", "final_database_4-11-23.csv")) |> 
       select(lemma = modal, source, agreement, filename = `confirmed file name`) |> #, target = `confirmed file name`
       distinct() |> 
-      filter(agreement > 70) |> 
+      filter(agreement >= min_naming_agreement) |> 
       group_by(lemma) |> 
       mutate(source = paste(source, collapse = ", ")) |> 
       distinct()
@@ -34,7 +52,7 @@ select_stimuli <- function(participant_theta){
     fuzz_join = read_csv(here("data", "join_checked.csv")) |> 
       drop_na(match) |> 
       select(source:lemma_dis) |> 
-      filter(percent >= 30, agreement >= 70) |> 
+      filter(percent >= min_discourse_salience, agreement >= min_naming_agreement) |> 
       select(source, lemma=lemma_naming, stimuli, percent, lemma_dis) |> 
       distinct()
     
@@ -93,9 +111,10 @@ select_stimuli <- function(participant_theta){
     # some other important variables
     # how many discourse and naming items to select.  
     # the ideal probability of a correct response
-    n_discourse = 84
-    n_naming = 180-n_discourse
-    ideal_prob_correct = 0.333
+    # n_discourse = 84
+    # n_naming = 180-n_discourse
+    
+    ideal_prob_correct = target_prob_correct
     
     # function for calculating probility of correct response for a 1-PL model
     # given an ability (theta) and item difficulty (b)
@@ -136,10 +155,12 @@ select_stimuli <- function(participant_theta){
       left_join(times, by = "stimuli") |> 
       arrange(desc(n)) 
     
+    #number of discourse items
     nd = nrow(discourse_items)
+    #number of discourse stimuli
     ns = nrow(sl)
     
-    if(ns < 9 | nd < 84){
+    if(ns < min_discourse_stimuli | nd < min_discourse_items){
       return(
         list(
           dat = NA,
@@ -147,7 +168,13 @@ select_stimuli <- function(participant_theta){
           plot2 = NA,
           time = NA,
           error = TRUE,
-          error_detail = c(ns, nd, NA, NA)
+          error_detail = tribble(
+            ~variable, ~value,
+            "number of discourse stimuli", ns,
+            "number of discouse items", nd #,
+            #"number of total items" = length(initial_groupings),
+            #"lowest number of discourse items in a condition" = min_cat)
+          )
         )
       )
     }
@@ -156,7 +183,7 @@ select_stimuli <- function(participant_theta){
     if(any(is.na(sl$m_time))){stop("Error: NA in time value")}
     
     matched = matching(
-      sl[,4:5],
+      sl[,3:4],
       p = 3, 
     )
     
@@ -216,7 +243,7 @@ select_stimuli <- function(participant_theta){
     min_cat = min(discourse_items |> count(condition) |> pull(n))
     total_discourse_items = nrow(discourse_items)
     
-    if(min_cat < 18 | total_discourse_items <54){
+    if(min_cat < min_discourse_items/3 | total_discourse_items < min_discourse_items){
       return(
         list(
           dat = NA,
@@ -224,10 +251,22 @@ select_stimuli <- function(participant_theta){
           plot2 = NA,
           time = NA,
           error = TRUE,
-          error_detail = c(ns, nd, NA, min_cat, total_discourse_items)
+          error_detail = tribble(
+              ~variable, ~value,
+              "number of discourse stimuli", ns,
+              "number of discouse items", nd,
+              #"number of total items" = length(initial_groupings),
+              "lowest number of discourse items in a condition", min_cat)
         )
       )
     }
+    
+    count(discourse_items, condition)
+    
+    discourse_items = discourse_items |> 
+      group_by(condition) |> 
+      slice_min(order_by = p_correct, n = min_cat) |> 
+      ungroup()
     
     matching(
       discourse_items[,3:5],
@@ -259,10 +298,17 @@ select_stimuli <- function(participant_theta){
     
     N_naming = 180-nrow(discourse_items)
     
+    if(mean(discourse_items$p_correct)<0.5){
+      ideal_prob_correct = ideal_prob_correct
+    } else {
+      ideal_prob_correct = ideal_prob_correct/2
+    }
+    
     additional_items = remaining_db |> 
       mutate(p_correct = p_cor(theta, difficulty),
-             closest = abs(0.333 - p_correct)) |> 
+             closest = abs(ideal_prob_correct - p_correct)) |> 
       filter(p_correct < 0.75) |> 
+      distinct(lemma_naming, agreement, difficulty, filename, in_discourse, p_correct, closest) |> 
       arrange(closest) |> 
       head(N_naming)
     
@@ -290,7 +336,12 @@ select_stimuli <- function(participant_theta){
           plot2 = NA,
           time = NA,
           error = TRUE,
-          error_detail = c(ns, nd, length(initial_groupings), min_cat, total_discourse_items)
+          error_detail = tribble(
+            ~variable, ~value,
+            "number of discourse stimuli", ns,
+            "number of discouse items", nd,
+            "number of total items", length(initial_groupings),
+            "lowest number of discourse items in a condition", min_cat)
         )
       )
     }
@@ -351,159 +402,30 @@ select_stimuli <- function(participant_theta){
         discourse_stimuli = as.factor(discourse_stimuli),
         condition = as.factor(condition),
         tx = as.factor(tx),
+        participant_id = participant_id,
+        min_naming_agreement = min_naming_agreement,
+        min_discourse_salience = min_discourse_salience,
+        target_prob_correct = target_prob_correct,
+        min_discourse_stimuli = min_discourse_stimuli,
+        min_discourse_items = min_discourse_items,
+        seed = seed
       )
     
-    # dataframe for plot
-    check_stats = df_final |>
-      mutate(condition = as.factor(condition),
-             tx = as.factor(ifelse(tx == 1, "tx", "control")),
-             in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
-      group_by(condition, tx, in_discourse) |> 
-      summarize(
-        item_difficulty__mean = mean(item_difficulty),
-        core_lex_percent__mean = mean(core_lex_percent, na.rm = TRUE),
-        agreement__mean = mean(agreement),
-        item_difficulty__sd = sd(item_difficulty),
-        core_lex_percent__sd = sd(core_lex_percent, na.rm = TRUE),
-        agreement__sd = sd(agreement)
-      ) 
-    
-    check_stats_overall = df_final |>
-      mutate(condition = as.factor(condition),
-             tx = as.factor(ifelse(tx == 1, "tx", "control")),
-             in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
-      group_by(condition, tx) |> 
-      summarize(
-        item_difficulty__mean = mean(item_difficulty),
-        core_lex_percent__mean = mean(core_lex_percent, na.rm = TRUE),
-        agreement__mean = mean(agreement),
-        item_difficulty__sd = sd(item_difficulty),
-        core_lex_percent__sd = sd(core_lex_percent, na.rm = TRUE),
-        agreement__sd = sd(agreement)
-      ) 
-    
-    check_stats
+
+    # dataframes for plot
+    # by discourse vs not
+    check_stats = get_check_stats(df_final)
+    # overall
+    check_stats_overall = get_check_stats_overall(df_final)
     check_stats_overall$in_discourse = "Overall"
-    
-    # visualize checks
-    check_stats |> 
-      bind_rows(check_stats_overall) |> 
-      pivot_longer(cols = 4:9) |> 
-      separate(name, into = c("parameter", "metric"), sep = "__") |> 
-      pivot_wider(names_from = "metric", values_from = "value") |> 
-      mutate(lb = mean-sd, ub = mean+sd) |> 
-      filter(parameter == "item_difficulty") |> 
-      ggplot(aes(x = tx, y = mean, fill = condition)) +
-      facet_wrap(~in_discourse) +
-      geom_col(position = "dodge") +
-      geom_point(position = position_dodge(1)) + 
-      geom_errorbar(aes(ymin = lb, ymax = ub), position = position_dodge(1), width = 0.5) +
-      labs(y = "ITEM DIFFICULTY",
-           x = "Control (n = 20) vs. Tx Items (n = 40)",
-           fill = "Condition",
-           caption = "Error bars represent standard deviation") +
-      scale_y_continuous(limits = c(-2, 2)) -> id
-    
-    check_stats |> 
-      bind_rows(check_stats_overall) |> 
-      pivot_longer(cols = 4:9) |> 
-      separate(name, into = c("parameter", "metric"), sep = "__") |> 
-      pivot_wider(names_from = "metric", values_from = "value") |> 
-      mutate(lb = mean-sd, ub = mean+sd) |> 
-      filter(parameter == "core_lex_percent") |> 
-      ggplot(aes(x = tx, y = mean, fill = condition)) +
-      facet_wrap(~in_discourse) +
-      geom_col(position = "dodge") +
-      geom_point(position = position_dodge(1)) + 
-      geom_errorbar(aes(ymin = lb, ymax = ub), position = position_dodge(1), width = 0.5) +
-      labs(y = "CORE LEXICON PERCENT",
-           x = "Control (n = 20) vs. Tx Items (n = 40)",
-           fill = "Condition",
-           caption = "Error bars represent standard deviation") +
-      scale_y_continuous(limits = c(0, 100)) -> clp
-    
-    check_stats |> 
-      bind_rows(check_stats_overall) |> 
-      pivot_longer(cols = 4:9) |> 
-      separate(name, into = c("parameter", "metric"), sep = "__") |> 
-      pivot_wider(names_from = "metric", values_from = "value") |> 
-      mutate(lb = mean-sd, ub = mean+sd) |> 
-      filter(parameter == "agreement") |> 
-      ggplot(aes(x = tx, y = mean, fill = condition)) +
-      facet_wrap(~in_discourse) +
-      geom_col(position = "dodge") +
-      geom_point(position = position_dodge(1)) + 
-      geom_errorbar(aes(ymin = lb, ymax = ub), position = position_dodge(1), width = 0.5) +
-      labs(y = "NAME AGREEMENT",
-           x = "Control (n = 20) vs. Tx Items (n = 40)",
-           fill = "Condition",
-           caption = "Error bars represent standard deviation") +
-      scale_y_continuous(limits = c(0, 100)) -> a
-    
-   p_mean_sd = id / a / clp
-    
-    df_final |>
-      mutate(condition = as.factor(condition),
-             tx = as.factor(ifelse(tx == 1, "tx", "control")),
-             in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
-      bind_rows(
-        df_final |>
-          mutate(condition = as.factor(condition),
-                 tx = as.factor(ifelse(tx == 1, "tx", "control")),
-                 in_discourse = "overall") 
-      ) |> 
-      ggplot(aes(x = tx, y = item_difficulty, fill = condition)) +
-      facet_wrap(~in_discourse) +
-      geom_boxplot() +
-      scale_y_continuous(limits = c(-2, 2)) -> id2
-    
-    df_final |>
-      mutate(condition = as.factor(condition),
-             tx = as.factor(ifelse(tx == 1, "tx", "control")),
-             in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
-      bind_rows(
-        df_final |>
-          mutate(condition = as.factor(condition),
-                 tx = as.factor(ifelse(tx == 1, "tx", "control")),
-                 in_discourse = "overall") 
-      ) |> 
-      ggplot(aes(x = tx, y = agreement, fill = condition)) +
-      facet_wrap(~in_discourse) +
-      geom_boxplot() + 
-      scale_y_continuous(limits = c(0, 100))  -> a2
-    
-    df_final |>
-      mutate(condition = as.factor(condition),
-             tx = as.factor(ifelse(tx == 1, "tx", "control")),
-             in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
-      bind_rows(
-        df_final |>
-          mutate(condition = as.factor(condition),
-                 tx = as.factor(ifelse(tx == 1, "tx", "control")),
-                 in_discourse = "overall") 
-      ) |> 
-      ggplot(aes(x = tx, y = core_lex_percent, fill = condition)) +
-      facet_wrap(~in_discourse) +
-      geom_boxplot() +
-      scale_y_continuous(limits = c(0, 100)) -> clp2
-    
-    p_box = id2 / a2 / clp2
-    
-    
-    time_dat = discourse_items |> 
-      add_count(condition) |> 
-      group_by(stimuli) |> 
-      mutate(mean_p_correct = mean(p_correct)) |> 
-      ungroup() |> 
-      distinct(stimuli, nn, m_time, sd_time, mean_p_correct, condition) |> 
-      add_count(condition, name = "n_discourse_tasks") |> 
-      summarize(mean_time = sum(m_time),
-                sd_time = sum(sd_time),
-                n_discourse_words = mean(nn),
-                n_discourse_tasks = mean(n_discourse_tasks),
-                mean_prob_correct = mean(mean_p_correct), .by = condition) 
-    
-    
+  
+    # get plots for tabs 1 and 2
+    p_mean_sd = get_p1(check_stats, check_stats_overall)
+    p_box     = get_p2(df_final)
+
+    # get table for time dat
+    time_dat = get_time_dat(discourse_items)
+
     return(
       list(
         dat = df_final,
