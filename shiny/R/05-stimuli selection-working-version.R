@@ -27,7 +27,11 @@ select_stimuli <- function(participant_theta,
  # seed = 42
  # participant_id = ""
   
-  
+  if(min_discourse_stimuli == 0){
+    naming_only = 1
+  } else {
+    naming_only = 0
+  }
   set.seed(seed)
   
     #### reading in files ####
@@ -123,205 +127,228 @@ select_stimuli <- function(participant_theta,
     }
     p_cor = Vectorize(p_cor) # vectorized
     
-    big_stim = c("wanderer", "quest", "journey", "flowerman")
-    # get the closest discourse items to p(correct) = 0.33
-    discourse_items = discourse_db |> ungroup() |> 
-      mutate(p_correct = p_cor(theta, difficulty),
-             closest = abs(ideal_prob_correct - p_correct),
-             stimuli = as.factor(stimuli)) |> 
-      arrange(closest) |> 
-      filter(p_correct < 0.75) |> 
-      add_count(stimuli) |> 
-      filter(n>2) |> 
-      # add_count(lemma_naming, name = "n_lemma") |>
-      # mutate(n2 = ifelse(!(stimuli %in% big_stim), n,
-      #                    ifelse(n_lemma == 1, n, NA))) |>
-      # mutate(n3 = ifelse(all(is.na(n2)), 1, 0), .by = lemma_naming) |>
-      # mutate(n2 = ifelse(n3 == 1, n, n2)) |>
-      #  group_by(lemma_naming) |>
-      # filter(n2 == max(n2, na.rm = TRUE)) |>
-      group_by(lemma_naming) |>
-      filter(n == max(n)) |>
-      ungroup()
     
-    discourse_items |> count(stimuli, sort = TRUE) -> test
-        
+  if(naming_only != 1){
     
-    sl = discourse_items |> 
-      summarize(#m_a = mean(agreement, na.rm = TRUE),
-        m_p = mean(percent, na.rm = TRUE),
-        m_d = mean(difficulty, na.rm = TRUE),
-        n = n(), .by = "stimuli") |> 
-      left_join(times, by = "stimuli") |> 
-      arrange(desc(n)) 
-    
-    #number of discourse items
-    nd = nrow(discourse_items)
-    #number of discourse stimuli
-    ns = nrow(sl)
-    
-    if(ns < min_discourse_stimuli | nd < min_discourse_items){
-      return(
-        list(
-          dat = NA,
-          plot1 = NA,
-          plot2 = NA,
-          time = NA,
-          error = TRUE,
-          error_detail = tribble(
-            ~variable, ~value,
-            "number of discourse stimuli", ns,
-            "number of discouse items", nd #,
-            #"number of total items" = length(initial_groupings),
-            #"lowest number of discourse items in a condition" = min_cat)
+          big_stim = c("wanderer", "quest", "journey", "flowerman")
+          # get the closest discourse items to p(correct) = 0.33
+          discourse_items = discourse_db |> ungroup() |> 
+            mutate(p_correct = p_cor(theta, difficulty),
+                   closest = abs(ideal_prob_correct - p_correct),
+                   stimuli = as.factor(stimuli)) |> 
+            arrange(closest) |> 
+            filter(p_correct < 0.75) |> 
+            add_count(stimuli) |> 
+            filter(n>2) |> 
+            # add_count(lemma_naming, name = "n_lemma") |>
+            # mutate(n2 = ifelse(!(stimuli %in% big_stim), n,
+            #                    ifelse(n_lemma == 1, n, NA))) |>
+            # mutate(n3 = ifelse(all(is.na(n2)), 1, 0), .by = lemma_naming) |>
+            # mutate(n2 = ifelse(n3 == 1, n, n2)) |>
+            #  group_by(lemma_naming) |>
+            # filter(n2 == max(n2, na.rm = TRUE)) |>
+            group_by(lemma_naming) |>
+            filter(n == max(n)) |>
+            ungroup()
+          
+          discourse_items |> count(stimuli, sort = TRUE) -> test
+              
+          
+          sl = discourse_items |> 
+            summarize(#m_a = mean(agreement, na.rm = TRUE),
+              m_p = mean(percent, na.rm = TRUE),
+              m_d = mean(difficulty, na.rm = TRUE),
+              n = n(), .by = "stimuli") |> 
+            left_join(times, by = "stimuli") |> 
+            arrange(desc(n)) 
+          
+          #number of discourse items
+          nd = nrow(discourse_items)
+          #number of discourse stimuli
+          ns = nrow(sl)
+          
+          if(ns < min_discourse_stimuli | nd < min_discourse_items){
+            return(
+              list(
+                dat = NA,
+                plot1 = NA,
+                plot2 = NA,
+                time = NA,
+                error = TRUE,
+                error_detail = tribble(
+                  ~variable, ~value,
+                  "number of discourse stimuli", ns,
+                  "number of discouse items", nd #,
+                  #"number of total items" = length(initial_groupings),
+                  #"lowest number of discourse items in a condition" = min_cat)
+                )
+              )
+            )
+          }
+          
+          
+          if(any(is.na(sl$m_time))){stop("Error: NA in time value")}
+          
+          matched = matching(
+            sl[,3:4],
+            p = 3, 
           )
-        )
-      )
-    }
-    
-    
-    if(any(is.na(sl$m_time))){stop("Error: NA in time value")}
-    
-    matched = matching(
-      sl[,3:4],
-      p = 3, 
-    )
-    
-    sl$group = matched
-    
-    sl2 = sl |> 
-      mutate(rand = rnorm(n())) |> 
-      arrange(group, rand) |> 
-      mutate(condition = rep_len(seq(1, 3, 1), n())) |> 
-      mutate(condition = ifelse(is.na(group), NA, condition)) |> 
-      arrange(group, desc(n))
-    
-    sl_out = sl2 |> drop_na(group)
-    
-    sl_out |> count(condition, wt = n)
-    
-    
-    add_c <- count(sl_out, condition, wt = n) |> arrange(n) |> 
-       pull(condition)
-    
-    non_matched = sl2 |> filter(is.na(group)) |> arrange(desc(n)) 
-    
-    if(length(add_c) >= 1){ 
-      tmp = non_matched |> 
-        head(1) |> 
-        mutate(condition = add_c[1])
-      
-      sl_out = bind_rows(sl_out, tmp)
-      non_matched = tail(non_matched, -1)
-      print("adjusted 1")
-    }
-    
-    sl_out |> count(condition, wt = n)
-    
-    add_c <- count(sl_out, condition, wt = n) |> arrange(n) |> 
-      pull(condition)
-    
-    if(length(add_c) >= 1){ 
-      tmp = non_matched |> 
-        head(1) |> 
-        mutate(condition = add_c[1])
-      
-      sl_out = bind_rows(sl_out, tmp)
-      non_matched = tail(non_matched, -1)
-      print("adjusted 2")
-    }
-      
-    sl_out |> count(condition, wt = n)
-    
-    test = sl_out |> filter(n > 2) |> arrange(desc(n)) |> group_by(condition) |> mutate(nn = cumsum(n))
-    
-    
-    discourse_items = discourse_items |> 
-      inner_join(sl_out |> select(-n, -group), by = "stimuli") |> 
-      filter(!is.na(condition))
-    
-    min_cat = min(discourse_items |> count(condition) |> pull(n))
-    total_discourse_items = nrow(discourse_items)
-    
-    if(min_cat < min_discourse_items/3 | total_discourse_items < min_discourse_items){
-      return(
-        list(
-          dat = NA,
-          plot1 = NA,
-          plot2 = NA,
-          time = NA,
-          error = TRUE,
-          error_detail = tribble(
-              ~variable, ~value,
-              "number of discourse stimuli", ns,
-              "number of discouse items", nd,
-              #"number of total items" = length(initial_groupings),
-              "lowest number of discourse items in a condition", min_cat)
-        )
-      )
-    }
-    
-    count(discourse_items, condition)
-    
-    discourse_items = discourse_items |> 
-      group_by(condition) |> 
-      slice_min(order_by = p_correct, n = min_cat) |> 
-      ungroup()
-    
-    matching(
-      discourse_items[,3:5],
-      match_between = discourse_items$condition
-    ) -> m2
-    
-    discourse_items$m2 = m2
-    
-    tmp = discourse_items
-    
-    # m2 <= 40 here is the upper cap on discourse items per condition. 
-    discourse_items = discourse_items |> drop_na(m2) |> filter(m2 <= 40)
-    discourse_items_per_cat = max(discourse_items$m2)
-    discourse_items_total = nrow(discourse_items)
-    
-    discourse_items |> drop_na(m2) |> count(condition)
-    
-    
-    mean_sd_tab(discourse_items[, 3:5], discourse_items$condition, na.rm = TRUE)
-    
-    
-    # now pre-assign these to conditions, and pick the best words from them, 
-    # then pick the remaining naming items...?
-    
-    # get the closest remaining items to p(correct) = 0.33
-    remaining_db = discourse_db |> 
-      filter(!(lemma_naming %in% discourse_items$lemma_naming)) |> 
-      bind_rows(naming_db)
-    
-    N_naming = 180-nrow(discourse_items)
-    
-    if(mean(discourse_items$p_correct)<0.5){
-      ideal_prob_correct = ideal_prob_correct
-    } else {
-      ideal_prob_correct = ideal_prob_correct/2
-    }
-    
-    additional_items = remaining_db |> 
+          
+          sl$group = matched
+          
+          sl2 = sl |> 
+            mutate(rand = rnorm(n())) |> 
+            arrange(group, rand) |> 
+            mutate(condition = rep_len(seq(1, 3, 1), n())) |> 
+            mutate(condition = ifelse(is.na(group), NA, condition)) |> 
+            arrange(group, desc(n))
+          
+          sl_out = sl2 |> drop_na(group)
+          
+          sl_out |> count(condition, wt = n)
+          
+          
+          add_c <- count(sl_out, condition, wt = n) |> arrange(n) |> 
+             pull(condition)
+          
+          non_matched = sl2 |> filter(is.na(group)) |> arrange(desc(n)) 
+          
+          if(length(add_c) >= 1){ 
+            tmp = non_matched |> 
+              head(1) |> 
+              mutate(condition = add_c[1])
+            
+            sl_out = bind_rows(sl_out, tmp)
+            non_matched = tail(non_matched, -1)
+            print("adjusted 1")
+          }
+          
+          sl_out |> count(condition, wt = n)
+          
+          add_c <- count(sl_out, condition, wt = n) |> arrange(n) |> 
+            pull(condition)
+          
+          if(length(add_c) >= 1){ 
+            tmp = non_matched |> 
+              head(1) |> 
+              mutate(condition = add_c[1])
+            
+            sl_out = bind_rows(sl_out, tmp)
+            non_matched = tail(non_matched, -1)
+            print("adjusted 2")
+          }
+            
+          sl_out |> count(condition, wt = n)
+          
+          test = sl_out |> filter(n > 2) |> arrange(desc(n)) |> group_by(condition) |> mutate(nn = cumsum(n))
+          
+          
+          discourse_items = discourse_items |> 
+            inner_join(sl_out |> select(-n, -group), by = "stimuli") |> 
+            filter(!is.na(condition))
+          
+          min_cat = min(discourse_items |> count(condition) |> pull(n))
+          total_discourse_items = nrow(discourse_items)
+          
+          if(min_cat < min_discourse_items/3 | total_discourse_items < min_discourse_items){
+            return(
+              list(
+                dat = NA,
+                plot1 = NA,
+                plot2 = NA,
+                time = NA,
+                error = TRUE,
+                error_detail = tribble(
+                    ~variable, ~value,
+                    "number of discourse stimuli", ns,
+                    "number of discouse items", nd,
+                    #"number of total items" = length(initial_groupings),
+                    "lowest number of discourse items in a condition", min_cat)
+              )
+            )
+          }
+          
+          count(discourse_items, condition)
+          
+          discourse_items = discourse_items |> 
+            group_by(condition) |> 
+            slice_min(order_by = p_correct, n = min_cat) |> 
+            ungroup()
+          
+          matching(
+            discourse_items[,3:5],
+            match_between = discourse_items$condition
+          ) -> m2
+          
+          discourse_items$m2 = m2
+          
+          tmp = discourse_items
+          
+          # m2 <= 40 here is the upper cap on discourse items per condition. 
+          discourse_items = discourse_items |> drop_na(m2) |> filter(m2 <= 40)
+          discourse_items_per_cat = max(discourse_items$m2)
+          discourse_items_total = nrow(discourse_items)
+          
+          discourse_items |> drop_na(m2) |> count(condition)
+          
+          
+          mean_sd_tab(discourse_items[, 3:5], discourse_items$condition, na.rm = TRUE)
+          
+          
+          # now pre-assign these to conditions, and pick the best words from them, 
+          # then pick the remaining naming items...?
+          
+          # get the closest remaining items to p(correct) = 0.33
+          remaining_db = discourse_db |> 
+            filter(!(lemma_naming %in% discourse_items$lemma_naming)) |> 
+            bind_rows(naming_db)
+          
+          N_naming = 180-nrow(discourse_items)
+          
+          if(mean(discourse_items$p_correct)<0.5){
+            ideal_prob_correct = ideal_prob_correct
+          } else {
+            ideal_prob_correct = ideal_prob_correct/2
+          }
+          
+          additional_items = remaining_db |> 
+            mutate(p_correct = p_cor(theta, difficulty),
+                   closest = abs(ideal_prob_correct - p_correct)) |> 
+            filter(p_correct < 0.75) |> 
+            distinct(lemma_naming, agreement, difficulty, filename, in_discourse, p_correct, closest) |> 
+            arrange(closest) |> 
+            head(N_naming)
+          
+          
+          # join it all together so we can divide it up
+          dat = bind_rows(discourse_items, additional_items) |> 
+            select(word = lemma_naming,
+                   in_discourse,
+                   discourse_stimuli = stimuli,
+                   agreement, item_difficulty = difficulty, core_lex_percent = percent,
+                   condition, filename, p_correct) #, target
+          
+  } else {
+        
+    dat = cl |> 
       mutate(p_correct = p_cor(theta, difficulty),
              closest = abs(ideal_prob_correct - p_correct)) |> 
       filter(p_correct < 0.75) |> 
       distinct(lemma_naming, agreement, difficulty, filename, in_discourse, p_correct, closest) |> 
       arrange(closest) |> 
-      head(N_naming)
-    
-    
-    # join it all together so we can divide it up
-    dat = bind_rows(discourse_items, additional_items) |> 
+      head(180) |> 
+      mutate(stimuli = NA, in_discourse = NA, percent = NA, condition = NA) |> 
       select(word = lemma_naming,
              in_discourse,
              discourse_stimuli = stimuli,
              agreement, item_difficulty = difficulty, core_lex_percent = percent,
-             condition, filename, p_correct) #, target
+             condition, filename, p_correct)
     
+    discourse_items_total = 0
+    discourse_items = NULL
     
+    additional_items = tibble(a = rep(0, 180))
+      }
 
     sample_this = rep(c(1, 2, 3), length.out = 180-discourse_items_total)
 
@@ -364,7 +391,7 @@ select_stimuli <- function(participant_theta,
     
     # check quality of the solution:
     mean_sd_tab(dat[,4:6], dat$condition_all, na.rm = TRUE)
-    mean_sd_tab(dat |> drop_na(condition) |> select(4:6), dat |> drop_na(condition) |> pull(condition), na.rm = TRUE)
+    #mean_sd_tab(dat |> drop_na(condition) |> select(4:6), dat |> drop_na(condition) |> pull(condition), na.rm = TRUE)
     
     dat |> count(condition_all)
     
@@ -377,20 +404,38 @@ select_stimuli <- function(participant_theta,
     
     # for each one, repeat the process into treated and untreated
     dat_out = list()
-    for(i in 1:nrow(dat_nest)){
-      tmp = dat_nest$data[[i]]
-      gr <- anticlustering(
-        tmp[, c(4, 5, 10)], # use the variables directly
-        K = c(40, 20),
-        method = "local-maximum",
-        categories = tmp$in_discourse,
-        repetitions = 100,
-        objective = "kplus",
-        standardize = TRUE
-      )
-      tmp$tx = ifelse(gr == 1, 1, 0)
-      tmp$condition = dat_nest$condition_all[i]
-      dat_out[[i]] = tmp
+    if(naming_only != 1){
+        for(i in 1:nrow(dat_nest)){
+          tmp = dat_nest$data[[i]]
+          gr <- anticlustering(
+            tmp[, c(4, 5, 10)], # use the variables directly
+            K = c(40, 20),
+            method = "local-maximum",
+            categories = tmp$in_discourse,
+            repetitions = 100,
+            objective = "kplus",
+            standardize = TRUE
+          )
+          tmp$tx = ifelse(gr == 1, 1, 0)
+          tmp$condition = dat_nest$condition_all[i]
+          dat_out[[i]] = tmp
+        }
+    } else{
+      for(i in 1:nrow(dat_nest)){
+        tmp = dat_nest$data[[i]]
+        gr <- anticlustering(
+          tmp[, c(4, 5)], # use the variables directly
+          K = c(40, 20),
+          method = "local-maximum",
+          categories = tmp$in_discourse,
+          repetitions = 100,
+          objective = "kplus",
+          standardize = TRUE
+        )
+        tmp$tx = ifelse(gr == 1, 1, 0)
+        tmp$condition = dat_nest$condition_all[i]
+        dat_out[[i]] = tmp
+      }
     }
     
     # final dataset
@@ -420,11 +465,17 @@ select_stimuli <- function(participant_theta,
     check_stats_overall$in_discourse = "Overall"
   
     # get plots for tabs 1 and 2
-    p_mean_sd = get_p1(check_stats, check_stats_overall)
-    p_box     = get_p2(df_final)
+    p_mean_sd = get_p1(check_stats, check_stats_overall, naming_only)
+    p_box     = get_p2(df_final, naming_only)
 
     # get table for time dat
-    time_dat = get_time_dat(discourse_items)
+    if(naming_only != 1){
+      time_dat = get_time_dat(discourse_items)
+    } else {
+      time_dat = tibble(data = NA)
+    }
+    
+    input_file <- create_app_input_file(df_final, naming_only = naming_only)
 
     return(
       list(
@@ -432,6 +483,7 @@ select_stimuli <- function(participant_theta,
         plot1 = p_mean_sd,
         plot2 = p_box,
         time = time_dat,
+        input_file = input_file,
         error = FALSE
       )
     )

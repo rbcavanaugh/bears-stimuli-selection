@@ -46,8 +46,9 @@ get_check_stats_overall <- function(df_final){
     ) 
 }
 
-get_p1 <- function(check_stats, check_stats_overall){
+get_p1 <- function(check_stats, check_stats_overall, naming_only){
   # visualize checks
+  if(naming_only != 1){
   check_stats |> 
     bind_rows(check_stats_overall) |> 
     pivot_longer(cols = 4:9) |> 
@@ -103,59 +104,133 @@ get_p1 <- function(check_stats, check_stats_overall){
     scale_y_continuous(limits = c(0, 100)) -> a
   
   p = id / a / clp
+  } else {
+    check_stats |> 
+      bind_rows(check_stats_overall) |> 
+      pivot_longer(cols = 4:9) |> 
+      separate(name, into = c("parameter", "metric"), sep = "__") |> 
+      pivot_wider(names_from = "metric", values_from = "value") |> 
+      mutate(lb = mean-sd, ub = mean+sd) |> 
+      filter(parameter == "item_difficulty") |> 
+      ggplot(aes(x = tx, y = mean, fill = condition)) +
+     # facet_wrap(~in_discourse) +
+      geom_col(position = "dodge") +
+      geom_point(position = position_dodge(1)) + 
+      geom_errorbar(aes(ymin = lb, ymax = ub), position = position_dodge(1), width = 0.5) +
+      labs(y = "ITEM DIFFICULTY",
+           x = "Control (n = 20) vs. Tx Items (n = 40)",
+           fill = "Condition",
+           caption = "Error bars represent standard deviation") +
+      scale_y_continuous(limits = c(-2, 2)) -> id
+    
+    check_stats |> 
+      bind_rows(check_stats_overall) |> 
+      pivot_longer(cols = 4:9) |> 
+      separate(name, into = c("parameter", "metric"), sep = "__") |> 
+      pivot_wider(names_from = "metric", values_from = "value") |> 
+      mutate(lb = mean-sd, ub = mean+sd) |> 
+      filter(parameter == "agreement") |> 
+      ggplot(aes(x = tx, y = mean, fill = condition)) +
+      #facet_wrap(~in_discourse) +
+      geom_col(position = "dodge") +
+      geom_point(position = position_dodge(1)) + 
+      geom_errorbar(aes(ymin = lb, ymax = ub), position = position_dodge(1), width = 0.5) +
+      labs(y = "NAME AGREEMENT",
+           x = "Control (n = 20) vs. Tx Items (n = 40)",
+           fill = "Condition",
+           caption = "Error bars represent standard deviation") +
+      scale_y_continuous(limits = c(0, 100)) -> a
+    
+    p = id / a
+  }
   return(p)
 }
 
 
-get_p2 <- function(df_final){
+get_p2 <- function(df_final, naming_only){
   
-  
-  df_final |>
-    mutate(condition = as.factor(condition),
-           tx = as.factor(ifelse(tx == 1, "tx", "control")),
-           in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
-    bind_rows(
+  if(naming_only != 1){
       df_final |>
         mutate(condition = as.factor(condition),
                tx = as.factor(ifelse(tx == 1, "tx", "control")),
-               in_discourse = "overall") 
-    ) |> 
-    ggplot(aes(x = tx, y = item_difficulty, fill = condition)) +
-    facet_wrap(~in_discourse) +
-    geom_boxplot() +
-    scale_y_continuous(limits = c(-2, 2)) -> id2
-  
-  df_final |>
-    mutate(condition = as.factor(condition),
-           tx = as.factor(ifelse(tx == 1, "tx", "control")),
-           in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
-    bind_rows(
+               in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
+        bind_rows(
+          df_final |>
+            mutate(condition = as.factor(condition),
+                   tx = as.factor(ifelse(tx == 1, "tx", "control")),
+                   in_discourse = "overall") 
+        ) |> 
+        ggplot(aes(x = tx, y = item_difficulty, fill = condition)) +
+        facet_wrap(~in_discourse) +
+        geom_boxplot() +
+        scale_y_continuous(limits = c(-2, 2)) -> id2
+      
       df_final |>
         mutate(condition = as.factor(condition),
                tx = as.factor(ifelse(tx == 1, "tx", "control")),
-               in_discourse = "overall") 
-    ) |> 
-    ggplot(aes(x = tx, y = agreement, fill = condition)) +
-    facet_wrap(~in_discourse) +
-    geom_boxplot() + 
-    scale_y_continuous(limits = c(0, 100))  -> a2
-  
-  df_final |>
-    mutate(condition = as.factor(condition),
-           tx = as.factor(ifelse(tx == 1, "tx", "control")),
-           in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
-    bind_rows(
+               in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
+        bind_rows(
+          df_final |>
+            mutate(condition = as.factor(condition),
+                   tx = as.factor(ifelse(tx == 1, "tx", "control")),
+                   in_discourse = "overall") 
+        ) |> 
+        ggplot(aes(x = tx, y = agreement, fill = condition)) +
+        facet_wrap(~in_discourse) +
+        geom_boxplot() + 
+        scale_y_continuous(limits = c(0, 100))  -> a2
+      
       df_final |>
         mutate(condition = as.factor(condition),
                tx = as.factor(ifelse(tx == 1, "tx", "control")),
-               in_discourse = "overall") 
-    ) |> 
-    ggplot(aes(x = tx, y = core_lex_percent, fill = condition)) +
-    facet_wrap(~in_discourse) +
-    geom_boxplot() +
-    scale_y_continuous(limits = c(0, 100)) -> clp2
-  
-  p = id2 / a2 / clp2
+               in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
+        bind_rows(
+          df_final |>
+            mutate(condition = as.factor(condition),
+                   tx = as.factor(ifelse(tx == 1, "tx", "control")),
+                   in_discourse = "overall") 
+        ) |> 
+        ggplot(aes(x = tx, y = core_lex_percent, fill = condition)) +
+        facet_wrap(~in_discourse) +
+        geom_boxplot() +
+        scale_y_continuous(limits = c(0, 100)) -> clp2
+      
+      p = id2 / a2 / clp2
+  } else {
+    
+    df_final |>
+      mutate(condition = as.factor(condition),
+             tx = as.factor(ifelse(tx == 1, "tx", "control")),
+             in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
+      bind_rows(
+        df_final |>
+          mutate(condition = as.factor(condition),
+                 tx = as.factor(ifelse(tx == 1, "tx", "control")),
+                 in_discourse = "overall") 
+      ) |> 
+      ggplot(aes(x = tx, y = item_difficulty, fill = condition)) +
+     # facet_wrap(~in_discourse) +
+      geom_boxplot() +
+      scale_y_continuous(limits = c(-2, 2)) -> id2
+    
+    df_final |>
+      mutate(condition = as.factor(condition),
+             tx = as.factor(ifelse(tx == 1, "tx", "control")),
+             in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
+      bind_rows(
+        df_final |>
+          mutate(condition = as.factor(condition),
+                 tx = as.factor(ifelse(tx == 1, "tx", "control")),
+                 in_discourse = "overall") 
+      ) |> 
+      ggplot(aes(x = tx, y = agreement, fill = condition)) +
+      #facet_wrap(~in_discourse) +
+      geom_boxplot() + 
+      scale_y_continuous(limits = c(0, 100))  -> a2
+    
+    p = id2 / a2
+    
+  }
   return(p)
 }
 
@@ -186,9 +261,7 @@ score_upload <- function(new_dat){
   p_box     = get_p2(new_dat)
   
   new_dat |> left_join(times, by = c("discourse_stimuli" = "stimuli")) |> 
-    rename(stimuli = discourse_stimuli) -> test
-  
-  time_dat <- test |> 
+    rename(stimuli = discourse_stimuli)  |> 
     drop_na(stimuli) |> 
     add_count(condition) |> 
     group_by(stimuli) |> 

@@ -18,7 +18,8 @@ ui <- fluidPage(
                    label = "Naming Ability (-4 to 4)",
                    value = 0, min = -4, max = 4, step = 0.01),
       actionButton("submit", "Run Algorithm"),
-      downloadButton("downloadData", "Download"),
+      downloadButton("download_stim", "Download Stimuli"),
+      downloadButton("download_input", "Download Input File"),
       hr(),
       numericInput("min_naming_agreement",
                    label = "Min naming agreement allowed (%)",
@@ -30,8 +31,8 @@ ui <- fluidPage(
                    label = "Target naming accuracy",
                    value = 0.33, min = 0, max = 0.66, step = 0.01),
       numericInput("min_discourse_stimuli",
-                   label = "Min number of discourse stimuli",
-                   value = 9, min = 3, max = 18, step = 1),
+                   label = "Min number of discourse stimuli (0 = naming only)",
+                   value = 9, min = 0, max = 18, step = 1),
       numericInput("min_discourse_items",
                    label = "Min number of discourse items",
                    value = 54, min = 30, max = 90, step = 3),
@@ -131,12 +132,21 @@ server <- function(input, output) {
     v$output$time
   }))
   
-  output$downloadData <- downloadHandler(
+  output$download_stim <- downloadHandler(
     filename = function() {
       paste(input$participant, "_stimuli_", Sys.Date(), ".csv", sep="")
     },
     content = function(file) {
       write.csv(v$output$dat, file)
+    }
+  )
+  
+  output$download_input <- downloadHandler(
+    filename = function() {
+      paste(input$participant, "_app-input_", Sys.Date(), ".csv", sep="")
+    },
+    content = function(file) {
+      write.csv(v$output$input_file, file)
     }
   )
   
@@ -151,6 +161,7 @@ server <- function(input, output) {
   
   observeEvent(v$dat_upload,{
     req(v$dat_upload)
+    w$show()
     v$output = score_upload(v$dat_upload)
   })
   
