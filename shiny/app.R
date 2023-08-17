@@ -1,11 +1,13 @@
 library(shiny)
 library(waiter)
+library(shinyjs)
 #source(here::here("shiny", "R", "05-stimuli selection-working-version.R"))
 #source(here::here("R", "05-stimuli selection-working-version.R"))
 
 # Define UI
 ui <- fluidPage(
   waiter::use_waiter(),
+  shinyjs::useShinyjs(),
   # Application title
   titlePanel("BEARS stimuli selection"),
   
@@ -19,7 +21,6 @@ ui <- fluidPage(
                    value = 0, min = -4, max = 4, step = 0.01),
       actionButton("submit", "Run Algorithm"),
       downloadButton("download_stim", "Download Stimuli"),
-      downloadButton("download_input", "Download Input File"),
       hr(),
       numericInput("min_naming_agreement",
                    label = "Min naming agreement allowed (%)",
@@ -40,7 +41,7 @@ ui <- fluidPage(
                    label = "Set seed for reproducibility",
                    value = 42, min = 1, max = 100000, step = 1),
       hr(),
-      fileInput("file1", "Upload File to remake plots", accept = ".csv")
+      fileInput("file1", "Upload stimuli file to remake plots", accept = ".csv")
       
     ),
     
@@ -55,7 +56,33 @@ ui <- fluidPage(
                  tableOutput("timetab"),
                  p("Table shows mean duration(minutes) and mean + 1SD duration from norming")),
         tabPanel(title = "stimuli",
-                 tableOutput("tab"))
+                 tableOutput("tab")),
+        tabPanel(title = "Generate Input File",
+                 shiny::fluidRow(
+                   br(),
+                   column(width = 10, align = "center",
+                    tableOutput("stimuli_table")
+                   )
+                 ),
+                 shiny::fluidRow(
+                   shiny::column(width = 5, offset = 1,
+                               selectInput("g1",  label = "Group 1", choices = c("Effort Maximized" = "em", "Accuracy Maximized" = "am", "Balanced" = "eab")),
+                               selectInput("g2",  label = "Group 2", choices = c("Accuracy Maximized" = "am", "Balanced" = "eab", "Effort Maximized" = "em")),
+                               selectInput("g3",  label = "Group 3", choices = c("Balanced" = "eab", "Effort Maximized" = "em", "Accuracy Maximized" = "am"))),
+                   br(),
+                   shiny::column(width = 3, offset = 1,
+                                 br(),
+                                 actionButton("generate_input", "Generate Input File"),
+                                 br(),br(),
+                                 shinyjs::disabled(
+                                  downloadButton("download_input", "Download Input File")
+                                 )
+                                 
+                                 )
+                 )
+                ),
+        tabPanel(title = "Preview input file",
+                 tableOutput("preview_input")),
       )
       
     )
@@ -63,14 +90,15 @@ ui <- fluidPage(
 )
 
 # Server logic
-server <- function(input, output) {
+server <- function(input, output, session) {
   
   w <- Waiter$new(id = c("p1", "p2"),
                   html = spin_3(), 
                   color = transparent(.5))
   
   v <- reactiveValues(
-    output = NA
+    output = NA,
+    input_file_ready = 0
   )
   
   observeEvent(input$submit,{
@@ -106,6 +134,41 @@ server <- function(input, output) {
     }
   })
   
+  observeEvent(input$generate_input,{
+    req(!is.na(v$output))
+    naming_only = ifelse(input$min_discourse_stimuli == 0, 1, 0)
+    if(length(unique(c(input$g1, input$g2, input$g3)))!=3){
+          showNotification(
+           "Each group needs to have a different condition",
+          type = "error"
+          )
+    } else {
+      
+      v$input_file <- create_app_input_file(
+            v$output$dat,
+            naming_only = naming_only,
+            c1 = input$g1,
+            c2 = input$g2,
+            c3 = input$g3
+        )
+      showNotification(
+        "Input file ready to download",
+        type = "message"
+      )
+      v$input_file_ready = 1
+      shinyjs::enable("download_input")
+    }
+  })
+  
+  output$preview_input <- renderTable({
+    validate(
+      need(v$input_file_ready == 1,
+           message = "Generate input file to preview")
+    )
+    v$input_file 
+  }, 
+  digits = 0)
+  
   
   output$p1 <- renderPlot({
     req(!is.na(v$output))
@@ -132,6 +195,22 @@ server <- function(input, output) {
     v$output$time
   }))
   
+  output$stimuli_table <- renderTable({
+    validate(
+      need(!is.na(v$output),
+             message = "Run algorithm or upload a stimuli file to show stimuli by group")
+    )
+    req(!is.na(v$output))
+    v$output$dat |> filter(in_discourse == 1) |>
+      group_by(condition) |>
+      distinct(discourse_stimuli) |> 
+      arrange(discourse_stimuli) |> 
+      mutate(obs = 1, num = cumsum(obs)) |>
+      pivot_wider(names_from = condition, values_from = discourse_stimuli) |>
+      select(stim_number = num, group_1 = `1`, group_2 = `2`, group_3 = `3`)
+    
+  })
+  
   output$download_stim <- downloadHandler(
     filename = function() {
       paste(input$participant, "_stimuli_", Sys.Date(), ".csv", sep="")
@@ -146,7 +225,7 @@ server <- function(input, output) {
       paste(input$participant, "_app-input_", Sys.Date(), ".csv", sep="")
     },
     content = function(file) {
-      write.csv(v$output$input_file, file)
+      write.csv(v$input_file, file)
     }
   )
   
@@ -156,6 +235,9 @@ server <- function(input, output) {
    
     req(file)
     v$dat_upload = read.csv(file$datapath)
+    updateTextInput("participant",
+                    value = paste0(unique(v$dat_upload$participant_id), collapse = ""),
+                    session = session)
     
   })
   

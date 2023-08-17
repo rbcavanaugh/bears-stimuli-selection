@@ -16,7 +16,7 @@ select_stimuli <- function(participant_theta,
                            min_discourse_stimuli = 9,
                            min_discourse_items = 54,
                            seed = 42,
-                           participant_id = ""){
+                           participant_id){
   
  # participant_theta = 0.5
  # min_naming_agreement = 70
@@ -147,8 +147,10 @@ select_stimuli <- function(participant_theta,
             # mutate(n2 = ifelse(n3 == 1, n, n2)) |>
             #  group_by(lemma_naming) |>
             # filter(n2 == max(n2, na.rm = TRUE)) |>
-            group_by(lemma_naming) |>
-            filter(n == max(n)) |>
+            mutate(rand_sel = rnorm(n=n())) |> 
+            # important! picking item if 
+            slice_min(n = 1, by = lemma_naming, order_by = tibble(percent, n, rand_sel)) |>
+            select(-rand_sel) |> 
             ungroup()
           
           discourse_items |> count(stimuli, sort = TRUE) -> test
@@ -475,15 +477,12 @@ select_stimuli <- function(participant_theta,
       time_dat = tibble(data = NA)
     }
     
-    input_file <- create_app_input_file(df_final, naming_only = naming_only)
-
     return(
       list(
         dat = df_final,
         plot1 = p_mean_sd,
         plot2 = p_box,
         time = time_dat,
-        input_file = input_file,
         error = FALSE
       )
     )

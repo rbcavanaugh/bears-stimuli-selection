@@ -248,6 +248,7 @@ score_upload <- function(new_dat){
               me_time = median(duration),
               sd_time = m_time + sd(duration))
   
+  naming_only = ifelse(unique(new_dat$min_discourse_stimuli)==0, 1, 0)
   
   # dataframes for plot
   # by discourse vs not
@@ -257,8 +258,8 @@ score_upload <- function(new_dat){
   check_stats_overall$in_discourse = "Overall"
   
   # get plots for tabs 1 and 2
-  p_mean_sd = get_p1(check_stats, check_stats_overall)
-  p_box     = get_p2(new_dat)
+  p_mean_sd = get_p1(check_stats, check_stats_overall, naming_only)
+  p_box     = get_p2(new_dat, naming_only)
   
   new_dat |> left_join(times, by = c("discourse_stimuli" = "stimuli")) |> 
     rename(stimuli = discourse_stimuli)  |> 
@@ -278,12 +279,15 @@ score_upload <- function(new_dat){
   # get table for time dat
   #time_dat = get_time_dat(discourse_items)
   
+  # input_file <- create_app_input_file(new_dat, naming_only = naming_only)
+  
   return(
     list(
       dat = new_dat,
       plot1 = p_mean_sd,
       plot2 = p_box,
-      time = time_dat,
+      time = tibble(data = NA),
+      #input_file = input_file,
       error = FALSE
     )
   )
