@@ -19,7 +19,7 @@ ui <- fluidPage(
       numericInput("theta",
                    label = "Naming Ability (-4 to 4)",
                    value = 0, min = -4, max = 4, step = 0.01),
-      actionButton("submit", "Run Algorithm"),
+      actionButton("submit", "Select Stimuli"),
       downloadButton("download_stim", "Download Stimuli"),
       hr(),
       numericInput("min_naming_agreement",
@@ -48,6 +48,35 @@ ui <- fluidPage(
     # Show a plot of the generated distribution
     mainPanel(
       tabsetPanel(
+        tabPanel(title = "About",
+                 div(
+                   h4("Getting Started"),
+                   p("To get started using the app, enter a participant ID, and select a naming
+                     ability that was generated from the PNT. The naming ability score must be between
+                     -4 and 4. After entering these values, you can hit the 'Select Stimuli' button."),
+                   p("The additional choices in the bottom of the sidebar menu are there in case we need
+                   to make minor adjustments to the parameters that affect stimuli selection (for example, 
+                   if we needed to relax the agreement criteria to pull from additional eligible items."),
+                   p("In the hopefully rare case that someone is too mild and we can't generate enough
+                     discourse items for them, you can set the 'Min number of discourse stimuli (0 = naming only)'
+                     field to 0. This will produce three balanced lists for naming items ignoring
+                      the discourse task entirely."),
+                   p("When you've selected your stimuli, you can preview them in the 'Preview stimuli' tab
+                     which shows the essential columns. you can download this file using the 'download stimuli 
+                     button. Note that the downloaded file includes additional columns which are necessary
+                     for full reproducibility."),
+                   p("At this stage, the conditions are only a value of '1', '2', and '3' but are not
+                   yet assigned to experimental conditions. The plan for this step is to do it in redcap?
+                   The generate input tab includes a brief table of which stimuli are included in each 
+                   yet-to-be-assigned condition. Once you're ready, use this tab to assign an experimental
+                   condition (effort maximized, accuracy maximized, effort-accuracy balanced) to each condition.
+                   You can then generate the input file for the web app and download this file. It should be saved 
+                   along with the stimuli selection file as it documents the condition assignments."),
+                   p("If you need to, you can upload a downloaded stimuli file later (bottom left of page),
+                   and then make the condition assignments - they don't need to be done right away."),
+                   p("Please contact Rob with any issues/bugs. This app is still experimental.")
+                 )
+                 ),
         tabPanel(title = "Summary (mean + sd)",
                  plotOutput("p1", height = "80vh")),
         tabPanel(title = "Summary (box plot)",
@@ -55,7 +84,7 @@ ui <- fluidPage(
         tabPanel(title = "Testing Time",
                  tableOutput("timetab"),
                  p("Table shows mean duration(minutes) and mean + 1SD duration from norming")),
-        tabPanel(title = "stimuli",
+        tabPanel(title = "Preview stimuli",
                  tableOutput("tab")),
         tabPanel(title = "Generate Input File",
                  shiny::fluidRow(
@@ -102,6 +131,10 @@ server <- function(input, output, session) {
   )
   
   observeEvent(input$submit,{
+    if(input$participant == ""){
+      showNotification("Warning: Participant ID should not be blank. Enter ID and re-run",
+                       type = "error")
+    }
     w$show()
     v$output = select_stimuli(participant_theta      = input$theta,
                               min_naming_agreement   = input$min_naming_agreement,
