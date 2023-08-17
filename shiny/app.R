@@ -22,6 +22,8 @@ ui <- fluidPage(
       actionButton("submit", "Select Stimuli"),
       downloadButton("download_stim", "Download Stimuli"),
       hr(),
+      fileInput("file1", "Upload existing stimuli file", accept = ".csv"),
+      hr(),
       numericInput("min_naming_agreement",
                    label = "Min naming agreement allowed (%)",
                    value = 70, min = 50, max = 100, step = 1),
@@ -39,9 +41,7 @@ ui <- fluidPage(
                    value = 54, min = 30, max = 90, step = 3),
       numericInput(inputId = "seed",
                    label = "Set seed for reproducibility",
-                   value = 42, min = 1, max = 100000, step = 1),
-      hr(),
-      fileInput("file1", "Upload stimuli file to remake plots", accept = ".csv")
+                   value = 42, min = 1, max = 100000, step = 1)
       
     ),
     
