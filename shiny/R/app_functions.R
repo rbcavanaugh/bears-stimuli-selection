@@ -56,16 +56,17 @@ get_p1 <- function(check_stats, check_stats_overall, naming_only){
     pivot_wider(names_from = "metric", values_from = "value") |> 
     mutate(lb = mean-sd, ub = mean+sd) |> 
     filter(parameter == "item_difficulty") |> 
-    ggplot(aes(x = tx, y = mean, fill = condition)) +
+    ggplot(aes(x = tx, y = mean, fill = condition, color = condition)) +
     facet_wrap(~in_discourse) +
-    geom_col(position = "dodge") +
+    #geom_col(position = position_dodge(1)) +
     geom_point(position = position_dodge(1)) + 
     geom_errorbar(aes(ymin = lb, ymax = ub), position = position_dodge(1), width = 0.5) +
     labs(y = "ITEM DIFFICULTY",
          x = "Control (n = 20) vs. Tx Items (n = 40)",
-         fill = "Condition",
+         fill = "Condition", color = "Condition",
          caption = "Error bars represent standard deviation") +
-    scale_y_continuous(limits = c(-2, 2)) -> id
+    scale_y_continuous(limits = c(0, 80)) +
+      coord_cartesian(clip = "off")-> id
   
   check_stats |> 
     bind_rows(check_stats_overall) |> 
@@ -74,16 +75,18 @@ get_p1 <- function(check_stats, check_stats_overall, naming_only){
     pivot_wider(names_from = "metric", values_from = "value") |> 
     mutate(lb = mean-sd, ub = mean+sd) |> 
     filter(parameter == "core_lex_percent") |> 
-    ggplot(aes(x = tx, y = mean, fill = condition)) +
+    mutate(ub = ifelse(ub > 100, 100, ub)) |> 
+    ggplot(aes(x = tx, y = mean, fill = condition, color = condition)) +
     facet_wrap(~in_discourse) +
-    geom_col(position = "dodge") +
+    #geom_col(position = "dodge") +
     geom_point(position = position_dodge(1)) + 
     geom_errorbar(aes(ymin = lb, ymax = ub), position = position_dodge(1), width = 0.5) +
     labs(y = "CORE LEXICON PERCENT",
          x = "Control (n = 20) vs. Tx Items (n = 40)",
-         fill = "Condition",
+         fill = "Condition", color = "Condition",
          caption = "Error bars represent standard deviation") +
-    scale_y_continuous(limits = c(0, 100)) -> clp
+    scale_y_continuous(limits = c(0, 100)) +
+    coord_cartesian(clip = "off") -> clp
   
   check_stats |> 
     bind_rows(check_stats_overall) |> 
@@ -92,16 +95,18 @@ get_p1 <- function(check_stats, check_stats_overall, naming_only){
     pivot_wider(names_from = "metric", values_from = "value") |> 
     mutate(lb = mean-sd, ub = mean+sd) |> 
     filter(parameter == "agreement") |> 
-    ggplot(aes(x = tx, y = mean, fill = condition)) +
+    mutate(ub = ifelse(ub > 100, 100, ub)) |> 
+    ggplot(aes(x = tx, y = mean, fill = condition, color = condition)) +
     facet_wrap(~in_discourse) +
-    geom_col(position = "dodge") +
+    #geom_col(position = "dodge") +
     geom_point(position = position_dodge(1)) + 
     geom_errorbar(aes(ymin = lb, ymax = ub), position = position_dodge(1), width = 0.5) +
     labs(y = "NAME AGREEMENT",
          x = "Control (n = 20) vs. Tx Items (n = 40)",
-         fill = "Condition",
+         fill = "Condition", color = "Condition",
          caption = "Error bars represent standard deviation") +
-    scale_y_continuous(limits = c(0, 100)) -> a
+    scale_y_continuous(limits = c(0, 100)) +
+    coord_cartesian(clip = "off") -> a
   
   p = id / a / clp
   } else {
@@ -112,16 +117,17 @@ get_p1 <- function(check_stats, check_stats_overall, naming_only){
       pivot_wider(names_from = "metric", values_from = "value") |> 
       mutate(lb = mean-sd, ub = mean+sd) |> 
       filter(parameter == "item_difficulty") |> 
-      ggplot(aes(x = tx, y = mean, fill = condition)) +
+      ggplot(aes(x = tx, y = mean, fill = condition, color = condition)) +
      # facet_wrap(~in_discourse) +
       geom_col(position = "dodge") +
       geom_point(position = position_dodge(1)) + 
       geom_errorbar(aes(ymin = lb, ymax = ub), position = position_dodge(1), width = 0.5) +
       labs(y = "ITEM DIFFICULTY",
            x = "Control (n = 20) vs. Tx Items (n = 40)",
-           fill = "Condition",
+           fill = "Condition", color = "Condition",
            caption = "Error bars represent standard deviation") +
-      scale_y_continuous(limits = c(-2, 2)) -> id
+      scale_y_continuous(limits = c(20, 80))  +
+      coord_cartesian(clip = "off") -> id
     
     check_stats |> 
       bind_rows(check_stats_overall) |> 
@@ -130,16 +136,17 @@ get_p1 <- function(check_stats, check_stats_overall, naming_only){
       pivot_wider(names_from = "metric", values_from = "value") |> 
       mutate(lb = mean-sd, ub = mean+sd) |> 
       filter(parameter == "agreement") |> 
-      ggplot(aes(x = tx, y = mean, fill = condition)) +
+      ggplot(aes(x = tx, y = mean, fill = condition, color = condition)) +
       #facet_wrap(~in_discourse) +
       geom_col(position = "dodge") +
       geom_point(position = position_dodge(1)) + 
       geom_errorbar(aes(ymin = lb, ymax = ub), position = position_dodge(1), width = 0.5) +
       labs(y = "NAME AGREEMENT",
            x = "Control (n = 20) vs. Tx Items (n = 40)",
-           fill = "Condition",
+           fill = "Condition", color = "Condition",
            caption = "Error bars represent standard deviation") +
-      scale_y_continuous(limits = c(0, 100)) -> a
+      scale_y_continuous(limits = c(0, 100)) +
+      coord_cartesian(clip = "off") -> a
     
     p = id / a
   }
@@ -163,7 +170,7 @@ get_p2 <- function(df_final, naming_only){
         ggplot(aes(x = tx, y = item_difficulty, fill = condition)) +
         facet_wrap(~in_discourse) +
         geom_boxplot() +
-        scale_y_continuous(limits = c(-2, 2)) -> id2
+        scale_y_continuous(limits = c(20, 80)) -> id2
       
       df_final |>
         mutate(condition = as.factor(condition),
@@ -211,7 +218,7 @@ get_p2 <- function(df_final, naming_only){
       ggplot(aes(x = tx, y = item_difficulty, fill = condition)) +
      # facet_wrap(~in_discourse) +
       geom_boxplot() +
-      scale_y_continuous(limits = c(-2, 2)) -> id2
+      scale_y_continuous(limits = c(20, 80)) -> id2
     
     df_final |>
       mutate(condition = as.factor(condition),

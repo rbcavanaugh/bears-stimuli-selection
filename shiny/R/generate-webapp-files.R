@@ -67,13 +67,14 @@ stopifnot(
           'eab-treatment' = 'eab-treatment-probes', 'eab-naming-probes', 'eab-discourse-probes',
           'em-treatment'  = 'em-treatment-probes', 'em-naming-probes', 'em-discourse-probes',
           'am-treatment'  = 'am-treatment-probes', 'am-naming-probes', 'am-discourse-probes'
-        )
+        ) |> 
+      mutate(discourse_stimuli = NA)
   }
 
   # naming item formatting
   df_naming <- 
     df |> 
-      distinct(participant_id, word, filename, condition, tx) |> 
+      distinct(participant_id, word, discourse_stimuli, filename, condition, tx) |> 
       mutate(value = 1,
              condition2 = condition,
              type = "naming") |> 
@@ -99,6 +100,7 @@ stopifnot(
       select(
         participant_id,
         item = word,
+        discourse_stimuli,
         filename,
         type,
         condition,
@@ -109,9 +111,11 @@ stopifnot(
       ) |> 
       arrange(condition, tx)
   
+  print(df_naming)
+  
   stopifnot(
     "NA values detected in input columns" = 
-      (sum(is.na(df_naming |> select(7:15))) == 0 & sum(is.na(df_discourse |> select(4:12))) == 0)
+      (sum(is.na(df_naming |> select(8:16))) == 0 & sum(is.na(df_discourse |> select(4:12))) == 0)
   )
 
   if(naming_only != 1){
