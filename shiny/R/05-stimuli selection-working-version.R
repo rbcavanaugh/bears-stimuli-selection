@@ -642,3 +642,72 @@ select_stimuli <- function(participant_theta,
     )
     
 }
+
+
+
+#' Scores an uploaded file for generating an input file. 
+#'
+#' @param new_dat 
+#'
+#' @return
+#' @export
+#'
+#' @examples
+score_upload <- function(new_dat){
+  
+  times <- read_csv(here("data", "2023-08-14_timestamp.csv")) |> 
+    mutate(stimuli = str_replace_all(stimuli, "-", "_"),
+           stimuli = ifelse(str_detect(stimuli,
+                                       "ghouls"),
+                            "dinosaurs_spacemen_and_ghouls",
+                            stimuli)) |> 
+    group_by(stimuli) |> 
+    summarize(m_time = mean(duration),
+              me_time = median(duration),
+              sd_time = m_time + sd(duration))
+  
+  naming_only = ifelse(unique(new_dat$min_discourse_stimuli)==0, 1, 0)
+  
+  # dataframes for plot
+  # by discourse vs not
+  check_stats = get_check_stats(new_dat)
+  # overall
+  check_stats_overall = get_check_stats_overall(new_dat)
+  check_stats_overall$in_discourse = "Overall"
+  
+  # get plots for tabs 1 and 2
+  p_mean_sd = get_p1(check_stats, check_stats_overall, naming_only)
+  p_box     = get_p2(new_dat, naming_only)
+  
+  new_dat |> left_join(times, by = c("discourse_stimuli" = "stimuli")) |> 
+    rename(stimuli = discourse_stimuli)  |> 
+    drop_na(stimuli) |> 
+    add_count(condition) |> 
+    group_by(stimuli) |> 
+    mutate(mean_p_correct = mean(p_correct)) |> 
+    ungroup() |> 
+    distinct(stimuli, n, m_time, sd_time, mean_p_correct, condition) |> 
+    add_count(condition, name = "n_discourse_tasks") |> 
+    summarize(mean_time = sum(m_time),
+              sd_time = sum(sd_time),
+              n_discourse_words = mean(n),
+              n_discourse_tasks = mean(n_discourse_tasks),
+              mean_prob_correct = mean(mean_p_correct), .by = condition) 
+  
+  # get table for time dat
+  #time_dat = get_time_dat(discourse_items)
+  
+  # input_file <- create_app_input_file(new_dat, naming_only = naming_only)
+  
+  # return various bits that can be assigned to the reactive values in the app
+  return(
+    list(
+      dat = new_dat,
+      plot1 = p_mean_sd,
+      plot2 = p_box,
+      time = tibble(data = NA),
+      #input_file = input_file,
+      error = FALSE
+    )
+  )
+}

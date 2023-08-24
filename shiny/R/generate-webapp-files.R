@@ -1,17 +1,15 @@
-# library(tidyverse)
-# 
-# test <- read.csv(here::here("shiny", "data", "test_stimuli_2023-08-15.csv"))
-# test <- read.csv(here::here("data", "test_stimuli_2023-08-15.csv"))
-# 
-# create_app_input_file(test) -> test5
 
-create_app_input_file <- function(df_selected_stimuli, naming_only, c1, c2, c3){
-  
-  # 
-  # c1 = "em"
-  # c2 = "eab"
-  # c3 = "am"
-  # df_selected_stimuli = df_final
+
+#' Data wrangling to generate app input file from selected stimuli
+#'
+#' @param df_selected_stimuli dataframe of selected stimuli
+#' @param naming_only if naming_only (no disocourse), set to 1
+#' @param c1 name of condition 1. "em", "am", or "eab"
+#' @param c2 name of condition 2. "em", "am", or "eab"
+#' @param c3 name of condition 3. "em", "am", or "eab"
+#'
+#' @return dataframe of app input
+create_app_input_file <- function(df_selected_stimuli, naming_only = 0, c1, c2, c3){
   
   # condition assignments
   conditions <- tibble(
@@ -34,10 +32,10 @@ stopifnot(
     all(df |> distinct(condition, word) |> count(condition) |> pull(n) == 60)
 )
           
-
 # why getting NA values?
-
+# the normal case where we have discoures and naming items
   if(naming_only != 1){
+    
     # discourse item formatting
     df_discourse <- 
       df |> 
@@ -111,13 +109,13 @@ stopifnot(
       ) |> 
       arrange(condition, tx)
   
-  print(df_naming)
-  
+  # test for NA values that we don't want
   stopifnot(
     "NA values detected in input columns" = 
       (sum(is.na(df_naming |> select(8:16))) == 0 & sum(is.na(df_discourse |> select(4:12))) == 0)
   )
 
+  # if naming and discourse, bind the two together, otherwise just return naming
   if(naming_only != 1){
       df_out <- bind_rows(df_naming, df_discourse)
   } else {
