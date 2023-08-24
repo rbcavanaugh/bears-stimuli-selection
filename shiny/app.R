@@ -51,6 +51,9 @@ ui <- fluidPage(
       hr(),
       # These are additional inputs for tweaking the stimuli selection algorithm
       # They are set by default and don't need to be changed by the user. 
+      numericInput(inputId = "total_tx_items",
+                    label = "Total treatment items",
+                    value = 180, min = 180, max = 360, step = 30),
       numericInput(inputId = "min_naming_agreement",
                    label = "Min naming agreement allowed (%)",
                    value = 70, min = 50, max = 100, step = 1),
@@ -207,6 +210,7 @@ server <- function(input, output, session) {
                               target_prob_correct    = input$target_prob_correct,
                               min_discourse_stimuli  = input$min_discourse_stimuli,
                               min_discourse_items    = input$min_discourse_items,
+                              total_tx_items         = input$total_tx_items,
                               seed                   = input$seed,
                               participant_id         = input$participant
                               )

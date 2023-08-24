@@ -24,7 +24,8 @@ library(patchwork)
 #' @param min_discourse_stimuli The minimum number of allowable discourse stimuli
 #' @param min_discourse_items The minimum number of allowable discourse items
 #' @param seed A seed for reproducibility
-#' @param participant_id 
+#' @param participant_id chr; string for participant
+#' @param total_tx_items total number of treatment items. defaults to 180 for study 1
 #'
 #' @return A list of values for the shiny app. output$dat returns the data
 select_stimuli <- function(participant_theta,
@@ -33,6 +34,7 @@ select_stimuli <- function(participant_theta,
                            target_prob_correct = 0.33,
                            min_discourse_stimuli = 9,
                            min_discourse_items = 54,
+                           total_tx_items = 180,
                            seed = 42,
                            participant_id){
   
@@ -83,7 +85,7 @@ select_stimuli <- function(participant_theta,
 # -----------------------------------------------------------------------------#
 
     # any dataframe that holds the word, the source, and the agreement scores...
-    naming <- read_csv(here("data", "final_database_4-11-23.csv")) |> 
+    naming <- suppressMessages(read_csv(here("data", "final_database_4-11-23.csv"), col_types = cols())) |> 
       select(lemma = modal, source, agreement, filename = `confirmed file name`) |> 
       distinct() |> 
       filter(agreement >= min_naming_agreement) |> 
@@ -94,7 +96,7 @@ select_stimuli <- function(participant_theta,
     # this is a joined df where I hand chekced the fuzzy join in 01-new-approach
     # between discourse and naming. it only adds a few items...
   
-    fuzz_join = read_csv(here("data", "join_checked.csv")) |> 
+    fuzz_join = suppressMessages(read_csv(here("data", "join_checked.csv"), col_types = cols())) |> 
       drop_na(match) |> 
       select(source:lemma_dis) |> 
       filter(percent >= min_discourse_salience, agreement >= min_naming_agreement) |> 
@@ -108,7 +110,7 @@ select_stimuli <- function(participant_theta,
     
     # get the average time to produce of each stimuli for more balancing
     # used a few times later on
-    times <- read_csv(here("data", "2023-08-14_timestamp.csv")) |> 
+    times <- read_csv(here("data", "2023-08-14_timestamp.csv"), col_types = cols()) |> 
       mutate(stimuli = str_replace_all(stimuli, "-", "_"),
              stimuli = ifelse(str_detect(stimuli,
                                          "ghouls"),
@@ -126,12 +128,17 @@ select_stimuli <- function(participant_theta,
     # updated to new merged sheet with a few more items...
     # item_params = read.csv("data/AoA-phonemes-freq_joined_2023-08-02.csv") |> 
     # updated again...
-    item_params = read_excel(here("data", "AoA-phonemes-freq for singe noun targets with at least 70 percent name agreement from ELP.xlsx")) |> 
-      select(Word, LgSUBTLCD, Age_Of_Acquisition, NPhon) |> 
-      mutate(LgSUBTLCD = readr::parse_number(LgSUBTLCD),
-             #NPhon = readr::parse_number(NPhon),
-             Age_Of_Acquisition = readr::parse_number(Age_Of_Acquisition)) 
+    # 
+    item_params = 
+      suppressWarnings(
+        read_excel(here("data", "AoA-phonemes-freq for singe noun targets with at least 70 percent name agreement from ELP.xlsx")) |> 
+          select(Word, LgSUBTLCD, Age_Of_Acquisition, NPhon) |> 
+          mutate(LgSUBTLCD = readr::parse_number(LgSUBTLCD),
+                 #NPhon = readr::parse_number(NPhon),
+                 Age_Of_Acquisition = readr::parse_number(Age_Of_Acquisition)) 
+    )
     
+    cat("- Setup and Loaded Files \n")
 # -----------------------------------------------------------------------------#
 # Data wrangling before item selection
 # -----------------------------------------------------------------------------#
@@ -142,7 +149,7 @@ select_stimuli <- function(participant_theta,
     # - Hula, 8-19-2023
     diff = naming |> 
       full_join(item_params, by = c("lemma" = "Word")) |> 
-      left_join(fuzz_join, by = join_by(lemma, source)) |> 
+      left_join(fuzz_join, by = join_by(lemma, source), relationship = "many-to-many") |> 
       mutate(difficulty = 39.47 + 1.08*NPhon - 2.01*LgSUBTLCD + 1.45*Age_Of_Acquisition)
     # old irt scale not used anymore
       #mutate(difficulty = -1.22 + 0.15*NPhon -0.36*LgSUBTLCD + 0.21*Age_Of_Acquisition)
@@ -162,7 +169,7 @@ select_stimuli <- function(participant_theta,
     naming_db = cl |> filter(in_discourse == 0)
     discourse_db = cl |> filter(in_discourse == 1)
 
-    
+    cat("- Initial data wrangling \n")
 # -----------------------------------------------------------------------------#
 # As long as min_discourse_items is not 0, going to pull from discourse_db
 # -----------------------------------------------------------------------------#
@@ -291,8 +298,6 @@ select_stimuli <- function(participant_theta,
             sl_out = bind_rows(sl_out, tmp)
             # remove it rom non_matched
             non_matched = tail(non_matched, -1)
-            # print a message that we've made the first possible adjustment
-            print("adjusted 1")
           }
           
           # count again (not saved)
@@ -311,7 +316,6 @@ select_stimuli <- function(participant_theta,
             
             sl_out = bind_rows(sl_out, tmp)
             non_matched = tail(non_matched, -1)
-            print("adjusted 2")
           }
             
           sl_out |> count(condition, wt = n)
@@ -358,6 +362,7 @@ select_stimuli <- function(participant_theta,
             slice_min(order_by = p_correct, n = min_cat) |> 
             ungroup()
           
+          cat("- First matching \n")
 # -----------------------------------------------------------------------------#
 # Second anticlustering part. We're going to make triplets again, but this time
 # we're going to make them so that each triplet contains one item from each
@@ -390,10 +395,11 @@ select_stimuli <- function(participant_theta,
           discourse_items_total = nrow(discourse_items)
           
           # check that the values are reasonably matched
-          print(mean_sd_tab(discourse_items[, 3:5],
-                            discourse_items$condition,
-                            na.rm = TRUE))
-          
+          # print(mean_sd_tab(discourse_items[, 3:5],
+          #                   discourse_items$condition,
+          #                   na.rm = TRUE))
+          #                   
+          cat("- Second matching \n")
 # -----------------------------------------------------------------------------#
 # Adding naming only items to the discourse items
 # We want to add them to the already matched categories to maintain
@@ -410,7 +416,7 @@ select_stimuli <- function(participant_theta,
           
           # how many items are left that need to be assigned. 
           # will change this value for study 2 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! STUDY 2 CHANGE HERE
-          N_naming = 180-nrow(discourse_items)
+          N_naming = total_tx_items-nrow(discourse_items)
           
           # If we're not hitting anything close to the probabilty correct target
           # bump the target down for the naming items
@@ -457,7 +463,7 @@ select_stimuli <- function(participant_theta,
       filter(p_correct < 0.75) |> 
       distinct(lemma_naming, agreement, difficulty, filename, in_discourse, p_correct, closest) |> 
       arrange(closest) |> 
-      head(180) |> 
+      head(total_tx_items) |> 
       mutate(stimuli = NA, in_discourse = NA, percent = NA, condition = NA) |> 
       select(word = lemma_naming,
              in_discourse,
@@ -465,10 +471,12 @@ select_stimuli <- function(participant_theta,
              agreement, item_difficulty = difficulty, core_lex_percent = percent,
              condition, filename, p_correct)
     
+    # For study 2, will need to add error if not enough items are found here.  ########### Study 2 addition....
+    
     discourse_items_total = 0
     discourse_items = NULL
     
-    additional_items = tibble(a = rep(0, 180))
+    additional_items = tibble(a = rep(0, total_tx_items)) 
     
   }
     
@@ -477,13 +485,13 @@ select_stimuli <- function(participant_theta,
 # see: https://github.com/m-Py/anticlust/issues/47
 # -----------------------------------------------------------------------------#
 
-    sample_this = rep(c(1, 2, 3), length.out = 180-discourse_items_total)
+    sample_this = rep(c(1, 2, 3), length.out = total_tx_items-discourse_items_total)
 
     # initialize groupings for anticlustering; new items get random group affiliation
     initial_groupings <- c(discourse_items$condition, sample(sample_this) )
     
     # if we don't get 180 items, we need to error out. 
-    if(length(initial_groupings) < 180){
+    if(length(initial_groupings) < total_tx_items){
       return(
         list(
           dat = NA,
@@ -526,6 +534,7 @@ select_stimuli <- function(participant_theta,
     mean_sd_tab(dat[,4:6], dat$condition_all, na.rm = TRUE)
     #mean_sd_tab(dat |> drop_na(condition) |> select(4:6), dat |> drop_na(condition) |> pull(condition), na.rm = TRUE)
     
+    cat("- Naming Items added to discourse \n")
 # -----------------------------------------------------------------------------#
 # Final assignment is for treated vs. control words
 # -----------------------------------------------------------------------------#
@@ -541,6 +550,11 @@ select_stimuli <- function(participant_theta,
     dat_nest = dat |> 
       nest_by(condition_all)
     
+    items_per_condition = total_tx_items/3
+    ntx = round(items_per_condition*(2/3))
+    #print(ntx)
+    ncontrol = items_per_condition - ntx
+    #print(ncontrol)
     # for each condition, assign into treated and untreated
     # operates slightly differently if we're just pulling 
     # from naming items (the else) or not. 
@@ -550,7 +564,7 @@ select_stimuli <- function(participant_theta,
           tmp = dat_nest$data[[i]]
           gr <- anticlustering(
             tmp[, c(4, 5, 10)], # use the variables directly
-            K = c(40, 20),
+            K = c(ntx, ncontrol),
             method = "local-maximum",
             categories = tmp$in_discourse,
             repetitions = 100,
@@ -566,7 +580,7 @@ select_stimuli <- function(participant_theta,
         tmp = dat_nest$data[[i]]
         gr <- anticlustering(
           tmp[, c(4, 5)], # use the variables directly
-          K = c(40, 20),
+          K = c(ntx, ncontrol),
           method = "local-maximum",
           categories = tmp$in_discourse,
           repetitions = 100,
@@ -579,6 +593,7 @@ select_stimuli <- function(participant_theta,
       }
     }
     
+    cat("- Items assigned to tx and control \n")
 # -----------------------------------------------------------------------------#
 # THIS IS THE FINAL DATASET WOO!!
 # -----------------------------------------------------------------------------#
@@ -605,6 +620,7 @@ select_stimuli <- function(participant_theta,
         seed = seed
       )
     
+    cat("- Final dataset generated \n")
 # -----------------------------------------------------------------------------#
 # Data wrangling for app output and plots
 # check app_functions.R for this stuff
@@ -612,22 +628,24 @@ select_stimuli <- function(participant_theta,
     
     # dataframes for plot
     # by discourse vs not
-    check_stats = get_check_stats(df_final)
+    check_stats = suppressMessages(get_check_stats(df_final))
     # overall
-    check_stats_overall = get_check_stats_overall(df_final)
+    check_stats_overall = suppressMessages(get_check_stats_overall(df_final))
     check_stats_overall$in_discourse = "Overall"
   
     # get plots for tabs 1 and 2
-    p_mean_sd = get_p1(check_stats, check_stats_overall, naming_only)
-    p_box     = get_p2(df_final, naming_only)
+    p_mean_sd = suppressMessages(get_p1(check_stats, check_stats_overall, naming_only))
+    p_box     = suppressMessages(get_p2(df_final, naming_only))
 
     # get table for time dat
     if(naming_only != 1){
-      time_dat = get_time_dat(discourse_items)
+      time_dat = suppressMessages(get_time_dat(discourse_items))
     } else {
       time_dat = tibble(data = NA)
     }
     
+    cat("- Plotting and summary tables generated \n")
+    cat("- Stimuli selection complete ┏(-_-)┛ ┗(-_-)┓ ┗(-_-)┛ ┏(-_-)┓ \n")
 # -----------------------------------------------------------------------------#
 # If everything goes to plan, this is the list returned by the function
 # -----------------------------------------------------------------------------#
