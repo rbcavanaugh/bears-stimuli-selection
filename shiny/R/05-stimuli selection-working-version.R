@@ -231,12 +231,11 @@ select_stimuli <- function(participant_theta,
                 time = NA,
                 error = TRUE,
                 error_detail = tribble(
-                  ~variable, ~value,
-                  "number of discourse stimuli", ns,
-                  "number of discouse items", nd #,
-                  #"number of total items" = length(initial_groupings),
-                  #"lowest number of discourse items in a condition" = min_cat)
-                )
+                  ~variable, ~value, ~cutoff,
+                  "number of discourse stimuli", ns, min_discourse_stimuli,
+                  "number of discouse items", nd, min_discourse_items
+                ) |> 
+                  mutate(error = ifelse(value < cutoff, "Low", ""))
               )
             )
           }
@@ -342,10 +341,12 @@ select_stimuli <- function(participant_theta,
                 time = NA,
                 error = TRUE,
                 error_detail = tribble(
-                    ~variable, ~value,
-                    "number of discourse stimuli", ns,
-                    "number of discouse items", nd,
-                    "lowest number of discourse items in a condition", min_cat)
+                    ~variable, ~value, ~ cutoff,
+                    "number of discourse stimuli", ns, min_discourse_stimuli,
+                    "number of discouse items", nd, min_discourse_items,
+                    "lowest number of discourse items in a condition", min_cat, min_discourse_items/3
+                ) |> 
+                  mutate(error = ifelse(value < cutoff, "Low", ""))
               )
             )
           }
@@ -484,14 +485,21 @@ select_stimuli <- function(participant_theta,
 # Assigning the remaining items to each condition
 # see: https://github.com/m-Py/anticlust/issues/47
 # -----------------------------------------------------------------------------#
-
+    # how many additional items are needed
+    N = nrow(additional_items)
+    
     sample_this = rep(c(1, 2, 3), length.out = total_tx_items-discourse_items_total)
 
     # initialize groupings for anticlustering; new items get random group affiliation
     initial_groupings <- c(discourse_items$condition, sample(sample_this) )
     
+    # print(length(initial_groupings))
+    # print(total_tx_items)
+    # 
+    # print(dat)
+    
     # if we don't get 180 items, we need to error out. 
-    if(length(initial_groupings) < total_tx_items){
+    if(nrow(dat) < total_tx_items){
       return(
         list(
           dat = NA,
@@ -500,18 +508,17 @@ select_stimuli <- function(participant_theta,
           time = NA,
           error = TRUE,
           error_detail = tribble(
-            ~variable, ~value,
-            "number of discourse stimuli", ns,
-            "number of discouse items", nd,
-            "lowest number of discourse items in a condition", min_cat,
-            "number of total items in initial_groupings", length(initial_groupings),
-          )
+            ~variable, ~value, ~cutoff,
+            "number of discourse stimuli", ns, min_discourse_stimuli,
+            "number of discouse items", nd, min_discourse_items,
+            "lowest number of discourse items in a condition", min_cat, min_discourse_items/3,
+            "number of total probe items available", nrow(dat), total_tx_items
+          ) |> 
+            mutate(error = ifelse(value < cutoff, "Low", ""))
         )
       )
     }
     
-    # how many additional items are needed
-    N = nrow(additional_items)
     
 
     # Here's where new groups are assigned.
@@ -551,9 +558,9 @@ select_stimuli <- function(participant_theta,
       nest_by(condition_all)
     
     items_per_condition = total_tx_items/3
-    ntx = round(items_per_condition*(2/3))
+    ncontrol = 20 # always 20
+    ntx = items_per_condition-ncontrol # remaining items are tx regardless of study
     #print(ntx)
-    ncontrol = items_per_condition - ntx
     #print(ncontrol)
     # for each condition, assign into treated and untreated
     # operates slightly differently if we're just pulling 
@@ -639,7 +646,7 @@ select_stimuli <- function(participant_theta,
 
     # get table for time dat
     if(naming_only != 1){
-      time_dat = suppressMessages(get_time_dat(discourse_items))
+      time_dat = suppressMessages(get_time_dat(discourse_items, df_final))
     } else {
       time_dat = tibble(data = NA)
     }

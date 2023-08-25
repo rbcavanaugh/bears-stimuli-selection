@@ -52,22 +52,22 @@ ui <- fluidPage(
       # These are additional inputs for tweaking the stimuli selection algorithm
       # They are set by default and don't need to be changed by the user. 
       numericInput(inputId = "total_tx_items",
-                    label = "Total treatment items",
+                    label = "Total probe words",
                     value = 180, min = 180, max = 360, step = 30),
       numericInput(inputId = "min_naming_agreement",
-                   label = "Min naming agreement allowed (%)",
+                   label = "Min picture naming agreement allowed (%)",
                    value = 70, min = 50, max = 100, step = 1),
       numericInput(inputId = "min_discourse_salience",
                    label = "Min discourse salience allowed (%)",
                    value = 30, min = 20, max = 50, step = 1),
       numericInput(inputId = "target_prob_correct",
-                   label = "Target naming accuracy",
+                   label = "Target baseline probe naming accuracy",
                    value = 0.33, min = 0, max = 0.66, step = 0.01),
       numericInput(inputId = "min_discourse_stimuli",
-                   label = "Min number of discourse stimuli (0 = naming only)",
+                   label = "Min number of discourse items (0 = naming only)",
                    value = 9, min = 0, max = 18, step = 1),
       numericInput(inputId = "min_discourse_items",
-                   label = "Min number of discourse items",
+                   label = "Min number of probe words salient in discourse items",
                    value = 54, min = 30, max = 90, step = 3),
       numericInput(inputId = "seed",
                    label = "Set seed for reproducibility",
@@ -226,7 +226,7 @@ server <- function(input, output, session) {
   output$error_table <- renderTable({
     req(!is.na(v$output$error_detail))
    v$output$error_detail
-  })
+  }, digits = 0)
   
   # shows the modal for the error table
   observeEvent(v$output,{

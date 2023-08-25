@@ -1,4 +1,9 @@
-get_time_dat <- function(discourse_items){
+get_time_dat <- function(discourse_items, df_final){
+  
+  df_final |> 
+    count(condition, name = "total probe items") |> 
+    mutate(condition = as.numeric(condition)) -> n_cond
+  
   discourse_items |> 
     add_count(condition) |> 
     group_by(stimuli) |> 
@@ -10,7 +15,8 @@ get_time_dat <- function(discourse_items){
               sd_time = sum(sd_time),
               n_discourse_words = mean(nn),
               n_discourse_tasks = mean(n_discourse_tasks),
-              mean_prob_correct = mean(mean_p_correct), .by = condition) 
+              mean_prob_correct = mean(mean_p_correct), .by = condition) |> 
+    left_join(n_cond, by = "condition")
 }
 
 
