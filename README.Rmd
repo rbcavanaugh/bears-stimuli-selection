@@ -78,7 +78,12 @@ discourse stimuli to achieve these 3 groups of 60 words
 Then we need to run the same checks on the final stimuli lists comparing treated items vs. 
 control items and the three diffierent categories. 
 
+## Update 8/27
 
+- implemented a version doing something along these lines, with a few compromises
+- added beginning of a study 2 choices with many more items
+- code is documented and cleanish
+- still have a number of to-do's
 
 
 

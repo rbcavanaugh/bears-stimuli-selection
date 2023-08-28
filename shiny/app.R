@@ -54,7 +54,7 @@ ui <- fluidPage(
       radioButtons(inputId = "total_tx_items",
                     label = "Study (Total probe words)",
                    choices = c("Study 1 (180)" = 180,
-                               "Study 2 (500)" = 500)
+                               "Study 2 (500)" = 500), inline = TRUE
       ),
       numericInput(inputId = "min_naming_agreement",
                    label = "Min picture naming agreement allowed (%)",

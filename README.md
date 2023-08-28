@@ -1,7 +1,7 @@
 
 # bears-stimuli-selection
 
-last updated on 2023-06-29.
+last updated on 2023-08-27.
 
 This project uses {renv}. To install relevant packages, run:
 
@@ -25,14 +25,19 @@ fs::dir_tree(recurse = FALSE)
 #> ├── README.Rmd
 #> ├── README.md
 #> ├── VTT
+#> ├── VTT_updated
+#> ├── VTT_updated_813
 #> ├── bears-stimuli-selection.Rproj
 #> ├── check-nouns
 #> ├── check-nouns hand corrected
 #> ├── data
 #> ├── english-ewt-ud-2.5-191206.udpipe
+#> ├── errors.csv
 #> ├── output
 #> ├── renv
-#> └── renv.lock
+#> ├── renv.lock
+#> ├── rsconnect
+#> └── shiny
 ```
 
 - R: *scripts*
@@ -81,10 +86,10 @@ assess whether an item is produced at the discourse level.
 
 We need to incorporate the source of the items that appear in discourse
 into the stimuli selection process so that each condition has only a
-subset of the discourse stimuli (and each of the discourse
-stimuli are only used once). This is further complicated by the
+subset of the discourse stimuli (and I think that these discourse
+stimuli should only be used once). This is further complicated by the
 fact that some items derived from the discourse stimuli appear in
-multiple discourse stimuli. this means that there are a number of potential candidate discourse items that could be used as discourse probes for a given condition, but we need to choose the best set. 
+multiple discourse stimuli.
 
 So the initial item selection of 180 words should probably try to try to
 avoid selecting items from a discourse stimuli if only a handful are
@@ -96,3 +101,11 @@ words
 
 Then we need to run the same checks on the final stimuli lists comparing
 treated items vs.  control items and the three diffierent categories.
+
+## Update 8/27
+
+- implemented a version doing something along these lines, with a few
+  compromises
+- added beginning of a study 2 choices with many more items
+- code is documented and cleanish
+- still have a number of to-do’s
