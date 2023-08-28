@@ -12,16 +12,22 @@ for(i in list.files(here::here("shiny", "R"), full.names = TRUE)){source(i)}
 
 # Hey! this is all available in the shiny app. You can run it by doing
 source(here::here("shiny", "app.R"))
+here()
 shinyApp(ui, server)
+
 # or you can just navigate to shiny/app.R and hitting run app
 # but if you don't want to use the shiny app, here's how to do it line by line:
 
 # run the select_stimuli() function
 # There are additional arguments - look at the script if you need to change them
 ss <- select_stimuli(
-  participant_theta = 50,
-  participant_id = "p1"
+  participant_theta = 48,
+  participant_id = "p1",
+  shiny = FALSE,
+  total_tx_items = 500
 )
+
+ss$dat |> count(condition, tx) |> arrange(desc(tx), condition)
 
 # selected stimuli
 head(ss$dat)

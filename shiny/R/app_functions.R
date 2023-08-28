@@ -23,7 +23,7 @@ get_time_dat <- function(discourse_items, df_final){
 get_check_stats <- function(df_final){
   df_final |>
     mutate(condition = as.factor(condition),
-           tx = as.factor(ifelse(tx == 1, "tx", "control")),
+           tx = fct_relevel(as.factor(ifelse(tx == 1, "tx", "control")), rev),
            in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
     group_by(condition, tx, in_discourse) |> 
     summarize(
@@ -39,7 +39,7 @@ get_check_stats <- function(df_final){
 get_check_stats_overall <- function(df_final){
   df_final |>
     mutate(condition = as.factor(condition),
-           tx = as.factor(ifelse(tx == 1, "tx", "control")),
+           tx = fct_relevel(as.factor(ifelse(tx == 1, "tx", "control")), rev),
            in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
     group_by(condition, tx) |> 
     summarize(
@@ -165,12 +165,12 @@ get_p2 <- function(df_final, naming_only){
   if(naming_only != 1){
       df_final |>
         mutate(condition = as.factor(condition),
-               tx = as.factor(ifelse(tx == 1, "tx", "control")),
+               tx = fct_relevel(as.factor(ifelse(tx == 1, "tx", "control")), rev),
                in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
         bind_rows(
           df_final |>
             mutate(condition = as.factor(condition),
-                   tx = as.factor(ifelse(tx == 1, "tx", "control")),
+                   tx = fct_relevel(as.factor(ifelse(tx == 1, "tx", "control")), rev),
                    in_discourse = "overall") 
         ) |> 
         ggplot(aes(x = tx, y = item_difficulty, fill = condition)) +
@@ -180,12 +180,12 @@ get_p2 <- function(df_final, naming_only){
       
       df_final |>
         mutate(condition = as.factor(condition),
-               tx = as.factor(ifelse(tx == 1, "tx", "control")),
+               tx = fct_relevel(as.factor(ifelse(tx == 1, "tx", "control")), rev),
                in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
         bind_rows(
           df_final |>
             mutate(condition = as.factor(condition),
-                   tx = as.factor(ifelse(tx == 1, "tx", "control")),
+                   tx = fct_relevel(as.factor(ifelse(tx == 1, "tx", "control")), rev),
                    in_discourse = "overall") 
         ) |> 
         ggplot(aes(x = tx, y = agreement, fill = condition)) +
@@ -195,12 +195,12 @@ get_p2 <- function(df_final, naming_only){
       
       df_final |>
         mutate(condition = as.factor(condition),
-               tx = as.factor(ifelse(tx == 1, "tx", "control")),
+               tx = fct_relevel(as.factor(ifelse(tx == 1, "tx", "control")), rev),
                in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
         bind_rows(
           df_final |>
             mutate(condition = as.factor(condition),
-                   tx = as.factor(ifelse(tx == 1, "tx", "control")),
+                   tx = fct_relevel(as.factor(ifelse(tx == 1, "tx", "control")), rev),
                    in_discourse = "overall") 
         ) |> 
         ggplot(aes(x = tx, y = core_lex_percent, fill = condition)) +
@@ -213,12 +213,12 @@ get_p2 <- function(df_final, naming_only){
     
     df_final |>
       mutate(condition = as.factor(condition),
-             tx = as.factor(ifelse(tx == 1, "tx", "control")),
+             tx = fct_relevel(as.factor(ifelse(tx == 1, "tx", "control")), rev),
              in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
       bind_rows(
         df_final |>
           mutate(condition = as.factor(condition),
-                 tx = as.factor(ifelse(tx == 1, "tx", "control")),
+                 tx = fct_relevel(as.factor(ifelse(tx == 1, "tx", "control")), rev),
                  in_discourse = "overall") 
       ) |> 
       ggplot(aes(x = tx, y = item_difficulty, fill = condition)) +
@@ -228,12 +228,12 @@ get_p2 <- function(df_final, naming_only){
     
     df_final |>
       mutate(condition = as.factor(condition),
-             tx = as.factor(ifelse(tx == 1, "tx", "control")),
+             tx = fct_relevel(as.factor(ifelse(tx == 1, "tx", "control")), rev),
              in_discourse = as.factor(ifelse(in_discourse == 1, "discourse", "naming_only"))) |> 
       bind_rows(
         df_final |>
           mutate(condition = as.factor(condition),
-                 tx = as.factor(ifelse(tx == 1, "tx", "control")),
+                 tx = fct_relevel(as.factor(ifelse(tx == 1, "tx", "control")), rev),
                  in_discourse = "overall") 
       ) |> 
       ggplot(aes(x = tx, y = agreement, fill = condition)) +

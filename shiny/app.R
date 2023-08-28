@@ -51,9 +51,11 @@ ui <- fluidPage(
       hr(),
       # These are additional inputs for tweaking the stimuli selection algorithm
       # They are set by default and don't need to be changed by the user. 
-      numericInput(inputId = "total_tx_items",
-                    label = "Total probe words",
-                    value = 180, min = 180, max = 360, step = 30),
+      radioButtons(inputId = "total_tx_items",
+                    label = "Study (Total probe words)",
+                   choices = c("Study 1 (180)" = 180,
+                               "Study 2 (500)" = 500)
+      ),
       numericInput(inputId = "min_naming_agreement",
                    label = "Min picture naming agreement allowed (%)",
                    value = 70, min = 50, max = 100, step = 1),
@@ -140,12 +142,12 @@ ui <- fluidPage(
                    h4("Getting Started"),
                    p("To get started using the app, enter a participant ID, and select a naming
                      ability that was generated from the PNT. The naming ability score must be between
-                     -4 and 4. After entering these values, you can hit the 'Select Stimuli' button."),
+                     -30 and 70. After entering these values, you can hit the 'Select Stimuli' button."),
                    p("The additional choices in the bottom of the sidebar menu are there in case we need
                    to make minor adjustments to the parameters that affect stimuli selection (for example, 
                    if we needed to relax the agreement criteria to pull from additional eligible items."),
                    p("In the hopefully rare case that someone is too mild and we can't generate enough
-                     discourse items for them, you can set the 'Min number of discourse stimuli (0 = naming only)'
+                     discourse items for them, you can set the 'Min number of discourse items (0 = naming only)'
                      field to 0. This will produce three balanced lists for naming items ignoring
                       the discourse task entirely."),
                    p("When you've selected your stimuli, you can preview them in the 'Preview stimuli' tab
@@ -192,6 +194,7 @@ server <- function(input, output, session) {
 # Runs stimuli selection command
 # -----------------------------------------------------------------------------#
 
+  observe({print(as.numeric(input$total_tx_items))})
   # what happens when you hit the submit button
   # first, validate that the participant ID has a value
   # Then show the spinny thingy
@@ -204,13 +207,14 @@ server <- function(input, output, session) {
     } 
     req(nchar(input$participant)>=1)
     w$show()
+    print(input$total_tx_items)
     v$output = select_stimuli(participant_theta      = input$theta,
                               min_naming_agreement   = input$min_naming_agreement,
                               min_discourse_salience = input$min_discourse_salience,
                               target_prob_correct    = input$target_prob_correct,
                               min_discourse_stimuli  = input$min_discourse_stimuli,
                               min_discourse_items    = input$min_discourse_items,
-                              total_tx_items         = input$total_tx_items,
+                              total_tx_items         = as.numeric(input$total_tx_items),
                               seed                   = input$seed,
                               participant_id         = input$participant
                               )

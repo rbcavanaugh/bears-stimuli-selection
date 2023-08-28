@@ -36,13 +36,26 @@ select_stimuli <- function(participant_theta,
                            min_discourse_items = 54,
                            total_tx_items = 180,
                            seed = 42,
-                           participant_id){
+                           participant_id,
+                           shiny = TRUE){
   
   # function parameters
   # Thte only two that are required are
   # participant_theta (ideally a value between 30 and 70)
   # Based on PNT naming assessment output
   # And a character value for the participant_id like "p42"
+  # 
+  #   # these are placeholder values that can be used when testing the function. 
+  # participant_theta = 48
+  # min_naming_agreement = 70
+  # min_discourse_salience = 30
+  # target_prob_correct = 0.333
+  # min_discourse_stimuli = 9
+  # min_discourse_items = 54
+  # seed = 42
+  # participant_id = ""
+  # total_tx_items = 500
+  # shiny = TRUE
   
 # -----------------------------------------------------------------------------#
 # SETUP
@@ -62,15 +75,6 @@ select_stimuli <- function(participant_theta,
   theta = participant_theta #
   ideal_prob_correct = target_prob_correct
   
-  # these are placeholder values that can be used when testing the function. 
- # participant_theta = 50
- # min_naming_agreement = 70
- # min_discourse_salience = 30
- # target_prob_correct = 0.333
- # min_discourse_stimuli = 9
- # min_discourse_items = 54
- # seed = 42
- # participant_id = ""
   
   # If min_discourse_stimuli is zero, then just pull items to match
   # them based on naming parameters, ignoring discourse stimuli entirely
@@ -83,9 +87,33 @@ select_stimuli <- function(participant_theta,
 # -----------------------------------------------------------------------------#
 # READING IN FILES
 # -----------------------------------------------------------------------------#
+ 
+  print(here::here())
+  local = str_detect(here::here(), "github")
+  
+  if(!isTRUE(shiny)){
+    naming_file = here("shiny", "data", "final_database_4-11-23.csv")
+    discourse_naming_joined_file = here("shiny", "data", "2023-08-27_join_checked.csv")
+    timestamp_file = here("shiny", "data", "2023-08-14_timestamp.csv")
+    naming_parameters_file = here("shiny", "data",
+                                  "AoA-phonemes-freq for singe noun targets with at least 70 percent name agreement from ELP.xlsx")
+    } else if(isTRUE(local)) {
+      naming_file = here("shiny", "data", "final_database_4-11-23.csv")
+      discourse_naming_joined_file = here("shiny", "data", "2023-08-27_join_checked.csv")
+      timestamp_file = here("shiny", "data", "2023-08-14_timestamp.csv")
+      naming_parameters_file = here("shiny", "data",
+                                    "AoA-phonemes-freq for singe noun targets with at least 70 percent name agreement from ELP.xlsx")
 
+    } else {
+      naming_file = here("data", "final_database_4-11-23.csv")
+      discourse_naming_joined_file = here("data", "2023-08-27_join_checked.csv")
+      timestamp_file = here("data", "2023-08-14_timestamp.csv")
+      naming_parameters_file = here("data",
+                                    "AoA-phonemes-freq for singe noun targets with at least 70 percent name agreement from ELP.xlsx")
+     }
+  
     # any dataframe that holds the word, the source, and the agreement scores...
-    naming <- suppressMessages(read_csv(here("data", "final_database_4-11-23.csv"), col_types = cols())) |> 
+    naming <- suppressMessages(read_csv(naming_file, col_types = cols())) |> 
       select(lemma = modal, source, agreement, filename = `confirmed file name`) |> 
       distinct() |> 
       filter(agreement >= min_naming_agreement) |> 
@@ -96,7 +124,8 @@ select_stimuli <- function(participant_theta,
     # this is a joined df where I hand chekced the fuzzy join in 01-new-approach
     # between discourse and naming. it only adds a few items...
   
-    fuzz_join = suppressMessages(read_csv(here("data", "join_checked.csv"), col_types = cols())) |> 
+    fuzz_join = suppressMessages(read_csv(discourse_naming_joined_file,
+                                          col_types = cols())) |> 
       drop_na(match) |> 
       select(source:lemma_dis) |> 
       filter(percent >= min_discourse_salience, agreement >= min_naming_agreement) |> 
@@ -110,7 +139,7 @@ select_stimuli <- function(participant_theta,
     
     # get the average time to produce of each stimuli for more balancing
     # used a few times later on
-    times <- read_csv(here("data", "2023-08-14_timestamp.csv"), col_types = cols()) |> 
+    times <- read_csv(timestamp_file, col_types = cols()) |> 
       mutate(stimuli = str_replace_all(stimuli, "-", "_"),
              stimuli = ifelse(str_detect(stimuli,
                                          "ghouls"),
@@ -131,7 +160,7 @@ select_stimuli <- function(participant_theta,
     # 
     item_params = 
       suppressWarnings(
-        read_excel(here("data", "AoA-phonemes-freq for singe noun targets with at least 70 percent name agreement from ELP.xlsx")) |> 
+        read_excel(naming_parameters_file) |> 
           select(Word, LgSUBTLCD, Age_Of_Acquisition, NPhon) |> 
           mutate(LgSUBTLCD = readr::parse_number(LgSUBTLCD),
                  #NPhon = readr::parse_number(NPhon),
@@ -453,7 +482,7 @@ select_stimuli <- function(participant_theta,
   } else {
     
 # -----------------------------------------------------------------------------#
-# This is what happens first if we only care about discourse
+# This is what happens first if we only care about naming
 # some much simpler wrnagling, setting some NA values, but otherwise very
 # similar
 # -----------------------------------------------------------------------------#
@@ -488,10 +517,18 @@ select_stimuli <- function(participant_theta,
     # how many additional items are needed
     N = nrow(additional_items)
     
-    sample_this = rep(c(1, 2, 3), length.out = total_tx_items-discourse_items_total)
+    if(total_tx_items == 500){
+      items_per_cat = discourse_items_total/3
+      order = sample(c(1, 2, 3), size = 3)
+      sample_this = c(rep(order[1], 220-items_per_cat),
+                      rep(order[2], 220-items_per_cat),
+                      rep(order[3], 60-items_per_cat))
+    } else  {
+      sample_this = rep(c(1, 2, 3), length.out = total_tx_items-discourse_items_total)
+    }
 
     # initialize groupings for anticlustering; new items get random group affiliation
-    initial_groupings <- c(discourse_items$condition, sample(sample_this) )
+    initial_groupings <- c(discourse_items$condition, sample(sample_this))
     
     # print(length(initial_groupings))
     # print(total_tx_items)
@@ -556,10 +593,10 @@ select_stimuli <- function(participant_theta,
     # loop over the conditions with anticlustering
     dat_nest = dat |> 
       nest_by(condition_all)
-    
-    items_per_condition = total_tx_items/3
-    ncontrol = 20 # always 20
-    ntx = items_per_condition-ncontrol # remaining items are tx regardless of study
+    # 
+    # items_per_condition = ifelse(total_tx_items==180, total_tx_items/3)
+    # ncontrol = 20 # always 20
+    # ntx = items_per_condition-ncontrol # remaining items are tx regardless of study
     #print(ntx)
     #print(ncontrol)
     # for each condition, assign into treated and untreated
@@ -569,9 +606,11 @@ select_stimuli <- function(participant_theta,
     if(naming_only != 1){
         for(i in 1:nrow(dat_nest)){
           tmp = dat_nest$data[[i]]
+          ntx_tmp = ifelse(nrow(tmp)==220, 200, 40)
+          control_tmp = 20
           gr <- anticlustering(
             tmp[, c(4, 5, 10)], # use the variables directly
-            K = c(ntx, ncontrol),
+            K = c(ntx_tmp, control_tmp),
             method = "local-maximum",
             categories = tmp$in_discourse,
             repetitions = 100,
@@ -581,6 +620,9 @@ select_stimuli <- function(participant_theta,
           tmp$tx = ifelse(gr == 1, 1, 0)
           tmp$condition = dat_nest$condition_all[i]
           dat_out[[i]] = tmp
+          rm(control_tmp)
+          rm(ntx_tmp)
+          rm(tmp)
         }
     } else{
       for(i in 1:nrow(dat_nest)){
@@ -624,8 +666,14 @@ select_stimuli <- function(participant_theta,
         target_prob_correct = target_prob_correct,
         min_discourse_stimuli = min_discourse_stimuli,
         min_discourse_items = min_discourse_items,
-        seed = seed
-      )
+        seed = seed,
+        file_names = 
+          c( strsplit(naming_file, split = "bears-stimuli-selection")[[1]][2],
+             strsplit(discourse_naming_joined_file, split = "bears-stimuli-selection")[[1]][2],
+             strsplit(timestamp_file, split = "bears-stimuli-selection")[[1]][2],
+             strsplit(naming_parameters_file, split = "bears-stimuli-selection")[[1]][2],
+             rep(NA, n()-4))
+      ) 
     
     cat("- Final dataset generated \n")
 # -----------------------------------------------------------------------------#
