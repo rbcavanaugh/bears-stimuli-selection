@@ -1,6 +1,7 @@
 library(shiny)
-library(waiter)
+# library(waiter)
 library(shinyjs)
+library(DT)
 
 # this is automatically sourced for the shiny app since its in the R folder...
 # it contains the logic for stimuli selection
@@ -20,10 +21,13 @@ ui <- fluidPage(
         padding: 30px;
         width: 50%;
       }
+      #shiny-notification-panel {
+              width: 500px;
+      }
     "))
   ),
   # enables js for the loading spinny thingy
-  waiter::use_waiter(),
+  # waiter::use_waiter(),
   # allows disabling/enabling buttons
   shinyjs::useShinyjs(),
   # Application title
@@ -95,7 +99,7 @@ ui <- fluidPage(
                  p("Table shows mean duration(minutes) and mean + 1SD duration from norming")),
         # Preview of the stimuli selected
         tabPanel(title = "Preview stimuli",
-                 div(style = 'overflow-y: scroll; height: 70vh;', tableOutput("tab"))),
+                 div(style = 'overflow-y: scroll; height: 70vh;', DT::DTOutput("tab"))),
         # Tab to generate the input file once stimuli have been selected
         tabPanel(title = "Generate Input File",
                  shiny::fluidRow(
@@ -180,9 +184,9 @@ server <- function(input, output, session) {
 # -----------------------------------------------------------------------------#
 
   # initializes the spinny thingy
-  w <- Waiter$new(id = c("p1", "p2"),
-                  html = spin_3(), 
-                  color = transparent(.5))
+  # w <- Waiter$new(id = c("p1", "p2"),
+  #                 html = spin_3(), 
+  #                 color = transparent(.5))
   
   # holds all the data that can change throughout the app
   v <- reactiveValues(
@@ -206,8 +210,28 @@ server <- function(input, output, session) {
                        type = "error")
     } 
     req(nchar(input$participant)>=1)
-    w$show()
-    print(input$total_tx_items)
+    
+    # Create a Progress object
+    progress <- shiny::Progress$new()
+    progress$set(message = "Selecting stimuli...", value = 0)
+    # Close the progress when this reactive exits (even if there's an error)
+    on.exit(progress$close())
+    
+    # Create a callback function to update progress.
+    # Each time this is called:
+    # - If `value` is NULL, it will move the progress bar 1/5 of the remaining
+    #   distance. If non-NULL, it will set the progress to that value.
+    # - It also accepts optional detail text.
+    updateProgress <- function(value = NULL, detail = NULL) {
+      if (is.null(value)) {
+        value <- progress$getValue()
+        value <- value + (1 / 9)
+      }
+      progress$set(value = value, detail = detail)
+    }
+    
+    
+    
     v$output = select_stimuli(participant_theta      = input$theta,
                               min_naming_agreement   = input$min_naming_agreement,
                               min_discourse_salience = input$min_discourse_salience,
@@ -216,7 +240,8 @@ server <- function(input, output, session) {
                               min_discourse_items    = input$min_discourse_items,
                               total_tx_items         = as.numeric(input$total_tx_items),
                               seed                   = input$seed,
-                              participant_id         = input$participant
+                              participant_id         = input$participant,
+                              updateProgress         = updateProgress
                               )
     
   })
@@ -296,11 +321,21 @@ server <- function(input, output, session) {
   digits = 0)
   
   # preview of the stimuli selected table. 
-  output$tab <- renderTable(({
+  output$tab <- DT::renderDT({
     req(!is.na(v$output))
     req(!isTRUE(v$output$error))
-    v$output$dat |> select(word:filename)
-  }))
+    datatable(v$output$dat |> select(word:filename),
+              rownames = FALSE,
+              filter = list(position = 'top', clear = FALSE),
+              options = list(
+                dom = "t",
+                paging = FALSE,
+                scrollY = TRUE,
+                scrollX = TRUE,
+                search = list(regex = TRUE, caseInsensitive = TRUE)
+              )
+              ) |> formatRound(digits=2, columns = 4:7)
+  })
   
   # Plot 1 output
   output$p1 <- renderPlot({

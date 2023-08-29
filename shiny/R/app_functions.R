@@ -52,7 +52,7 @@ get_check_stats_overall <- function(df_final){
     ) 
 }
 
-get_p1 <- function(check_stats, check_stats_overall, naming_only){
+get_p1 <- function(check_stats, check_stats_overall, naming_only, pick_theme = theme_bw(base_size = 14)){
   # visualize checks
   if(naming_only != 1){
   check_stats |> 
@@ -72,7 +72,8 @@ get_p1 <- function(check_stats, check_stats_overall, naming_only){
          fill = "Condition", color = "Condition",
          caption = "Error bars represent standard deviation") +
     scale_y_continuous(limits = c(0, 80)) +
-      coord_cartesian(clip = "off")-> id
+      coord_cartesian(clip = "off") +
+      pick_theme-> id
   
   check_stats |> 
     bind_rows(check_stats_overall) |> 
@@ -92,7 +93,8 @@ get_p1 <- function(check_stats, check_stats_overall, naming_only){
          fill = "Condition", color = "Condition",
          caption = "Error bars represent standard deviation") +
     scale_y_continuous(limits = c(0, 100)) +
-    coord_cartesian(clip = "off") -> clp
+    coord_cartesian(clip = "off") +
+    pick_theme -> clp
   
   check_stats |> 
     bind_rows(check_stats_overall) |> 
@@ -112,7 +114,8 @@ get_p1 <- function(check_stats, check_stats_overall, naming_only){
          fill = "Condition", color = "Condition",
          caption = "Error bars represent standard deviation") +
     scale_y_continuous(limits = c(0, 100)) +
-    coord_cartesian(clip = "off") -> a
+    coord_cartesian(clip = "off") +
+    pick_theme -> a
   
   p = id / a / clp
   } else {
@@ -133,7 +136,8 @@ get_p1 <- function(check_stats, check_stats_overall, naming_only){
            fill = "Condition", color = "Condition",
            caption = "Error bars represent standard deviation") +
       scale_y_continuous(limits = c(20, 80))  +
-      coord_cartesian(clip = "off") -> id
+      coord_cartesian(clip = "off") +
+      pick_theme -> id
     
     check_stats |> 
       bind_rows(check_stats_overall) |> 
@@ -152,7 +156,8 @@ get_p1 <- function(check_stats, check_stats_overall, naming_only){
            fill = "Condition", color = "Condition",
            caption = "Error bars represent standard deviation") +
       scale_y_continuous(limits = c(0, 100)) +
-      coord_cartesian(clip = "off") -> a
+      coord_cartesian(clip = "off") +
+      pick_theme -> a
     
     p = id / a
   }
@@ -160,7 +165,7 @@ get_p1 <- function(check_stats, check_stats_overall, naming_only){
 }
 
 
-get_p2 <- function(df_final, naming_only){
+get_p2 <- function(df_final, naming_only, pick_theme = theme_bw(base_size = 14)){
   
   if(naming_only != 1){
       df_final |>
@@ -176,7 +181,8 @@ get_p2 <- function(df_final, naming_only){
         ggplot(aes(x = tx, y = item_difficulty, fill = condition)) +
         facet_wrap(~in_discourse) +
         geom_boxplot() +
-        scale_y_continuous(limits = c(20, 80)) -> id2
+        scale_y_continuous(limits = c(20, 80)) +
+      pick_theme -> id2
       
       df_final |>
         mutate(condition = as.factor(condition),
@@ -191,7 +197,8 @@ get_p2 <- function(df_final, naming_only){
         ggplot(aes(x = tx, y = agreement, fill = condition)) +
         facet_wrap(~in_discourse) +
         geom_boxplot() + 
-        scale_y_continuous(limits = c(0, 100))  -> a2
+        scale_y_continuous(limits = c(0, 100)) +
+        pick_theme  -> a2
       
       df_final |>
         mutate(condition = as.factor(condition),
@@ -206,7 +213,8 @@ get_p2 <- function(df_final, naming_only){
         ggplot(aes(x = tx, y = core_lex_percent, fill = condition)) +
         facet_wrap(~in_discourse) +
         geom_boxplot() +
-        scale_y_continuous(limits = c(0, 100)) -> clp2
+        scale_y_continuous(limits = c(0, 100)) +
+        pick_theme -> clp2
       
       p = id2 / a2 / clp2
   } else {
@@ -224,7 +232,8 @@ get_p2 <- function(df_final, naming_only){
       ggplot(aes(x = tx, y = item_difficulty, fill = condition)) +
      # facet_wrap(~in_discourse) +
       geom_boxplot() +
-      scale_y_continuous(limits = c(20, 80)) -> id2
+      scale_y_continuous(limits = c(20, 80)) +
+      pick_theme -> id2
     
     df_final |>
       mutate(condition = as.factor(condition),
@@ -239,7 +248,8 @@ get_p2 <- function(df_final, naming_only){
       ggplot(aes(x = tx, y = agreement, fill = condition)) +
       #facet_wrap(~in_discourse) +
       geom_boxplot() + 
-      scale_y_continuous(limits = c(0, 100))  -> a2
+      scale_y_continuous(limits = c(0, 100)) +
+      pick_theme -> a2
     
     p = id2 / a2
     

@@ -37,7 +37,8 @@ select_stimuli <- function(participant_theta,
                            total_tx_items = 180,
                            seed = 42,
                            participant_id,
-                           shiny = TRUE){
+                           shiny = TRUE,
+                           updateProgress = NULL){
   
   # function parameters
   # Thte only two that are required are
@@ -167,7 +168,11 @@ select_stimuli <- function(participant_theta,
                  Age_Of_Acquisition = readr::parse_number(Age_Of_Acquisition)) 
     )
     
-    cat("- Setup and Loaded Files \n")
+    text = "- Setup and Loaded Files"
+    cat(text, "\n")
+    if (is.function(updateProgress)) {
+      updateProgress(detail = text)
+    }
 # -----------------------------------------------------------------------------#
 # Data wrangling before item selection
 # -----------------------------------------------------------------------------#
@@ -198,7 +203,11 @@ select_stimuli <- function(participant_theta,
     naming_db = cl |> filter(in_discourse == 0)
     discourse_db = cl |> filter(in_discourse == 1)
 
-    cat("- Initial data wrangling \n")
+    text = "- Initial data wrangling"
+    cat(text, "\n")
+    if (is.function(updateProgress)) {
+      updateProgress(detail = text)
+    }
 # -----------------------------------------------------------------------------#
 # As long as min_discourse_items is not 0, going to pull from discourse_db
 # -----------------------------------------------------------------------------#
@@ -392,7 +401,11 @@ select_stimuli <- function(participant_theta,
             slice_min(order_by = p_correct, n = min_cat) |> 
             ungroup()
           
-          cat("- First matching \n")
+          text = "- First matching"
+          cat(text, "\n")
+          if (is.function(updateProgress)) {
+            updateProgress(detail = text)
+          }
 # -----------------------------------------------------------------------------#
 # Second anticlustering part. We're going to make triplets again, but this time
 # we're going to make them so that each triplet contains one item from each
@@ -429,7 +442,11 @@ select_stimuli <- function(participant_theta,
           #                   discourse_items$condition,
           #                   na.rm = TRUE))
           #                   
-          cat("- Second matching \n")
+          text = "- Second matching"
+          cat(text, "\n")
+          if (is.function(updateProgress)) {
+            updateProgress(detail = text)
+          }
 # -----------------------------------------------------------------------------#
 # Adding naming only items to the discourse items
 # We want to add them to the already matched categories to maintain
@@ -578,7 +595,11 @@ select_stimuli <- function(participant_theta,
     mean_sd_tab(dat[,4:6], dat$condition_all, na.rm = TRUE)
     #mean_sd_tab(dat |> drop_na(condition) |> select(4:6), dat |> drop_na(condition) |> pull(condition), na.rm = TRUE)
     
-    cat("- Naming Items added to discourse \n")
+    text = "- Naming Items added to discourse"
+    cat(text, "\n")
+    if (is.function(updateProgress)) {
+      updateProgress(detail = text)
+    }
 # -----------------------------------------------------------------------------#
 # Final assignment is for treated vs. control words
 # -----------------------------------------------------------------------------#
@@ -642,7 +663,11 @@ select_stimuli <- function(participant_theta,
       }
     }
     
-    cat("- Items assigned to tx and control \n")
+    text = "- Items assigned to tx and control"
+    cat(text, "\n")
+    if (is.function(updateProgress)) {
+      updateProgress(detail = text)
+    }
 # -----------------------------------------------------------------------------#
 # THIS IS THE FINAL DATASET WOO!!
 # -----------------------------------------------------------------------------#
@@ -675,7 +700,11 @@ select_stimuli <- function(participant_theta,
              rep(NA, n()-4))
       ) 
     
-    cat("- Final dataset generated \n")
+    text = "- Final dataset generated"
+    cat(text, "\n")
+    if (is.function(updateProgress)) {
+      updateProgress(detail = text)
+    }
 # -----------------------------------------------------------------------------#
 # Data wrangling for app output and plots
 # check app_functions.R for this stuff
@@ -699,8 +728,19 @@ select_stimuli <- function(participant_theta,
       time_dat = tibble(data = NA)
     }
     
-    cat("- Plotting and summary tables generated \n")
-    cat("- Stimuli selection complete ┏(-_-)┛ ┗(-_-)┓ ┗(-_-)┛ ┏(-_-)┓ \n")
+    text = "- Plotting and summary tables generated"
+    cat(text, "\n")
+    if (is.function(updateProgress)) {
+      updateProgress(detail = text)
+    }
+    
+    
+    text = "- Stimuli selection complete ┏(-_-)┛ ┗(-_-)┓ ┗(-_-)┛ ┏(-_-)┓"
+    cat(text, "\n")
+    if (is.function(updateProgress)) {
+      updateProgress(detail = text)
+      Sys.sleep(1)
+    }
 # -----------------------------------------------------------------------------#
 # If everything goes to plan, this is the list returned by the function
 # -----------------------------------------------------------------------------#
