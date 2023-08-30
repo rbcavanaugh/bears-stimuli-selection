@@ -41,85 +41,92 @@ if(study == "180"){
   
 }
 
-          
-# why getting NA values?
-# the normal case where we have discoures and naming items
-  if(naming_only != 1){
+  # TO DO...need to change these column names!!!
+  if(study == "180"){ # change for study 2.         
     
-    # TO DO...need to change these column names!!!
-    
-    # discourse item formatting
-    df_discourse <- 
-      df |> 
-        filter(in_discourse == 1) |> 
-        drop_na(discourse_stimuli) |> 
-        distinct(participant_id, discourse_stimuli, condition) |> 
-        mutate(value = 1, condition2 = condition, type = "discourse",) |> 
-        pivot_wider(names_from = condition, values_from = value) |> 
-        rename('eab-discourse-probes' = eab,
-               'em-discourse-probes' = em,
-               'am-discourse-probes' = am,
-               condition = condition2) |> 
-        mutate(
-               'eab-naming-probes' = NA_real_,
-               'eab-treatment-probes' = NA_real_,
-               'em-naming-probes' = NA_real_,
-               'em-treatment-probes' = NA_real_,
-               'am-naming-probes' = NA_real_,
-               'am-treatment-probes' = NA_real_
-               ) |> 
-         mutate(across(contains('probes'), ~replace_na(as.double(.), 0))) |> 
-        select(
-          participant_id,
-          item = discourse_stimuli,
-          type,
-          condition,
-          'eab-treatment' = 'eab-treatment-probes', 'eab-naming-probes', 'eab-discourse-probes',
-          'em-treatment'  = 'em-treatment-probes', 'em-naming-probes', 'em-discourse-probes',
-          'am-treatment'  = 'am-treatment-probes', 'am-naming-probes', 'am-discourse-probes'
-        ) |> 
-      mutate(discourse_stimuli = NA)
-  }
+    # why getting NA values?
+    # the normal case where we have discoures and naming items
+      if(naming_only != 1){
 
-  # naming item formatting
-  df_naming <- 
-    df |> 
-      distinct(participant_id, word, discourse_stimuli, filename, condition, tx) |> 
-      mutate(value = 1,
-             condition2 = condition,
-             type = "naming") |> 
-      pivot_wider(names_from = condition, values_from = value) |> 
-      rename('eab-naming-probes' = eab,
-             'em-naming-probes' = em,
-             'am-naming-probes' = am,
-             condition = condition2) |> 
-      mutate(
-        
-        'eab-discourse-probes' = NA_real_,
-        'eab-treatment-probes' = NA_real_,
-        'em-discourse-probes' = NA_real_,
-        'em-treatment-probes' = NA_real_,
-        'am-discourse-probes' = NA_real_,
-        'am-treatment-probes' = NA_real_,
-        
-        'eab-treatment-probes' = ifelse(tx == 1, `eab-naming-probes`, NA_real_),
-        'em-treatment-probes' = ifelse(tx == 1, `em-naming-probes`, NA_real_),
-        'am-treatment-probes' = ifelse(tx == 1, `am-naming-probes`, NA_real_)
-        ) |> 
-      mutate(across(contains('probes'), ~replace_na(as.double(.), 0))) |> 
-      select(
-        participant_id,
-        item = word,
-        discourse_stimuli,
-        filename,
-        type,
-        condition,
-        tx,
-        'eab-treatment' = 'eab-treatment-probes', 'eab-naming-probes', 'eab-discourse-probes',
-        'em-treatment'  = 'em-treatment-probes', 'em-naming-probes', 'em-discourse-probes',
-        'am-treatment'  = 'am-treatment-probes', 'am-naming-probes', 'am-discourse-probes'
-      ) |> 
-      arrange(condition, tx)
+    # discourse item formatting
+          df_discourse <- 
+            df |> 
+              filter(in_discourse == 1) |> 
+              drop_na(discourse_stimuli) |> 
+              distinct(participant_id, discourse_stimuli, condition) |> 
+              mutate(value = 1, condition2 = condition, type = "discourse",) |> 
+              pivot_wider(names_from = condition, values_from = value) |> 
+              rename('eab-discourse-probes' = eab,
+                     'em-discourse-probes' = em,
+                     'am-discourse-probes' = am,
+                     condition = condition2) |> 
+              mutate(
+                     'eab-naming-probes' = NA_real_,
+                     'eab-treatment-probes' = NA_real_,
+                     'em-naming-probes' = NA_real_,
+                     'em-treatment-probes' = NA_real_,
+                     'am-naming-probes' = NA_real_,
+                     'am-treatment-probes' = NA_real_
+                     ) |> 
+               mutate(across(contains('probes'), ~replace_na(as.double(.), 0))) |> 
+              select(
+                participant_id,
+                item = discourse_stimuli,
+                type,
+                condition,
+                'eab-treatment' = 'eab-treatment-probes', 'eab-naming-probes', 'eab-discourse-probes',
+                'em-treatment'  = 'em-treatment-probes', 'em-naming-probes', 'em-discourse-probes',
+                'am-treatment'  = 'am-treatment-probes', 'am-naming-probes', 'am-discourse-probes'
+              ) |> 
+            mutate(discourse_stimuli = NA)
+        }
+      
+        # naming item formatting
+        df_naming <- 
+          df |> 
+            distinct(participant_id, word, discourse_stimuli, filename, condition, tx) |> 
+            mutate(value = 1,
+                   condition2 = condition,
+                   type = "naming") |> 
+            pivot_wider(names_from = condition, values_from = value) |> 
+            rename('eab-naming-probes' = eab,
+                   'em-naming-probes' = em,
+                   'am-naming-probes' = am,
+                   condition = condition2) |> 
+            mutate(
+              
+              'eab-discourse-probes' = NA_real_,
+              'eab-treatment-probes' = NA_real_,
+              'em-discourse-probes' = NA_real_,
+              'em-treatment-probes' = NA_real_,
+              'am-discourse-probes' = NA_real_,
+              'am-treatment-probes' = NA_real_,
+              
+              'eab-treatment-probes' = ifelse(tx == 1, `eab-naming-probes`, NA_real_),
+              'em-treatment-probes' = ifelse(tx == 1, `em-naming-probes`, NA_real_),
+              'am-treatment-probes' = ifelse(tx == 1, `am-naming-probes`, NA_real_)
+              ) |> 
+            mutate(across(contains('probes'), ~replace_na(as.double(.), 0))) |> 
+            select(
+              participant_id,
+              item = word,
+              discourse_stimuli,
+              filename,
+              type,
+              condition,
+              tx,
+              'eab-treatment' = 'eab-treatment-probes', 'eab-naming-probes', 'eab-discourse-probes',
+              'em-treatment'  = 'em-treatment-probes', 'em-naming-probes', 'em-discourse-probes',
+              'am-treatment'  = 'am-treatment-probes', 'am-naming-probes', 'am-discourse-probes'
+            ) |> 
+            arrange(condition, tx)
+  } else {
+    
+    
+    ###################### REPEAT HERE BUT FOR 500 #########################
+    
+    
+  }
   
   # test for NA values that we don't want
   stopifnot(
