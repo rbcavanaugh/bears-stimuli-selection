@@ -9,7 +9,7 @@
 #' @param c3 name of condition 3. "em", "am", or "eab"
 #'
 #' @return dataframe of app input
-create_app_input_file <- function(df_selected_stimuli, naming_only = 0, c1, c2, c3){
+create_app_input_file <- function(df_selected_stimuli, naming_only = 0, c1, c2, c3, study = '180'){
   
   # condition assignments
   conditions <- tibble(
@@ -27,14 +27,26 @@ create_app_input_file <- function(df_selected_stimuli, naming_only = 0, c1, c2, 
   # check for NA values
   # check for balanced conditions
   # check for 180 unique words
-stopifnot(
-  "unbalanced conditions or < 180 words present in selected stimuli. can't generate input files" = 
-    all(df |> distinct(condition, word) |> count(condition) |> pull(n) == 60)
-)
+if(study == "180"){
+  stopifnot(
+    "unbalanced conditions or < 180 words present in selected stimuli. can't generate input files" = 
+      all(df |> distinct(condition, word) |> count(condition) |> pull(n) == 60)
+  )
+} else {
+  print( df |> count(condition) |> arrange(n) |> pull(n)) # distinct(condition, word) |> 
+  stopifnot(
+    "unbalanced conditions or < 180 words present in selected stimuli. can't generate input files" = 
+      df |>  count(condition) |> arrange(n) |> pull(n) == c(60, 220, 220) # distinct(condition, word) |>
+  )
+  
+}
+
           
 # why getting NA values?
 # the normal case where we have discoures and naming items
   if(naming_only != 1){
+    
+    # TO DO...need to change these column names!!!
     
     # discourse item formatting
     df_discourse <- 

@@ -64,7 +64,7 @@ select_stimuli <- function(participant_theta,
   
   # sets the seed
   set.seed(seed)
-  
+
   # function for calculating probility of correct response for a 1-PL model
   # given an ability (theta) and item difficulty (b) and discrimination (0.182)
   p_cor = function(theta, b, discrimination = 0.182){
@@ -824,3 +824,5 @@ score_upload <- function(new_dat){
     )
   )
 }
+
+

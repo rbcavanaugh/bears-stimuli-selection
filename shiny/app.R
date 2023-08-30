@@ -111,19 +111,7 @@ ui <- fluidPage(
                  ),
                  shiny::fluidRow(
                    # these inputs allow the user to set which condition goes with which group
-                   shiny::column(width = 5, offset = 1,
-                               selectInput("g1",  label = "Group 1",
-                                           choices = c("Effort Maximized" = "em",
-                                                       "Accuracy Maximized" = "am",
-                                                       "Balanced" = "eab")),
-                               selectInput("g2",  label = "Group 2",
-                                           choices = c("Accuracy Maximized" = "am",
-                                                       "Balanced" = "eab",
-                                                       "Effort Maximized" = "em")),
-                               selectInput("g3",  label = "Group 3",
-                                           choices = c("Balanced" = "eab",
-                                                       "Effort Maximized" = "em",
-                                                       "Accuracy Maximized" = "am"))),
+                   uiOutput("conditions"),
                    br(),
                    # buttons to generate the input file. note the latter is disabled to start
                    shiny::column(width = 3, offset = 1,
@@ -198,7 +186,7 @@ server <- function(input, output, session) {
 # Runs stimuli selection command
 # -----------------------------------------------------------------------------#
 
-  observe({print(as.numeric(input$total_tx_items))})
+  #observe({print(as.numeric(input$total_tx_items))})
   # what happens when you hit the submit button
   # first, validate that the participant ID has a value
   # Then show the spinny thingy
@@ -231,18 +219,36 @@ server <- function(input, output, session) {
     }
     
     
+    tryCatch({
+      v$output = select_stimuli(participant_theta      = input$theta,
+                                min_naming_agreement   = input$min_naming_agreement,
+                                min_discourse_salience = input$min_discourse_salience,
+                                target_prob_correct    = input$target_prob_correct,
+                                min_discourse_stimuli  = input$min_discourse_stimuli,
+                                min_discourse_items    = input$min_discourse_items,
+                                total_tx_items         = as.numeric(input$total_tx_items),
+                                seed                   = input$seed,
+                                participant_id         = input$participant,
+                                updateProgress         = updateProgress
+      )
+    }, error = function(e) {
+      showNotification(paste(e, collapse = "\n"), type = "error")
+      return()
+    }, silent=TRUE)
     
-    v$output = select_stimuli(participant_theta      = input$theta,
-                              min_naming_agreement   = input$min_naming_agreement,
-                              min_discourse_salience = input$min_discourse_salience,
-                              target_prob_correct    = input$target_prob_correct,
-                              min_discourse_stimuli  = input$min_discourse_stimuli,
-                              min_discourse_items    = input$min_discourse_items,
-                              total_tx_items         = as.numeric(input$total_tx_items),
-                              seed                   = input$seed,
-                              participant_id         = input$participant,
-                              updateProgress         = updateProgress
-                              )
+    if(input$total_tx_items == "500"){
+      
+     tmp =  
+       (v$output$dat |> 
+        count(condition) |> 
+        filter(n==60) |> 
+        droplevels() |> 
+        pull(condition))[[1]]
+     
+    updateSelectInput(session = session, inputId = paste0("g", tmp), selected = "static40")
+    shinyjs::disable(id = paste0("g", tmp))
+      
+    }
     
   })
   
@@ -275,6 +281,42 @@ server <- function(input, output, session) {
 # -----------------------------------------------------------------------------#
 # When you hit the generate_input button, this creates the app input file
 # -----------------------------------------------------------------------------#
+  output$conditions <- renderUI({
+    shiny::column(width = 5, offset = 1,
+                  selectInput("g1",  label = "Group 1",
+                              choices = study1_conditions),
+                  selectInput("g2",  label = "Group 2",
+                              choices = study1_conditions),
+                  selectInput("g3",  label = "Group 3",
+                              choices = study1_conditions)
+                  )
+  })
+  outputOptions(output, "conditions", suspendWhenHidden = FALSE)
+  
+  
+  study1_conditions = c("Effort Maximized" = "em",
+                        "Accuracy Maximized" = "am",
+                        "Balanced" = "eab")
+  
+  study2_conditions = c("Static (40)" = "static40",
+                        "Static (200)" = "static200",
+                        "Adaptive (200)" = "adaptive")
+  
+  
+  observeEvent(input$total_tx_items,{
+    if(input$total_tx_items == "180"){
+      updateSelectInput(session=session, inputId = "g1", label = "Group 1", choices = study1_conditions, selected = "em")
+      updateSelectInput(session=session, inputId = "g2", label = "Group 2", choices = study1_conditions, selected = "am")
+      updateSelectInput(session=session, inputId = "g3", label = "Group 3", choices = study1_conditions, selected = "eab")
+      
+    } else if (input$total_tx_items == "500"){
+      updateSelectInput(session=session, inputId = "g1", label = "Group 1", choices = study2_conditions, selected = "static40")
+      updateSelectInput(session=session, inputId = "g2", label = "Group 2", choices = study2_conditions, selected = "static200")
+      updateSelectInput(session=session, inputId = "g3", label = "Group 3", choices = study2_conditions, selected = "adaptive")
+    }
+  })
+  
+  
   observeEvent(input$generate_input,{
     req(!is.na(v$output))
     # if no discourse items, set naming_only to 1. 
@@ -293,7 +335,8 @@ server <- function(input, output, session) {
             naming_only = naming_only,
             c1 = input$g1,
             c2 = input$g2,
-            c3 = input$g3
+            c3 = input$g3,
+            study = input$total_tx_items
         )
       # show a notification when its done
       showNotification(
