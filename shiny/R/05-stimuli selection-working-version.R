@@ -98,20 +98,20 @@ select_stimuli <- function(participant_theta,
     discourse_naming_joined_file = here("shiny", "data", "2023-08-27_join_checked.csv")
     timestamp_file = here("shiny", "data", "2023-08-14_timestamp.csv")
     naming_parameters_file = here("shiny", "data",
-                                  "AoA-phonemes-freq for singe noun targets with at least 70 percent name agreement from ELP.xlsx")
+                                  "AoA-phonemes-freq_from-ELP.xlsx")
     } else if(isTRUE(local)) {
       naming_file = here("shiny", "data", "final_database_4-11-23.csv")
       discourse_naming_joined_file = here("shiny", "data", "2023-08-27_join_checked.csv")
       timestamp_file = here("shiny", "data", "2023-08-14_timestamp.csv")
       naming_parameters_file = here("shiny", "data",
-                                    "AoA-phonemes-freq for singe noun targets with at least 70 percent name agreement from ELP.xlsx")
+                                    "AoA-phonemes-freq_from-ELP.xlsx")
 
     } else {
       naming_file = here("data", "final_database_4-11-23.csv")
       discourse_naming_joined_file = here("data", "2023-08-27_join_checked.csv")
       timestamp_file = here("data", "2023-08-14_timestamp.csv")
       naming_parameters_file = here("data",
-                                    "AoA-phonemes-freq for singe noun targets with at least 70 percent name agreement from ELP.xlsx")
+                                    "AoA-phonemes-freq_from-ELP.xlsx")
      }
   
     # any dataframe that holds the word, the source, and the agreement scores...

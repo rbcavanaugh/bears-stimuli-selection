@@ -2,6 +2,7 @@ library(shiny)
 # library(waiter)
 library(shinyjs)
 library(DT)
+library(bslib)
 
 # this is automatically sourced for the shiny app since its in the R folder...
 # it contains the logic for stimuli selection
@@ -9,10 +10,14 @@ library(DT)
 # source(here::here("shiny", "R", "05-stimuli selection-working-version.R"))
 
 # Define UI
-ui <- fluidPage(
+ui <- page_sidebar(
+  theme = bs_theme(version = 5, spacer = "0.9rem", 
+                   bootswatch = "cosmo", primary = "#213AA6", base_font = font_google("Roboto"), 
+                   heading_font = font_google("Roboto"), font_scale = 0.85, secondary = "#E3B317"),
   # making the error message a little more obvious
   tags$head(
     tags$style(HTML("
+      .bslib-page-title{background-color: #213AA6}
       .shiny-output-error-validation {
         color: #000000;
         font-weight: bold;
@@ -31,12 +36,9 @@ ui <- fluidPage(
   # allows disabling/enabling buttons
   shinyjs::useShinyjs(),
   # Application title
-  titlePanel("BEARS stimuli selection"),
+  title = "BEARS stimuli selection",
   # layout of the page. sidebar + main page
-  sidebarLayout(
-    
-    # Sidebar content
-    sidebarPanel(
+  sidebar = sidebar(width = 400,
       tabsetPanel(
         tabPanel("Main Settings",
                  br(),
@@ -89,7 +91,7 @@ ui <- fluidPage(
     
     # This shows the results of the calculation in various formats
     # Also has a tab for allowing download of the treatment app input file
-    mainPanel(
+    div(
       # These are the tabs, in order. Look at output$XXX in the server side
       # to see what each tab outputs. for example output$p1 for the first plot.
       tabsetPanel(
@@ -117,10 +119,10 @@ ui <- fluidPage(
                  ),
                  shiny::fluidRow(
                    # these inputs allow the user to set which condition goes with which group
-                   uiOutput("conditions"),
+                   shiny::column(width = 5, uiOutput("conditions")),
                    br(),
                    # buttons to generate the input file. note the latter is disabled to start
-                   shiny::column(width = 3, offset = 1,
+                   shiny::column(width = 3,
                                  br(),
                                  actionButton("generate_input", "Generate Input File"),
                                  br(),br(),
@@ -137,6 +139,7 @@ ui <- fluidPage(
         # this is the about page and holds the about page text. 
         tabPanel(title = "About",
                  div(
+                   br(),
                    h4("Getting Started"),
                    p("To get started using the app, enter a participant ID, and select a naming
                      ability that was generated from the PNT. The naming ability score must be between
@@ -166,7 +169,7 @@ ui <- fluidPage(
         )
       )
       
-    )
+    
   )
 )
 
@@ -176,7 +179,7 @@ server <- function(input, output, session) {
 # -----------------------------------------------------------------------------#
 # Setup
 # -----------------------------------------------------------------------------#
-
+  # bs_themer()
   # initializes the spinny thingy
   # w <- Waiter$new(id = c("p1", "p2"),
   #                 html = spin_3(), 
@@ -289,7 +292,7 @@ server <- function(input, output, session) {
 # When you hit the generate_input button, this creates the app input file
 # -----------------------------------------------------------------------------#
   output$conditions <- renderUI({
-    shiny::column(width = 5, offset = 1,
+    div(
                   selectInput("g1",  label = "Group 1",
                               choices = study1_conditions),
                   selectInput("g2",  label = "Group 2",
