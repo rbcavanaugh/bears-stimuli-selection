@@ -103,7 +103,7 @@ ui <- page_sidebar(
                  plotOutput("p2", height = "80vh")),
         # Information about testing time anticipated and number of discoures items
         tabPanel(title = "Testing Time",
-                 tableOutput("timetab"),
+                 DTOutput("timetab"),
                  p("Table shows mean duration(minutes) and mean + 1SD duration from norming")),
         # Preview of the stimuli selected
         tabPanel(title = "Preview stimuli",
@@ -135,7 +135,7 @@ ui <- page_sidebar(
                 ),
         tabPanel(title = "Preview input file",
                  # preview the input file that's generated
-                 tableOutput("preview_input")),
+                 DTOutput("preview_input")),
         # this is the about page and holds the about page text. 
         tabPanel(title = "About",
                  div(
@@ -364,14 +364,24 @@ server <- function(input, output, session) {
 # -----------------------------------------------------------------------------#
 
   # Previewing the input file 
-  output$preview_input <- renderTable({
+  output$preview_input <- renderDT({
     validate(
       need(v$input_file_ready == 1,
            message = "Generate input file to preview")
     )
-    v$input_file 
-  }, 
-  digits = 0)
+    datatable(v$input_file ,
+              rownames = FALSE,
+              filter = list(position = 'top', clear = FALSE),
+              options = list(
+                dom = "t",
+                paging = FALSE,
+                scrollY = TRUE,
+                scrollX = TRUE,
+                search = list(regex = TRUE, caseInsensitive = TRUE)
+              )
+    )# |> formatRound(digits=2, columns = 4:7)
+    
+  })
   
   # preview of the stimuli selected table. 
   output$tab <- DT::renderDT({
@@ -408,10 +418,10 @@ server <- function(input, output, session) {
   })
   
   # the time table output
-  output$timetab <- renderTable(({
+  output$timetab <- renderDT(({
     req(!is.na(v$output))
     req(!isTRUE(v$output$error))
-    v$output$time
+    datatable(v$output$time)
   }))
   
   # This is the table of stimuli by condition to help with group assignment
