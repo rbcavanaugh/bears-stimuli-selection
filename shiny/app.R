@@ -37,48 +37,54 @@ ui <- fluidPage(
     
     # Sidebar content
     sidebarPanel(
-      # Participant id widget
-      textInput(inputId = "participant", label = "Participant ID"),
-      # Naming ability widget
-      numericInput(inputId = "theta",
-                   label = "Naming Ability T-scale ~N(50, 10)",
-                   # these are the potential values for the widget
-                   value = 50, min = 30, max = 70, step = 0.1),
-      # When you hit submit, it runs the function in the stimuli selection script
-      actionButton("submit", "Select Stimuli"),
-      # Enables download of the stimuli file (not for the treatment app though)
-      downloadButton("download_stim", "Download Stimuli"),
-      hr(),
-      # Allows uploading a file with manual corrections as long as its in the 
-      # same for mat as the download_stim file. 
-      fileInput("file1", "Upload existing stimuli file", accept = ".csv"),
-      hr(),
-      # These are additional inputs for tweaking the stimuli selection algorithm
-      # They are set by default and don't need to be changed by the user. 
-      radioButtons(inputId = "total_tx_items",
-                    label = "Study (Total probe words)",
-                   choices = c("Study 1 (180)" = 180,
-                               "Study 2 (500)" = 500), inline = TRUE
-      ),
-      numericInput(inputId = "min_naming_agreement",
-                   label = "Min picture naming agreement allowed (%)",
-                   value = 70, min = 50, max = 100, step = 1),
-      numericInput(inputId = "min_discourse_salience",
-                   label = "Min discourse salience allowed (%)",
-                   value = 30, min = 20, max = 50, step = 1),
-      numericInput(inputId = "target_prob_correct",
-                   label = "Target baseline probe naming accuracy",
-                   value = 0.33, min = 0, max = 0.66, step = 0.01),
-      numericInput(inputId = "min_discourse_stimuli",
-                   label = "Min number of discourse items (0 = naming only)",
-                   value = 9, min = 0, max = 18, step = 1),
-      numericInput(inputId = "min_discourse_items",
-                   label = "Min number of probe words salient in discourse items",
-                   value = 54, min = 30, max = 90, step = 3),
-      numericInput(inputId = "seed",
-                   label = "Set seed for reproducibility",
-                   value = 42, min = 1, max = 100000, step = 1)
-      
+      tabsetPanel(
+        tabPanel("Main Settings",
+                 br(),
+                 # Participant id widget
+                 textInput(inputId = "participant", label = "Participant ID (required)"),
+                 # Naming ability widget
+                 numericInput(inputId = "theta",
+                              label = "Naming Ability T-scale ~N(50, 10)",
+                              # these are the potential values for the widget
+                              value = 50, min = 30, max = 70, step = 0.1),
+                 # When you hit submit, it runs the function in the stimuli selection script
+                 radioButtons(inputId = "total_tx_items",
+                              label = "Study (Total probe words)",
+                              choices = c("Study 1 (180)" = 180,
+                                          "Study 2 (500)" = 500), inline = TRUE
+                 ),
+                 numericInput(inputId = "min_words_per_discourse_item",
+                              label = "Minimum number of qualifying words to consider using a discourse item.",
+                              value = 4, min = 2, max = 6, step = 1),
+                 p("Decrease to add more discourse words, increase to reduce discourse testing burden"), hr(),
+                 actionButton("submit", "Select Stimuli"),
+                 # Enables download of the stimuli file (not for the treatment app though)
+                 downloadButton("download_stim", "Download Stimuli"),
+                 hr(),
+                 # Allows uploading a file with manual corrections as long as its in the 
+                 fileInput("file1", "Upload existing stimuli file", accept = ".csv")
+        ),
+        tabPanel("Extra Settings",
+                 br(),
+                 numericInput(inputId = "min_naming_agreement",
+                              label = "Min picture naming agreement allowed (%)",
+                              value = 75, min = 50, max = 100, step = 1),
+                 numericInput(inputId = "min_discourse_salience",
+                              label = "Min discourse salience allowed (%)",
+                              value = 30, min = 20, max = 50, step = 1),
+                 numericInput(inputId = "target_prob_correct",
+                              label = "Target baseline probe naming accuracy",
+                              value = 0.33, min = 0, max = 0.66, step = 0.01),
+                 numericInput(inputId = "min_discourse_stimuli",
+                              label = "Min number of discourse items (0 = naming only)",
+                              value = 9, min = 0, max = 18, step = 1),
+                 numericInput(inputId = "min_discourse_items",
+                              label = "Min number of probe words salient in discourse items",
+                              value = 54, min = 30, max = 90, step = 3),
+                 numericInput(inputId = "seed",
+                              label = "Set seed for reproducibility",
+                              value = 42, min = 1, max = 100000, step = 1))
+      )
     ),
     
     # This shows the results of the calculation in various formats
@@ -227,6 +233,7 @@ server <- function(input, output, session) {
                                 min_discourse_stimuli  = input$min_discourse_stimuli,
                                 min_discourse_items    = input$min_discourse_items,
                                 total_tx_items         = as.numeric(input$total_tx_items),
+                                min_words_per_discourse_item = input$min_words_per_discourse_item,
                                 seed                   = input$seed,
                                 participant_id         = input$participant,
                                 updateProgress         = updateProgress

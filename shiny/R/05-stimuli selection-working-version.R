@@ -29,12 +29,13 @@ library(patchwork)
 #'
 #' @return A list of values for the shiny app. output$dat returns the data
 select_stimuli <- function(participant_theta,
-                           min_naming_agreement = 70,
-                           min_discourse_salience = 30,
+                           min_naming_agreement = 75,
+                           min_discourse_salience = 33,
                            target_prob_correct = 0.33,
                            min_discourse_stimuli = 9,
                            min_discourse_items = 54,
                            total_tx_items = 180,
+                           min_words_per_discourse_item = 4,
                            seed = 42,
                            participant_id,
                            shiny = TRUE,
@@ -56,7 +57,7 @@ select_stimuli <- function(participant_theta,
   # seed = 42
   # participant_id = ""
   # total_tx_items = 500
-  # shiny = TRUE
+  #shiny = TRUE
   
 # -----------------------------------------------------------------------------#
 # SETUP
@@ -116,6 +117,7 @@ select_stimuli <- function(participant_theta,
     # any dataframe that holds the word, the source, and the agreement scores...
     naming <- suppressMessages(read_csv(naming_file, col_types = cols())) |> 
       select(lemma = modal, source, agreement, filename = `confirmed file name`) |> 
+      group_by(lemma) |> slice_sample(n = 1) |> 
       distinct() |> 
       filter(agreement >= min_naming_agreement) |> 
       group_by(lemma) |> 
@@ -231,7 +233,7 @@ select_stimuli <- function(participant_theta,
             arrange(closest) |> 
             filter(p_correct < 0.75) |> 
             add_count(stimuli) |> 
-            filter(n>2) |> 
+            filter(n>=5) |> 
             mutate(rand_sel = rnorm(n=n())) |> 
             # important! picking item if ...
             slice_min(n = 1, by = lemma_naming,
@@ -246,6 +248,7 @@ select_stimuli <- function(participant_theta,
               m_p = mean(percent, na.rm = TRUE),
               m_d = mean(difficulty, na.rm = TRUE),
               n = n(), .by = "stimuli") |> 
+            filter(n>=min_words_per_discourse_item) |> 
             left_join(times, by = "stimuli") |> 
             arrange(desc(n)) 
           
@@ -311,11 +314,16 @@ select_stimuli <- function(participant_theta,
             mutate(condition = ifelse(is.na(group), NA, condition)) |> 
             arrange(group, desc(n))
           
+          print(sl2, n = 30)
+          
           # this gets rid of the last one out so that we can add it back in 
           # assigned to a condition in a sec
           sl_out = sl2 |> drop_na(group)
           # get a count (not saved)
-          sl_out |> count(condition, wt = n)
+          print("before adj1")
+          sl_out |> count(condition, wt = n) |> print()
+          min_items = min(sl_out |> count(condition, wt = n) |> pull(n))
+          print(sl_out |> count(condition))
           # we're going to get a weighted count of condition weighted by
           # the number of naming items in that condition to find the
           # condition with the fewest
@@ -327,7 +335,7 @@ select_stimuli <- function(participant_theta,
           non_matched = sl2 |> filter(is.na(group)) |> arrange(desc(n)) 
           
           # only do this if there is an NA value...
-          if(length(add_c) >= 1){ 
+          if((length(add_c) >= 1 & min_items < 20) | (length(add_c >= 1 & nrow(sl2)<15))){ 
             tmp = non_matched |> 
               head(1) |> 
               mutate(condition = add_c[1])
@@ -338,7 +346,10 @@ select_stimuli <- function(participant_theta,
           }
           
           # count again (not saved)
-          sl_out |> count(condition, wt = n)
+          print("before adj2")
+          sl_out |> count(condition, wt = n) |> print()
+          print(sl_out |> count(condition))
+          min_items = min(sl_out |> count(condition, wt = n) |> pull(n))
           
           # repeat the process one more time
           # We won't do it a third time, becuase in that case we would have just
@@ -346,7 +357,7 @@ select_stimuli <- function(participant_theta,
           add_c <- count(sl_out, condition, wt = n) |> arrange(n) |> 
             pull(condition)
           
-          if(length(add_c) >= 1){ 
+          if((length(add_c) >= 1 & min_items < 20) | (length(add_c >= 1 & nrow(sl2)<15))){ 
             tmp = non_matched |> 
               head(1) |> 
               mutate(condition = add_c[1])
@@ -355,7 +366,9 @@ select_stimuli <- function(participant_theta,
             non_matched = tail(non_matched, -1)
           }
             
-          sl_out |> count(condition, wt = n)
+          print("after adj2")
+          sl_out |> count(condition, wt = n) |> print()
+          print(sl_out |> count(condition))
           
           # only keep the discourse_items that have been assigned. 
           discourse_items = discourse_items |> 
