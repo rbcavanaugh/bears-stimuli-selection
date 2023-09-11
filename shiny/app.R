@@ -227,7 +227,7 @@ server <- function(input, output, session) {
       progress$set(value = value, detail = detail)
     }
     
-    
+    tmp_error = 0
     tryCatch({
       v$output = select_stimuli(participant_theta      = input$theta,
                                 min_naming_agreement   = input$min_naming_agreement,
@@ -243,11 +243,11 @@ server <- function(input, output, session) {
       )
     }, error = function(e) {
       showNotification(paste(e, collapse = "\n"), type = "error")
+      tmp_error = 1
       return()
     }, silent=TRUE)
     
-    if(input$total_tx_items == "500"){
-      
+    if(input$total_tx_items == "500" & tmp_error == 0){
      tmp =  
        (v$output$dat |> 
         count(condition) |> 
@@ -255,9 +255,19 @@ server <- function(input, output, session) {
         droplevels() |> 
         pull(condition))[[1]]
      
-    updateSelectInput(session = session, inputId = paste0("g", tmp), selected = "static40")
+    # print(tmp)
+     
+    updateSelectInput(session = session, inputId = paste0("g", tmp), selected = "ss")
     shinyjs::disable(id = paste0("g", tmp))
-      
+    
+    # the remaining two conditions should be assigned randomly and enabled. 
+    enable = sample(c(1, 2, 3)[-as.numeric(as.character(tmp))])
+    
+    updateSelectInput(session = session, inputId = paste0("g", enable[1]), selected = "sl")
+    updateSelectInput(session = session, inputId = paste0("g", enable[2]), selected = "a")
+    
+    shinyjs::enable(id = paste0("g", enable[1]))
+    shinyjs::enable(id = paste0("g", enable[2]))
     }
     
   })
@@ -308,9 +318,9 @@ server <- function(input, output, session) {
                         "Accuracy Maximized" = "am",
                         "Balanced" = "eab")
   
-  study2_conditions = c("Static (40)" = "static40",
-                        "Static (200)" = "static200",
-                        "Adaptive (200)" = "adaptive")
+  study2_conditions = c("Static (40)" = "ss",
+                        "Static (200)" = "sl",
+                        "Adaptive (200)" = "a")
   
   
   observeEvent(input$total_tx_items,{
@@ -320,9 +330,9 @@ server <- function(input, output, session) {
       updateSelectInput(session=session, inputId = "g3", label = "Group 3", choices = study1_conditions, selected = "eab")
       
     } else if (input$total_tx_items == "500"){
-      updateSelectInput(session=session, inputId = "g1", label = "Group 1", choices = study2_conditions, selected = "static40")
-      updateSelectInput(session=session, inputId = "g2", label = "Group 2", choices = study2_conditions, selected = "static200")
-      updateSelectInput(session=session, inputId = "g3", label = "Group 3", choices = study2_conditions, selected = "adaptive")
+      updateSelectInput(session=session, inputId = "g1", label = "Group 1", choices = study2_conditions, selected = "ss")
+      updateSelectInput(session=session, inputId = "g2", label = "Group 2", choices = study2_conditions, selected = "sl")
+      updateSelectInput(session=session, inputId = "g3", label = "Group 3", choices = study2_conditions, selected = "a")
     }
   })
   

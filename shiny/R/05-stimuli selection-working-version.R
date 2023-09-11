@@ -63,6 +63,9 @@ select_stimuli <- function(participant_theta,
 # SETUP
 # -----------------------------------------------------------------------------#
   
+  text = "- Loaded Initial Files and Functions..."
+  cat(text, "\n")
+  
   # sets the seed
   set.seed(seed)
 
@@ -170,7 +173,7 @@ select_stimuli <- function(participant_theta,
                  Age_Of_Acquisition = readr::parse_number(Age_Of_Acquisition)) 
     )
     
-    text = "- Setup and Loaded Files"
+    text = "- Wrangling initial data..."
     cat(text, "\n")
     if (is.function(updateProgress)) {
       updateProgress(detail = text)
@@ -205,7 +208,7 @@ select_stimuli <- function(participant_theta,
     naming_db = cl |> filter(in_discourse == 0)
     discourse_db = cl |> filter(in_discourse == 1)
 
-    text = "- Initial data wrangling"
+    text = "- Matching discourse items..."
     cat(text, "\n")
     if (is.function(updateProgress)) {
       updateProgress(detail = text)
@@ -314,16 +317,16 @@ select_stimuli <- function(participant_theta,
             mutate(condition = ifelse(is.na(group), NA, condition)) |> 
             arrange(group, desc(n))
           
-          print(sl2, n = 30)
+          #print(sl2, n = 30)
           
           # this gets rid of the last one out so that we can add it back in 
           # assigned to a condition in a sec
           sl_out = sl2 |> drop_na(group)
           # get a count (not saved)
-          print("before adj1")
-          sl_out |> count(condition, wt = n) |> print()
+          #print("before adj1")
+          #sl_out |> count(condition, wt = n) |> print()
           min_items = min(sl_out |> count(condition, wt = n) |> pull(n))
-          print(sl_out |> count(condition))
+          #print(sl_out |> count(condition))
           # we're going to get a weighted count of condition weighted by
           # the number of naming items in that condition to find the
           # condition with the fewest
@@ -346,9 +349,9 @@ select_stimuli <- function(participant_theta,
           }
           
           # count again (not saved)
-          print("before adj2")
-          sl_out |> count(condition, wt = n) |> print()
-          print(sl_out |> count(condition))
+          #print("before adj2")
+          #sl_out |> count(condition, wt = n) |> print()
+          #print(sl_out |> count(condition))
           min_items = min(sl_out |> count(condition, wt = n) |> pull(n))
           
           # repeat the process one more time
@@ -366,9 +369,9 @@ select_stimuli <- function(participant_theta,
             non_matched = tail(non_matched, -1)
           }
             
-          print("after adj2")
-          sl_out |> count(condition, wt = n) |> print()
-          print(sl_out |> count(condition))
+          #print("after adj2")
+          #sl_out |> count(condition, wt = n) |> print()
+          #print(sl_out |> count(condition))
           
           # only keep the discourse_items that have been assigned. 
           discourse_items = discourse_items |> 
@@ -414,7 +417,7 @@ select_stimuli <- function(participant_theta,
             slice_min(order_by = p_correct, n = min_cat) |> 
             ungroup()
           
-          text = "- First matching"
+          text = "- Matching additional naming only items..."
           cat(text, "\n")
           if (is.function(updateProgress)) {
             updateProgress(detail = text)
@@ -455,7 +458,7 @@ select_stimuli <- function(participant_theta,
           #                   discourse_items$condition,
           #                   na.rm = TRUE))
           #                   
-          text = "- Second matching"
+          text = "- Adding naming items to discourse items..."
           cat(text, "\n")
           if (is.function(updateProgress)) {
             updateProgress(detail = text)
@@ -559,13 +562,14 @@ select_stimuli <- function(participant_theta,
 
     # initialize groupings for anticlustering; new items get random group affiliation
     initial_groupings <- c(discourse_items$condition, sample(sample_this))
-    
+ 
     # print(length(initial_groupings))
     # print(total_tx_items)
     # 
     # print(dat)
     
-    # if we don't get 180 items, we need to error out. 
+    
+    # if we don't get enough items, we need to error out. 
     if(nrow(dat) < total_tx_items){
       return(
         list(
@@ -585,8 +589,8 @@ select_stimuli <- function(participant_theta,
         )
       )
     }
-    
-    
+   
+   
 
     # Here's where new groups are assigned.
     # They're balanced for agreement and item difficulty
@@ -608,7 +612,7 @@ select_stimuli <- function(participant_theta,
     mean_sd_tab(dat[,4:6], dat$condition_all, na.rm = TRUE)
     #mean_sd_tab(dat |> drop_na(condition) |> select(4:6), dat |> drop_na(condition) |> pull(condition), na.rm = TRUE)
     
-    text = "- Naming Items added to discourse"
+    text = "- Assigning items to treatment and control conditions..."
     cat(text, "\n")
     if (is.function(updateProgress)) {
       updateProgress(detail = text)
@@ -676,7 +680,7 @@ select_stimuli <- function(participant_theta,
       }
     }
     
-    text = "- Items assigned to tx and control"
+    text = "- Generating final dataset..."
     cat(text, "\n")
     if (is.function(updateProgress)) {
       updateProgress(detail = text)
@@ -713,7 +717,7 @@ select_stimuli <- function(participant_theta,
              rep(NA, n()-4))
       ) 
     
-    text = "- Final dataset generated"
+    text = "- Creating plots and summary tables..."
     cat(text, "\n")
     if (is.function(updateProgress)) {
       updateProgress(detail = text)
@@ -741,11 +745,11 @@ select_stimuli <- function(participant_theta,
       time_dat = tibble(data = NA)
     }
     
-    text = "- Plotting and summary tables generated"
-    cat(text, "\n")
-    if (is.function(updateProgress)) {
-      updateProgress(detail = text)
-    }
+    # text = "- Plotting and summary tables generated"
+    # cat(text, "\n")
+    # if (is.function(updateProgress)) {
+    #   updateProgress(detail = text)
+    # }
     
     
     text = "- Stimuli selection complete ┏(-_-)┛ ┗(-_-)┓ ┗(-_-)┛ ┏(-_-)┓"

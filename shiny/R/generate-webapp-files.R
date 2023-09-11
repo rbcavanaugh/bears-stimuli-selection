@@ -134,19 +134,19 @@ if(study == "180"){
         filter(in_discourse == 1) |> 
         drop_na(discourse_stimuli) |> 
         distinct(participant_id, discourse_stimuli, condition) |> 
-        mutate(value = 1, condition2 = condition, type = "discourse",) |> 
+        mutate(value = 1, condition2 = condition, type = "discourse") |> 
         pivot_wider(names_from = condition, values_from = value) |> 
-        rename('adaptive-discourse-probes' = adaptive,
-               'static40-discourse-probes' = static40,
-               'static200-discourse-probes' = static200,
+        rename('a-discourse-probes' = a,
+               'ss-discourse-probes' = ss,
+               'sl-discourse-probes' = sl,
                condition = condition2) |> 
         mutate(
-          'adaptive-naming-probes' = NA_real_,
-          'adaptive-treatment-probes' = NA_real_,
-          'static40-naming-probes' = NA_real_,
-          'static40-treatment-probes' = NA_real_,
-          'static200-naming-probes' = NA_real_,
-          'static200-treatment-probes' = NA_real_
+          'a-naming-probes' = NA_real_,
+          'a-treatment-probes' = NA_real_,
+          'ss-naming-probes' = NA_real_,
+          'ss-treatment-probes' = NA_real_,
+          'sl-naming-probes' = NA_real_,
+          'sl-treatment-probes' = NA_real_
         ) |> 
         mutate(across(contains('probes'), ~replace_na(as.double(.), 0))) |> 
         select(
@@ -154,9 +154,9 @@ if(study == "180"){
           item = discourse_stimuli,
           type,
           condition,
-          'adaptive-treatment' = 'adaptive-treatment-probes', 'adaptive-naming-probes', 'adaptive-discourse-probes',
-          'static40-treatment'  = 'static40-treatment-probes', 'static40-naming-probes', 'static40-discourse-probes',
-          'static200-treatment'  = 'static200-treatment-probes', 'static200-naming-probes', 'static200-discourse-probes'
+          'a-treatment' = 'a-treatment-probes', 'a-naming-probes', 'a-discourse-probes',
+          'ss-treatment'  = 'ss-treatment-probes', 'ss-naming-probes', 'ss-discourse-probes',
+          'sl-treatment'  = 'sl-treatment-probes', 'sl-naming-probes', 'sl-discourse-probes'
         ) |> 
         mutate(discourse_stimuli = NA)
     }
@@ -169,22 +169,22 @@ if(study == "180"){
              condition2 = condition,
              type = "naming") |> 
       pivot_wider(names_from = condition, values_from = value) |> 
-      rename('adaptive-naming-probes' = adaptive,
-             'static40-naming-probes' = static40,
-             'static200-naming-probes' = static200,
+      rename('a-naming-probes' = a,
+             'ss-naming-probes' = ss,
+             'sl-naming-probes' = sl,
              condition = condition2) |> 
       mutate(
         
-        'adaptive-discourse-probes' = NA_real_,
-        'adaptive-treatment-probes' = NA_real_,
-        'static40-discourse-probes' = NA_real_,
-        'static40-treatment-probes' = NA_real_,
-        'static200-discourse-probes' = NA_real_,
-        'static200-treatment-probes' = NA_real_,
+        'a-discourse-probes' = NA_real_,
+        'a-treatment-probes' = NA_real_,
+        'ss-discourse-probes' = NA_real_,
+        'ss-treatment-probes' = NA_real_,
+        'sl-discourse-probes' = NA_real_,
+        'sl-treatment-probes' = NA_real_,
         
-        'adaptive-treatment-probes' = ifelse(tx == 1, `adaptive-naming-probes`, NA_real_),
-        'static40-treatment-probes' = ifelse(tx == 1, `static40-naming-probes`, NA_real_),
-        'static200-treatment-probes' = ifelse(tx == 1, `static200-naming-probes`, NA_real_)
+        'a-treatment-probes' = ifelse(tx == 1, `a-naming-probes`, NA_real_),
+        'ss-treatment-probes' = ifelse(tx == 1, `ss-naming-probes`, NA_real_),
+        'sl-treatment-probes' = ifelse(tx == 1, `sl-naming-probes`, NA_real_)
       ) |> 
       mutate(across(contains('probes'), ~replace_na(as.double(.), 0))) |> 
       select(
@@ -195,9 +195,9 @@ if(study == "180"){
         type,
         condition,
         tx,
-        'adaptive-treatment' = 'adaptive-treatment-probes', 'adaptive-naming-probes', 'adaptive-discourse-probes',
-        'static40-treatment'  = 'static40-treatment-probes', 'static40-naming-probes', 'static40-discourse-probes',
-        'static200-treatment'  = 'static200-treatment-probes', 'static200-naming-probes', 'static200-discourse-probes'
+        'a-treatment' = 'a-treatment-probes', 'a-naming-probes', 'a-discourse-probes',
+        'ss-treatment'  = 'ss-treatment-probes', 'ss-naming-probes', 'ss-discourse-probes',
+        'sl-treatment'  = 'sl-treatment-probes', 'sl-naming-probes', 'sl-discourse-probes'
       ) |> 
       arrange(condition, tx)
     
