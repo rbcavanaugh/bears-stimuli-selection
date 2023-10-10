@@ -117,6 +117,43 @@ getNouns <- function(transcript_by_stim, pos = "NOUN"){
   return(unique_nouns)
 }
 
+# Function for Yukki's Thesis
+getNouns_withCount <- function(transcript_by_stim, pos = "NOUN"){
+  l = list()
+  
+  for(i in 1:nrow(transcript_by_stim)){
+    l[[i]] = udpipe(x = transcript_by_stim$response[[i]], object = "english")
+    
+    l[[i]]$stimuli = transcript_by_stim$stimuli[[i]]
+  }
+  
+  tagged = bind_rows(l) %>%
+    select(stimuli, token, lemma, upos, xpos)
+  
+  #print(unique(tagged$upos))
+  
+ #  https://dplyr.tidyverse.org/reference/count.html
+ #  the function you want here is called count()
+ #  you might want to use select() to pick only the columns you need
+ #  before you use count(). 
+  unique_nouns = tagged %>%
+    filter(upos == pos) %>%
+    #
+    #
+    #
+    # These are the two lines to change
+    # 
+    # group_by(stimuli) %>%
+    # summarize(lemma = unique(lemma), .groups = "drop")
+    # 
+    # what I could have done
+    # unique_nouns = tagged %>%
+    #   filter(upos == pos) %>%
+    #   distinct(stimuli, lemma)
+  
+  return(unique_nouns)
+}
+
 
 getTimestamp<- function(dat){
   dat %>%

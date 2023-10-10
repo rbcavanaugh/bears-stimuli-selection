@@ -87,6 +87,7 @@ for(i in seq_along(files)){
   
   # reorder the columns and ungroup b/c I'm picky
   # # yukki - make sure you keep all of the columns you need here
+  # ? add a timestamp to the first occurence of each lemme
   nouns <- nouns |> select(file, participant, session, stimuli, lemma) |> ungroup()
   
   cat(glue("got nouns for {participant}, {session}"), "\n")

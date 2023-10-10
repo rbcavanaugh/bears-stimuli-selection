@@ -48,15 +48,18 @@ select_stimuli <- function(participant_theta,
   # And a character value for the participant_id like "p42"
   # 
   #   # these are placeholder values that can be used when testing the function. 
-  # participant_theta = 48
-  # min_naming_agreement = 70
-  # min_discourse_salience = 30
-  # target_prob_correct = 0.333
-  # min_discourse_stimuli = 9
-  # min_discourse_items = 54
-  # seed = 42
-  # participant_id = ""
-  # total_tx_items = 500
+  participant_theta = 48
+  min_naming_agreement = 70
+  min_discourse_salience = 30
+  target_prob_correct = 0.333
+  min_discourse_stimuli = 9
+  min_discourse_items = 54
+  seed = 42
+  participant_id = ""
+  total_tx_items = 500
+  shiny = FALSE
+  updateProgress = NULL
+  min_words_per_discourse_item = 4
   #shiny = TRUE
   
 # -----------------------------------------------------------------------------#

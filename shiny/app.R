@@ -61,7 +61,7 @@ ui <- page_sidebar(
                  p("Decrease to add more discourse words, increase to reduce discourse testing burden"), hr(),
                  actionButton("submit", "Select Stimuli"),
                  # Enables download of the stimuli file (not for the treatment app though)
-                 downloadButton("download_stim", "Download Stimuli"),
+                 downloadButton("download_stim", "Download Reproducibility File"),
                  hr(),
                  # Allows uploading a file with manual corrections as long as its in the 
                  fileInput("file1", "Upload existing stimuli file", accept = ".csv")
@@ -124,7 +124,7 @@ ui <- page_sidebar(
                    # buttons to generate the input file. note the latter is disabled to start
                    shiny::column(width = 3,
                                  br(),
-                                 actionButton("generate_input", "Generate Input File"),
+                                 actionButton("generate_input", "Generate Web App File"),
                                  br(),br(),
                                  shinyjs::disabled(
                                   downloadButton("download_input", "Download Input File")
