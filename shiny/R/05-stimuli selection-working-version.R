@@ -39,7 +39,9 @@ select_stimuli <- function(participant_theta,
                            seed = 42,
                            participant_id,
                            shiny = TRUE,
-                           updateProgress = NULL){
+                           updateProgress = NULL,
+                           blacklist_discourse_items = NA,
+                           blacklist_naming_items = NA){
   
   # function parameters
   # Thte only two that are required are
@@ -48,18 +50,18 @@ select_stimuli <- function(participant_theta,
   # And a character value for the participant_id like "p42"
   # 
   #   # these are placeholder values that can be used when testing the function. 
-  participant_theta = 48
-  min_naming_agreement = 70
-  min_discourse_salience = 30
-  target_prob_correct = 0.333
-  min_discourse_stimuli = 9
-  min_discourse_items = 54
-  seed = 42
-  participant_id = ""
-  total_tx_items = 500
-  shiny = FALSE
-  updateProgress = NULL
-  min_words_per_discourse_item = 4
+  # participant_theta = 48
+  # min_naming_agreement = 70
+  # min_discourse_salience = 30
+  # target_prob_correct = 0.333
+  # min_discourse_stimuli = 9
+  # min_discourse_items = 54
+  # seed = 42
+  # participant_id = ""
+  # total_tx_items = 500
+  # shiny = FALSE
+  # updateProgress = NULL
+  # min_words_per_discourse_item = 4
   #shiny = TRUE
   
 # -----------------------------------------------------------------------------#
@@ -96,85 +98,14 @@ select_stimuli <- function(participant_theta,
 # READING IN FILES
 # -----------------------------------------------------------------------------#
  
-  print(here::here())
-  local = str_detect(here::here(), "github")
-  
-  if(!isTRUE(shiny)){
-    naming_file = here("shiny", "data", "final_database_4-11-23.csv")
-    discourse_naming_joined_file = here("shiny", "data", "2023-08-27_join_checked.csv")
-    timestamp_file = here("shiny", "data", "2023-08-14_timestamp.csv")
-    naming_parameters_file = here("shiny", "data",
-                                  "AoA-phonemes-freq_from-ELP.xlsx")
-    } else if(isTRUE(local)) {
-      naming_file = here("shiny", "data", "final_database_4-11-23.csv")
-      discourse_naming_joined_file = here("shiny", "data", "2023-08-27_join_checked.csv")
-      timestamp_file = here("shiny", "data", "2023-08-14_timestamp.csv")
-      naming_parameters_file = here("shiny", "data",
-                                    "AoA-phonemes-freq_from-ELP.xlsx")
-
-    } else {
-      naming_file = here("data", "final_database_4-11-23.csv")
-      discourse_naming_joined_file = here("data", "2023-08-27_join_checked.csv")
-      timestamp_file = here("data", "2023-08-14_timestamp.csv")
-      naming_parameters_file = here("data",
-                                    "AoA-phonemes-freq_from-ELP.xlsx")
-     }
-  
-    # any dataframe that holds the word, the source, and the agreement scores...
-    naming <- suppressMessages(read_csv(naming_file, col_types = cols())) |> 
-      select(lemma = modal, source, agreement, filename = `confirmed file name`) |> 
-      group_by(lemma) |> slice_sample(n = 1) |> 
-      distinct() |> 
-      filter(agreement >= min_naming_agreement) |> 
-      group_by(lemma) |> 
-      mutate(source = paste(source, collapse = ", ")) |> 
-      distinct()
-    
-    # this is a joined df where I hand chekced the fuzzy join in 01-new-approach
-    # between discourse and naming. it only adds a few items...
-  
-    fuzz_join = suppressMessages(read_csv(discourse_naming_joined_file,
-                                          col_types = cols())) |> 
-      drop_na(match) |> 
-      select(source:lemma_dis) |> 
-      filter(percent >= min_discourse_salience, agreement >= min_naming_agreement) |> 
-      select(source, lemma=lemma_naming, stimuli, percent, lemma_dis) |> 
-      distinct()
-    
-    # total number of unique found words between naming and discourse
-    # not saved
-    fuzz_join |> 
-      distinct(lemma) |> nrow()
-    
-    # get the average time to produce of each stimuli for more balancing
-    # used a few times later on
-    times <- read_csv(timestamp_file, col_types = cols()) |> 
-      mutate(stimuli = str_replace_all(stimuli, "-", "_"),
-             stimuli = ifelse(str_detect(stimuli,
-                                         "ghouls"),
-                              "dinosaurs_spacemen_and_ghouls",
-                              stimuli)) |> 
-      group_by(stimuli) |> 
-      summarize(m_time = mean(duration),
-                me_time = median(duration),
-                sd_time = m_time + sd(duration))
-    
-    
-    # dataframe holding AoA, phonemes, lexical freq necessary to calculate item difficulty
-    # Has changed a few times
-    # item_params = read.csv("data/item_parameters.csv")
-    # updated to new merged sheet with a few more items...
-    # item_params = read.csv("data/AoA-phonemes-freq_joined_2023-08-02.csv") |> 
-    # updated again...
-    # 
-    item_params = 
-      suppressWarnings(
-        read_excel(naming_parameters_file) |> 
-          select(Word, LgSUBTLCD, Age_Of_Acquisition, NPhon) |> 
-          mutate(LgSUBTLCD = readr::parse_number(LgSUBTLCD),
-                 #NPhon = readr::parse_number(NPhon),
-                 Age_Of_Acquisition = readr::parse_number(Age_Of_Acquisition)) 
-    )
+   files = read_in_all_files(shiny = shiny)
+   
+   cl = files$cl
+   diff = files$diff
+   fuzz_join = files$fuzz_join
+   item_params = files$item_params
+   naming = files$naming
+   times = files$times
     
     text = "- Wrangling initial data..."
     cat(text, "\n")
@@ -185,27 +116,32 @@ select_stimuli <- function(participant_theta,
 # Data wrangling before item selection
 # -----------------------------------------------------------------------------#
     
-    # join together and calculate item difficulty
-    # For T-scale difficulty to match the shiny app:
-    # The equation would be:  39.47 – 2.01*Lg10CD + 1.08*NumberOfPhonemes + 1.45*AoA
-    # - Hula, 8-19-2023
-    diff = naming |> 
-      full_join(item_params, by = c("lemma" = "Word")) |> 
-      left_join(fuzz_join, by = join_by(lemma, source), relationship = "many-to-many") |> 
-      mutate(difficulty = 39.47 + 1.08*NPhon - 2.01*LgSUBTLCD + 1.45*Age_Of_Acquisition)
-    # old irt scale not used anymore
-      #mutate(difficulty = -1.22 + 0.15*NPhon -0.36*LgSUBTLCD + 0.21*Age_Of_Acquisition)
+
     
-    # best agreement from naming with a difficulty score. should go up in
-    # size after getting more difficulty scores...hopefuly
-    cl = diff |> 
-      select(lemma_naming = lemma, stimuli, agreement, percent,
-             difficulty, filename) |> #, target
-      mutate(in_discourse = ifelse(is.na(stimuli), 0, 1)) |> 
-      group_by(lemma_naming) |> 
-      filter(agreement == max(agreement)) |> 
-      drop_na(difficulty) |> 
-      ungroup()
+
+    # blackisting items
+    if(!any(is.na(blacklist_discourse_items))){
+
+      cl = cl |> 
+        filter(!(stimuli %in% blacklist_discourse_items))
+      
+      text = paste0("- Blacklisted ", paste0(blacklist_discourse_items, collapse = ", "), "!")
+      cat(text, "\n")
+      if (is.function(updateProgress)) {
+        updateProgress(detail = text)
+      }
+    }
+    # blackisting items
+    if(!any(is.na(blacklist_naming_items))){
+      cl = cl |> 
+        filter(!(lemma_naming %in% blacklist_naming_items))
+
+      text = paste0("- Blacklisted ", paste0(blacklist_naming_items, collapse = ", "), "!")
+      cat(text, "\n")
+      if (is.function(updateProgress)) {
+        updateProgress(detail = text)
+      }
+    }
     
     # split out into naming only items and items that are also in discourse
     naming_db = cl |> filter(in_discourse == 0)
@@ -717,7 +653,9 @@ select_stimuli <- function(participant_theta,
              strsplit(discourse_naming_joined_file, split = "bears-stimuli-selection")[[1]][2],
              strsplit(timestamp_file, split = "bears-stimuli-selection")[[1]][2],
              strsplit(naming_parameters_file, split = "bears-stimuli-selection")[[1]][2],
-             rep(NA, n()-4))
+             rep(NA, n()-4)),
+        blacklisted_discourse_items = c(blacklist_discourse_items,rep(NA, n()-length(blacklist_discourse_items))),
+        blacklisted_naming_items = c(blacklist_naming_items,rep(NA, n()-length(blacklist_naming_items)))
       ) 
     
     text = "- Creating plots and summary tables..."

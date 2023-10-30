@@ -68,6 +68,7 @@ ui <- page_sidebar(
         ),
         tabPanel("Extra Settings",
                  br(),
+                 uiOutput("blacklist"),
                  numericInput(inputId = "min_naming_agreement",
                               label = "Min picture naming agreement allowed (%)",
                               value = 75, min = 50, max = 100, step = 1),
@@ -191,10 +192,51 @@ server <- function(input, output, session) {
     input_file_ready = 0
   )
   
+  
+  # -----------------------------------------------------------------------------#
+  # Reading in data parameters
+  # -----------------------------------------------------------------------------# 
+  
+  output$blacklist <- renderUI({
+    
+    div(
+      selectInput(inputId = "blacklist_discourse",
+                  label = "Blacklist discourse items",
+                  multiple = TRUE,
+                  choices = get_blacklist_options("discourse",
+                                                  min_naming_agreement   = input$min_naming_agreement,
+                                                  min_discourse_salience = input$min_discourse_salience,
+                                                  target_prob_correct    = input$target_prob_correct,
+                                                  min_discourse_stimuli  = input$min_discourse_stimuli,
+                                                  min_discourse_items    = input$min_discourse_items,
+                                                  total_tx_items         = as.numeric(input$total_tx_items)
+                                                  )),
+      selectInput(inputId = "blacklist_naming",
+                  label = "Blacklist naming items",
+                  multiple = TRUE,
+                  choices = get_blacklist_options("naming",
+                                                  min_naming_agreement   = input$min_naming_agreement,
+                                                  min_discourse_salience = input$min_discourse_salience,
+                                                  target_prob_correct    = input$target_prob_correct,
+                                                  min_discourse_stimuli  = input$min_discourse_stimuli,
+                                                  min_discourse_items    = input$min_discourse_items,
+                                                  total_tx_items         = as.numeric(input$total_tx_items)
+                                                  ))
+    )
+    
+  })
+  outputOptions(output, "blacklist", suspendWhenHidden = FALSE) 
+  
+  
 # -----------------------------------------------------------------------------#
 # Runs stimuli selection command
 # -----------------------------------------------------------------------------#
 
+  # observe({
+  #   print(input$blacklist_naming)
+  #   print(input$blacklist_discourse)
+  # })
+  
   #observe({print(as.numeric(input$total_tx_items))})
   # what happens when you hit the submit button
   # first, validate that the participant ID has a value
@@ -239,7 +281,9 @@ server <- function(input, output, session) {
                                 min_words_per_discourse_item = input$min_words_per_discourse_item,
                                 seed                   = input$seed,
                                 participant_id         = input$participant,
-                                updateProgress         = updateProgress
+                                updateProgress         = updateProgress,
+                                blacklist_discourse_items = input$blacklist_discourse,
+                                blacklist_naming_items = input$blacklist_naming
       )
     }, error = function(e) {
       showNotification(paste(e, collapse = "\n"), type = "error")
