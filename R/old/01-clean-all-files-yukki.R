@@ -1,5 +1,8 @@
 ############## RUN THIS SCRIPT TO CLEAN ALL FILES IN A FOLDER #################
 
+# This is a version of the initial file tweaked for Yukka's Thesis. 
+# It is not part of the processing stream. 
+
 # Hi, welcome. This script process all .vtt files in the /data folder in
 # this directory. I've hopefully left fairly clear instructions for how
 # the script works and how to use it. 
@@ -51,6 +54,9 @@ here()
 filepaths = list.files(here("VTT_updated_813"), full.names = TRUE, pattern = "vtt")
 files = list.files(here("VTT_updated_813"), full.names = FALSE, pattern = "vtt")
 
+filepaths = filepaths[c(1:1)]
+files = files[c(1:1)]
+
 # Note 3: To retrieve parts of speech other than nouns, replace "NOUN" in the
 # code below in the getNouns() function with one of the following:
 # "INTJ"  "PUNCT" "VERB"  "PRON"  "DET"   "NOUN"  "AUX"   "ADP"   "ADJ"
@@ -72,23 +78,26 @@ for(i in seq_along(files)){
   
   # clean up the files (function in functions.R)
   cleaned = cleanVTT(read.delim(filepaths[i], sep = "\t"))
+  
   # get the nouns (function in functions.R)
-  # nouns = getNouns(cleaned, pos = part_of_speech)
-  # 
-  # # add participant,  session, and the filename to the dataframe that is returned
-  cleaned$participant = participant
-  cleaned$session = session
-  cleaned$file = files[i]
-  # 
-  # # reorder the columns and ungroup b/c I'm picky
-  # nouns <- nouns |> select(file, participant, session, stimuli, lemma) |> ungroup()
-  # 
-  # cat(glue("got nouns for {participant}, {session}"), "\n")
+  # # for Yukki, replcae iwth getNouns_withCount()
+  nouns = getNouns(cleaned, pos = part_of_speech)
+  
+  # add participant,  session, and the filename to the dataframe that is returned
+  nouns$participant = participant
+  nouns$session = session
+  nouns$file = files[i]
+  
+  # reorder the columns and ungroup b/c I'm picky
+  # # yukki - make sure you keep all of the columns you need here
+  # ? add a timestamp to the first occurence of each lemme
+  nouns <- nouns |> select(file, participant, session, stimuli, lemma) |> ungroup()
+  
+  cat(glue("got nouns for {participant}, {session}"), "\n")
   # append the result to the list
-  nounList[[i]] = cleaned
+  nounList[[i]] = nouns
 }
 
-allNouns = bind_rows(nounList)
 # add all the cleaned files together
 allNouns = bind_rows(nounList) |> 
   mutate(stimuli = str_replace_all(stimuli, "-", "_"),
@@ -96,10 +105,10 @@ allNouns = bind_rows(nounList) |>
                           "dinosaurs_spacemen_and_ghouls",
                           stimuli))
 
-allNouns |> count(stimuli) |> nrow() == 26
+length(unique(allNouns$stimuli))
 
 # save the result
-# write.csv(allNouns, file = here("output", paste0(Sys.Date(), "_allNouns.csv")), row.names = FALSE)
+ write.csv(allNouns, file = here("output", paste0(Sys.Date(), "_allNouns.csv")), row.names = FALSE)
 # allNouns <- read.csv(here("output", "2023-08-13_allNouns.csv"))
 
 # how many participants are there?
@@ -111,9 +120,9 @@ nounCounts = allNouns |>
   mutate(percent = (n/numParticipants)*100)
 
 # save the result
-# write.csv(nounCounts, file = here("output", paste0(Sys.Date(), "_nounCounts.csv")), row.names = FALSE)
+ write.csv(nounCounts, file = here("output", paste0(Sys.Date(), "_nounCounts.csv")), row.names = FALSE)
 
-nounCountsbyThreshold = 
+#nounCountsbyThreshold = 
   nounCounts |> 
   mutate(
     "threshold: 33%" = ifelse(percent >= 33.33, 1, 0),
@@ -128,8 +137,8 @@ nounCountsbyThreshold =
   group_by(stimuli, threshold) |> 
   summarize(passed_threshold = sum(passed), .groups = "drop")
 
-# write.csv(nounCountsbyThreshold,
-#           file = here("output", paste0(Sys.Date(), "_nounCountsThreshold.csv")), row.names = FALSE)
+ # write.csv(nounCountsbyThreshold,
+ #           file = here("output", paste0(Sys.Date(), "_nounCountsThreshold.csv")), row.names = FALSE)
 
 
 # split up into a file per stimuli (the nounCounts object) and save as excel files
@@ -154,7 +163,7 @@ for(i in stimuli){
   tmp = nounsOut |> filter(stimuli == i)
   filename = paste0(i, ".csv")
   # uncomment the next line to resave files. 
-   write.csv(tmp, file = here("check-nouns", filename), row.names = FALSE)
+   write.csv(tmp, file = here("check-nouns", "7-17-23", filename), row.names = FALSE)
 }
 
 # 

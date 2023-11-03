@@ -86,7 +86,6 @@ for(i in seq_along(files)){
   nouns$file = files[i]
   
   # reorder the columns and ungroup b/c I'm picky
-  # # yukki - make sure you keep all of the columns you need here
   nouns <- nouns |> select(file, participant, session, stimuli, lemma) |> ungroup()
   
   cat(glue("got nouns for {participant}, {session}"), "\n")
@@ -105,7 +104,6 @@ length(unique(allNouns$stimuli))
 
 # save the result
  write.csv(allNouns, file = here("output", paste0(Sys.Date(), "_allNouns.csv")), row.names = FALSE)
-# allNouns <- read.csv(here("output", "2023-08-13_allNouns.csv"))
 
 # how many participants are there?
 numParticipants = length(unique(allNouns$participant))
@@ -117,52 +115,5 @@ nounCounts = allNouns |>
 
 # save the result
  write.csv(nounCounts, file = here("output", paste0(Sys.Date(), "_nounCounts.csv")), row.names = FALSE)
-
-#nounCountsbyThreshold = 
-  nounCounts |> 
-  mutate(
-    "threshold: 33%" = ifelse(percent >= 33.33, 1, 0),
-    "threshold: 40%" = ifelse(percent >= 40.00, 1, 0),
-    "threshold: 50%" = ifelse(percent >= 50.00, 1, 0),
-    "threshold: 60%" = ifelse(percent >= 60.00, 1, 0),
-    "threshold: 67%" = ifelse(percent >= 66.66, 1, 0)
-  ) |> 
-  pivot_longer(cols = "threshold: 33%":"threshold: 67%",
-               names_to = "threshold",
-               values_to = "passed") |> 
-  group_by(stimuli, threshold) |> 
-  summarize(passed_threshold = sum(passed), .groups = "drop")
-
- # write.csv(nounCountsbyThreshold,
- #           file = here("output", paste0(Sys.Date(), "_nounCountsThreshold.csv")), row.names = FALSE)
-
-
-# split up into a file per stimuli (the nounCounts object) and save as excel files
-# with new columns for 
-# is a noun
-# is picturable
-# something went wrong check this word
-
-nounsOut <- nounCounts |> 
-  arrange(desc(n)) |> 
-  mutate(
-    isPicturable = "",
-    notNoun = "",
-    checkThisWord = "",
-    duplicateOf = "",
-    synonymOf = ""
-  )
-
-stimuli = unique(nounsOut$stimuli)
-
-for(i in stimuli){
-  tmp = nounsOut |> filter(stimuli == i)
-  filename = paste0(i, ".csv")
-  # uncomment the next line to resave files. 
-   write.csv(tmp, file = here("check-nouns", "7-17-23", filename), row.names = FALSE)
-}
-
-# 
-# Additional task
-# We need to know how many unique contributions each stimulus is making to the
-# overall word bank. so how many 'value added' words that are not shared
+ write.csv(nounCounts, file = here("shiny", "data", paste0(Sys.Date(), "_nounCounts.csv")), row.names = FALSE)
+ 
