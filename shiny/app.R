@@ -7,7 +7,7 @@ library(bslib)
 # this is automatically sourced for the shiny app since its in the R folder...
 # it contains the logic for stimuli selection
 # this file (mostly) just holds the logic for the app
-# source(here::here("shiny", "R", "05-stimuli selection-working-version.R"))
+# it sources all the scripts in the shiny / R folder by default
 
 # Define UI
 ui <- page_sidebar(

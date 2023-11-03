@@ -1,38 +1,7 @@
 ############## RUN THIS SCRIPT TO CLEAN ALL FILES IN A FOLDER #################
 
-# Hi, welcome. This script process all .vtt files in the /data folder in
-# this directory. I've hopefully left fairly clear instructions for how
-# the script works and how to use it. 
-# 
-# First, make sure that you have opened the R project before running the script
-# To check that you've done so, you should see "bears-transcription-parsing"
-# next to the blue cube in the top right of RStudio. the here() command below
-# should also split out a file path that ends in bears-transcription-parsing. 
-# If not, navigate to this folder in RStudio (bottom right pane), finder (mac)
-# or file explorer (windows) and open the project by clicking (or double clicking)
-# on the blue cube with an R in it. 
-# 
-# After you've made sure you opened the R project, the next step is to copy
-# all of the completed and corrected VTT files into the "data" folder in 
-# this R project (bears-transcription-parsing/data). All of the files in this
-# folder will be cleaned and parsed. 
-
-# Load the packages below. You will need to install them first if they
-# have never been installed on your computer before. 
-# You can do install.packages("here") in the console (for example)
-# or go to the tools menu and install packages. Once they are installed on 
-# your computer, you should not have to do this step again
-# 
-# Note1: to run a line of code, put your cursor at the end of it and hit 
-# command + enter (mac)  or ctrl + enter (windows). shift + cmd + enter (mac) 
-# or shift + ctr + enter (windows) will run the whole thing. 
-# 
-# Note2: If you have put all the files in the folder and otherwise are ready
-# to go, you can also just select all and hit the run button above. The
-# results will be saved in the output folder. Note that this will overwrite
-# any previous results from TODAY (previous days results will not change). 
-# If you need to save different files today, change the write.csv() functions 
-# near the bottom to have unique file names
+# This is an extra version of the initial file used to check all files for errors
+# It is not a part of the processing stream. 
 
 library(tidyverse)
 library(tidytext)
@@ -50,9 +19,6 @@ here()
 # these two lines of code find all of the files in the data folder ending in vtt
 filepaths = list.files(here("VTT_updated_813"), full.names = TRUE, pattern = "vtt")
 files = list.files(here("VTT_updated_813"), full.names = FALSE, pattern = "vtt")
-
-filepaths = filepaths[c(1:1)]
-files = files[c(1:1)]
 
 # Note 3: To retrieve parts of speech other than nouns, replace "NOUN" in the
 # code below in the getNouns() function with one of the following:
@@ -75,26 +41,23 @@ for(i in seq_along(files)){
   
   # clean up the files (function in functions.R)
   cleaned = cleanVTT(read.delim(filepaths[i], sep = "\t"))
-  
   # get the nouns (function in functions.R)
-  # # for Yukki, replcae iwth getNouns_withCount()
-  nouns = getNouns(cleaned, pos = part_of_speech)
-  
-  # add participant,  session, and the filename to the dataframe that is returned
-  nouns$participant = participant
-  nouns$session = session
-  nouns$file = files[i]
-  
-  # reorder the columns and ungroup b/c I'm picky
-  # # yukki - make sure you keep all of the columns you need here
-  # ? add a timestamp to the first occurence of each lemme
-  nouns <- nouns |> select(file, participant, session, stimuli, lemma) |> ungroup()
-  
-  cat(glue("got nouns for {participant}, {session}"), "\n")
+  # nouns = getNouns(cleaned, pos = part_of_speech)
+  # 
+  # # add participant,  session, and the filename to the dataframe that is returned
+  cleaned$participant = participant
+  cleaned$session = session
+  cleaned$file = files[i]
+  # 
+  # # reorder the columns and ungroup b/c I'm picky
+  # nouns <- nouns |> select(file, participant, session, stimuli, lemma) |> ungroup()
+  # 
+  # cat(glue("got nouns for {participant}, {session}"), "\n")
   # append the result to the list
-  nounList[[i]] = nouns
+  nounList[[i]] = cleaned
 }
 
+allNouns = bind_rows(nounList)
 # add all the cleaned files together
 allNouns = bind_rows(nounList) |> 
   mutate(stimuli = str_replace_all(stimuli, "-", "_"),
@@ -102,10 +65,10 @@ allNouns = bind_rows(nounList) |>
                           "dinosaurs_spacemen_and_ghouls",
                           stimuli))
 
-length(unique(allNouns$stimuli))
+allNouns |> count(stimuli) |> nrow() == 26
 
 # save the result
- write.csv(allNouns, file = here("output", paste0(Sys.Date(), "_allNouns.csv")), row.names = FALSE)
+# write.csv(allNouns, file = here("output", paste0(Sys.Date(), "_allNouns.csv")), row.names = FALSE)
 # allNouns <- read.csv(here("output", "2023-08-13_allNouns.csv"))
 
 # how many participants are there?
@@ -117,9 +80,9 @@ nounCounts = allNouns |>
   mutate(percent = (n/numParticipants)*100)
 
 # save the result
- write.csv(nounCounts, file = here("output", paste0(Sys.Date(), "_nounCounts.csv")), row.names = FALSE)
+# write.csv(nounCounts, file = here("output", paste0(Sys.Date(), "_nounCounts.csv")), row.names = FALSE)
 
-#nounCountsbyThreshold = 
+nounCountsbyThreshold = 
   nounCounts |> 
   mutate(
     "threshold: 33%" = ifelse(percent >= 33.33, 1, 0),
@@ -134,8 +97,8 @@ nounCounts = allNouns |>
   group_by(stimuli, threshold) |> 
   summarize(passed_threshold = sum(passed), .groups = "drop")
 
- # write.csv(nounCountsbyThreshold,
- #           file = here("output", paste0(Sys.Date(), "_nounCountsThreshold.csv")), row.names = FALSE)
+# write.csv(nounCountsbyThreshold,
+#           file = here("output", paste0(Sys.Date(), "_nounCountsThreshold.csv")), row.names = FALSE)
 
 
 # split up into a file per stimuli (the nounCounts object) and save as excel files
@@ -160,7 +123,7 @@ for(i in stimuli){
   tmp = nounsOut |> filter(stimuli == i)
   filename = paste0(i, ".csv")
   # uncomment the next line to resave files. 
-   write.csv(tmp, file = here("check-nouns", "7-17-23", filename), row.names = FALSE)
+   write.csv(tmp, file = here("check-nouns", filename), row.names = FALSE)
 }
 
 # 

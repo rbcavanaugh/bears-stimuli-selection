@@ -1,3 +1,7 @@
+
+# Go search the discourse files for multiword words (e.g., check book) to 
+# find multiword words because they're harder and we need harder words. 
+
 library(tidyverse)
 library(here)
 library(tidyverse)
@@ -68,11 +72,11 @@ search = expand_grid(all, spaces) |>
   mutate(found = str_detect(response, modal_with_spaces))
 
 # 32 participants
-# 
 multiword <- search |> 
   group_by(modal_with_spaces, stimuli) |> 
   summarize(total_found = sum(found),
             percent_found = total_found/32) |> 
   arrange(desc(percent_found))
 
-write.csv(multiword, here::here("data", "multiword.csv"),row.names = FALSE)
+write.csv(multiword, here::here("output", "multiword.csv"),row.names = FALSE)
+write.csv(multiword, here::here("shiny", "data", "multiword.csv"),row.names = FALSE)

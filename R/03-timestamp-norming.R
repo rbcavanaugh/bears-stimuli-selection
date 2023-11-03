@@ -85,8 +85,11 @@ stim = bind_rows(tsList)  |>
 
 test = stim %>% filter(is.na(duration))
 stim |> count(stimuli) -> test
+
+# save files
 write.csv(stim, here::here("output", paste0(Sys.Date(), "_timestamp.csv")), row.names = FALSE)
 write.csv(stim %>% filter(is.na(duration)), paste0("output/", Sys.Date(), "_timestamp-errors.csv"), row.names = FALSE)
+write.csv(stim, here::here("shiny", "data", paste0(Sys.Date(), "_timestamp.csv")), row.names = FALSE)
 
 test = stim %>% filter(is.na(duration)) %>% drop_na(stimuli)
 
