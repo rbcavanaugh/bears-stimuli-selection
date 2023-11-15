@@ -41,7 +41,8 @@ select_stimuli <- function(participant_theta,
                            shiny = TRUE,
                            updateProgress = NULL,
                            blacklist_discourse_items = NA,
-                           blacklist_naming_items = NA){
+                           blacklist_naming_items = NA
+                           ){
   
   # function parameters
   # Thte only two that are required are
@@ -101,6 +102,7 @@ select_stimuli <- function(participant_theta,
    files = read_in_all_files(shiny = shiny)
    
    cl = files$cl
+   glimpse(cl)
    diff = files$diff
    fuzz_join = files$fuzz_join
    item_params = files$item_params
@@ -117,10 +119,8 @@ select_stimuli <- function(participant_theta,
 # -----------------------------------------------------------------------------#
     
 
-    
-
     # blackisting items
-    if(!any(is.na(blacklist_discourse_items))){
+    if(!is.null(blacklist_discourse_items)){
 
       cl = cl |> 
         filter(!(stimuli %in% blacklist_discourse_items))
@@ -132,7 +132,7 @@ select_stimuli <- function(participant_theta,
       }
     }
     # blackisting items
-    if(!any(is.na(blacklist_naming_items))){
+    if(!is.null(blacklist_naming_items)){
       cl = cl |> 
         filter(!(lemma_naming %in% blacklist_naming_items))
 
@@ -146,6 +146,8 @@ select_stimuli <- function(participant_theta,
     # split out into naming only items and items that are also in discourse
     naming_db = cl |> filter(in_discourse == 0)
     discourse_db = cl |> filter(in_discourse == 1)
+    print(discourse_db |> count(stimuli, sort = T))
+    
 
     text = "- Matching discourse items..."
     cat(text, "\n")
@@ -649,10 +651,10 @@ select_stimuli <- function(participant_theta,
         min_discourse_items = min_discourse_items,
         seed = seed,
         file_names = 
-          c( strsplit(naming_file, split = "bears-stimuli-selection")[[1]][2],
-             strsplit(discourse_naming_joined_file, split = "bears-stimuli-selection")[[1]][2],
-             strsplit(timestamp_file, split = "bears-stimuli-selection")[[1]][2],
-             strsplit(naming_parameters_file, split = "bears-stimuli-selection")[[1]][2],
+          c(naming_database_file,
+            discourse_naming_joined_file,
+            discourse_timestamp_file,
+            naming_item_parameter_file,
              rep(NA, n()-4)),
         blacklisted_discourse_items = c(blacklist_discourse_items,rep(NA, n()-length(blacklist_discourse_items))),
         blacklisted_naming_items = c(blacklist_naming_items,rep(NA, n()-length(blacklist_naming_items)))
