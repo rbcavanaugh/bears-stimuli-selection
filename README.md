@@ -136,3 +136,9 @@ Here’s a conceptual outline of the current stimuli selection process:
 
 7.  Restart RStudio and attempt to install the problematic package again
 8.  If it works, run `renv::restore()` again.
+
+## Commands to update github
+
+- `git add .`
+- `git commit -m "message"`
+- `git push origin main`
