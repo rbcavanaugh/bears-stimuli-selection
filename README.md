@@ -1,7 +1,7 @@
 
 # bears-stimuli-selection
 
-last updated on 2023-11-02.
+last updated on 2023-11-29.
 
 This project uses {renv}. To install relevant packages, run:
 
@@ -26,6 +26,7 @@ fs::dir_tree(recurse = 0)
 #> ├── R
 #> ├── README.Rmd
 #> ├── README.md
+#> ├── VTT_updated_813
 #> ├── bears-stimuli-selection.Rproj
 #> ├── data
 #> ├── english-ewt-ud-2.5-191206.udpipe
@@ -99,3 +100,45 @@ Here’s a conceptual outline of the current stimuli selection process:
     instance
 6.  Publish the app. This will open the window in your browser and you
     can copy the link
+
+## Sometimes you might get an error about ‘lgfortran’ not working
+
+1.  Open terminal
+2.  Install Homebrew:
+    `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+- make sure you run the two lines in “next steps” by pasting them one by
+  one after the installation is complete.
+
+3.  Install gfortran: `brew install gcc`
+4.  Run the following two lines separately in terminal:
+
+- `mkdir -p ~/.R`
+- `touch ~/.R/Makevars`
+
+5.  Open the file `~/.R/Makevars` in a text editor
+
+- to do this, open finder
+- click ‘Go’ in the top menu bar
+- click ‘Home’
+- Hold down shift + command key and press the period key to show hidden
+  files
+- Open the .R folder
+- Open the Makevars file in text editor
+
+6.  Paste the following into the file:
+
+<!-- -->
+
+    FC = /opt/homebrew/Cellar/gcc/11.3.0_2/bin/gfortran
+    F77 = /opt/homebrew/Cellar/gcc/11.3.0_2/bin/gfortran
+    FLIBS = -L/opt/homebrew/Cellar/gcc/11.3.0_2/lib/gcc/11
+
+7.  Restart RStudio and attempt to install the problematic package again
+8.  If it works, run `renv::restore()` again.
+
+## Commands to update github
+
+- `git add .`
+- `git commit -m "message"`
+- `git push origin main`
