@@ -54,6 +54,13 @@ stringdist_join(
 ) |> arrange(desc(dist)) |> 
   select(source, agreement, stimuli, n, percent, lemma_naming = lemma.x, lemma_dis = lemma.y, dist) -> fuzz_join
 
+# 131 words that are close but < 0.07 as of 2/1/2024
+# re-run this after changing the words or vtt files to see if you get a number close to 131
+# If you do, then you're good to go. Otherwise, you should probably re-check these by hand.
+sum(fuzz_join$dist > 0, na.rm = TRUE)
+# [1] 131
+
+
 # this saves the raw output without checking
 # If you want to re-recheck the matches, then save this file, 
 # open it in excel, and check all of the columns that have a dist > 0
@@ -84,17 +91,17 @@ write.csv(fuzz_join, here::here("shiny", "data", "join_checked_automated.csv"), 
 #### Needed these for generating targets for second round of stimuli norming...
 #### not used for the processing stream
 #### 
-df_30$id = seq(1, nrow(df_30), 1)
-
-exact_join = left_join(df_30,  naming, by = "lemma")
-
-with_stim = exact_join |>
-  select(stimuli, lemma, source, agreement, target) |>
-  group_by(lemma) |>
-  summarize(stimuli = paste(stimuli, collapse = ", "))
-
-exact_join2 = left_join(df_30 |> distinct(lemma), naming, by = "lemma") |>
-  left_join(with_stim, by = "lemma")
+# df_30$id = seq(1, nrow(df_30), 1)
+# 
+# exact_join = left_join(df_30,  naming, by = "lemma")
+# 
+# with_stim = exact_join |>
+#   select(stimuli, lemma, source, agreement, target) |>
+#   group_by(lemma) |>
+#   summarize(stimuli = paste(stimuli, collapse = ", "))
+# 
+# exact_join2 = left_join(df_30 |> distinct(lemma), naming, by = "lemma") |>
+#   left_join(with_stim, by = "lemma")
 
 # write.csv(exact_join2, here("data", "discourse_lemmas_matched_to_naming.csv"))
 # write.csv(exact_join, here("data", "found_in_discourse_exact.csv"))

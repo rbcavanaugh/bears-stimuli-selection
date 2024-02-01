@@ -3,7 +3,9 @@
 
 # This file has naming item data - the word, modal, filenames for the webapp.
 # source of the image, agreement. If you update this file, then you should also
-# re-run 04-join-naming-to-discourse.R.
+# re-run R/04-join-naming-to-discourse.R.
+# save it in bears-stimuli-selection/data AND in bears-stimuli-selection/shiny/data/ 
+# (need to save in both locations)
 naming_database_file = "words-2024-01-29.csv" #  "final_database_4-11-23.csv"
 
 # this is the output of 04-join-naming-to-discourse.R
