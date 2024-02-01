@@ -13,7 +13,7 @@ for(i in list.files(here::here("shiny", "R"), full.names = TRUE)){source(i)}
 # Hey! this is all available in the shiny app. You can run it by doing
 source(here::here("shiny", "app.R"))
 # here()
-# shinyApp(ui, server)
+shinyApp(ui, server)
 
 # or you can just navigate to shiny/app.R and hitting run app
 # but if you don't want to use the shiny app, here's how to do it line by line:

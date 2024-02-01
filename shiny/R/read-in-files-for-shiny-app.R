@@ -4,7 +4,7 @@
 # This file has naming item data - the word, modal, filenames for the webapp.
 # source of the image, agreement. If you update this file, then you should also
 # re-run 04-join-naming-to-discourse.R.
-naming_database_file = "final_database_4-11-23.csv"
+naming_database_file = "words-2024-01-29.csv" #  "final_database_4-11-23.csv"
 
 # this is the output of 04-join-naming-to-discourse.R
 # if there are any changes to final_database_04-11-23.csv, 
@@ -45,23 +45,23 @@ read_in_all_files <- function(shiny,
     
   } else if(isTRUE(local)) {
     
-    naming_file = here("shiny", "data", "final_database_4-11-23.csv")
-    discourse_naming_joined_file = here("shiny", "data", "join_checked_automated.csv")
-    timestamp_file = here("shiny", "data", "2023-08-14_timestamp.csv")
+    naming_file = here("shiny", "data", naming_database_file)
+    discourse_naming_joined_file = here("shiny", "data", discourse_naming_joined_file)
+    timestamp_file = here("shiny", "data", discourse_timestamp_file)
     naming_parameters_file = here("shiny", "data",
-                                  "AoA-phonemes-freq_combined_2023_11_02.csv")
+                                  naming_item_parameter_file)
     
   } else {
-    naming_file = here("data", "final_database_4-11-23.csv")
-    discourse_naming_joined_file = here("data", "join_checked_automated.csv")
-    timestamp_file = here("data", "2023-08-14_timestamp.csv")
+    naming_file = here("data", naming_database_file)
+    discourse_naming_joined_file = here("data", discourse_naming_joined_file)
+    timestamp_file = here("data", discourse_timestamp_file)
     naming_parameters_file = here("data",
-                                  "AoA-phonemes-freq_combined_2023_11_02.csv")
+                                  naming_item_parameter_file)
   }
   
   # any dataframe that holds the word, the source, and the agreement scores...
   naming <- suppressMessages(read_csv(naming_file, col_types = cols())) |> 
-    select(lemma = modal, source, agreement, filename = `confirmed file name`) |> 
+    select(lemma = modal, source, agreement, filename = picture) |> 
     group_by(lemma) |> slice_sample(n = 1) |> 
     distinct() |> 
     filter(agreement >= min_naming_agreement) |> 

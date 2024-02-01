@@ -33,8 +33,8 @@ df_30 <- bind_rows(multi, df_30) |> rename(lemma = lemma_hc)
 
 # this is the naming database file with all the potential naming items
 # limit to agreement has to be better than 70. 
-naming <- read_csv(here("data", "final_database_4-11-23.csv"), col_select = 1:6) |> 
-  select(lemma = modal, source, agreement, target = `confirmed file name`) |> 
+naming <- read_csv(here("data", "words-2024-01-29.csv"), col_select = 1:7) |> 
+  select(lemma = modal, source, agreement, target = picture) |> 
   distinct() |> 
   filter(agreement > 70) |> 
   group_by(lemma) |> 
