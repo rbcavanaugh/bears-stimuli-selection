@@ -1,7 +1,7 @@
 
 # bears-stimuli-selection
 
-last updated on 2023-11-29.
+last updated on 2024-02-01.
 
 This project uses {renv}. To install relevant packages, run:
 
@@ -142,3 +142,5 @@ Here’s a conceptual outline of the current stimuli selection process:
 - `git add .`
 - `git commit -m "message"`
 - `git push origin main`
+
+*Pulling changes from github* - `git pull`
