@@ -15,6 +15,13 @@ library(fuzzyjoin)
 # these are the lemmas from discourse
 all <- read.csv(here("output", paste0("2023-08-14", "_nounCounts.csv")))
 
+# This is the place to blacklist specific words within specific discourse items
+# filter from both discourse stimuli column and the lemma column at the same time. 
+all <- all |>  
+  filter()
+
+
+
 # only keep the ones with sufficient salience
 df_30 = all |> 
   mutate(n = as.integer(n), percent = as.double(percent)) |> 
