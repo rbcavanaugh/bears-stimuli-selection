@@ -102,7 +102,7 @@ select_stimuli <- function(participant_theta,
    files = read_in_all_files(shiny = shiny)
    
    cl = files$cl
-   glimpse(cl)
+   #glimpse(cl)
    diff = files$diff
    fuzz_join = files$fuzz_join
    item_params = files$item_params
@@ -118,12 +118,14 @@ select_stimuli <- function(participant_theta,
 # Data wrangling before item selection
 # -----------------------------------------------------------------------------#
     
-
+   # print(head(cl))
     # blackisting items
     if(!is.null(blacklist_discourse_items)){
 
       cl = cl |> 
         filter(!(stimuli %in% blacklist_discourse_items))
+      
+      
       
       text = paste0("- Blacklisted ", paste0(blacklist_discourse_items, collapse = ", "), "!")
       cat(text, "\n")
@@ -146,7 +148,7 @@ select_stimuli <- function(participant_theta,
     # split out into naming only items and items that are also in discourse
     naming_db = cl |> filter(in_discourse == 0)
     discourse_db = cl |> filter(in_discourse == 1)
-    print(discourse_db |> count(stimuli, sort = T))
+    #print(discourse_db |> count(stimuli, sort = T))
     
 
     text = "- Matching discourse items..."
@@ -453,6 +455,7 @@ select_stimuli <- function(participant_theta,
                    agreement, item_difficulty = difficulty, core_lex_percent = percent,
                    condition, filename, p_correct) #, target
           
+
   } else {
     
 # -----------------------------------------------------------------------------#
@@ -500,7 +503,7 @@ select_stimuli <- function(participant_theta,
     } else  {
       sample_this = rep(c(1, 2, 3), length.out = total_tx_items-discourse_items_total)
     }
-
+    
     # initialize groupings for anticlustering; new items get random group affiliation
     initial_groupings <- c(discourse_items$condition, sample(sample_this))
  
@@ -508,10 +511,11 @@ select_stimuli <- function(participant_theta,
     # print(total_tx_items)
     # 
     # print(dat)
-    
+   
     
     # if we don't get enough items, we need to error out. 
     if(nrow(dat) < total_tx_items){
+    
       return(
         list(
           dat = NA,
@@ -532,7 +536,7 @@ select_stimuli <- function(participant_theta,
     }
    
    
-
+    
     # Here's where new groups are assigned.
     # They're balanced for agreement and item difficulty
     new_groups <- anticlustering(
@@ -572,6 +576,8 @@ select_stimuli <- function(participant_theta,
     # loop over the conditions with anticlustering
     dat_nest = dat |> 
       nest_by(condition_all)
+    
+    write.csv(dat, here("test.csv"))
     # 
     # items_per_condition = ifelse(total_tx_items==180, total_tx_items/3)
     # ncontrol = 20 # always 20
@@ -587,15 +593,17 @@ select_stimuli <- function(participant_theta,
           tmp = dat_nest$data[[i]]
           ntx_tmp = ifelse(nrow(tmp)==220, 200, 40)
           control_tmp = 20
+          #print(tmp)
           gr <- anticlustering(
             tmp[, c(4, 5, 10)], # use the variables directly
-            K = c(ntx_tmp, control_tmp),
+            K = c(control_tmp, ntx_tmp),
             method = "local-maximum",
             categories = tmp$in_discourse,
-            repetitions = 100,
+            repetitions = 250,
             objective = "kplus",
             standardize = TRUE
           )
+         # print(gr)
           tmp$tx = ifelse(gr == 1, 1, 0)
           tmp$condition = dat_nest$condition_all[i]
           dat_out[[i]] = tmp
@@ -659,6 +667,8 @@ select_stimuli <- function(participant_theta,
         blacklisted_discourse_items = c(blacklist_discourse_items,rep(NA, n()-length(blacklist_discourse_items))),
         blacklisted_naming_items = c(blacklist_naming_items,rep(NA, n()-length(blacklist_naming_items)))
       ) 
+    
+   print(df_final %>% filter(in_discourse == 1) %>% count(condition, tx))
     
     text = "- Creating plots and summary tables..."
     cat(text, "\n")

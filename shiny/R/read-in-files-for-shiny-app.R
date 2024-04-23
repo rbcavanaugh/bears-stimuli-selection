@@ -85,7 +85,7 @@ read_in_all_files <- function(shiny,
   # total number of unique found words between naming and discourse
   # not saved
   fuzz_join |> 
-    distinct(lemma) |> nrow()
+    distinct(lemma) |> nrow() |> print()
   
   # get the average time to produce of each stimuli for more balancing
   # used a few times later on
